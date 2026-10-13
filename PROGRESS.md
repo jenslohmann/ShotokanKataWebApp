@@ -1,6 +1,6 @@
 # PROGRESS
 ## Current phase
-2 (done — green: typecheck/test/build all exit 0; committed). Next: Phase 3
+3 (done — green: typecheck/test/build all exit 0; committed). Next: Phase 4
 ## Done
 - 0.1 read AGENTS.md
 - 0.2 created PROGRESS.md
@@ -26,6 +26,14 @@
 - 2.5.1–2.5.5 src/domain/vocabulary.ts (categories, ALL_TERMS sorted, filterTerms, categoriesWithTerms, findTerm)
 - 2.6.1–2.6.2 src/domain/vocabularyLinks.ts (folded text + index map, longest-first, whole-word, first occurrence per variation, memoized)
 - 2.7.1–2.7.4 ranks/kata/vocabulary/vocabularyLinks tests — 21 tests pass
+- 3.1.1–3.1.3 styles/theme.css (all plan variables, light + dark) and base.css (reset, focus ring, .visually-hidden, reduced motion, .belt-dot--<color>); imported in main.tsx
+- 3.2.1–3.2.4 i18n/en.ts + da.ts generated verbatim from PLAN.md Appendix A (184 keys + 2 new), index.ts (detectLang, translate with {placeholders}), i18n.test.ts
+- 3.3.1–3.3.4 state/SettingsContext.tsx (showJapanese, langSetting, lang, t; localStorage sk.showJapanese / sk.lang wrapped in try/catch; sets <html lang>; useSettings/useT)
+- 3.4.1–3.4.6 router/router.ts (Route, parseHash, routeToHash, sectionOf, sectionRoot), router/useRoute.ts (useSyncExternalStore hook, navigate with replace, goBack via in-memory stack, per-section last route via sectionHref, scroll to top / restore on back), router.test.ts round-trips
+- 3.5.1 components/Icon.tsx (only lucide import; Icon + MoveIcon with mirrored shield.righthalf)
+- 3.5.2–3.5.4 NavBar (back button, large title), TabBar (nav with links, aria-current), Sidebar; shared section icons/labels in components/sections.ts
+- 3.5.5–3.5.6 Sheet and ConfirmDialog on native <dialog> (showModal, Escape via cancel, backdrop click), shared hook components/useModalDialog.ts
+- 3.6.1–3.6.4 App shell (SettingsProvider, sidebar ≥768px / tab bar below, quizPlay full screen, 900px content column), 4 placeholder screens, App.test.tsx (default Kata title, Quiz tab navigation) — 36 tests pass
 ## Blocked
 - (empty)
 ## Notes / decisions
@@ -36,3 +44,8 @@
 - Green: npm run typecheck && npm run test && npm run build all exit 0.
 - Phase 2: kata data files disagree with kata.json on kataNumber: 09_bassai_dai.json has kataNumber 7, 10_kanku_dai.json has kataNumber 9 (kata.json says 9 and 10). The iOS app decodes kataNumber from the kata file, so the web app does too. Test 2.7.2 therefore expects [1,2,3,4,5,6,7,9,11,15] instead of the plan's [1,2,3,4,5,6,9,10,11,15]. Data was not changed (iOS repo is read-only) — possibly worth fixing upstream.
 - Phase 2: linkVocabulary memo cache is keyed by terms array (WeakMap) and then by text, so tests with fake terms cannot collide with the app's static ALL_TERMS cache. Same behaviour as the plan for the static term list.
+- Phase 3: lucide-react 1.x has no brand icons and renamed some icons. Substitutions in Icon.tsx: quiz → CircleQuestionMark (was CircleHelp), hand.raised.fingers.spread.fill → HandGrab (was Grab), video → SquarePlay (no Youtube icon), github → GitBranch (no Github icon).
+- Phase 3: added i18n keys app.title (Shōtōkan Kata, sidebar header) and nav.sections (Sections / Sektioner, aria-label of tab bar and sidebar nav) to en.ts, da.ts and the PLAN.md Appendix A table.
+- Phase 3: added theme variables --on-accent (#fff, text on accent backgrounds like the active sidebar row) and --navbar-bg (95% opacity bg for nav/tab bar blur), so no colours are hard-coded in component CSS.
+- Phase 3: the window (not an inner container) scrolls, which behaves best with iOS Safari bars; useRoute scrolls to top on navigation and restores the saved scroll position on back. test/setup.ts stubs window.scrollTo (not implemented in jsdom).
+- Phase 3: kataDetail / quizPlay / vocabDetail routes render their section placeholder until Phases 6/10/7.

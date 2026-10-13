@@ -1242,10 +1242,12 @@ Keys are grouped only for readability; the objects are flat (`'nav.kata': 'Kata'
 
 | key | en | da |
 |-----|----|----|
+| app.title | Shōtōkan Kata | Shōtōkan Kata |
 | nav.kata | Kata | Kata |
 | nav.quiz | Quiz | Quiz |
 | nav.vocabulary | Vocabulary | Ordbog |
 | nav.about | About | Om |
+| nav.sections | Sections | Sektioner |
 | common.done | Done | Færdig |
 | common.cancel | Cancel | Annuller |
 | common.clear | Clear | Ryd |
