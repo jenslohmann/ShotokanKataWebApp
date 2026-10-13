@@ -1,3 +1,4 @@
+import { NotFound } from '../../components/NotFound';
 import { NavBar } from '../../components/NavBar';
 import { SegmentedControl, type SegmentOption } from '../../components/SegmentedControl';
 import { ALL_KATA } from '../../domain/kata';
@@ -20,9 +21,7 @@ export function KataDetailScreen({ kataNumber, tab }: { kataNumber: number; tab:
     return (
       <>
         <NavBar title={t('common.notFound')} back={back} />
-        <p className="kata-detail__not-found">
-          {t('common.notFound')} — <a href={routeToHash({ name: 'kataList' })}>{t('kata.allKata')}</a>
-        </p>
+        <NotFound href={routeToHash({ name: 'kataList' })} linkLabel={t('kata.allKata')} />
       </>
     );
   }

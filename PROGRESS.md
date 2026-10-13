@@ -1,6 +1,6 @@
 # PROGRESS
 ## Current phase
-6 (done — green: typecheck/test/build all exit 0; committed). Next: Phase 7
+7 (done — green: typecheck/test/build all exit 0; committed). Next: Phase 8
 ## Done
 - 0.1 read AGENTS.md
 - 0.2 created PROGRESS.md
@@ -56,6 +56,12 @@
 - 6.8–6.9 StanceBadge.tsx (green capsule, green links, hiragana 80%), KiaiBadge.tsx
 - 6.10 KataHistoryTab.tsx (placeholder paragraph + 4 stat rows)
 - 6.11 KataDetailScreen.test.tsx (Moves: 21, Moves default, Rei badge, Overview → Description, Heian Yondan kiai, history stats, not found) — 49 tests pass
+- 7.1 screens/vocabulary/VocabularyListScreen.tsx (search, category capsule → Select Category sheet with icons + Cancel, Clear button, plain list, empty state); search/category in state/vocabularyListStore.ts (generic state/createStore.ts)
+- 7.2 VocabularyRow.tsx (<div> with <a> text area + SpeakButton outside the link + chevron)
+- 7.3 VocabularyDetailContent.tsx (header with term/kanji/hiragana, speak + category icon, short description; Definition / Breakdown / Category cards)
+- 7.4 VocabularyDetailScreen.tsx (inline title, back to Vocabulary, not-found)
+- 7.5 the app-level vocabulary sheet (Phase 5) now renders VocabularyDetailContent (was wired in Phase 5 already, sheet body flush)
+- 7.6 VocabularyListScreen.test.tsx (112 rows, zenkutsu search, Kicks category, empty state, detail screen) — 54 tests pass
 ## Blocked
 - (empty)
 ## Notes / decisions
@@ -80,3 +86,6 @@
 - Phase 6: "KIAI!" is shown as-is in both languages (Japanese term, as in the iOS app), not via i18n.
 - Phase 6: manual check (tap highlighted term opens sheet, tap description expands) NOT done by the agent (no browser) — covered partly by unit tests.
 - Build prints Vite's >500 kB chunk-size warning (bundled kata/vocabulary JSON); harmless, build exits 0.
+- Phase 7: in VocabularyRow the speak button sits to the right of the text block (vertically centred) instead of inline after the hiragana on line 2 — required so it stays outside the <a> (no nested interactive elements).
+- Phase 7: definition / component breakdown are plain text (as in iOS VocabularyDetailView), not VocabText — also avoids opening a sheet from inside the sheet.
+- Phase 7: added components/NotFound.tsx shared by kata and vocabulary detail screens.

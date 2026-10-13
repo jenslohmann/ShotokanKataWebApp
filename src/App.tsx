@@ -7,6 +7,7 @@ import { AboutScreen } from './screens/about/AboutScreen';
 import { KataDetailScreen } from './screens/kata/KataDetailScreen';
 import { KataListScreen } from './screens/kata/KataListScreen';
 import { QuizMenuScreen } from './screens/quiz/QuizMenuScreen';
+import { VocabularyDetailScreen } from './screens/vocabulary/VocabularyDetailScreen';
 import { VocabularyListScreen } from './screens/vocabulary/VocabularyListScreen';
 import { SettingsProvider } from './state/SettingsContext';
 import './App.css';
@@ -21,8 +22,9 @@ function Screen({ route }: { route: Route }) {
     case 'quizPlay':
       return <QuizMenuScreen />;
     case 'vocabList':
-    case 'vocabDetail':
       return <VocabularyListScreen />;
+    case 'vocabDetail':
+      return <VocabularyDetailScreen id={route.id} />;
     case 'about':
       return <AboutScreen />;
   }

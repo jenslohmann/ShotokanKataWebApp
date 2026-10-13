@@ -1,0 +1,95 @@
+.vocab-detail__header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 16px;
+  background: var(--fill);
+}
+
+.vocab-detail__header-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.vocab-detail__names {
+  flex: 1;
+  min-width: 0;
+}
+
+.vocab-detail__term {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.vocab-detail__japanese {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 4px 0 0;
+  font-size: 20px;
+}
+
+.vocab-detail__kanji {
+  font-weight: 500;
+}
+
+.vocab-detail__muted {
+  color: var(--text-2);
+}
+
+.vocab-detail__actions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.vocab-detail__icon {
+  flex-shrink: 0;
+  color: var(--accent);
+}
+
+.vocab-detail__short {
+  margin: 0;
+  color: var(--text-2);
+  font-size: 15px;
+}
+
+.vocab-detail__body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+  background: var(--bg-grouped);
+}
+
+.vocab-detail__card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  border-radius: var(--radius-m);
+  background: var(--card);
+  box-shadow: var(--shadow);
+}
+
+.vocab-detail__heading {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.vocab-detail__text {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.4;
+}
+
+.vocab-detail__category {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  font-size: 17px;
+}

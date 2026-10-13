@@ -1,0 +1,70 @@
+/* The speak button sits outside the link (no nested interactive elements). It is positioned
+   on line 2, right after the hiragana area, via a grid. */
+.vocab-row {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  grid-template-rows: auto;
+  align-items: center;
+  padding: 8px 8px 8px 16px;
+}
+
+.vocab-row__link {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.vocab-row__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.vocab-row__term {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.vocab-row__category {
+  flex-shrink: 0;
+  color: var(--accent);
+}
+
+.vocab-row__japanese {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  font-size: 15px;
+}
+
+.vocab-row__kanji {
+  font-weight: 500;
+}
+
+.vocab-row__dot,
+.vocab-row__hiragana {
+  color: var(--text-2);
+}
+
+.vocab-row__short {
+  display: -webkit-box;
+  overflow: hidden;
+  color: var(--text-2);
+  font-size: 17px;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+}
+
+.vocab-row__chevron {
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  padding: 0 4px;
+  color: var(--text-2);
+}
