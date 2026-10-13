@@ -1,6 +1,6 @@
 # PROGRESS
 ## Current phase
-1 (done — green: typecheck/test/build all exit 0; committed)
+2 (done — green: typecheck/test/build all exit 0; committed). Next: Phase 3
 ## Done
 - 0.1 read AGENTS.md
 - 0.2 created PROGRESS.md
@@ -17,6 +17,15 @@
 - 1.8 App.test.tsx created; named App export; test passes
 - 1.9 index.html lang=en, title Shōtōkan Kata
 - 1.10 .gitignore has node_modules, dist, dev-dist, coverage, .ios-reference/
+- 2.1.1 scripts/sync-data.mjs (Node built-ins only; IOS_REF_DIR override, --update pull, JSON validation, enabled-file warning, icon copy, source.json, summary)
+- 2.1.2 ran sync-data: iOS commit 90d1656, 10 kata files, 112 vocabulary terms
+- 2.1.3 no predev/prebuild hooks; src/data/ and icon-source/app-icon.jpg committed
+- 2.2.1 src/domain/types.ts exactly per plan
+- 2.3.1 src/domain/ranks.ts (RANKS, getRank, rankSortOrder, beltOf, DIFFICULTY_*, highestRankOf) — verified against DifficultyLevel.swift code (6_kyu green)
+- 2.4.1–2.4.11 src/domain/kata.ts (eager glob load, filter/search, sortedMoves, moveHasKiai, kiaiMoveNumbers, moveBadgeShowsKiai, directionArrow, moveLabel, availableRanks/Belts)
+- 2.5.1–2.5.5 src/domain/vocabulary.ts (categories, ALL_TERMS sorted, filterTerms, categoriesWithTerms, findTerm)
+- 2.6.1–2.6.2 src/domain/vocabularyLinks.ts (folded text + index map, longest-first, whole-word, first occurrence per variation, memoized)
+- 2.7.1–2.7.4 ranks/kata/vocabulary/vocabularyLinks tests — 21 tests pass
 ## Blocked
 - (empty)
 ## Notes / decisions
@@ -25,3 +34,5 @@
 - jest-dom v7: the root entry augments Jest's matcher namespace, not vitest's `Assertion`. The vitest entry (`@testing-library/jest-dom/vitest`) augments vitest and is the correct runtime+type import. So setup.ts imports `@testing-library/jest-dom/vitest` (plan said `@testing-library/jest-dom`); tsconfig `types` keeps `@testing-library/jest-dom` per plan (harmless, matches plan text). typecheck+test confirm matchers resolve.
 - lucide-react installed at ^1.55.0 (1.x line). Will verify icon export names when Icon.tsx is written (Phase 3).
 - Green: npm run typecheck && npm run test && npm run build all exit 0.
+- Phase 2: kata data files disagree with kata.json on kataNumber: 09_bassai_dai.json has kataNumber 7, 10_kanku_dai.json has kataNumber 9 (kata.json says 9 and 10). The iOS app decodes kataNumber from the kata file, so the web app does too. Test 2.7.2 therefore expects [1,2,3,4,5,6,7,9,11,15] instead of the plan's [1,2,3,4,5,6,9,10,11,15]. Data was not changed (iOS repo is read-only) — possibly worth fixing upstream.
+- Phase 2: linkVocabulary memo cache is keyed by terms array (WeakMap) and then by text, so tests with fake terms cannot collide with the app's static ALL_TERMS cache. Same behaviour as the plan for the static term list.

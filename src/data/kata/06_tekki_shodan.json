@@ -1,0 +1,654 @@
+{
+  "name": "Tekki Shodan",
+  "japaneseName": "鉄騎初段",
+  "hiraganaName": "てっき しょだん",
+  "numberOfMoves": 29,
+  "kataNumber": 6,
+  "beltRank": "2_kyu",
+  "description": "The first Tekki kata, performed entirely in horse stance (kiba-dachi) with powerful hip movements. Tekki means 'iron horse' and this kata is known for its strong sideways movements while facing forward. The embusen is a straight line with all techniques performed facing north while moving left and right. This kata emphasizes strong hip action, balance, and the development of powerful techniques from a stable base.",
+  "keyTechniques": [
+    "Kiba-dachi",
+    "Kagi-zuki",
+    "Yoko-fumikomi",
+    "Haishu-uke",
+    "Mae-empi-uchi",
+    "Nami-gaeshi",
+    "Morote-uke"
+  ],
+  "referenceURL": "https://www.themartialway.com.au/tekki-shodan/",
+  "moves": [
+    {
+      "sequence": -1,
+      "sequenceName": "Rei",
+      "japaneseName": "Rei",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Rei",
+          "hiragana": "れい",
+          "stance": "Musubi-dachi",
+          "stanceHiragana": "むすびだち",
+          "description": "From the musubi-dachi position, bow (rei) with the hands placed on the thighs",
+          "icon": "hand.raised.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 0,
+      "sequenceName": "Yōi",
+      "japaneseName": "Yōi",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Yōi",
+          "hiragana": "ようい",
+          "stance": "Heisoku-dachi",
+          "stanceHiragana": "へいそくだち",
+          "description": "Form Heisoku-dachi and place the palm of the left hand on top of the back of the right hand bringing them in front of the lower part of the abdomen, at a slight distance from the body.",
+          "icon": "hand.raised.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 1,
+      "japaneseName": "Hidari-ashi mae-kōsa",
+      "direction": "W",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Kao migi muki",
+          "hiragana": "かお みぎむき",
+          "stance": "Hidari-ashi mae kōsa-dachi",
+          "stanceHiragana": "ひだりあし まえ こさだち",
+          "description": "Keeping the upper body unchanged, look to the right, dropping the hip level and cross gent1y the left foot over the right foot, with all toes aligned together.",
+          "icon": "figure.martial.arts"
+        }
+      ]
+    },
+    {
+      "sequence": 2,
+      "japaneseName": "Migi yoko-fumikomi / Migi yoko-chūdan-kake-uke",
+      "direction": "E",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi yoko-fumikomi",
+          "hiragana": "みぎ よこふみこみ",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Execute right side stomp kick while moving into horse stance",
+          "icon": "figure.martial.arts"
+        },
+        {
+          "order": 2,
+          "technique": "Migi yoko-chūdan-kake-uke",
+          "hiragana": "みぎ よこ ちゅうだん かけうけ",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Right side middle level back hand hook/wrist block with right hand open (kake-uke). Left fist in hikite.",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 3,
+      "japaneseName": "Hidari chūdan mae-empi-uchi",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Hidari chūdan mae-empi-uchi",
+          "hiragana": "ひだり ちゅうだん まええんぴうち",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "On the spot, still in kiba-dachi, hit a left elbow (empi-uchi) in the open right hand. The hips remain in front.",
+          "icon": "hand.raised.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 4,
+      "japaneseName": "Ryōken migi koshi-kamae",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Ryōken migi koshi-kamae",
+          "hiragana": "りょうけん みぎ こしかまえ",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Keeping the stance unchanged, look to the left. At the same time, bring both fists to the right hip, with the left fist on top of the right fist, back of the left fist facing forward, and back of the right fist facing downwards.",
+          "icon": "hand.raised.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 5,
+      "japaneseName": "Hidari gedan-barai",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Hidari gedan-barai",
+          "hiragana": "ひだり げだんばらい",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Left lower level sweeping block",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 6,
+      "japaneseName": "Migi chūdan kagi-zuki",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi chūdan kagi-zuki",
+          "hiragana": "みぎ ちゅうだん かぎづき",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "On the spot, always in kiba-dachi, make a punch right hook (kagi-zuki) average level. Bring the left fist back into hikeness.",
+          "icon": "hand.raised.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 7,
+      "japaneseName": "Migi-ashi mae kōsa-dachi",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi-ashi mae kōsa-dachi",
+          "hiragana": "みぎあし まえ こさだち",
+          "stance": "Migi-ashi mae kōsa-dachi",
+          "stanceHiragana": "みぎあし まえ こさだち",
+          "description": "Keeping the upper body, the direction of the upper body, and the left foot position unchanged, maintain the hips leveled low, and cross gently the right foot over the left foot, with all toes aligned together.",
+          "icon": "hand.raised.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 8,
+      "japaneseName": "Hidari yoko-fumikomi / Hidari chūdan uchi-uke",
+      "direction": "W",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Hidari yoko-fumikomi",
+          "hiragana": "ひだり よこふみこみ",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Left side stomp kick while moving into horse stance",
+          "icon": "figure.martial.arts"
+        },
+        {
+          "order": 2,
+          "technique": "Hidari chūdan uchi-uke",
+          "hiragana": "みぎ ちゅうだん うちうけ",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Left middle level inside forearm block",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 9,
+      "japaneseName": "Migi gedan-barai / Hidari jōdan nagashi-uke / Hidari jōdan uraken-uchi",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi gedan-barai",
+          "hiragana": "みぎ げだんばらい",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Right lower level sweeping block",
+          "icon": "shield.fill"
+        },
+        {
+          "order": 2,
+          "technique": "Hidari jōdan nagashi-uke",
+          "hiragana": "ひだり じょうだん ながしうけ",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Left upper level sweeping block",
+          "icon": "shield.fill"
+        },
+        {
+          "order": 3,
+          "technique": "Hidari jōdan uraken-uchi",
+          "hiragana": "ひだり じょうだん うらけんうち",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Left upper level backfist strike, left elbow resting on the back of the right fist",
+          "icon": "hand.raised.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 10,
+      "japaneseName": "Kao hidari muki",
+      "direction": "E",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Kao hidari muki",
+          "hiragana": "かお ひだりむき",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Keeping the stance and the upper body position unchanged, look to the left.",
+          "icon": "figure.martial.arts"
+        }
+      ]
+    },
+    {
+      "sequence": 11,
+      "japaneseName": "Hidari nami-gaeshi / Hidari chūdan morote-tate-uke",
+      "direction": "W",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Hidari nami-gaeshi",
+          "hiragana": "ひだり なみがえし",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Turn the head to the left, make a kick sweep up the left foot (nami-gaeshi) to rest in kiba-dachi",
+          "icon": "figure.martial.arts"
+        },
+        {
+          "order": 2,
+          "technique": "Hidari chūdan morote-tate-uke",
+          "hiragana": "ひだり ちゅうだん もろてたてうけ",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Left middle level augmented vertical block, right fist always under the left elbow",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 12,
+      "japaneseName": "Kao hidari muki",
+      "direction": "E",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Kao hidari muki",
+          "hiragana": "かお ひだりむき",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Keeping the stance and the upper body position unchanged, look to the right.",
+          "icon": "figure.martial.arts"
+        }
+      ]
+    },
+    {
+      "sequence": 13,
+      "japaneseName": "Migi-ashi nami-gaeshi / Hidari chūdan morote-soto-uke",
+      "direction": "E",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi-ashi nami-gaeshi",
+          "hiragana": "みぎ あし なみがえし",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Keeping the upper body, both hands, the level of the hips, both knees and the left foot position unchanged, use the right knee as a pivot point and lift the right foot up high with a springing motion toward the lower part of the abdomen until the sole of the right foot faces upwards.",
+          "icon": "figure.martial.arts"
+        },
+        {
+          "order": 2,
+          "technique": "Hidari-zenwan-migi-sokumen-chūdan-uke",
+          "hiragana": "ひだり ぜんわん みぎ そくめん ちゅうだんうけ",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Swing back down the right foot and form Kiba-dachi. At the same time, keeping the back of the right fist touching the underside of the left elbow, rotate the upper body cJockwise, turning the left forearm outward, with the back of the fist facing downwards.",
+          "icon": "figure.martial.arts"
+        }
+      ]
+    },
+    {
+      "sequence": 14,
+      "japaneseName": "Ryōken migi koshi-kamae",
+      "direction": "E",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Ryōken migi koshi-kamae",
+          "hiragana": "りょうけん みぎ こしかまえ",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Orient the head to the left, bring the 2 fists to the right hip",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 15,
+      "japaneseName": "Saken-hidari-sokumen-chūdan-zuki uken-kagi-zuki",
+      "direction": "W",
+      "kiai": true,
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Hidari chūdan-zuki, migi chūdan kagi-zuki",
+          "hiragana": "ひだり ちゅうだん もろてよこづき",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Drive left fist to the left side just below shoulder height (back of fist up), while simultaneously driving the right fist forward then left into a right-angle bend in front of the solar plexus (back of fist up), right fist level with the left side. Both fists move together.",
+          "icon": "hand.raised.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 16,
+      "japaneseName": "Hidari yoko-chūdan-kake-uke",
+      "direction": "W",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Hidari yoko-chūdan-kake-uke",
+          "hiragana": "ひだり よこ ちゅうだん かけうけ",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Arm slowly and power the left hand under the right armpit and hook/wrist block with the left hand open (kake-uke) middle level on the left. Right fist in hikite.",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 17,
+      "japaneseName": "Migi chūdan mae-empi-uchi",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi chūdan mae-empi-uchi",
+          "hiragana": "みぎ ちゅうだん まええんぴうち",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "On the spot, always in kiba-dachi, hit a right elbow (empi-uchi) in the open left hand. The hips remain in front.",
+          "icon": "hand.raised.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 18,
+      "japaneseName": "Ryōken hidari koshi-kamae",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Ryōken hidari koshi-kamae",
+          "hiragana": "りょうけん ひだり こしかまえ",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Keeping the stance unchanged, look to the right. At the same time, bring both fists to the left hip, with the right fist on top of the left fist, back of the right fist facing forward, and back of the left fist facing downwards.",
+          "icon": "hand.raised.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 19,
+      "japaneseName": "Migi gedan-barai",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi gedan-barai",
+          "hiragana": "みぎ げだんばらい",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Right lower level sweeping block",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 20,
+      "japaneseName": "Hidari chūdan kagi-zuki",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Hidari chūdan kagi-zuki",
+          "hiragana": "ひだり ちゅうだん かぎづき",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "On the spot, always in kiba-dachi, make a left punch in hook (kagi-zuki) average level. Bring back the right fist in hikeness.",
+          "icon": "hand.raised.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 21,
+      "japaneseName": "Hidari-ashi mae-kōsa-dachi",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Hidari-ashi mae-kōsa-dachi",
+          "hiragana": "ひだりあし まえ こさだち",
+          "stance": "Hidari-ashi mae-kōsa-dachi",
+          "stanceHiragana": "ひだりあし まえ こさだち",
+          "description": "Keeping the upper body, the direction of the upper body, and the right foot position unchanged, maintain the hips leveled low, and cross gently the left foot over the right foot, with all toes aligned together.",
+          "icon": "hand.raised.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 22,
+      "japaneseName": "Migi yoko-fumikomi / Hidari chūdan uchi-uke",
+      "direction": "E",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi yoko-fumikomi",
+          "hiragana": "みぎ よこふみこみ",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Put the left heel on the ground and then lift your right knee high and hit a crushing kick (fumikomi) right to get into the kiba-dachi position",
+          "icon": "figure.martial.arts"
+        },
+        {
+          "order": 2,
+          "technique": "Hidari chūdan uchi-uke",
+          "hiragana": "ひだり ちゅうだん うちうけ",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Left middle level inside forearm block from the inside out, middle level on the left. The hips and the look are from the front.",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 23,
+      "japaneseName": "Hidari gedan-barai / Migi jōdan nagashi-uke / Migi jōdan uraken-uchi",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Hidari gedan-barai",
+          "hiragana": "ひだり げだんばらい",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Left lower level sweeping block",
+          "icon": "shield.fill"
+        },
+        {
+          "order": 2,
+          "technique": "Migi jōdan nagashi-uke",
+          "hiragana": "みぎ じょうだん ながしうけ",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Right upper level sweeping block",
+          "icon": "shield.fill"
+        },
+        {
+          "order": 3,
+          "technique": "Migi jōdan uraken-uchi",
+          "hiragana": "みぎ じょうだん うらけんうち",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Right upper level backfist strike, right elbow resting on the back of the left fist",
+          "icon": "hand.raised.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 24,
+      "japaneseName": "Kao migi muki",
+      "direction": "E",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Kao migi muki",
+          "hiragana": "かお みぎむき",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Keeping the stance and the upper body position unchanged, look to the right.",
+          "icon": "figure.martial.arts"
+        }
+      ]
+    },
+    {
+      "sequence": 25,
+      "japaneseName": "Migi nami-gaeshi / Migi chūdan morote-tate-uke",
+      "direction": "E",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi nami-gaeshi",
+          "hiragana": "みぎ なみがえし",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Turn the head to the right, kick up and sweep up the right foot (nami-gaeshi) to rest in kiba-dachi",
+          "icon": "figure.martial.arts"
+        },
+        {
+          "order": 2,
+          "technique": "Migi chūdan morote-tate-uke",
+          "hiragana": "みぎ ちゅうだん もろてたてうけ",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Right middle level augmented vertical block, left fist always under the right elbow",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 26,
+      "japaneseName": "Kao hidari muki",
+      "direction": "E",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Kao hidari muki",
+          "hiragana": "かお ひだりむき",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Keeping the stance and the upper body position unchanged, look to the left.",
+          "icon": "figure.martial.arts"
+        }
+      ]
+    },
+    {
+      "sequence": 27,
+      "japaneseName": "Hidari-ashi nami-gaeshi / Migi chūdan morote-soto-uke",
+      "direction": "W",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Hidari nami-gaeshi",
+          "hiragana": "ひだり なみがえし",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Turn the head to the left, make a kick sweep up the left foot (nami-gaeshi) to rest in kiba-dachi",
+          "icon": "figure.martial.arts"
+        },
+        {
+          "order": 2,
+          "technique": "Migi chūdan morote-soto-uke",
+          "hiragana": "みぎ ちゅうだん もろてそとうけ",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Right middle level augmented outside block from the outside to the inside middle level, left fist always under the right elbow",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 28,
+      "japaneseName": "Ryōken hidari koshi-kamae",
+      "direction": "E",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Ryōken hidari koshi-kamae",
+          "hiragana": "りょうけん ひだり こしかまえ",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Orient the head to the right, bring the 2 fists to the left hip",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 29,
+      "japaneseName": "Uken-migi-sokumen-chūdan-zuki saken-kagi-zuki",
+      "direction": "E",
+      "kiai": true,
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi chūdan-zuki, hidari chūdan kagi-zuki",
+          "hiragana": "みぎ ちゅうだん もろてよこづき",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Orient the head to the right, bring the 2 fists in hikité, right fist vertical on the left fist, to the left hip, then perform on the spot a double attack middle-level fist, right arm extended (yoko-zuki) and left arm folded (kagi-zuki)",
+          "icon": "hand.raised.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 30,
+      "sequenceName": "Naore",
+      "japaneseName": "Naore",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Yōi",
+          "hiragana": "ようい",
+          "stance": "Heisoku-dachi",
+          "stanceHiragana": "へいそくだち",
+          "description": "As the left foot stays in place, the right foot moves back alongside the left foot, returning to YŌI position. Place the palm of the left hand on top of the back of the right hand bringing them in front of the lower part of the abdomen, at a slight distance from the body.",
+          "icon": "hand.raised.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 31,
+      "sequenceName": "Rei",
+      "japaneseName": "Rei",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Rei",
+          "hiragana": "れい",
+          "stance": "Musubi-dachi",
+          "stanceHiragana": "むすびだち",
+          "description": "From the musubi-dachi position, bow (rei) with the hands placed on the thighs",
+          "icon": "hand.raised.fill"
+        }
+      ]
+    }
+  ]
+}

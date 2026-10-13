@@ -1,0 +1,717 @@
+{
+  "name": "Empi",
+  "japaneseName": "燕飛",
+  "hiraganaName": "えんぴ",
+  "numberOfMoves": 37,
+  "kataNumber": 11,
+  "beltRank": "1_dan",
+  "description": "Empi (or Enpi) means 'flying swallow' or 'swallow in flight', which is symbolized by the quick up and down movements in the kata. It originates from Tomari-Te, is one of the oldest in Shōtōkan and was previously called 'Wanshū'. The kata is characterized by transitioning from high to low positions, as light as a swallow, with fast and agile movements and quick flipping of body position.",
+  "keyTechniques": [
+    "Gedan-barai",
+    "Age-zuki",
+    "Kagi-zuki",
+    "Fumikomi",
+    "Kōsa-dachi",
+    "Otoshi-zuki",
+    "Nagashi-uke",
+    "Ushiro-gedan-barai",
+    "Haishu-uke",
+    "Tekubi-uchi",
+    "Tate-shutō-uke",
+    "Teishō-uke",
+    "Tsukami-uke",
+    "Joho-kaiten-tobi"
+  ],
+  "referenceURL": "",
+  "moves": [
+    {
+      "sequence": -1,
+      "sequenceName": "Rei",
+      "japaneseName": "Rei",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Rei",
+          "hiragana": "れい",
+          "stance": "Musubi-dachi",
+          "stanceHiragana": "むすびだち",
+          "description": "From the musubi-dachi position, bow (rei) with the hands placed on the thighs",
+          "icon": "hand.raised.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 0,
+      "sequenceName": "Yōi",
+      "japaneseName": "Yōi",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Yōi",
+          "hiragana": "ようい",
+          "stance": "Heisoku-dachi",
+          "stanceHiragana": "へいそくだち",
+          "description": "Stand in Heisoku-dachi, left hand on left hip (back facing left), right fist touching the left palm (back of fist forward).",
+          "icon": "hand.raised.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 1,
+      "japaneseName": "Migi ken gedan-barai – hidari ken migi mune mae kamae",
+      "direction": "NE",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi ashi onshiku",
+          "hiragana": "みぎあし おんしく",
+          "stance": "Migi ashi onshiku",
+          "stanceHiragana": "みぎあし おんしく",
+          "description": "Drop down on right knee (one hand width between left foot and right knee) - block 45 degrees right gedan-barai - hikite hand also lies 45 degrees in front of solar plexus - gaze follows",
+          "icon": "figure.martial.arts"
+        }
+      ]
+    },
+    {
+      "sequence": 2,
+      "japaneseName": "Ryō ken hidari koshi-kamae",
+      "direction": "NE",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Koshi-kamae",
+          "hiragana": "こしがまえ",
+          "stance": "Hachiji-dachi",
+          "stanceHiragana": "はちじだち",
+          "description": "Quickly up koshi-kamae (hands on right side) in shizentai. During the pull-up - gaze is held 45 degrees",
+          "icon": "figure.martial.arts"
+        }
+      ]
+    },
+    {
+      "sequence": 3,
+      "japaneseName": "Migi gedan-barai",
+      "direction": "E",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi gedan-barai",
+          "hiragana": "みぎ げだんばらい",
+          "stance": "Migi-ashi zenkutsu",
+          "stanceHiragana": "みぎあし ぜんくつ",
+          "description": "To the right side right gedan-barai in zenkutsu-dachi. No hikite",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 4,
+      "japaneseName": "Hidari kagi-zuki",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Hidari kagi-zuki",
+          "hiragana": "ひだり かぎづき",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Left hook punch in horse stance - keep gaze to the right. To create power in kagi-zuki, make sharp rotation in the hips while pulling the left foot in",
+          "icon": "figure.martial.arts"
+        }
+      ]
+    },
+    {
+      "sequence": 5,
+      "japaneseName": "Hidari gedan-barai",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Hidari gedan-barai",
+          "hiragana": "ひだり げだんばらい",
+          "stance": "Hidari zenkutsu-dachi",
+          "stanceHiragana": "ひだり ぜんくつだち",
+          "description": "Straight forward left gedan-barai in left zenkutsu-dachi",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 6,
+      "japaneseName": "Migi jōdan age-zuki",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi jōdan age-zuki",
+          "hiragana": "みぎ じょうだん あげづき",
+          "stance": "Hidari zenkutsu-dachi",
+          "stanceHiragana": "ひだり ぜんくつだち",
+          "description": "Right rising punch to high level, same stance. Age-zuki is performed by moving the hips to shōmen while punching chūdan and immediately raising the hand to jōdan",
+          "icon": "figure.martial.arts"
+        }
+      ]
+    },
+    {
+      "sequence": 7,
+      "japaneseName": "Kami zukami / Fumikomi / Kōsa dachi – migi jōdan nagashi-uke / hidari chūdan otoshi zuki",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Kami zukami",
+          "hiragana": "かみづかみ",
+          "stance": "Migi-ashi mae kōsa-dachi",
+          "stanceHiragana": "みぎあし まえ こさだち",
+          "description": "Hand opens (as if to grab a ponytail), right knee pulls up and stamps down fumikomi",
+          "icon": "hand.point.up.fill"
+        },
+        {
+          "order": 2,
+          "technique": "Fumikomi / Nagashi-uke / Otoshi zuki",
+          "hiragana": "ふみこみ / ながしうけ / おとしづき",
+          "stance": "Kōsa-dachi",
+          "stanceHiragana": "こうさだち",
+          "description": "Cross stance with right high level deflecting block and left middle level dropping punch",
+          "icon": "figure.martial.arts"
+        }
+      ]
+    },
+    {
+      "sequence": 8,
+      "japaneseName": "Migi ushiro gedan-barai",
+      "direction": "S",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi ushiro gedan-barai",
+          "hiragana": "みぎ うしろ げだんばらい",
+          "stance": "Hidari hiza-kutsu-dachi",
+          "stanceHiragana": "ひだり ひざくつだち",
+          "description": "180 degrees opposite right reverse low block in left zenkutsu-dachi. With right heel as pivot point, extend right leg completely and powerfully while rotating thigh and torso counterclockwise",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 9,
+      "japaneseName": "Hidari gedan-barai",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Hidari gedan-barai",
+          "hiragana": "ひだり げだんばらい",
+          "stance": "Hidari zenkutsu-dachi",
+          "stanceHiragana": "ひだり ぜんくつだち",
+          "description": "Forward direction left gedan-barai in same stance. Body vertical as normal",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 10,
+      "japaneseName": "Migi jōdan age-zuki",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi jōdan age-zuki",
+          "hiragana": "みぎ じょうだん あげづき",
+          "stance": "Hidari zenkutsu-dachi",
+          "stanceHiragana": "ひだり ぜんくつだち",
+          "description": "Right rising punch to high level in same stance",
+          "icon": "figure.martial.arts"
+        }
+      ]
+    },
+    {
+      "sequence": 11,
+      "japaneseName": "Kami zukami / Fumikomi / Kōsa dachi – migi jōdan nagashi-uke / hidari chūdan otoshi zuki",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Kami zukami",
+          "hiragana": "かみづかみ",
+          "stance": "Migi-ashi mae kōsa-dachi",
+          "stanceHiragana": "みぎあし まえ こさだち",
+          "description": "Hand opens (as if to grab a ponytail), right knee pulls up and stamps down fumikomi",
+          "icon": "hand.point.up.fill"
+        },
+        {
+          "order": 2,
+          "technique": "Fumikomi / Nagashi-uke / Otoshi zuki",
+          "hiragana": "ふみこみ / ながしうけ / おとしづき",
+          "stance": "Kōsa-dachi",
+          "stanceHiragana": "こうさだち",
+          "description": "Cross stance with right high level deflecting block and left middle level dropping punch",
+          "icon": "figure.martial.arts"
+        }
+      ]
+    },
+    {
+      "sequence": 12,
+      "japaneseName": "Migi ushiro gedan-barai",
+      "direction": "S",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi ushiro gedan-barai",
+          "hiragana": "みぎ うしろ げだんばらい",
+          "stance": "Hidari hiza-kutsu-dachi",
+          "stanceHiragana": "ひだり ひざくつだち",
+          "description": "180 degrees opposite right reverse low block in left hiza-kutsu-dachi",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 13,
+      "japaneseName": "Hidari gedan-barai",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Hidari gedan-barai",
+          "hiragana": "ひだり げだんばらい",
+          "stance": "Hidari zenkutsu-dachi",
+          "stanceHiragana": "ひだり ぜんくつだち",
+          "description": "Forward direction left gedan-barai in same stance",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 14,
+      "japaneseName": "Jōdan haishu-uke",
+      "direction": "NW",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Jōdan haishu-uke",
+          "hiragana": "じょうだん はいしゅうけ",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Front leg moves slowly up and in an arc to the left down into horse stance simultaneously with high level back hand block 45 degrees to the left. Arms and legs must move synchronously and slowly in an arc",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 15,
+      "japaneseName": "Migi jōdan tekubi sashi uchi",
+      "direction": "NW",
+      "kiai": true,
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi jōdan tekubi sashi uchi",
+          "hiragana": "みぎ じょうだん てくびさしうち",
+          "stance": "Hidari ashi-dachi",
+          "stanceHiragana": "ひだり あしだち",
+          "description": "Right high level wrist strike into left palm, right foot pulls in at left knee, balance on left leg. KIAI",
+          "icon": "figure.martial.arts"
+        }
+      ]
+    },
+    {
+      "sequence": 16,
+      "japaneseName": "Hidari chūdan tate shutō-uke",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Hidari chūdan tate shutō-uke",
+          "hiragana": "ひだり ちゅうだん たて しゅとうけ",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Slowly down to horse stance - left middle level vertical knife hand block",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 17,
+      "japaneseName": "Migi chūdan zuki",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi chūdan zuki",
+          "hiragana": "みぎ ちゅうだん づき",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Right middle level punch - same stance",
+          "icon": "figure.martial.arts"
+        }
+      ]
+    },
+    {
+      "sequence": 18,
+      "japaneseName": "Hidari chūdan zuki",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Hidari chūdan zuki",
+          "hiragana": "ひだり ちゅうだん づき",
+          "stance": "Kiba-dachi",
+          "stanceHiragana": "きばだち",
+          "description": "Left middle level punch - same stance",
+          "icon": "figure.martial.arts"
+        }
+      ]
+    },
+    {
+      "sequence": 19,
+      "japaneseName": "Hidari gedan-barai",
+      "direction": "W",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Hidari gedan-barai",
+          "hiragana": "ひだり げだんばらい",
+          "stance": "Hidari zenkutsu-dachi",
+          "stanceHiragana": "ひだり ぜんくつだち",
+          "description": "To the left, left gedan-barai in zenkutsu-dachi",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 20,
+      "japaneseName": "Migi jōdan age-zuki",
+      "direction": "W",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi jōdan age-zuki",
+          "hiragana": "みぎ じょうだん あげづき",
+          "stance": "Hidari zenkutsu-dachi",
+          "stanceHiragana": "ひだり ぜんくつだち",
+          "description": "Right high level rising punch in same stance",
+          "icon": "figure.martial.arts"
+        }
+      ]
+    },
+    {
+      "sequence": 21,
+      "japaneseName": "Migi chūdan shutō-uke",
+      "direction": "W",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi chūdan shutō-uke",
+          "hiragana": "みぎ ちゅうだん しゅとうけ",
+          "stance": "Hidari kōkutsu-dachi",
+          "stanceHiragana": "ひだり こうくつだち",
+          "description": "Forward right middle level knife hand block in back stance",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 22,
+      "japaneseName": "Hidari chūdan shutō-uke",
+      "direction": "W",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Hidari chūdan shutō-uke",
+          "hiragana": "ひだり ちゅうだん しゅとうけ",
+          "stance": "Migi kōkutsu-dachi",
+          "stanceHiragana": "みぎ こうくつだち",
+          "description": "In the same place - front foot back, then forward left middle level knife hand block in back stance",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 23,
+      "japaneseName": "Migi chūdan gyaku-zuki",
+      "direction": "W",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi chūdan gyaku-zuki",
+          "hiragana": "みぎ ちゅうだん ぎゃくづき",
+          "stance": "Migi kōkutsu-dachi",
+          "stanceHiragana": "みぎ こうくつだち",
+          "description": "Right middle level reverse punch in back stance (stance unchanged)",
+          "icon": "figure.martial.arts"
+        }
+      ]
+    },
+    {
+      "sequence": 24,
+      "japaneseName": "Migi chūdan shutō-uke",
+      "direction": "W",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi chūdan shutō-uke",
+          "hiragana": "みぎ ちゅうだん しゅとうけ",
+          "stance": "Hidari kōkutsu-dachi",
+          "stanceHiragana": "ひだり こうくつだち",
+          "description": "Forward right middle level knife hand block in back stance",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 25,
+      "japaneseName": "Hidari gedan-barai",
+      "direction": "E",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Hidari gedan-barai",
+          "hiragana": "ひだり げだんばらい",
+          "stance": "Hidari zenkutsu-dachi",
+          "stanceHiragana": "ひだり ぜんくつだち",
+          "description": "180 degrees around left gedan-barai in left zenkutsu-dachi",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 26,
+      "japaneseName": "Migi jōdan age-zuki",
+      "direction": "E",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi jōdan age-zuki",
+          "hiragana": "みぎ じょうだん あげづき",
+          "stance": "Hidari zenkutsu-dachi",
+          "stanceHiragana": "ひだり ぜんくつだち",
+          "description": "Right high level rising punch in same stance",
+          "icon": "figure.martial.arts"
+        }
+      ]
+    },
+    {
+      "sequence": 27,
+      "japaneseName": "Kami zukami / Fumikomi / Kōsa dachi – migi jōdan nagashi-uke / hidari chūdan otoshi zuki",
+      "direction": "E",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Kami zukami",
+          "hiragana": "かみづかみ",
+          "stance": "Migi-ashi mae kōsa-dachi",
+          "stanceHiragana": "みぎあし まえ こさだち",
+          "description": "Hand opens (as if to grab a ponytail), right knee pulls up and stamps down fumikomi",
+          "icon": "hand.point.up.fill"
+        },
+        {
+          "order": 2,
+          "technique": "Fumikomi / Nagashi-uke / Otoshi zuki",
+          "hiragana": "ふみこみ / ながしうけ / おとしづき",
+          "stance": "Kōsa-dachi",
+          "stanceHiragana": "こうさだち",
+          "description": "Cross stance with right high level deflecting block and left middle level dropping punch",
+          "icon": "figure.martial.arts"
+        }
+      ]
+    },
+    {
+      "sequence": 28,
+      "japaneseName": "Migi ushiro gedan-barai",
+      "direction": "W",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi ushiro gedan-barai",
+          "hiragana": "みぎ うしろ げだんばらい",
+          "stance": "Hidari hiza-kutsu-dachi",
+          "stanceHiragana": "ひだり ひざくつだち",
+          "description": "180 degrees opposite right reverse low block in left zenkutsu-dachi",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 29,
+      "japaneseName": "Hidari gedan-barai",
+      "direction": "E",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Hidari gedan-barai",
+          "hiragana": "ひだり げだんばらい",
+          "stance": "Hidari zenkutsu-dachi",
+          "stanceHiragana": "ひだり ぜんくつだち",
+          "description": "Forward direction left gedan-barai in same stance",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 30,
+      "japaneseName": "Migi teishō chūdan oshi age-uke",
+      "direction": "NE",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi teishō chūdan oshi age-uke",
+          "hiragana": "みぎ ていしょう ちゅうだん おしあげうけ",
+          "stance": "Hidari zenkutsu-dachi",
+          "stanceHiragana": "ひだり ぜんくつだち",
+          "description": "Right palm heel block towards 45 degrees - same stance",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 31,
+      "japaneseName": "Migi teishō chūdan oshi age-uke – hidari teishō gedan oshi sage-uke",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Teishō awase-uke",
+          "hiragana": "ていしょう あわせうけ",
+          "stance": "Migi zenkutsu-dachi",
+          "stanceHiragana": "みぎ ぜんくつだち",
+          "description": "Forward towards shōmen palm heel combined block in right zenkutsu-dachi. Palm heels are pushed up/down on a vertical line",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 32,
+      "japaneseName": "Hidari teishō chūdan oshi age-uke – migi teishō gedan oshi sage-uke",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Teishō awase-uke",
+          "hiragana": "ていしょう あわせうけ",
+          "stance": "Hidari zenkutsu-dachi",
+          "stanceHiragana": "ひだり ぜんくつだち",
+          "description": "Combined palm heel block in left zenkutsu-dachi",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 33,
+      "japaneseName": "Migi teishō chūdan oshi age-uke – hidari teishō gedan oshi sage-uke",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Teishō awase-uke",
+          "hiragana": "ていしょう あわせうけ",
+          "stance": "Migi zenkutsu-dachi",
+          "stanceHiragana": "みぎ ぜんくつだち",
+          "description": "Combined palm heel block in right zenkutsu-dachi",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 34,
+      "japaneseName": "Yori-ashi -> kōkutsu-dachi – migi gedan kamae (barai)",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Migi gedan kamae",
+          "hiragana": "みぎ げだんがまえ",
+          "stance": "Hidari kōkutsu-dachi, ",
+          "stanceHiragana": "ひだり こうくつだち",
+          "description": "(Short) Yori-ashi into the center line to a hidari kōkutsu-dachi. Right hand into a gedan kamae (as if to give a low punch), and the left hand moves to the left hip",
+          "icon": "figure.martial.arts"
+        }
+      ]
+    },
+    {
+      "sequence": 35,
+      "japaneseName": "Tsukami-uke",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Tsukami-uke",
+          "hiragana": "つかみうけ",
+          "stance": "Migi-ashi mae fudō-dachi",
+          "stanceHiragana": "みぎあし まえ ふどうだち",
+          "description": "Yori-ashi into fudō-dachi (feet are on a north-south line). Hands open into grip block (tsukami-uke) - left hand close to the forehead, right elbow close to right hip, palm facing up",
+          "icon": "hand.point.up.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 36,
+      "japaneseName": "Jōhō kaiten tobi - migi chūdan shutō-uke",
+      "direction": "S",
+      "kiai": true,
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Jōhō kaiten tobi",
+          "hiragana": "じょうほう かいてんとび",
+          "stance": "Hidari kōkutsu-dachi",
+          "stanceHiragana": "ひだり こうくつだち",
+          "description": "High rotating jump with landing in back stance with right middle level knife hand block. KIAI",
+          "icon": "figure.jump"
+        }
+      ]
+    },
+    {
+      "sequence": 37,
+      "japaneseName": "Hidari chūdan shutō-uke",
+      "direction": "S",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Hidari chūdan shutō-uke",
+          "hiragana": "ひだり ちゅうだん しゅとうけ",
+          "stance": "Migi kōkutsu-dachi",
+          "stanceHiragana": "みぎ こうくつだち",
+          "description": "Step back left middle level knife hand block in back stance",
+          "icon": "shield.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 38,
+      "sequenceName": "Naore",
+      "japaneseName": "Naore",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Yōi",
+          "hiragana": "ようい",
+          "stance": "Heisoku-dachi",
+          "stanceHiragana": "へいそくだち",
+          "description": "Move the left foot and turn the right foot into Heisoku-dachi, left hand on left hip (back facing left), right fist touching the left palm (back of fist forward).",
+          "icon": "hand.raised.fill"
+        }
+      ]
+    },
+    {
+      "sequence": 39,
+      "sequenceName": "Rei",
+      "japaneseName": "Rei",
+      "direction": "N",
+      "subMoves": [
+        {
+          "order": 1,
+          "technique": "Rei",
+          "hiragana": "れい",
+          "stance": "Musubi-dachi",
+          "stanceHiragana": "むすびだち",
+          "description": "From the musubi-dachi position, bow (rei) with the hands placed on the thighs",
+          "icon": "hand.raised.fill"
+        }
+      ]
+    }
+  ]
+}

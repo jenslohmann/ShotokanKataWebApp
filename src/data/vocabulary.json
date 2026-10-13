@@ -1,0 +1,1124 @@
+{
+  "vocabularyTerms": [
+    {
+      "id": 1,
+      "term": "Kata",
+      "japaneseName": "型",
+      "hiraganaName": "かた",
+      "shortDescription": "Predetermined sequence of karate movements",
+      "definition": "A sequence of karate movements performed in a predetermined pattern against imaginary opponents. Kata is one of the three main pillars of karate training, along with kihon (basics) and kumite (sparring). Each kata tells a story of combat against multiple attackers and contains the essence of various fighting techniques and strategies.",
+      "category": "general",
+      "componentBreakdown": "型 (kata) - This single kanji character means 'form', 'shape', or 'mold'. It represents the concept of a fixed pattern or template that preserves traditional techniques and movements for future generations."
+    },
+    {
+      "id": 2,
+      "term": "Dōjō",
+      "japaneseName": "道場",
+      "hiraganaName": "どうじょう",
+      "shortDescription": "Training hall for martial arts",
+      "definition": "Training hall or place where martial arts are practiced. The word dōjō literally means 'place of the way' and represents not just a physical space, but a sacred environment where students learn discipline, respect, and the martial arts. Traditional dōjō etiquette is strictly observed to maintain the proper learning atmosphere.",
+      "category": "general",
+      "componentBreakdown": "道 (dō) - 'way' or 'path', referring to the spiritual and philosophical journey of martial arts; 場 (jō) - 'place' or 'location'. Together they mean 'place of the way' - a sacred space for learning the martial path."
+    },
+    {
+      "id": 3,
+      "term": "Rei",
+      "japaneseName": "礼",
+      "hiraganaName": "れい",
+      "shortDescription": "Bow showing respect and humility",
+      "definition": "Bow; a gesture of respect and humility that is fundamental to Japanese martial arts. Rei is performed at the beginning and end of training, when entering or leaving the dōjō, and when greeting instructors and training partners. It demonstrates respect for the art, the dōjō, and fellow practitioners.",
+      "category": "etiquette",
+      "componentBreakdown": "礼 (rei) - This single kanji represents 'courtesy', 'bow', 'ceremony', or 'respect'. It encompasses the entire concept of proper etiquette, politeness, and showing reverence to others."
+    },
+    {
+      "id": 4,
+      "term": "Sensei",
+      "japaneseName": "先生",
+      "hiraganaName": "せんせい",
+      "shortDescription": "Teacher or instructor",
+      "definition": "Teacher or instructor; literally means 'one who has gone before'. A sensei is not just someone who teaches techniques, but a mentor who guides students in their martial arts journey and personal development. The relationship between sensei and student is based on mutual respect and dedication to learning.",
+      "category": "titles",
+      "componentBreakdown": "先 (sen) - 'before', 'ahead', or 'previous'; 生 (sei) - 'life', 'birth', or 'living'. Together they mean 'one who was born before' or 'one who has gone before', indicating someone with more experience and wisdom."
+    },
+    {
+      "id": 5,
+      "term": "Karate",
+      "japaneseName": "空手",
+      "hiraganaName": "からて",
+      "shortDescription": "Empty hand martial art",
+      "definition": "Empty hand; the martial art of fighting without weapons. Originally developed in Okinawa, karate emphasizes striking techniques using hands, feet, elbows, and knees. The philosophy of karate extends beyond physical techniques to include mental discipline, character development, and spiritual growth.",
+      "category": "general",
+      "componentBreakdown": "空 (kara) - 'empty' or 'void', representing both the absence of weapons and the Buddhist concept of emptiness; 手 (te) - 'hand'. Together they mean 'empty hand', emphasizing fighting without weapons."
+    },
+    {
+      "id": 6,
+      "term": "Kiai",
+      "japaneseName": "気合",
+      "hiraganaName": "きあい",
+      "shortDescription": "Spirit shout for focus and power",
+      "definition": "Spirit shout; a loud vocalization used to focus energy and intimidate opponents. Kiai comes from the coordination of breath, spirit, and physical technique. It helps to concentrate power at the moment of impact and can also serve to startle or psychologically affect an opponent.",
+      "category": "techniques",
+      "componentBreakdown": "気 (ki) - 'spirit', 'energy', or 'life force'; 合 (ai) - 'union', 'harmony', or 'meeting'. Together they represent the union of spirit and energy, the focusing of one's internal power through vocalization."
+    },
+    {
+      "id": 7,
+      "term": "Zenkutsu-dachi",
+      "japaneseName": "前屈立",
+      "hiraganaName": "ぜんくつだち",
+      "shortDescription": "Forward stance with long, low position",
+      "definition": "Front stance; a long, low stance with most weight on the front leg. This is one of the most fundamental stances in karate, providing a strong base for forward attacks and good balance for various techniques. The back leg remains straight while the front knee is bent, creating a stable platform for punching and blocking.",
+      "category": "stances",
+      "componentBreakdown": "前 (zen) - 'front' or 'forward'; 屈 (kutsu) - 'bend' or 'crouch'; 立 (dachi/tachi) - 'stand' or 'stance'. Together they describe a stance where you stand forward with bent legs."
+    },
+    {
+      "id": 8,
+      "term": "Kōkutsu-dachi",
+      "japaneseName": "後屈立",
+      "hiraganaName": "こうくつだち",
+      "shortDescription": "Back stance with weight on rear leg",
+      "definition": "Back stance; a stance with most weight on the back leg. This stance is excellent for defensive techniques and allows for quick forward movement. The front leg is lightly placed with the toes pointing forward, while the back leg bears most of the body weight. It's commonly used with blocking techniques.",
+      "category": "stances",
+      "componentBreakdown": "後 (kō) - 'back' or 'rear'; 屈 (kutsu) - 'bend' or 'crouch'; 立 (dachi/tachi) - 'stand' or 'stance'. Together they describe a stance where you stand back with bent legs, weight on the rear leg."
+    },
+    {
+      "id": 9,
+      "term": "Gedan-barai",
+      "japaneseName": "下段払い",
+      "hiraganaName": "げだんばらい",
+      "shortDescription": "Downward sweeping block",
+      "definition": "Downward block; a blocking technique that sweeps down to deflect low attacks. This block is used to defend against attacks aimed at the lower body, such as kicks to the groin or stomach. The blocking arm moves in a sweeping motion from high to low, deflecting the attack away from the body.",
+      "category": "blocks",
+      "componentBreakdown": "下 (ge) - 'down' or 'lower'; 段 (dan) - 'level' or 'stage'; 払い (barai) - 'sweep' or 'brush away'. Together they describe a sweeping motion that deflects attacks at the lower level."
+    },
+    {
+      "id": 10,
+      "term": "Age-uke",
+      "japaneseName": "上げ受け",
+      "hiraganaName": "あげうけ",
+      "shortDescription": "Rising block against overhead attacks",
+      "definition": "Rising block; an upward blocking technique to defend against overhead attacks. The forearm moves upward and outward to intercept and deflect attacks coming from above, such as overhead strikes or weapon attacks. The blocking arm finishes above and in front of the forehead.",
+      "category": "blocks",
+      "componentBreakdown": "上げ (age) - 'raise' or 'lift up'; 受け (uke) - 'receive' or 'block'. Together they describe the action of raising the arm to receive and deflect an incoming attack."
+    },
+    {
+      "id": 11,
+      "term": "Oi-zuki",
+      "japaneseName": "追い突き",
+      "hiraganaName": "おいづき",
+      "shortDescription": "Lunge punch while stepping forward",
+      "definition": "Lunge punch; a straight punch executed while stepping forward. This technique combines forward movement with a powerful straight punch, using the momentum of the entire body. The stepping leg and punching arm move simultaneously, creating a devastating attack that can cover significant distance.",
+      "category": "punches",
+      "componentBreakdown": "追い (oi) - 'chase' or 'pursue'; 突き (zuki) - 'thrust' or 'punch'. Together they describe a punching technique that chases or pursues the target by stepping forward."
+    },
+    {
+      "id": 12,
+      "term": "Gyaku-zuki",
+      "japaneseName": "逆突き",
+      "hiraganaName": "ぎゃくづき",
+      "shortDescription": "Reverse punch with opposite hand",
+      "definition": "Reverse punch; a punch with the opposite hand to the forward leg. This is one of the most fundamental and powerful punching techniques in karate. The punch is thrown from a stable stance, using hip rotation and the reaction of the opposite hand to generate maximum power.",
+      "category": "punches",
+      "componentBreakdown": "逆 (gyaku) - 'reverse' or 'opposite'; 突き (zuki) - 'thrust' or 'punch'. Together they describe a punch delivered with the hand opposite to the forward leg."
+    },
+    {
+      "id": 66,
+      "term": "Choku-zuki",
+      "japaneseName": "直突き",
+      "hiraganaName": "ちょくづき",
+      "shortDescription": "Straight punch directly forward",
+      "definition": "Straight punch; a direct, linear punch thrown straight forward from the hip. This is a fundamental punching technique that emphasizes directness and power along a straight line to the target. Unlike other punches that may involve body rotation or stepping, choku-zuki is characterized by its pure linear motion, making it one of the most direct and efficient striking techniques in karate.",
+      "category": "punches",
+      "componentBreakdown": "直 (choku) - 'straight', 'direct', or 'upright'; 突き (zuki) - 'thrust' or 'punch'. Together they describe a punch that travels in a perfectly straight line to the target."
+    },
+    {
+      "id": 13,
+      "term": "Mae-geri",
+      "japaneseName": "前蹴り",
+      "hiraganaName": "まえげり",
+      "shortDescription": "Straight front kick technique",
+      "definition": "Front kick; a straight kick delivered with the ball of the foot. The knee is lifted high and the foot is snapped forward in a straight line toward the target. This kick can be used to attack the solar plexus, stomach, or groin, and is one of the fastest and most direct kicking techniques.",
+      "category": "kicks",
+      "componentBreakdown": "前 (mae) - 'front' or 'forward'; 蹴り (geri) - 'kick'. Together they describe a kick delivered straight forward toward the front."
+    },
+    {
+      "id": 14,
+      "term": "Yoko-geri",
+      "japaneseName": "横蹴り",
+      "hiraganaName": "よこげり",
+      "shortDescription": "Side kick with edge of foot",
+      "definition": "Side kick; a kick delivered with the side or edge of the foot. The leg is lifted to the side and driven outward, striking with the blade edge of the foot. This powerful kick can target the ribs, kidneys, or knee, and provides good range while maintaining balance.",
+      "category": "kicks",
+      "componentBreakdown": "横 (yoko) - 'side' or 'horizontal'; 蹴り (geri) - 'kick'. Together they describe a kick delivered to the side or in a horizontal direction."
+    },
+    {
+      "id": 15,
+      "term": "Shutō-uke",
+      "japaneseName": "手刀受け",
+      "hiraganaName": "しゅとうけ",
+      "shortDescription": "Knife hand blocking technique",
+      "definition": "Knife hand block; a blocking technique using the edge of the hand. The hand is held with fingers extended and pressed together, creating a blade-like weapon. This block can be used to deflect attacks while simultaneously preparing for a counter-attack with the same hand.",
+      "category": "blocks",
+      "componentBreakdown": "手 (shu/te) - 'hand'; 刀 (tō) - 'sword' or 'blade'; 受け (uke) - 'receive' or 'block'. Together they describe blocking with the hand shaped like a sword blade."
+    },
+    {
+      "id": 16,
+      "term": "Kumite",
+      "japaneseName": "組手",
+      "hiraganaName": "くみて",
+      "shortDescription": "Sparring practice between partners",
+      "definition": "Sparring; free fighting practice between two people. Kumite allows practitioners to apply techniques learned in kata and kihon in a more realistic fighting situation. It develops timing, distance, strategy, and the ability to adapt techniques under pressure while maintaining control and respect for one's partner.",
+      "category": "training",
+      "componentBreakdown": "組 (kumi) - 'pair' or 'group together'; 手 (te) - 'hand'. Together they mean 'paired hands' or 'grappling hands', referring to the practice of working together with a partner."
+    },
+    {
+      "id": 17,
+      "term": "Kihon",
+      "japaneseName": "基本",
+      "hiraganaName": "きほん",
+      "shortDescription": "Basic fundamental techniques",
+      "definition": "Basics; fundamental techniques practiced repeatedly to perfect form and develop muscle memory. Kihon training involves practicing individual techniques in isolation, focusing on proper form, timing, and power generation. This foundational training is essential for developing strong karate technique.",
+      "category": "training",
+      "componentBreakdown": "基 (ki) - 'foundation' or 'base'; 本 (hon) - 'origin' or 'fundamental'. Together they mean 'fundamental basics' or 'foundational origins' of technique."
+    },
+    {
+      "id": 18,
+      "term": "Dan",
+      "japaneseName": "段",
+      "hiraganaName": "だん",
+      "shortDescription": "Black belt ranking system",
+      "definition": "Black belt rank; numbered grades above brown belt that represent advanced levels of skill and knowledge. Dan ranks typically progress from 1st Dan through 10th Dan, with each level requiring years of dedicated training and mastery of increasingly sophisticated techniques and concepts.",
+      "category": "ranks",
+      "componentBreakdown": "段 (dan) - This single kanji means 'step', 'grade', or 'level'. It represents progression through levels of mastery, like steps on a staircase leading to higher understanding."
+    },
+    {
+      "id": 19,
+      "term": "Kyū",
+      "japaneseName": "級",
+      "hiraganaName": "きゅう",
+      "shortDescription": "Colored belt ranking system",
+      "definition": "Colored belt rank; numbered grades below black belt that represent progressive levels of basic skill development. Kyū ranks typically progress from higher numbers (10th kyū) to lower numbers (1st kyū), with each level demonstrating mastery of specific techniques and kata.",
+      "category": "ranks",
+      "componentBreakdown": "級 (kyū) - This single kanji means 'class', 'grade', or 'level'. It represents classification or ranking within a system, indicating one's current level of achievement."
+    },
+    {
+      "id": 20,
+      "term": "Obi",
+      "japaneseName": "帯",
+      "hiraganaName": "おび",
+      "shortDescription": "Belt indicating rank and progress",
+      "definition": "Belt; the colored sash worn around the waist to indicate rank and level of achievement in karate. The obi is more than just a practical item to hold the gi closed; it represents the student's journey, dedication, and level of understanding in the martial arts.",
+      "category": "equipment",
+      "componentBreakdown": "帯 (obi) - This single kanji means 'belt', 'sash', or 'band'. It represents something that binds or holds together, symbolically representing the binding of knowledge and progress."
+    },
+    {
+      "id": 21,
+      "term": "Hachiji-dachi",
+      "japaneseName": "八字立",
+      "hiraganaName": "はちじだち",
+      "shortDescription": "Natural stance with feet shoulder-width apart",
+      "definition": "Natural stance where the feet are positioned shoulder-width apart with toes pointing outward at approximately 45 degrees, forming the shape of the character '八' (hachi - eight). This is the basic ready stance used at the beginning and end of kata, providing a stable and balanced foundation.",
+      "category": "stances",
+      "componentBreakdown": "八 (hachi) - 'eight', referring to the shape formed by the feet; 字 (ji) - 'character' or 'letter'; 立 (dachi/tachi) - 'stand' or 'stance'. Together they describe a stance that forms the shape of the character '八'."
+    },
+    {
+      "id": 22,
+      "term": "Musubi-dachi",
+      "japaneseName": "結び立",
+      "hiraganaName": "むすびだち",
+      "shortDescription": "Attention stance with heels together",
+      "definition": "Formal attention stance where the heels are together and the toes point outward at approximately 60 degrees. This stance is used for formal greetings, bowing (rei), and shows respect and discipline. The body is upright with shoulders relaxed.",
+      "category": "stances",
+      "componentBreakdown": "結び (musubi) - 'tie' or 'bind together'; 立 (dachi/tachi) - 'stand' or 'stance'. Together they describe a stance where the feet are bound or tied together at the heels."
+    },
+    {
+      "id": 23,
+      "term": "Kiba-dachi",
+      "japaneseName": "騎馬立",
+      "hiraganaName": "きばだち",
+      "shortDescription": "Horse stance with wide, low position",
+      "definition": "Horse stance where the feet are positioned wide apart (approximately two shoulder widths) with toes pointing forward and knees bent as if sitting on a horse. This stance develops leg strength, stability, and is used for powerful side techniques. The back remains straight and weight is evenly distributed.",
+      "category": "stances",
+      "componentBreakdown": "騎 (ki) - 'ride' or 'mount'; 馬 (ba/uma) - 'horse'; 立 (dachi/tachi) - 'stand' or 'stance'. Together they describe a stance that mimics riding a horse."
+    },
+    {
+      "id": 24,
+      "term": "Heisoku-dachi",
+      "japaneseName": "閉足立",
+      "hiraganaName": "へいそくだち",
+      "shortDescription": "Closed-foot stance with feet together",
+      "definition": "Closed-foot stance where both feet are placed together side by side, toes pointing forward. This stance is used in transitional movements and certain kata positions. It requires good balance and is often used before or after kicks.",
+      "category": "stances",
+      "componentBreakdown": "閉 (hei) - 'close' or 'shut'; 足 (soku/ashi) - 'foot'; 立 (dachi/tachi) - 'stand' or 'stance'. Together they describe a stance with closed or together feet."
+    },
+    {
+      "id": 25,
+      "term": "Kōsa-dachi",
+      "japaneseName": "交差立",
+      "hiraganaName": "こうさだち",
+      "shortDescription": "Cross stance with legs crossed",
+      "definition": "Cross stance where one leg crosses behind or in front of the other, creating an X-pattern when viewed from above. This stance is used for quick directional changes and evasive movements, though it sacrifices stability for mobility.",
+      "category": "stances",
+      "componentBreakdown": "交 (kō) - 'cross' or 'intersect'; 差 (sa) - 'difference' or 'to insert'; 立 (dachi/tachi) - 'stand' or 'stance'. Together they describe a stance where the legs cross or intersect."
+    },
+    {
+      "id": 26,
+      "term": "Ashi-dachi",
+      "japaneseName": "足立",
+      "hiraganaName": "あしだち",
+      "shortDescription": "Single-leg stance for kicks and transitions",
+      "definition": "Single-leg stance where most of the weight is supported on one leg while the other leg is lifted or positioned lightly. This stance is used for kicking techniques, balance training, and transitional movements between techniques.",
+      "category": "stances",
+      "componentBreakdown": "足 (ashi) - 'foot' or 'leg'; 立 (dachi/tachi) - 'stand' or 'stance'. Together they describe a stance focused on foot/leg positioning, typically on one leg."
+    },
+    {
+      "id": 27,
+      "term": "Chūdan",
+      "japaneseName": "中段",
+      "hiraganaName": "ちゅうだん",
+      "shortDescription": "Middle level targeting area",
+      "definition": "Middle level of attack and defense, typically targeting the area from the solar plexus to the bottom of the rib cage. Most basic punches and blocks are performed at chūdan level. This is the most commonly used target area in karate techniques.",
+      "category": "techniques",
+      "componentBreakdown": "中 (chū) - 'middle' or 'center'; 段 (dan) - 'level' or 'stage'. Together they describe the middle level of targeting in martial arts techniques."
+    },
+    {
+      "id": 28,
+      "term": "Jōdan",
+      "japaneseName": "上段",
+      "hiraganaName": "じょうだん",
+      "shortDescription": "Upper level targeting area",
+      "definition": "Upper level of attack and defense, typically targeting the area from the collar bone to the top of the head. Jōdan techniques include high punches, high blocks, and face-level attacks. These techniques require good flexibility and timing.",
+      "category": "techniques",
+      "componentBreakdown": "上 (jō) - 'upper' or 'above'; 段 (dan) - 'level' or 'stage'. Together they describe the upper level of targeting in martial arts techniques."
+    },
+    {
+      "id": 29,
+      "term": "Gedan",
+      "japaneseName": "下段",
+      "hiraganaName": "げだん",
+      "shortDescription": "Lower level targeting area",
+      "definition": "Lower level of attack and defense, typically targeting the area below the belt including the groin, thighs, and legs. Gedan techniques include low blocks, low punches, and kicks to the lower body. These are often defensive techniques.",
+      "category": "techniques",
+      "componentBreakdown": "下 (ge) - 'lower' or 'below'; 段 (dan) - 'level' or 'stage'. Together they describe the lower level of targeting in martial arts techniques."
+    },
+    {
+      "id": 30,
+      "term": "Tettsui-uchi",
+      "japaneseName": "鉄槌打",
+      "hiraganaName": "てっついうち",
+      "shortDescription": "Hammer fist strike technique",
+      "definition": "Hammer fist strike using the bottom of the closed fist to deliver a powerful downward or circular blow. The technique mimics the action of a hammer and can be used to strike various targets including the head, ribs, or limbs. It's a versatile close-range technique.",
+      "category": "techniques",
+      "componentBreakdown": "鉄 (tetsu) - 'iron'; 槌 (tsui) - 'hammer'; 打 (uchi) - 'strike' or 'hit'. Together they describe a striking technique that mimics an iron hammer."
+    },
+    {
+      "id": 31,
+      "term": "Morote-uke",
+      "japaneseName": "諸手受け",
+      "hiraganaName": "もろてうけ",
+      "shortDescription": "Two-handed blocking technique",
+      "definition": "Two-handed block where both hands work together to defend against powerful attacks. One hand performs the primary blocking action while the other hand provides support and additional strength. This technique is used against strong attacks that might overwhelm a single-handed block.",
+      "category": "blocks",
+      "componentBreakdown": "諸 (moro) - 'both' or 'all'; 手 (te) - 'hand'; 受け (uke) - 'receive' or 'block'. Together they describe a blocking technique using both hands together."
+    },
+    {
+      "id": 32,
+      "term": "Soto-uke",
+      "japaneseName": "外受け",
+      "hiraganaName": "そとうけ",
+      "shortDescription": "Outside block deflecting inward",
+      "definition": "Outside block that moves from outside to inside, deflecting attacks away from the centerline of the body. The blocking arm moves in an arc from the outside position across the body, using the forearm to redirect incoming attacks.",
+      "category": "blocks",
+      "componentBreakdown": "外 (soto) - 'outside' or 'exterior'; 受け (uke) - 'receive' or 'block'. Together they describe a block that starts from the outside and moves inward."
+    },
+    {
+      "id": 33,
+      "term": "Uchi-uke",
+      "japaneseName": "内受け",
+      "hiraganaName": "うちうけ",
+      "shortDescription": "Inside block deflecting outward",
+      "definition": "Inside block that moves from inside to outside, deflecting attacks away from the body's centerline. The blocking arm starts near the opposite shoulder and moves outward in an arc, using the forearm to redirect incoming attacks.",
+      "category": "blocks",
+      "componentBreakdown": "内 (uchi) - 'inside' or 'interior'; 受け (uke) - 'receive' or 'block'. Together they describe a block that starts from the inside and moves outward."
+    },
+    {
+      "id": 81,
+      "term": "Soto-nagashi-uke",
+      "japaneseName": "外流し受け",
+      "hiraganaName": "そとながしうけ",
+      "shortDescription": "Outside flowing block with back of hand",
+      "definition": "Outside flowing block; a deflecting technique that uses the back of the hand to redirect attacks from outside to inside in a flowing, circular motion. Unlike the standard soto-uke which blocks with the forearm, nagashi-uke emphasizes redirection rather than direct blocking. The hand flows with the attack, guiding it away from the body while maintaining a smooth, continuous motion. This technique is particularly effective for redirecting straight punches and allows for quick counter-attacks.",
+      "category": "blocks",
+      "componentBreakdown": "外 (soto) - 'outside' or 'exterior'; 流し (nagashi) - 'flowing', 'wash away', or 'redirect'; 受け (uke) - 'receive' or 'block'. Together they describe a flowing block that redirects attacks from the outside."
+    },
+    {
+      "id": 34,
+      "term": "Empi-uchi",
+      "japaneseName": "肘打",
+      "hiraganaName": "えんぴうち",
+      "shortDescription": "Elbow strike technique",
+      "definition": "Elbow strike using the point or side of the elbow to deliver a powerful close-range attack. Elbow strikes can be delivered in various directions: forward, backward, upward, downward, or to the side. They are extremely effective in close combat situations.",
+      "category": "techniques",
+      "componentBreakdown": "肘 (empi) - 'elbow'; 打 (uchi) - 'strike' or 'hit'. Together they describe a striking technique using the elbow as the weapon."
+    },
+    {
+      "id": 35,
+      "term": "Uraken-uchi",
+      "japaneseName": "裏拳打",
+      "hiraganaName": "うらけんうち",
+      "shortDescription": "Back-fist strike technique",
+      "definition": "Back-fist strike using the back of the knuckles to deliver a whipping blow. The technique uses a snapping motion from the elbow or wrist to generate speed and power. It's effective for close-range attacks and can target the face, ribs, or temples.",
+      "category": "techniques",
+      "componentBreakdown": "裏 (ura) - 'back' or 'reverse side'; 拳 (ken) - 'fist'; 打 (uchi) - 'strike' or 'hit'. Together they describe a strike using the back side of the fist."
+    },
+    {
+      "id": 82,
+      "term": "Soto-mawashi-uchi",
+      "japaneseName": "外回し打",
+      "hiraganaName": "そとまわしうち",
+      "shortDescription": "Outside circular strike technique",
+      "definition": "Outside circular strike; a striking technique that travels in a circular path from outside to inside. This technique can be performed with various weapons such as the fist, back-fist (uraken), or hammer-fist (tettsui). The circular motion generates power through rotation and is particularly effective for striking around an opponent's guard or attacking from unexpected angles. The strike follows an arc from the outside (soto) rotating inward (mawashi) to deliver impact (uchi).",
+      "category": "techniques",
+      "componentBreakdown": "外 (soto) - 'outside' or 'exterior'; 回し (mawashi) - 'rotate', 'turn', or 'circular'; 打 (uchi) - 'strike' or 'hit'. Together they describe a strike that travels in a circular path from the outside."
+    },
+    {
+      "id": 36,
+      "term": "Nukite",
+      "japaneseName": "貫手",
+      "hiraganaName": "ぬきて",
+      "shortDescription": "Spear hand penetrating technique",
+      "definition": "Spear hand technique where the fingers are extended and pressed together to form a penetrating weapon. The fingertips are used to strike vital points and soft targets. This technique requires extensive conditioning and precise targeting.",
+      "category": "techniques",
+      "componentBreakdown": "貫 (nuki) - 'penetrate' or 'pierce through'; 手 (te) - 'hand'. Together they describe a hand technique that penetrates or pierces through targets."
+    },
+    {
+      "id": 37,
+      "term": "Keage",
+      "japaneseName": "蹴上",
+      "hiraganaName": "けあげ",
+      "shortDescription": "Snapping kick motion",
+      "definition": "Snapping kick motion where the leg is quickly extended and immediately retracted. This creates a fast, whip-like motion that emphasizes speed over penetration. Keage kicks are used for quick strikes and to maintain distance from opponents.",
+      "category": "kicks",
+      "componentBreakdown": "蹴 (ke) - 'kick'; 上 (age) - 'up' or 'raise'. Together they describe a kicking motion that snaps upward with quick retraction."
+    },
+    {
+      "id": 38,
+      "term": "Kekomi",
+      "japaneseName": "蹴込",
+      "hiraganaName": "けこみ",
+      "shortDescription": "Thrusting kick motion",
+      "definition": "Thrusting kick motion where the leg drives forward with penetrating power, staying extended momentarily upon impact. This creates maximum force transfer and is used to push or break through targets. Kekomi kicks emphasize power over speed.",
+      "category": "kicks",
+      "componentBreakdown": "蹴 (ke) - 'kick'; 込 (komi) - 'into' or 'thrust in'. Together they describe a kicking motion that thrusts deeply into the target."
+    },
+    {
+      "id": 39,
+      "term": "Fumikomi",
+      "japaneseName": "踏み込み",
+      "hiraganaName": "ふみこみ",
+      "shortDescription": "Stamping or stepping technique",
+      "definition": "Stamping or stepping technique where the foot is brought down forcefully onto a target, typically the opponent's foot, shin, or instep. This technique can be used for attacks, to break balance, or to create distance. It combines stepping with striking.",
+      "category": "techniques",
+      "componentBreakdown": "踏み (fumi) - 'step on' or 'trample'; 込み (komi) - 'into' or 'deeply'. Together they describe a technique that steps forcefully into or onto a target."
+    },
+    {
+      "id": 40,
+      "term": "Jūji-uke",
+      "japaneseName": "十字受け",
+      "hiraganaName": "じゅうじうけ",
+      "shortDescription": "Cross block with both arms",
+      "definition": "Cross block where both arms form an X-shape to block powerful overhead or frontal attacks. The arms can cross with fists closed or open hands. This block provides strong defense against heavy attacks but leaves the body momentarily committed to the blocking position.",
+      "category": "blocks",
+      "componentBreakdown": "十 (jū) - 'ten'; 字 (ji) - 'character' or 'letter'; 受け (uke) - 'receive' or 'block'. Together they describe a block that forms the shape of the character '十' (cross or plus sign)."
+    },
+    {
+      "id": 41,
+      "term": "Sukui-uke",
+      "japaneseName": "掬い受け",
+      "hiraganaName": "すくいうけ",
+      "shortDescription": "Scooping block technique",
+      "definition": "Scooping block that moves in an upward, scooping motion to deflect low attacks or kicks. The blocking arm moves from low to high in a circular motion, like scooping water. This block is effective against low kicks and can set up counter-attacks.",
+      "category": "blocks",
+      "componentBreakdown": "掬い (sukui) - 'scoop' or 'ladle up'; 受け (uke) - 'receive' or 'block'. Together they describe a blocking technique that scoops upward to deflect attacks."
+    },
+    {
+      "id": 42,
+      "term": "Nagashi-uke",
+      "japaneseName": "流し受け",
+      "hiraganaName": "ながしうけ",
+      "shortDescription": "Sweeping deflection block",
+      "definition": "Sweeping deflection block that redirects attacks with minimal force by guiding them past the body. Rather than stopping an attack directly, nagashi-uke uses circular or flowing motions to redirect the attack's energy, creating openings for counter-attacks.",
+      "category": "blocks",
+      "componentBreakdown": "流し (nagashi) - 'flow' or 'sweep away'; 受け (uke) - 'receive' or 'block'. Together they describe a block that flows or sweeps attacks away rather than stopping them directly."
+    },
+    {
+      "id": 43,
+      "term": "Osae-uke",
+      "japaneseName": "押さえ受け",
+      "hiraganaName": "おさえうけ",
+      "shortDescription": "Pressing or suppressing block",
+      "definition": "Pressing or suppressing block that controls and restrains an attack rather than deflecting it. The blocking hand presses down or holds the attacking limb in place, often used in close-range situations to control the opponent's movements.",
+      "category": "blocks",
+      "componentBreakdown": "押さえ (osae) - 'press down' or 'suppress'; 受け (uke) - 'receive' or 'block'. Together they describe a block that presses down to suppress or control attacks."
+    },
+    {
+      "id": 44,
+      "term": "Haishu-uke",
+      "japaneseName": "背手受け",
+      "hiraganaName": "はいしゅうけ",
+      "shortDescription": "Back-hand block technique",
+      "definition": "Back-hand block using the back of the open hand to deflect attacks. The palm faces inward toward the body while the back of the hand contacts the attacking limb. This block allows for quick transitions to grabbing or striking techniques.",
+      "category": "blocks",
+      "componentBreakdown": "背 (hai) - 'back' or 'rear'; 手 (shu/te) - 'hand'; 受け (uke) - 'receive' or 'block'. Together they describe blocking with the back surface of the hand."
+    },
+    {
+      "id": 45,
+      "term": "Mikazuki-geri",
+      "japaneseName": "三日月蹴り",
+      "hiraganaName": "みかづきげり",
+      "shortDescription": "Crescent kick technique",
+      "definition": "Crescent kick that travels in a curved, arc-like path resembling a crescent moon. The leg swings in a circular motion from inside to outside or outside to inside, striking with the inside or outside edge of the foot. Used for attacking the head or sweeping.",
+      "category": "kicks",
+      "componentBreakdown": "三日月 (mikazuki) - 'crescent moon' (literally 'three-day moon'); 蹴り (geri) - 'kick'. Together they describe a kick that follows a curved path like a crescent moon."
+    },
+    {
+      "id": 46,
+      "term": "Tate-zuki",
+      "japaneseName": "縦突き",
+      "hiraganaName": "たてづき",
+      "shortDescription": "Vertical punch technique",
+      "definition": "Vertical punch where the fist is held in a vertical position with the thumb on top. This punch can be delivered straight forward or upward and is effective in close-range situations where a traditional horizontal punch might be blocked or ineffective.",
+      "category": "punches",
+      "componentBreakdown": "縦 (tate) - 'vertical' or 'lengthwise'; 突き (zuki) - 'thrust' or 'punch'. Together they describe a punch delivered with the fist in a vertical orientation."
+    },
+    {
+      "id": 47,
+      "term": "Ura-zuki",
+      "japaneseName": "裏突き",
+      "hiraganaName": "うらづき",
+      "shortDescription": "Close-range uppercut punch",
+      "definition": "Close-range uppercut punch delivered with the palm facing upward. The punch travels in an upward arc and is typically used for close-quarter combat, targeting the solar plexus, chin, or ribs. It's effective when the opponent is very close.",
+      "category": "punches",
+      "componentBreakdown": "裏 (ura) - 'back', 'reverse', or 'underneath'; 突き (zuki) - 'thrust' or 'punch'. Together they describe a punch delivered from underneath or from the reverse side."
+    },
+    {
+      "id": 48,
+      "term": "Yoko-zuki",
+      "japaneseName": "横突き",
+      "hiraganaName": "よこづき",
+      "shortDescription": "Side punch technique",
+      "definition": "Side punch delivered horizontally to the side of the body, often while in a side-facing stance. This punch is used when the body is positioned sideways to the opponent and can target the ribs, kidneys, or side of the head.",
+      "category": "punches",
+      "componentBreakdown": "横 (yoko) - 'side' or 'horizontal'; 突き (zuki) - 'thrust' or 'punch'. Together they describe a punch delivered to the side or horizontally."
+    },
+    {
+      "id": 49,
+      "term": "Yōi",
+      "japaneseName": "用意",
+      "hiraganaName": "ようい",
+      "shortDescription": "Ready position or preparatory stance",
+      "definition": "Ready position assumed at the beginning of kata or kumite, indicating preparation and alertness. In this position, the practitioner stands in hachiji-dachi with fists positioned at the sides, ready to begin the kata or respond to attacks.",
+      "category": "etiquette",
+      "componentBreakdown": "用 (yō) - 'use' or 'preparation'; 意 (i) - 'mind' or 'intention'. Together they mean 'preparation of mind' or 'ready intention', indicating mental and physical readiness."
+    },
+    {
+      "id": 50,
+      "term": "Hikite",
+      "japaneseName": "引き手",
+      "hiraganaName": "ひきて",
+      "shortDescription": "Withdrawing or pulling hand",
+      "definition": "Withdrawing hand technique where one hand pulls back to the hip while the other executes a technique. This action helps generate power through the reaction principle, maintains balance, and can be used to pull an opponent or clear the path for the striking hand.",
+      "category": "techniques",
+      "componentBreakdown": "引き (hiki) - 'pull' or 'draw back'; 手 (te) - 'hand'. Together they describe the action of pulling or withdrawing the hand, typically to the hip position."
+    },
+    {
+      "id": 51,
+      "term": "Migi",
+      "japaneseName": "右",
+      "hiraganaName": "みぎ",
+      "shortDescription": "Right side or direction",
+      "definition": "Right; indicates the right side of the body or right direction in technique execution. This fundamental directional term is used extensively in karate to specify which side of the body performs a technique, such as 'migi gedan-barai' (right downward block) or 'migi oi-zuki' (right lunge punch).",
+      "category": "general",
+      "componentBreakdown": "右 (migi) - This single kanji means 'right' in terms of direction or side. It represents the right side of the body or rightward movement in martial arts techniques."
+    },
+    {
+      "id": 52,
+      "term": "Hidari",
+      "japaneseName": "左",
+      "hiraganaName": "ひだり",
+      "shortDescription": "Left side or direction",
+      "definition": "Left; indicates the left side of the body or left direction in technique execution. This fundamental directional term is used extensively in karate to specify which side of the body performs a technique, such as 'hidari gedan-barai' (left downward block) or 'hidari oi-zuki' (left lunge punch).",
+      "category": "general",
+      "componentBreakdown": "左 (hidari) - This single kanji means 'left' in terms of direction or side. It represents the left side of the body or leftward movement in martial arts techniques."
+    },
+    {
+      "id": 53,
+      "term": "Renoji-dachi",
+      "japaneseName": "レの字立",
+      "hiraganaName": "れのじだち",
+      "shortDescription": "L-shaped stance forming katakana 'レ'",
+      "definition": "L-shaped stance where the feet are positioned to form the shape of the katakana character 'レ' (re). The front foot points forward while the back foot is positioned at approximately 90 degrees, creating an L-shape. This stance provides stability while allowing for quick transitions and is often used in kata sequences.",
+      "category": "stances",
+      "componentBreakdown": "レ (re) - katakana character for 'RE'; の (no) - possessive particle; 字 (ji) - 'character' or 'letter'; 立 (dachi/tachi) - 'stand' or 'stance'. Together they describe a stance that forms the shape of the katakana character 'レ'."
+    },
+    {
+      "id": 54,
+      "term": "Naore",
+      "japaneseName": "直れ",
+      "hiraganaName": "なおれ",
+      "shortDescription": "Return to ready position command",
+      "definition": "Return to ready position; a command given to return to the yōi (ready) position after completing a kata or exercise. This instruction signals the end of the formal portion of practice and indicates that students should assume the ready stance in preparation for the final bow.",
+      "category": "etiquette",
+      "componentBreakdown": "直れ (naore) - imperative form of 'naoru' meaning 'to be corrected' or 'to return to proper position'. It's a command telling practitioners to return to the correct ready position."
+    },
+    {
+      "id": 55,
+      "term": "Tate-uke",
+      "japaneseName": "立受け",
+      "hiraganaName": "たてうけ",
+      "shortDescription": "Vertical or upright blocking technique",
+      "definition": "Vertical block where the forearm is positioned vertically to deflect attacks. The blocking arm is held upright with the fist typically at shoulder height, creating a strong vertical barrier. This block is effective against horizontal attacks and can quickly transition to counter-strikes.",
+      "category": "blocks",
+      "componentBreakdown": "立 (tate) - 'vertical', 'upright', or 'standing'; 受け (uke) - 'receive' or 'block'. Together they describe a blocking technique performed with the arm in a vertical or upright position."
+    },
+    {
+      "id": 56,
+      "term": "Haiwan-uke",
+      "japaneseName": "背腕受け",
+      "hiraganaName": "はいわんうけ",
+      "shortDescription": "Back-arm or reverse forearm block",
+      "definition": "Back-arm block using the reverse or back side of the forearm to deflect attacks. This blocking technique uses the outer edge of the forearm and is often employed when the conventional forearm position is not suitable, providing an alternative angle for deflection.",
+      "category": "blocks",
+      "componentBreakdown": "背 (hai) - 'back' or 'rear'; 腕 (wan) - 'arm' or 'forearm'; 受け (uke) - 'receive' or 'block'. Together they describe a block using the back or reverse side of the forearm."
+    },
+    {
+      "id": 57,
+      "term": "Uraken",
+      "japaneseName": "裏拳",
+      "hiraganaName": "うらけん",
+      "shortDescription": "Back-fist striking surface",
+      "definition": "Back-fist; the striking surface formed by the back of the knuckles when the fist is clenched. This weapon is used for quick, snapping strikes that emphasize speed over power. The uraken can target the face, temples, ribs, or other vulnerable areas and is effective in close-range combat.",
+      "category": "techniques",
+      "componentBreakdown": "裏 (ura) - 'back', 'reverse side', or 'rear'; 拳 (ken) - 'fist'. Together they describe the back or reverse side of the fist used as a striking weapon."
+    },
+    {
+      "id": 58,
+      "term": "Seiken",
+      "japaneseName": "正拳",
+      "hiraganaName": "せいけん",
+      "shortDescription": "Proper fist or fore-fist",
+      "definition": "Proper fist; the standard closed-hand weapon used for most punching techniques in karate. The seiken is formed by making a tight fist with the first two knuckles (of the index and middle fingers) as the primary striking surface. This is the most fundamental weapon in karate punching.",
+      "category": "techniques",
+      "componentBreakdown": "正 (sei) - 'correct', 'proper', or 'true'; 拳 (ken) - 'fist'. Together they describe the correct or proper way to form a fist for striking in karate."
+    },
+    {
+      "id": 59,
+      "term": "Nukite-tate-zuki",
+      "japaneseName": "貫手立突き",
+      "hiraganaName": "ぬきて たて づき",
+      "shortDescription": "Vertical spear-hand thrust",
+      "definition": "Vertical spear-hand thrust where the fingers are extended and pressed together, delivered in a vertical orientation. This technique combines the penetrating power of nukite (spear hand) with the vertical angle of tate-zuki (vertical punch), creating a precise thrust aimed at vital points.",
+      "category": "techniques",
+      "componentBreakdown": "貫手 (nukite) - 'spear hand' or 'penetrating hand'; 立 (tate) - 'vertical' or 'upright'; 突き (zuki) - 'thrust' or 'punch'. Together they describe a vertical thrusting technique using the spear hand."
+    },
+    {
+      "id": 60,
+      "term": "Mae-geri-keage",
+      "japaneseName": "前蹴り蹴上",
+      "hiraganaName": "まえげり けあげ",
+      "shortDescription": "Front snap kick technique",
+      "definition": "Front snap kick where the leg is quickly extended forward and immediately retracted in a snapping motion. This technique emphasizes speed and precision over penetrating power, using the ball of the foot to strike targets such as the solar plexus, face, or groin with rapid execution.",
+      "category": "kicks",
+      "componentBreakdown": "前 (mae) - 'front' or 'forward'; 蹴り (geri) - 'kick'; 蹴上 (keage) - 'snap up' or 'kick up'. Together they describe a front kick executed with a snapping motion."
+    },
+    {
+      "id": 61,
+      "term": "Shutō-age-uke",
+      "japaneseName": "手刀上げ受け",
+      "hiraganaName": "しゅとう あげ うけ",
+      "shortDescription": "Rising knife-hand block",
+      "definition": "Rising knife-hand block that moves upward to deflect overhead attacks using the edge of the open hand. This technique combines the cutting action of shutō (knife hand) with the upward motion of age-uke (rising block), creating an effective defense against high-level attacks while maintaining the ability to counter-strike.",
+      "category": "blocks",
+      "componentBreakdown": "手刀 (shutō) - 'knife hand' or 'hand sword'; 上げ (age) - 'raise' or 'lift up'; 受け (uke) - 'receive' or 'block'. Together they describe a rising block performed with the knife-hand technique."
+    },
+    {
+      "id": 62,
+      "term": "Hanmi",
+      "japaneseName": "半身",
+      "hiraganaName": "はんみ",
+      "shortDescription": "Half-body or side-facing position",
+      "definition": "Half-body position where the body is turned at an angle, typically 45 degrees, presenting a smaller target to the opponent while maintaining balance and mobility. This position is fundamental in many martial arts as it reduces the target area while keeping both hands and feet available for techniques. Hanmi is often used in defensive situations and transitional movements.",
+      "category": "stances",
+      "componentBreakdown": "半 (han) - 'half' or 'semi'; 身 (mi) - 'body' or 'self'. Together they describe a position where the body is turned to present only half of it to the opponent, creating a more defensive and mobile stance."
+    },
+    {
+      "id": 63,
+      "term": "Kake-uke",
+      "japaneseName": "掛け受け",
+      "hiraganaName": "かけうけ",
+      "shortDescription": "Hooking block technique",
+      "definition": "Hooking block where the blocking arm moves in a hooking or pulling motion to trap and control an incoming attack. This technique combines blocking with grappling elements, using the arm to hook around the attacking limb and pull it aside while simultaneously deflecting the attack. It's effective for close-range defense and can set up counter-attacks or throws.",
+      "category": "blocks",
+      "componentBreakdown": "掛け (kake) - 'hook', 'hang', or 'catch'; 受け (uke) - 'receive' or 'block'. Together they describe a blocking technique that hooks or catches the incoming attack rather than simply deflecting it."
+    },
+    {
+      "id": 64,
+      "term": "Sokumen",
+      "japaneseName": "側面",
+      "hiraganaName": "そくめん",
+      "shortDescription": "Side or flank position",
+      "definition": "Side or flank; referring to the side aspect or lateral position in martial arts. This term is used to describe positioning, movement, or attacks that come from or target the side of the body or opponent. Sokumen positioning is important for creating angles of attack, defensive positioning, and tactical advantage by moving to the opponent's weak side.",
+      "category": "general",
+      "componentBreakdown": "側 (soku) - 'side' or 'lateral'; 面 (men) - 'face', 'surface', or 'aspect'. Together they describe the side surface or lateral aspect, indicating positioning or movement to the side."
+    },
+    {
+      "id": 65,
+      "term": "Shizentai",
+      "japaneseName": "自然体",
+      "hiraganaName": "しぜんたい",
+      "shortDescription": "Natural body position or stance",
+      "definition": "Natural stance or natural body position; a relaxed, upright stance where the body is in a natural, balanced position without tension. The feet are typically shoulder-width apart with a slight bend in the knees, weight evenly distributed, and the body ready to move in any direction. This stance emphasizes naturalness and efficiency of movement, often used in transitional movements or as a ready position.",
+      "category": "stances",
+      "componentBreakdown": "自然 (shizen) - 'natural', 'nature', or 'spontaneous'; 体 (tai) - 'body', 'stance', or 'posture'. Together they describe a natural body position that is relaxed yet ready, following the principles of natural movement."
+    },
+    {
+      "id": 110,
+      "term": "Tate",
+      "japaneseName": "縦",
+      "hiraganaName": "たて",
+      "shortDescription": "Vertical or lengthwise direction",
+      "definition": "Vertical or lengthwise; a directional term indicating vertical orientation or alignment. In karate, tate is commonly used to describe techniques performed with vertical orientation, such as tate-zuki (vertical punch) where the fist is held vertically, or tate-uke (vertical block) where the arm is positioned upright. This orientation provides different angles of attack and defense compared to horizontal techniques.",
+      "category": "general",
+      "componentBreakdown": "縦 (tate) - This single kanji means 'vertical', 'lengthwise', or 'longitudinal'. It indicates orientation along the vertical axis, contrasting with yoko (横) which means horizontal or sideways."
+    },
+    {
+      "id": 67,
+      "term": "Yoko",
+      "japaneseName": "横",
+      "hiraganaName": "よこ",
+      "shortDescription": "Side or horizontal direction",
+      "definition": "Side or horizontal; a directional term indicating lateral or horizontal orientation. In karate, yoko is commonly used to describe techniques performed to the side or with horizontal orientation, such as yoko-geri (side kick), yoko-zuki (side punch), or yoko-uke (side block). This directional term is fundamental to understanding many karate techniques and movements that involve sideways motion or horizontal alignment.",
+      "category": "general",
+      "componentBreakdown": "横 (yoko) - This single kanji means 'side', 'horizontal', 'sideways', or 'lateral'. It indicates orientation along the horizontal axis or movement to the side, contrasting with tate (縦) which means vertical or lengthwise."
+    },
+    {
+      "id": 68,
+      "term": "Mae",
+      "japaneseName": "前",
+      "hiraganaName": "まえ",
+      "shortDescription": "Front or forward direction",
+      "definition": "Front or forward; a directional term indicating forward orientation or movement toward the front. In karate, mae is commonly used to describe techniques performed forward or to the front, such as mae-geri (front kick), mae-zuki (straight punch), or mae-empi (forward elbow strike). This directional term is fundamental to understanding many karate techniques and movements that involve forward motion or frontal attack.",
+      "category": "general",
+      "componentBreakdown": "前 (mae) - This single kanji means 'front', 'forward', 'before', or 'ahead'. It indicates direction toward the front or forward movement, contrasting with ushiro (後ろ) which means back or rear."
+    },
+    {
+      "id": 69,
+      "term": "Mokusō",
+      "japaneseName": "黙想",
+      "hiraganaName": "もくそう",
+      "shortDescription": "Meditation or silent contemplation",
+      "definition": "Meditation or silent contemplation; a period of quiet reflection practiced in martial arts training. Mokusō is typically performed at the beginning and end of class while sitting in seiza (formal kneeling position). During mokusō, practitioners clear their minds, focus their thoughts, and prepare mentally for training or reflect on what they have learned. This practice helps develop mental discipline, concentration, and inner calm, which are essential aspects of martial arts training beyond physical techniques.",
+      "category": "etiquette",
+      "componentBreakdown": "黙 (moku) - 'silence' or 'quiet', representing the wordless nature of meditation; 想 (sō) - 'thought', 'contemplation', or 'concept'. Together they mean 'silent contemplation' or 'meditation', emphasizing the practice of quiet mental reflection."
+    },
+    {
+      "id": 70,
+      "term": "Seiza",
+      "japaneseName": "正座",
+      "hiraganaName": "せいざ",
+      "shortDescription": "Formal kneeling sitting position",
+      "definition": "Formal kneeling sitting position; a traditional Japanese way of sitting where one kneels with the tops of the feet flat on the floor and sits back on the heels. In martial arts, seiza is used during formal ceremonies, meditation (mokusō), and when showing respect to instructors. This position demonstrates discipline, respect, and proper etiquette. Maintaining seiza requires proper posture with a straight back and composed demeanor, reflecting the mental and physical discipline central to martial arts practice.",
+      "category": "etiquette",
+      "componentBreakdown": "正 (sei) - 'correct', 'proper', or 'formal', indicating the proper and respectful nature of this sitting position; 座 (za) - 'sit' or 'seat'. Together they mean 'proper sitting', emphasizing the formal and correct way of sitting in traditional Japanese culture."
+    },
+    {
+      "id": 71,
+      "term": "Kaimoku",
+      "japaneseName": "開目",
+      "hiraganaName": "かいもく",
+      "shortDescription": "Open eyes (end meditation)",
+      "definition": "Open eyes; the command given to end meditation (mokusō) in martial arts training. After the period of silent contemplation with closed eyes, the instructor calls 'Kaimoku' to signal students to open their eyes and return their focus to the present moment. This command marks the transition from the meditative state back to active training or to formal bowing procedures. The practice of closing and opening eyes mindfully reinforces the mental discipline and focus that are integral to martial arts.",
+      "category": "etiquette",
+      "componentBreakdown": "開 (kai) - 'open' or 'unfold', indicating the action of opening; 目 (moku) - 'eye' or 'eyes'. Together they literally mean 'open eyes', the command to end the meditation period and return awareness to the external environment."
+    },
+    {
+      "id": 72,
+      "term": "Shutō",
+      "japaneseName": "手刀",
+      "hiraganaName": "しゅとう",
+      "shortDescription": "Knife hand or hand sword technique",
+      "definition": "Knife hand or hand sword; a technique using the edge of the open hand as a striking or blocking surface. The hand is held open with fingers extended and together, thumb bent, creating a rigid blade-like edge along the little finger side of the hand. Shutō can be used for both striking (shutō-uchi) and blocking (shutō-uke) techniques. When executed properly with proper body mechanics and hip rotation, shutō strikes can be very powerful and effective. This technique is fundamental to many kata and kumite applications.",
+      "category": "general",
+      "componentBreakdown": "手 (shu/te) - 'hand'; 刀 (tō) - 'sword' or 'blade'. Together they literally mean 'hand sword', describing how the edge of the hand is used like a blade for striking or blocking."
+    },
+    {
+      "id": 73,
+      "term": "Uke",
+      "japaneseName": "受け",
+      "hiraganaName": "うけ",
+      "shortDescription": "Block or receive",
+      "definition": "Block or receive; a defensive technique used to deflect, redirect, or absorb an opponent's attack. The term uke literally means 'to receive', emphasizing the concept of receiving and controlling the attack rather than simply stopping it. Uke techniques are fundamental to karate and include various blocking methods such as age-uke (rising block), gedan-barai (downward block), soto-uke (outside block), and uchi-uke (inside block). Proper uke involves correct timing, positioning, and body mechanics to effectively neutralize attacks while maintaining balance and readiness to counter-attack.",
+      "category": "general",
+      "componentBreakdown": "受け (uke) - This word means 'receive', 'accept', or 'block'. It comes from the verb ukeru (受ける), emphasizing the defensive nature of receiving and controlling an opponent's attack rather than merely blocking it."
+    },
+    {
+      "id": 74,
+      "term": "Ushō",
+      "japaneseName": "右掌",
+      "hiraganaName": "うしょう",
+      "shortDescription": "Right palm",
+      "definition": "Right palm; refers to the right open hand or palm used in various karate techniques. The palm can be used for striking (shōtei-uchi), blocking, pushing, or grasping. Open-hand techniques using the palm are considered more advanced than closed fist techniques and require precise control and targeting. The palm strike delivers force through the heel of the hand while keeping the fingers extended and slightly curved back for safety.",
+      "category": "techniques",
+      "componentBreakdown": "右 (u) - 'right' (direction/side); 掌 (shō) - 'palm' or 'sole of hand'. Together they specify the right palm, distinguishing it from the left palm (sa-shō) in techniques that specify hand usage."
+    },
+    {
+      "id": 75,
+      "term": "Sashō",
+      "japaneseName": "左掌",
+      "hiraganaName": "さしょう",
+      "shortDescription": "Left palm",
+      "definition": "Left palm; refers to the left open hand or palm used in various karate techniques. The palm can be used for striking (shōtei-uchi), blocking, pushing, or grasping. Open-hand techniques using the palm are considered more advanced than closed fist techniques and require precise control and targeting. The palm strike delivers force through the heel of the hand while keeping the fingers extended and slightly curved back for safety.",
+      "category": "techniques",
+      "componentBreakdown": "左 (sa) - 'left' (direction/side); 掌 (shō) - 'palm' or 'sole of hand'. Together they specify the left palm, distinguishing it from the right palm (u-shō) in techniques that specify hand usage."
+    },
+    {
+      "id": 76,
+      "term": "Shutō-uchikomi",
+      "japaneseName": "手刀打ち込み",
+      "hiraganaName": "しゅとううちこみ",
+      "shortDescription": "Knife-hand striking technique",
+      "definition": "Knife-hand striking or penetrating strike; a powerful striking technique using the edge of the open hand (shutō) with a driving, penetrating motion. The term uchikomi means 'to drive in' or 'to strike into', indicating a forceful, committed strike that penetrates the target. This technique combines the knife-hand edge with a thrusting motion, often used to strike vital points or vulnerable areas. The strike is delivered with the edge of the hand while maintaining proper form with fingers extended and thumb tucked.",
+      "category": "techniques",
+      "componentBreakdown": "手 (shu) - 'hand'; 刀 (tō) - 'sword' or 'blade'; 打ち込み (uchikomi) - 'to strike in' or 'to drive in'. Together they describe a knife-hand technique that drives forcefully into the target, combining the cutting edge of the hand with penetrating force."
+    },
+    {
+      "id": 77,
+      "term": "Jōtai",
+      "japaneseName": "上体",
+      "hiraganaName": "じょうたい",
+      "shortDescription": "Upper body or maintain position",
+      "definition": "Upper body or maintain the upper body position; a command used in kata to indicate that the upper body position, stance, or posture should be maintained while performing the next movement. This term emphasizes keeping the torso, shoulders, and arms in their current position while only moving the lower body or feet. It's often used in conjunction with other commands to specify precise body mechanics during transitions.",
+      "category": "general",
+      "componentBreakdown": "上 (jō) - 'upper' or 'above'; 体 (tai) - 'body' or 'form'. Together they refer to the upper body or the instruction to maintain the upper body position during a technique or transition."
+    },
+    {
+      "id": 78,
+      "term": "Sonomama",
+      "japaneseName": "其の儘",
+      "hiraganaName": "そのまま",
+      "shortDescription": "As it is, remain in place, don't move",
+      "definition": "As it is, remain in place, don't move; a command to maintain the current position without any movement. This instruction is commonly used during training to freeze students in their current stance and position for correction or examination. It emphasizes holding the exact posture, tension, and form without any adjustment or relaxation. In kata context, it can indicate that a position should be held momentarily before continuing to the next movement.",
+      "category": "general",
+      "componentBreakdown": "其の (sono) - 'that' or 'the'; 儘 (mama) - 'as is', 'unchanged', or 'まままま'. Together they create an expression meaning 'just as it is' or 'without change', emphasizing maintaining the exact current state."
+    },
+    {
+      "id": 79,
+      "term": "Sashō-ni",
+      "japaneseName": "左掌に",
+      "hiraganaName": "さしょうに",
+      "shortDescription": "To the left palm, toward the left palm",
+      "definition": "To the left palm or toward the left palm; indicates that a technique is directed toward, into, or against the left palm. The particle 'ni' (に) indicates direction or target, so this term is used when a strike or movement is aimed at or contacts the left palm. Commonly used in techniques where one hand strikes into the open palm of the other hand, such as in kicking techniques where the foot makes contact with the supporting palm.",
+      "category": "techniques",
+      "componentBreakdown": "左 (sa) - 'left'; 掌 (shō) - 'palm'; に (ni) - particle indicating direction 'to' or 'toward'. Together they specify that the action is directed toward the left palm."
+    },
+    {
+      "id": 80,
+      "term": "Uhō-tsuki-age",
+      "japaneseName": "右方突き上げ",
+      "hiraganaName": "うほうつきあげ",
+      "shortDescription": "Rising punch toward the right side",
+      "definition": "Rising punch toward the right side; a punching technique where the right fist (uken) is driven upward at an angle toward the right, with the back of the fist facing backwards. In Heian Godan (move 18), uhō-tsuki-age is performed while sharply looking left, toward the back (ura-shōmen): the left fist touches the right elbow as the right fist rises, and the left leg extends to form hidari-ashi mae renoji-dachi. The term combines 'uhō' (right side/direction), 'tsuki' (punch/thrust), and 'age' (rising/upward). It is the right-side counterpart of the directional rising punches such as kōhō-tsuki-age (rising punch to the rear) in Heian Sandan. The rising, angled path makes it effective against an opponent's chin or face while the body turns away.",
+      "category": "punches",
+      "componentBreakdown": "右方 (uhō) - 'right side' or 'right direction', from 右 (u/migi) 'right' and 方 (hō) 'direction' or 'side'; 突き (tsuki) - 'thrust' or 'punch'; 上げ (age) - 'rising' or 'upward', from the verb 上げる (ageru) 'to raise'. Together they describe a punch that rises upward toward the right side. Compare 左方 (sahō) 'left side' and 後方 (kōhō) 'rear'."
+    },
+    {
+      "id": 111,
+      "term": "Koshi-kamae",
+      "japaneseName": "腰構え",
+      "hiraganaName": "こしかまえ",
+      "shortDescription": "Hip ready position, waist-level guard stance",
+      "definition": "Hip ready position or waist-level guard stance; a preparatory posture where the hands are positioned at hip level, typically with fists at the sides of the waist. This is a fundamental ready position in karate, often used as a starting position before executing techniques or as a transitional stance between movements. The position emphasizes proper hip alignment and core stability, with the practitioner ready to launch attacks or defend. Koshi-kamae allows for quick deployment of punching, blocking, or striking techniques while maintaining a balanced and centered posture.",
+      "category": "stances",
+      "componentBreakdown": "腰 (koshi) - 'hip', 'waist', or 'lower back'; 構え (kamae) - 'posture', 'stance', or 'ready position'. Together they describe a preparatory stance with emphasis on the hip/waist positioning, representing readiness and proper body alignment."
+    },
+    {
+      "id": 112,
+      "term": "Yoko-geri-keage",
+      "japaneseName": "横蹴り蹴上げ",
+      "hiraganaName": "よこげりけあげ",
+      "shortDescription": "Side snap kick, upward side kick",
+      "definition": "Side snap kick or upward side kick; a kicking technique where the leg is lifted to the side and the foot snaps upward in a sharp, quick motion. The kick is executed using the edge of the foot (sokuto - sword foot) and targets the opponent's ribs, head, or other side-facing areas. Unlike yoko-geri kekomi (thrust side kick), keage emphasizes a snapping motion with the foot retracting quickly after impact, similar to cracking a whip. The knee is first raised to chamber position, then the lower leg extends sideways and upward in a fast snap, with immediate retraction back to the chamber position. This kick requires excellent balance, hip flexibility, and core strength.",
+      "category": "kicks",
+      "componentBreakdown": "横 (yoko) - 'side' or 'lateral'; 蹴り (geri/keri) - 'kick'; 蹴上げ (keage) - 'snap up' or 'kick upward'. Together they describe a side-directed kick with a snapping, upward motion rather than a thrusting motion."
+    },
+    {
+      "id": 83,
+      "term": "Uraken-yoko-mawashi-uchi",
+      "japaneseName": "裏拳横回し打ち",
+      "hiraganaName": "うらけんよこまわしうち",
+      "shortDescription": "Back-fist side roundhouse strike",
+      "definition": "Back-fist side roundhouse strike; a striking technique where the back of the fist (uraken) is swung in a horizontal circular arc to strike the side of the opponent's head, temple, or face. The elbow leads the motion and the forearm snaps outward, delivering impact with the knuckles of the back of the fist. The wrist remains firm at the moment of impact and the arm retracts quickly after the strike. This technique combines the back-fist (uraken) with a lateral roundhouse trajectory (yoko-mawashi), making it a fast and deceptive attack that can be difficult to see approaching. It appears notably in Heian Godan and other intermediate kata.",
+      "category": "strikes",
+      "componentBreakdown": "裏拳 (uraken) - 'back fist', combining 裏 (ura) 'reverse/back' and 拳 (ken) 'fist'; 横 (yoko) - 'side' or 'lateral'; 回し (mawashi) - 'roundhouse' or 'circular'; 打ち (uchi) - 'strike' or 'hit'. Together they describe a circular, side-directed strike using the back of the fist."
+    },
+    {
+      "id": 84,
+      "term": "Kagi-zuki",
+      "japaneseName": "鉤突き",
+      "hiraganaName": "かぎづき",
+      "shortDescription": "Hook punch",
+      "definition": "Hook punch; a punching technique where the arm bends at the elbow and the fist travels in a hooking arc to strike the side of the opponent's head, jaw, or ribs. The elbow is raised to approximately shoulder height and the forearm swings inward horizontally, with the fist making contact at roughly a 90-degree angle to the target. Unlike a straight punch (choku-zuki), kagi-zuki curves around an opponent's guard and is effective at close range. The technique requires a sharp hip rotation (kime) at the moment of impact to generate power. It appears in Tekki Shodan and other kata where close-range techniques are emphasised.",
+      "category": "punches",
+      "componentBreakdown": "鉤 (kagi) - 'hook' or 'barb', referring to the curved trajectory of the punch; 突き (zuki/tsuki) - 'thrust' or 'punch'. Together they describe a punch that travels along a hooking, curved path rather than a straight line."
+    },
+    {
+      "id": 85,
+      "term": "Kaishō",
+      "japaneseName": "開手",
+      "hiraganaName": "かいしょう",
+      "shortDescription": "Open hand",
+      "definition": "Open hand; a descriptor indicating that the hand is held open with fingers extended and together, rather than clenched into a fist. Kaishō techniques use the flat of the hand, the knife-hand edge (shutō), fingertips (nukite), or palm heel (teishō) as the striking or blocking surface. The term is used as a qualifier before a technique name to specify that open hands are employed, for example in 'kaishō jōdan jūji-uke' (open-hand upper X-block) as seen in Heian Godan. Performing techniques in kaishō requires precise hand discipline and adds a layer of complexity compared to closed-fist (heiken/seiken) versions.",
+      "category": "general",
+      "componentBreakdown": "開 (kai) - 'open' or 'to open'; 手 (shō/te) - 'hand'. Together they literally mean 'open hand', contrasting with the closed fist used in most punching and blocking techniques."
+    },
+    {
+      "id": 86,
+      "term": "Zuki",
+      "japaneseName": "突き",
+      "hiraganaName": "づき",
+      "shortDescription": "Punch or thrust",
+      "definition": "Punch or thrust; the fundamental striking action in karate where the fist is driven forward (or in a specified direction) to deliver impact with the seiken (fore-fist, the knuckles of the index and middle fingers). Zuki is used both as a standalone term and as a suffix attached to directional or descriptive qualifiers to form named techniques, such as oi-zuki (lunge punch), gyaku-zuki (reverse punch), choku-zuki (straight punch), and kagi-zuki (hook punch). The correct execution of zuki requires a coordinated whole-body action: the driving leg, hip rotation (koshi no kaiten), and the extending arm all work together to generate maximum power at the moment of kime (focus). The non-punching arm simultaneously pulls back to the hip (hikite) to increase the rotational force.",
+      "category": "punches",
+      "componentBreakdown": "突き (zuki/tsuki) - derived from the verb 突く (tsuku) meaning 'to thrust', 'to poke', or 'to stab'. Written with the kanji 突 (totsu/tsuki) meaning 'thrust' or 'stab', combined with き (ki) as the verb stem ending. The voiced form づき (dzuki) is used when the word follows another element as a compound suffix."
+    },
+    {
+      "id": 87,
+      "term": "Jūji",
+      "japaneseName": "十字",
+      "hiraganaName": "じゅうじ",
+      "shortDescription": "Cross shape, X-pattern",
+      "definition": "Cross shape or X-pattern; a descriptor used in karate to indicate that two limbs, arms, or blocking surfaces are crossed to form the shape of the kanji 十 (jū, meaning 'ten'), which resembles a plus or cross sign. When used as a qualifier — as in jūji-uke (X-block) or jōdan kaishō jūji-uke (upper open-hand X-block) — it specifies that both arms are crossed at the wrists or forearms to intercept an attack simultaneously with both limbs. Jūji techniques appear prominently in Heian Godan (moves 8, 9, and 19) as both gedan (lower) and jōdan (upper) X-blocks. The crossed arm position provides a strong double-limb barrier and can be used to trap or redirect the opponent's attack. The blocks can be performed with closed fists (seiken) or open hands (kaishō).",
+      "category": "general",
+      "componentBreakdown": "十 (jū) - the kanji for the number ten, which visually resembles a cross or plus sign (+); 字 (ji) - 'character', 'letter', or 'shape'. Together 十字 (jūji) means 'cross shape' or 'cruciform pattern', describing the visual X-formation made by the crossed arms."
+    },
+    {
+      "id": 88,
+      "term": "Hidari-ashi",
+      "japaneseName": "左足",
+      "hiraganaName": "ひだりあし",
+      "shortDescription": "Left foot / left leg forward",
+      "definition": "Left foot or left leg; a directional prefix used in stance names and technique descriptions to indicate that the left foot is forward or that the left leg bears a specific role in the movement. When prefixed to a stance name — such as hidari-ashi zenkutsu (left-foot forward stance) or hidari-ashi mae kōsa-dachi — it specifies which foot leads the stance. It is also used in movement instructions to indicate stepping or pivoting with the left foot. The counterpart is migi-ashi (right foot/leg). These prefixes are essential for precise communication of footwork in kata sequences.",
+      "category": "general",
+      "componentBreakdown": "左 (hidari) - 'left'; 足 (ashi) - 'foot' or 'leg'. Together they mean 'left foot' or 'left leg', specifying the left side as the leading or active limb in a stance or movement."
+    },
+    {
+      "id": 89,
+      "term": "Migi-ashi",
+      "japaneseName": "右足",
+      "hiraganaName": "みぎあし",
+      "shortDescription": "Right foot / right leg forward",
+      "definition": "Right foot or right leg; a directional prefix used in stance names and technique descriptions to indicate that the right foot is forward or that the right leg bears a specific role in the movement. When prefixed to a stance name — such as migi-ashi zenkutsu (right-foot forward stance) or migi-ashi mae kōsa-dachi — it specifies which foot leads the stance. It is also used in movement instructions to indicate stepping or pivoting with the right foot. The counterpart is hidari-ashi (left foot/leg). These prefixes are essential for precise communication of footwork in kata sequences.",
+      "category": "general",
+      "componentBreakdown": "右 (migi) - 'right'; 足 (ashi) - 'foot' or 'leg'. Together they mean 'right foot' or 'right leg', specifying the right side as the leading or active limb in a stance or movement."
+    },
+    {
+      "id": 90,
+      "term": "Zenkutsu",
+      "japaneseName": "前屈",
+      "hiraganaName": "ぜんくつ",
+      "shortDescription": "Forward bend, forward lean",
+      "definition": "Forward bend or forward lean; the root descriptor meaning that the body or front leg is bent and leaning forward. As a standalone term it describes the forward-leaning, bent-knee quality of the front leg position. It is most commonly encountered as the first element in zenkutsu-dachi (front stance), where the front knee is deeply bent over the toes and the rear leg is straight. The term also appears as a shorthand in kata descriptions (e.g. hidari-ashi zenkutsu, migi-ashi zenkutsu) when the full stance name is abbreviated. The deep forward bend concentrates power in the front leg, making it the primary driving force for punches and forward-stepping techniques.",
+      "category": "stances",
+      "componentBreakdown": "前 (zen) - 'front' or 'forward'; 屈 (kutsu) - 'bend', 'crouch', or 'lean'. Together they describe a posture where the body leans forward with the front leg bent, forming the characteristic shape of the front stance."
+    },
+    {
+      "id": 91,
+      "term": "Nagashi-shutō-uke",
+      "japaneseName": "流し手刀受け",
+      "hiraganaName": "ながししゅとううけ",
+      "shortDescription": "Sweeping knife-hand block",
+      "definition": "Sweeping knife-hand block; a flowing, deflecting block that uses the knife-hand (shutō) in a sweeping, redirecting motion rather than a hard stopping action. The blocking arm sweeps across the body in a smooth, wave-like arc — 'flowing' like water past a surface — to redirect the opponent's attack off its original line rather than absorbing its force directly. Nagashi-uke techniques emphasise timing and sensitivity, using the attacker's momentum against them. When combined with shutō (knife-hand), the open hand adds a sharp, focused edge to the deflection. The technique appears in Heian Godan (move 21), where it is performed simultaneously with a gedan shutō-uchikomi strike, and in other intermediate and advanced kata. The flowing quality of nagashi techniques is considered an expression of the jū (soft/yielding) principle in Shōtōkan.",
+      "category": "blocks",
+      "componentBreakdown": "流し (nagashi) - 'flowing', 'sweeping', or 'washing away', derived from the verb 流す (nagasu) 'to let flow' or 'to sweep away'; 手刀 (shutō) - 'knife hand', combining 手 (te) 'hand' and 刀 (tō) 'sword' or 'blade'; 受け (uke) - 'block' or 'receive'. Together they describe a block that flows and redirects using the knife-hand edge."
+    },
+    {
+      "id": 92,
+      "term": "Tettsui-mawashi-uchi",
+      "japaneseName": "鉄槌回し打ち",
+      "hiraganaName": "てっついまわしうち",
+      "shortDescription": "Hammer-fist roundhouse strike",
+      "definition": "Hammer-fist roundhouse strike; a striking technique where the bottom of the clenched fist (tettsui, also called kentsui) swings in a wide horizontal arc to strike the side of the opponent's head, temple, or ribs. The fist travels in a large circular path — like a hammer swung on a rope — using centrifugal force to generate power at the moment of impact. The striking surface is the fleshy, padded bottom of the fist (the little-finger side), which makes tettsui a relatively forgiving striking tool that can also be used for conditioning. The roundhouse (mawashi) trajectory means the strike approaches from the side, bypassing the opponent's forward guard. Tettsui-mawashi-uchi appears in Heian Sandan and other kata and is an important close-range striking option in combination sequences.",
+      "category": "strikes",
+      "componentBreakdown": "鉄槌 (tettsui) - 'iron hammer' or 'hammer fist', combining 鉄 (tetsu) 'iron/steel' and 槌 (tsui) 'hammer' or 'mallet'; 回し (mawashi) - 'roundhouse' or 'circular', from the verb 回す (mawasu) 'to turn' or 'to rotate'; 打ち (uchi) - 'strike' or 'hit'. Together they describe a circular hammer-fist strike."
+    },
+    {
+      "id": 93,
+      "term": "Yoko-fumikomi",
+      "japaneseName": "横踏み込み",
+      "hiraganaName": "よこふみこみ",
+      "shortDescription": "Side stamping kick",
+      "definition": "Side stamping kick; a powerful stomping technique where the foot is driven forcefully sideways and downward to stamp onto the opponent's foot, knee, or lower leg, or to transition into a side stance with a heavy, grounding step. Unlike a snapping or thrusting kick, fumikomi is a descending stamping motion that drives the heel or the flat of the foot downward with full body weight. The technique serves both as a destructive strike to the lower limbs and as a powerful footwork action that plants the practitioner firmly in a wide stance such as kiba-dachi. Yoko-fumikomi appears prominently in Heian Godan (move 13) and Tekki Shodan, where the stamping step is used to transition into horse stance with a simultaneous block, combining footwork and technique in a single committed action.",
+      "category": "kicks",
+      "componentBreakdown": "横 (yoko) - 'side' or 'lateral'; 踏み込み (fumikomi) - 'stamping step' or 'stomping', from 踏む (fumu) 'to step/stamp' and 込む (komu) 'to drive in' or 'to thrust into'. Together they describe a lateral stamping movement driven forcefully downward and to the side."
+    },
+    {
+      "id": 94,
+      "term": "Age-zuki",
+      "japaneseName": "上げ突き",
+      "hiraganaName": "あげづき",
+      "shortDescription": "Rising punch",
+      "definition": "Rising punch; a punching technique where the fist travels upward in an arc to strike the opponent's chin, jaw, or solar plexus from below. Unlike the straight punch (choku-zuki) or the reverse punch (gyaku-zuki), age-zuki follows an ascending trajectory, making it particularly effective at close range where a straight punch cannot fully extend. In Shōtōkan, the technique is characteristically performed by first punching at chūdan (middle) level and then immediately raising the fist to jōdan (upper) level in a single flowing motion, simultaneously rotating the hips to shōmen (facing forward) to drive power into the rising strike. Age-zuki is a signature technique of Empi kata, appearing multiple times throughout the sequence paired with gedan-barai.",
+      "category": "punches",
+      "componentBreakdown": "上げ (age) - 'rising' or 'upward', from the verb 上げる (ageru) 'to raise' or 'to lift'; 突き (zuki/tsuki) - 'thrust' or 'punch'. Together they describe a punch that travels in an upward, rising direction."
+    },
+    {
+      "id": 95,
+      "term": "Hiza-kutsu-dachi",
+      "japaneseName": "膝屈立",
+      "hiraganaName": "ひざくつだち",
+      "shortDescription": "Bent-knee stance, knee-bend stance",
+      "definition": "Bent-knee stance; a transitional or dynamic stance where the weight is strongly loaded onto one bent leg while the body rotates or extends. In Shōtōkan kata, hiza-kutsu-dachi appears most prominently in Empi, where it describes the position immediately after ushiro gedan-barai: the practitioner's weight is fully committed to the bent front (left) leg while the rear leg has swept back and out in the block. The deeply bent knee absorbs the rotational momentum of the turn and positions the body low and close to the ground before recovering to a normal zenkutsu-dachi. The stance emphasises strong knee bend (kutsu) at the hiza (knee), creating a powerful, grounded position that is both a defensive posture and a platform for the next technique.",
+      "category": "stances",
+      "componentBreakdown": "膝 (hiza) - 'knee'; 屈 (kutsu) - 'bend' or 'crouch', the same character used in zenkutsu-dachi; 立 (dachi/tachi) - 'stance' or 'stand'. Together they describe a stance defined by a strong bend at the knee."
+    },
+    {
+      "id": 96,
+      "term": "Awase-uke",
+      "japaneseName": "合わせ受け",
+      "hiraganaName": "あわせうけ",
+      "shortDescription": "Combined block, paired block",
+      "definition": "Combined block or paired block; a blocking technique where both hands act simultaneously in coordinated opposition to cover two different target levels at the same time. The two hands typically work in mirror-like opposition — one blocks upward (age-uke) while the other blocks downward (gedan) — creating a two-level defensive barrier in a single motion. In Empi kata, awase-uke appears as teishō awase-uke (paired palm-heel block) in moves 31–33, where the right palm heel pushes upward at chūdan level while the left palm heel simultaneously pushes downward at gedan level, and the roles reverse in the following move. The simultaneous dual action of awase-uke is both time-efficient and structurally strong, as the opposing forces of the two hands reinforce each other through the body's centre.",
+      "category": "blocks",
+      "componentBreakdown": "合わせ (awase) - 'combining', 'pairing', or 'joining together', from the verb 合わせる (awaseru) 'to combine' or 'to match'; 受け (uke) - 'block' or 'receive'. Together they describe a block that combines or pairs two simultaneous blocking actions."
+    },
+    {
+      "id": 97,
+      "term": "Tate-shutō-uke",
+      "japaneseName": "縦手刀受け",
+      "hiraganaName": "たてしゅとううけ",
+      "shortDescription": "Vertical knife hand block",
+      "definition": "Vertical knife hand block; a blocking technique where the knife hand (shutō) is held vertically — fingers pointing upward — rather than in the more common diagonal or horizontal orientation used in standard shutō-uke. The blocking forearm is positioned with the elbow bent and the knife-hand edge facing the opponent, intercepting an attack at chūdan (middle) level. Unlike the conventional shutō-uke performed in kōkutsu-dachi where the hand rotates to roughly 45 degrees, tate-shutō-uke maintains an upright, vertical hand position throughout. It appears in Empi kata (move 16) as hidari chūdan tate shutō-uke in kiba-dachi, and in Kankū Dai as a transitional movement. The vertical alignment requires precise elbow positioning and hip engagement to generate effective blocking power without the rotational assist of the standard shutō-uke chamber.",
+      "category": "blocks",
+      "componentBreakdown": "縦 (tate) - 'vertical' or 'upright', indicating the orientation of the hand; 手刀 (shutō) - 'knife hand', literally 'hand sword', from 手 (te) 'hand' and 刀 (tō) 'sword' or 'blade'; 受け (uke) - 'block' or 'receive'. Together they describe a knife hand block performed with the hand held vertically."
+    },
+    {
+      "id": 98,
+      "term": "Tsukami-uke",
+      "japaneseName": "掴み受け",
+      "hiraganaName": "つかみうけ",
+      "shortDescription": "Grasping block, grabbing block",
+      "definition": "Grasping block; a defensive technique that simultaneously blocks and seizes the opponent's attacking limb, converting a pure defensive action into a controlling grip. Rather than simply deflecting an attack, tsukami-uke catches and holds the incoming arm or wrist, immobilising the opponent and creating an immediate opportunity for a counter-technique. The hands typically open wide in a claw-like formation to intercept and wrap around the attack. In Empi kata (move 35), tsukami-uke is performed with a yori-ashi (gliding step forward) in fudō-dachi as a grasping morote kokō gamae (double tiger's mouth ready position) — the two open hands positioned to seize the opponent before the jumping technique that immediately follows. The combination of forward momentum, gripping hands, and the subsequent leap makes this one of the most dramatic sequences in the kata.",
+      "category": "blocks",
+      "componentBreakdown": "掴み (tsukami) - 'grasping', 'grabbing', or 'seizing', from the verb 掴む (tsukamu) 'to grab', 'to seize', or 'to grasp'; 受け (uke) - 'block' or 'receive'. Together they describe a block that grasps or seizes the attacking limb rather than simply deflecting it."
+    },
+    {
+      "id": 99,
+      "term": "Gedan-uke",
+      "japaneseName": "下段受け",
+      "hiraganaName": "げだんうけ",
+      "shortDescription": "Lower level block",
+      "definition": "Lower level block; a generic term for any blocking technique directed at the lower level (gedan), covering the area from the hips to the knees. While gedan-barai (lower sweeping block) is the most common gedan blocking technique in Shōtōkan, gedan-uke refers more broadly to any lower level block regardless of the specific arm trajectory. In kata, gedan-uke appears as the downward component of manji-uke (卍受け) — for example in Kankū Dai move 18 and 23 as hidari gedan-uke paired with migi jōdan uchi-uke. In this context the blocking arm sweeps downward and outward to cover the lower body while the other arm simultaneously blocks at the upper level, creating a two-level defensive barrier. The distinction from gedan-barai is subtle: gedan-barai emphasises a sweeping (barai) action with a longer arc, while gedan-uke describes the lower blocking action more generically, particularly when it is part of a combined blocking technique.",
+      "category": "blocks",
+      "componentBreakdown": "下段 (gedan) - 'lower level', from 下 (ge/shita) 'below' or 'lower' and 段 (dan) 'level' or 'step'; 受け (uke) - 'block' or 'receive'. Together they describe a blocking technique directed at the lower body."
+    },
+    {
+      "id": 100,
+      "term": "Yama-zuki",
+      "japaneseName": "山突き",
+      "hiraganaName": "やまづき",
+      "shortDescription": "Mountain punch, U-punch, wide double punch",
+      "definition": "Mountain punch or U-punch; a double punching technique where both fists strike simultaneously at two different levels — one at jōdan (upper) and one at chūdan (middle) — with the arms spread wide in a shape resembling the kanji for mountain (山). The upper fist (typically the rear hand) punches high to the face or head while the lower fist (typically the front hand) punches to the solar plexus or body, with both arms extended outward rather than in front of the centreline. The wide, spreading arm position creates the characteristic mountain silhouette. Yama-zuki is a signature technique of Bassai Dai and Heian Yondan, where it expresses simultaneous offensive pressure on multiple levels. The simultaneous dual strike requires careful coordination to ensure both punches reach their targets with equal focus (kime) and power, with hip rotation and body weight driving both fists together.",
+      "category": "punches",
+      "componentBreakdown": "山 (yama) - 'mountain', evoking the wide silhouette of a mountain with two peaks; the shape of the outstretched arms mirrors the kanji 山 with one high fist and one lower fist; 突き (zuki/tsuki) - 'thrust' or 'punch'. Together they describe a wide double punch shaped like a mountain."
+    },
+    {
+      "id": 101,
+      "term": "Yori-ashi",
+      "japaneseName": "寄り足",
+      "hiraganaName": "よりあし",
+      "shortDescription": "Gliding step, sliding step without crossing the feet",
+      "definition": "Gliding step; a footwork technique where the body is moved forward, backward, or sideways by sliding both feet in the same direction without crossing them. The leading foot moves first, followed by the trailing foot closing the gap, maintaining the original stance width and foot orientation throughout. Unlike fumikomi (stamping step) or kōsa-dachi (cross stance), yori-ashi preserves the current stance while advancing or retreating. It is used to close distance rapidly while keeping good balance and a stable base, generating additional forward momentum for a technique — as seen in Bassai Dai move 24 where a right chūdan punch is powered by a gliding yori-ashi forward, and in Empi move 35 where yori-ashi brings the practitioner to tsukami-uke range.",
+      "category": "general",
+      "componentBreakdown": "寄り (yori) - from 寄る (yoru) 'to approach', 'to come near', or 'to slide toward'; 足 (ashi) - 'foot' or 'leg'. Together they describe a stepping action where the feet glide or slide toward a direction."
+    },
+    {
+      "id": 102,
+      "term": "Mizunagare-no-kamae",
+      "japaneseName": "水流れの構え",
+      "hiraganaName": "みずながれのかまえ",
+      "shortDescription": "Flowing water ready position",
+      "definition": "Flowing water ready position; a preparatory guard stance where one forearm is held horizontally across the body at solar plexus level (suigetsu), elbow bent at roughly 90 degrees with the fist turned inward and facing upward, while the opposite fist is pulled back to the hip in hikite. The positioning evokes the natural, unresisted flow of water — yielding yet continuous — suggesting a defensive posture ready to redirect rather than oppose. In Heian Godan, mizunagare-no-kamae appears twice (moves 3 and 6) as a transitional kamae between uchi-uke and morote-uke sequences, performed in heisoku-dachi as a slow, deliberate movement. The slow speed of the technique emphasises controlled breathing, relaxation, and body awareness rather than explosive power, providing a contrast to the fast combinations that surround it.",
+      "category": "techniques",
+      "componentBreakdown": "水 (mizu) - 'water'; 流れ (nagare) - 'flow' or 'current', from 流れる (nagareru) 'to flow'; の (no) - possessive particle; 構え (kamae) - 'ready position', 'guard', or 'posture'. Together they describe a guard posture that embodies the quality of flowing water."
+    },
+    {
+      "id": 103,
+      "term": "Zenwan",
+      "japaneseName": "前腕",
+      "hiraganaName": "ぜんわん",
+      "shortDescription": "Forearm",
+      "definition": "Forearm; the section of the arm between the elbow and the wrist. In karate terminology, zenwan is commonly used in compound technique names to specify that it is the forearm — rather than the fist or hand — that performs the action. For example, hidari-zenwan-mune-mae-kamae describes the left forearm held horizontally in front of the chest, and zenwan-uke refers to a forearm block. Awareness of forearm positioning is essential for correct execution of blocks, guard positions, and supporting arm placements throughout kata.",
+      "category": "techniques",
+      "componentBreakdown": "前 (zen) - 'front' or 'forward'; 腕 (wan) - 'arm'. Together they describe the front part of the arm, i.e. the forearm between elbow and wrist."
+    },
+    {
+      "id": 104,
+      "term": "Kakiwake-uke",
+      "japaneseName": "掻き分け受け",
+      "hiraganaName": "かきわけうけ",
+      "shortDescription": "Wedge block, two-hand outward parting block",
+      "definition": "Wedge block or parting block; a two-handed blocking technique where both forearms simultaneously sweep outward from the centre of the body to each side, parting and deflecting attacks from both flanks at once. Starting with the fists crossed in front of the chest or face, the arms drive outward in a wedge-like splitting motion, ending with both elbows bent and fists roughly at shoulder level on each side. The movement resembles pushing aside tall grass or parting a curtain. Kakiwake-uke is typically performed from gedan-barai preparation and is a characteristic technique of Heian Godan (move 9) and several advanced kata, where it neutralises simultaneous grabs or attacks to both wrists or lapels. The outward splitting action makes it particularly effective against bear-hug or double-lapel grab applications.",
+      "category": "blocks",
+      "componentBreakdown": "掻き分け (kakiwake) - from 掻く (kaku) 'to scratch' or 'to sweep' and 分ける (wakeru) 'to separate' or 'to part'; 受け (uke) - 'block' or 'receive'. Together they describe a blocking action that sweeps or parts an attack to the sides."
+    },
+    {
+      "id": 105,
+      "term": "Kao",
+      "japaneseName": "顔",
+      "hiraganaName": "かお",
+      "shortDescription": "Face; used in directional head-turning commands",
+      "definition": "Face; in karate kata terminology, kao is most commonly encountered as part of compound directional instructions such as kao-migi-muki (face/turn to the right) and kao-hidari-muki (face/turn to the left). These commands indicate that only the head turns to look in the specified direction while the body and stance remain unchanged — a subtle but important distinction from a full body turn. In Tekki Shodan, kao-migi-muki and kao-hidari-muki appear repeatedly as preparatory movements before nami-gaeshi or fumikomi, highlighting the role of looking in the direction of the next technique to maintain awareness and proper targeting.",
+      "category": "general",
+      "componentBreakdown": "顔 (kao) - 'face'. Used in compound directional commands: 顔右向き (kao-migi-muki) means 'face/turn face to the right'; 顔左向き (kao-hidari-muki) means 'face/turn face to the left'. 右 (migi) - 'right'; 左 (hidari) - 'left'; 向き (muki) - 'direction' or 'facing', from 向く (muku) 'to face' or 'to turn toward'."
+    },
+    {
+      "id": 106,
+      "term": "Muki",
+      "japaneseName": "向き",
+      "hiraganaName": "むき",
+      "shortDescription": "Facing direction; turn to face",
+      "definition": "Facing direction or turning to face; a directional suffix indicating the orientation or the act of turning to face a specified direction. Muki derives from the verb 向く (muku), meaning 'to face' or 'to turn toward'. In kata commands it is always paired with a direction: migi-muki (face right) or hidari-muki (face left). When combined with kao (face), the compound kao-migi-muki or kao-hidari-muki specifically instructs the practitioner to turn only the head in the given direction while the body and stance remain unchanged. This distinction is important in Tekki Shodan, where repeated kao-muki commands prepare the eyes and awareness for the next technique without disturbing the kiba-dachi base.",
+      "category": "general",
+      "componentBreakdown": "向き (muki) - 'direction', 'orientation', or 'facing'; noun form of 向く (muku) 'to face' or 'to turn toward'. Common compounds: 右向き (migi-muki) - 'facing right'; 左向き (hidari-muki) - 'facing left'; 前向き (mae-muki) - 'facing forward'; 後ろ向き (ushiro-muki) - 'facing backward'."
+    },
+    {
+      "id": 107,
+      "term": "Chūdan-zuki",
+      "japaneseName": "中段突き",
+      "hiraganaName": "ちゅうだんづき",
+      "shortDescription": "Middle level punch",
+      "definition": "Middle level punch; a punch directed to the mid-section of the body, targeting the solar plexus (suigetsu), chest, or abdomen. Chūdan-zuki is a target-level qualifier rather than a specific punching style — it specifies where the technique lands rather than how the punch is delivered. It combines with directional and style prefixes to form compound names such as migi-chūdan-oi-zuki (right stepping middle punch), hidari-chūdan-gyaku-zuki (left reverse middle punch), or hidari-chūdan-kagi-zuki (left hook punch to middle level). In Tekki Shodan, chūdan-zuki appears in the kagi-zuki and the double attack at moves 15 and 29, where both fists target the chūdan level. The middle level is considered the primary target zone in most Shōtōkan fighting contexts.",
+      "category": "punches",
+      "componentBreakdown": "中段 (chūdan) - 'middle level', from 中 (chū) 'middle' and 段 (dan) 'level' or 'step'; 突き (zuki/tsuki) - 'thrust' or 'punch'. Together they describe a punch aimed at the middle section of the body."
+    },
+    {
+      "id": 108,
+      "term": "Ryōken",
+      "japaneseName": "両拳",
+      "hiraganaName": "りょうけん",
+      "shortDescription": "Both fists",
+      "definition": "Both fists; a prefix indicating that the technique or position involves both hands simultaneously held as fists. Ryōken is most commonly encountered in the compound ryōken-koshi-kamae (both fists at hip ready position), which appears in Tekki Shodan as a preparatory position before the kagi-zuki and the final double punch. In ryōken-migi-koshi-kamae, both fists are brought to the right hip with the left fist on top — back of fist facing forward — and the right fist below with back of fist facing downwards. The symmetric position ryōken-hidari-koshi-kamae places both fists at the left hip with reversed roles. The loaded bilateral position coils both arms for the subsequent powerful simultaneous attack.",
+      "category": "techniques",
+      "componentBreakdown": "両 (ryō) - 'both' or 'two'; 拳 (ken) - 'fist'. Together they mean 'both fists'. Compare with ryō-shō (両掌) meaning 'both palms/hands open', and ryō-te (両手) meaning 'both hands' in a general sense."
+    },
+    {
+      "id": 109,
+      "term": "Fudō-dachi",
+      "japaneseName": "不動立",
+      "hiraganaName": "ふどうだち",
+      "shortDescription": "Immovable stance, rooted stance",
+      "definition": "Immovable stance, also known as sōchin-dachi; a strong, low, rooted stance that combines characteristics of zenkutsu-dachi and kiba-dachi. The feet are placed roughly one and a half shoulder-widths apart in length, with both knees bent and pressed outward, and the body weight distributed approximately evenly between the legs. The front foot points slightly inward and the hips are turned partially to the side (hanmi). The tension in both legs, pushing outward, creates an extremely stable base that is difficult to move — hence the name 'immovable'. In Empi kata (move 35), fudō-dachi is entered with a yori-ashi (gliding step) while performing tsukami-uke, with the feet positioned on a north-south line, providing a solid platform for seizing the opponent before the jump that follows. Fudō-dachi is also the characteristic stance of the kata Sōchin.",
+      "category": "stances",
+      "componentBreakdown": "不 (fu) - 'not' or 'un-', a negating prefix; 動 (dō) - 'move' or 'motion'; 立 (dachi/tachi) - 'stand' or 'stance'. Together they describe an 'unmoving' or 'immovable' stance. The name also evokes Fudō Myōō (不動明王), the immovable guardian deity of Buddhism, symbolising unshakeable determination."
+    }
+  ]
+}
