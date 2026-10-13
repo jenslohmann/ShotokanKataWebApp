@@ -1,0 +1,44 @@
+.chip {
+  position: relative;
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 4px;
+  min-height: 32px;
+  padding: 6px 12px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--card);
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 500;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+/* Extend the touch target to 44px without changing the visual size. */
+.chip::before {
+  content: '';
+  position: absolute;
+  inset: -6px 0;
+}
+
+.chip--selected {
+  background: var(--accent);
+  color: var(--on-accent);
+}
+
+.chip__dot {
+  width: 8px;
+  height: 8px;
+}
+
+.chip__count {
+  color: var(--text-2);
+  font-size: 12px;
+}
+
+.chip--selected .chip__count {
+  color: inherit;
+  opacity: 0.8;
+}

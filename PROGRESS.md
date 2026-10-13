@@ -1,6 +1,6 @@
 # PROGRESS
 ## Current phase
-3 (done — green: typecheck/test/build all exit 0; committed). Next: Phase 4
+4 (done — green: typecheck/test/build all exit 0; committed). Next: Phase 5
 ## Done
 - 0.1 read AGENTS.md
 - 0.2 created PROGRESS.md
@@ -34,6 +34,15 @@
 - 3.5.2–3.5.4 NavBar (back button, large title), TabBar (nav with links, aria-current), Sidebar; shared section icons/labels in components/sections.ts
 - 3.5.5–3.5.6 Sheet and ConfirmDialog on native <dialog> (showModal, Escape via cancel, backdrop click), shared hook components/useModalDialog.ts
 - 3.6.1–3.6.4 App shell (SettingsProvider, sidebar ≥768px / tab bar below, quizPlay full screen, 900px content column), 4 placeholder screens, App.test.tsx (default Kata title, Quiz tab navigation) — 36 tests pass
+- 4.1 components/RankBadge.tsx (belt dot 6/8px, color-mix 20% light / 30% dark, dark text = belt colour, brown/black → white)
+- 4.2 components/SearchField.tsx (search icon, type=search, own clear button with aria-label)
+- 4.3 components/Toggle.tsx (role=switch, 51×31, accent when on, 44px touch area)
+- 4.4 components/Chip.tsx (capsule, selected accent/white, belt dot, (count) only if > 0, aria-pressed)
+- 4.5 screens/kata/KataListScreen.tsx (Japanese toggle row, debounced search, All Kata / belt / More chips, list, empty state)
+- 4.6 screens/kata/KataRow.tsx (number circle, names, wide-only techniques chip, RankBadge + chevron, link to #/kata/<n>?tab=moves)
+- 4.7 screens/kata/KataFilterSheet.tsx (rank grid + belt grid, toggle selection clears the other filter, Clear All / Done)
+- 4.8 state/kataListStore.ts module store (search, debouncedSearch, rank, belt) via useSyncExternalStore; 300 ms debounce lives in the store
+- 4.9 KataListScreen.test.tsx (10 rows, debounced "tekki" → 1, belt chip, Japanese toggle, empty state) — 41 tests pass
 ## Blocked
 - (empty)
 ## Notes / decisions
@@ -49,3 +58,6 @@
 - Phase 3: added theme variables --on-accent (#fff, text on accent backgrounds like the active sidebar row) and --navbar-bg (95% opacity bg for nav/tab bar blur), so no colours are hard-coded in component CSS.
 - Phase 3: the window (not an inner container) scrolls, which behaves best with iOS Safari bars; useRoute scrolls to top on navigation and restores the saved scroll position on back. test/setup.ts stubs window.scrollTo (not implemented in jsdom).
 - Phase 3: kataDetail / quizPlay / vocabDetail routes render their section placeholder until Phases 6/10/7.
+- Phase 4: counts in the filter sheet (rank and belt) use the same rule as the belt chips — the search-filtered list ignoring rank/belt filters. (iOS counts from the fully filtered list, which makes non-selected belts show no count once a belt is selected; the plan rule for chips was applied consistently.)
+- Phase 4: chips and the "More" button are 32px tall visually but have an invisible ::before extending the touch target to 44px (same trick on Toggle).
+- Phase 4: visual check at 390px / 1024px in light and dark NOT done by the agent (no browser available in this session) — left for the user via npm run dev.
