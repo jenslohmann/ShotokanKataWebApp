@@ -1,6 +1,6 @@
 # PROGRESS
 ## Current phase
-11 (done — green: typecheck/test/build all exit 0; committed). Next: Phase 12
+12 (done — green: typecheck/test/build all exit 0; committed). Next: Phase 13
 ## Done
 - 0.1 read AGENTS.md
 - 0.2 created PROGRESS.md
@@ -80,6 +80,12 @@
 - 10.10 QuizPlayScreen.test.tsx (submit enabling, explanation + ✓, finish → Quiz Complete! 50%, kiai wrong answer → Correct answer: 9, 17, exit confirm, countdown) + App.test start → exit → menu — 74 tests pass
 - 11.1 screens/about/AboutScreen.tsx (hero, About paragraphs + italic thanks, 5 features, Respect for Tradition, Open Source + GitHub link, Install the app via InstallHint, Language segmented control Auto/English/Dansk, version from package.json); state/installPrompt.ts captures beforeinstallprompt (listener registered in main.tsx), isStandalone, isIOS
 - 11.2 AboutScreen.test.tsx (Open Source + GitHub href, switching to Dansk updates title, sk.lang and <html lang>) — 76 tests pass
+- 12.1 scripts/make-icons.mjs (sharp; pwa-512/192, apple-touch-icon 180, favicon 64, maskable 512 with 80% safe zone); ran npm run icons; PNGs committed in public/
+- 12.2 vite.config.ts: VitePWA exactly per plan (autoUpdate, manifest, workbox globPatterns + navigateFallback + cleanupOutdatedCaches)
+- 12.3 index.html head: viewport-fit=cover, description, light/dark theme-color, apple/mobile web-app metas, favicon + apple-touch-icon links
+- 12.4 not needed (injectRegister: 'auto', no virtual:pwa-register import)
+- 12.5 base.css: html/body overscroll-behavior-y none; inputs/selects/textareas font-size ≥ 16px
+- 12.6 build output verified: dist/manifest.webmanifest (name, icons, standalone, scope ./), dist/sw.js (precache 16 entries, 977 KiB incl. JS/CSS/HTML/icons), dist/registerSW.js, dist/workbox-*.js; dist/index.html links manifest and registerSW.js. Browser check (DevTools Application / offline reload / Lighthouse) NOT done — sandbox blocks local port binding (listen EPERM on 4173).
 ## Blocked
 - (empty)
 ## Notes / decisions
@@ -114,3 +120,4 @@
 - Phase 10: added theme variable --gray (#8E8E93, both modes) for the disabled main quiz button, unselected kiai circles and number badges.
 - Phase 10: manual full quiz run in the dev server (timed/untimed, kiai at 2nd Dan) NOT done by the agent (no browser) — covered by unit/integration tests only.
 - Phase 11: added i18n keys about.languageEnglish ("English") and about.languageDanish ("Dansk") — same value in both languages (autonyms) — to en.ts, da.ts and PLAN.md Appendix A, so the language picker has no hard-coded text.
+- Phase 12: `npm run preview` could not run in the agent sandbox (listen EPERM). User should verify manually: npm run build && npm run preview → http://localhost:4173 → DevTools → Application (manifest, service worker activated, Offline + reload).

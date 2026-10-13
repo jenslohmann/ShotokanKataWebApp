@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  overscroll-behavior-y: none;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, 'Hiragino Sans', 'Noto Sans JP',
@@ -19,6 +24,13 @@ select,
 textarea {
   font: inherit;
   color: inherit;
+}
+
+/* iOS Safari zooms into inputs with a font size below 16px. */
+input,
+select,
+textarea {
+  font-size: max(16px, 1em);
 }
 
 a {
