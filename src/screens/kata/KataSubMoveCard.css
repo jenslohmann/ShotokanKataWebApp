@@ -1,0 +1,39 @@
+.kata-sub-move {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: var(--radius-s);
+  background: var(--card-2);
+}
+
+.kata-sub-move__header {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.kata-sub-move__icon {
+  flex-shrink: 0;
+  width: 20px;
+  color: var(--accent);
+}
+
+.kata-sub-move__main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  min-width: 0;
+}
+
+.kata-sub-move__technique {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.kata-sub-move__hiragana {
+  color: var(--text-2);
+  font-size: 12px;
+}

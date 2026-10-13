@@ -1,0 +1,35 @@
+.kata-detail__picker {
+  padding: 8px 16px;
+  background: var(--fill);
+}
+
+.kata-detail__not-found {
+  padding: 32px 16px;
+  text-align: center;
+}
+
+/* Shared section styles for the Overview and History tabs. */
+.kata-tab {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 16px;
+}
+
+.kata-tab__section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.kata-tab__heading {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.kata-tab__text {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.4;
+}

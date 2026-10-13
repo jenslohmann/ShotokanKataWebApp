@@ -1,6 +1,6 @@
 # PROGRESS
 ## Current phase
-5 (done — green: typecheck/test/build all exit 0; committed). Next: Phase 6
+6 (done — green: typecheck/test/build all exit 0; committed). Next: Phase 7
 ## Done
 - 0.1 read AGENTS.md
 - 0.2 created PROGRESS.md
@@ -48,6 +48,14 @@
 - 5.3 components/ExpandableText.tsx (2-line clamp, chevron when > threshold or measured truncated via useLayoutEffect + ResizeObserver, tap body or chevron toggles)
 - 5.4 domain/speech.ts (isSpeechSupported, speak ja-JP rate 0.8 with Japanese voice, same-text tap stops, speaking-text subscription) + components/SpeakButton.tsx
 - 5.5 VocabText.test.tsx (term link opens term, chevron for long text only) — 44 tests pass
+- 6.1 screens/kata/KataDetailScreen.tsx (lookup by kataNumber, not-found message, inline NavBar with back → goBack, tab changes via navigate replace)
+- 6.2 KataHeader.tsx (#n capsule, hiragana (japanese), RankBadge; moves count + kiai sentence joined with common.and)
+- 6.3 components/SegmentedControl.tsx (generic, role=tablist/tab, aria-selected, icons)
+- 6.4 KataOverviewTab.tsx (description, key-technique capsule grid, reference link card, YouTube link cards)
+- 6.5–6.7 KataMovesTab.tsx, KataMoveCard.tsx (sequence badge, technique/hiragana/stance, kiai + direction, expandable description, indented sub-moves), KataSubMoveCard.tsx (MoveIcon, kiai)
+- 6.8–6.9 StanceBadge.tsx (green capsule, green links, hiragana 80%), KiaiBadge.tsx
+- 6.10 KataHistoryTab.tsx (placeholder paragraph + 4 stat rows)
+- 6.11 KataDetailScreen.test.tsx (Moves: 21, Moves default, Rei badge, Overview → Description, Heian Yondan kiai, history stats, not found) — 49 tests pass
 ## Blocked
 - (empty)
 ## Notes / decisions
@@ -68,3 +76,7 @@
 - Phase 4: visual check at 390px / 1024px in light and dark NOT done by the agent (no browser available in this session) — left for the user via npm run dev.
 - Phase 5: Sheet got a `flush` prop (no body padding) for the vocabulary sheet, and Sheet/ConfirmDialog now use useId for their aria ids since several dialogs can be in the DOM at once.
 - Phase 5: VocabularySheetContext has a no-op default value, so VocabText also renders outside the provider (handy in isolated tests).
+- Phase 6: added i18n/labels.ts rankLabel(t, rank) used by RankBadge, KataFilterSheet and KataHistoryTab.
+- Phase 6: "KIAI!" is shown as-is in both languages (Japanese term, as in the iOS app), not via i18n.
+- Phase 6: manual check (tap highlighted term opens sheet, tap description expands) NOT done by the agent (no browser) — covered partly by unit tests.
+- Build prints Vite's >500 kB chunk-size warning (bundled kata/vocabulary JSON); harmless, build exits 0.

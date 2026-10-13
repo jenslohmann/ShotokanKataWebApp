@@ -1,0 +1,22 @@
+.stance-badge {
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: var(--green-soft);
+  font-size: 11px;
+}
+
+.stance-badge__stance {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.vocab-link.stance-badge__link {
+  color: var(--green-text);
+}
+
+.stance-badge__hiragana {
+  color: var(--green-text);
+  font-weight: 600;
+  opacity: 0.8;
+}

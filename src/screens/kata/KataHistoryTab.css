@@ -1,0 +1,27 @@
+.kata-history__placeholder {
+  color: var(--text-2);
+}
+
+.kata-history__stats {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 0;
+}
+
+.kata-history__stat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 16px;
+  border-radius: var(--radius-s);
+  background: var(--fill);
+  font-size: 17px;
+}
+
+.kata-history__value {
+  margin: 0;
+  color: var(--accent);
+  font-weight: 500;
+}

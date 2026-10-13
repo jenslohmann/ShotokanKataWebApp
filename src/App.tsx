@@ -4,6 +4,7 @@ import { VocabularySheetProvider } from './components/VocabularySheetContext';
 import { sectionOf, type Route } from './router/router';
 import { useRoute } from './router/useRoute';
 import { AboutScreen } from './screens/about/AboutScreen';
+import { KataDetailScreen } from './screens/kata/KataDetailScreen';
 import { KataListScreen } from './screens/kata/KataListScreen';
 import { QuizMenuScreen } from './screens/quiz/QuizMenuScreen';
 import { VocabularyListScreen } from './screens/vocabulary/VocabularyListScreen';
@@ -13,8 +14,9 @@ import './App.css';
 function Screen({ route }: { route: Route }) {
   switch (route.name) {
     case 'kataList':
-    case 'kataDetail':
       return <KataListScreen />;
+    case 'kataDetail':
+      return <KataDetailScreen kataNumber={route.kataNumber} tab={route.tab} />;
     case 'quizMenu':
     case 'quizPlay':
       return <QuizMenuScreen />;

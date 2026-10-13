@@ -1,0 +1,38 @@
+.kata-header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 8px 16px;
+  background: var(--card);
+}
+
+.kata-header__row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.kata-header__row--meta {
+  justify-content: space-between;
+  font-size: 11px;
+}
+
+.kata-header__number {
+  padding: 2px 6px;
+  border-radius: 999px;
+  background: var(--fill);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.kata-header__japanese {
+  min-width: 0;
+  overflow: hidden;
+  font-size: 15px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.kata-header__spacer {
+  flex: 1;
+}

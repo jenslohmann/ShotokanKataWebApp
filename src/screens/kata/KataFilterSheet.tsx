@@ -1,7 +1,8 @@
 import { Sheet } from '../../components/Sheet';
 import { availableBelts, availableRanks } from '../../domain/kata';
-import { beltOf, getRank, type BeltColor } from '../../domain/ranks';
+import { beltOf, type BeltColor } from '../../domain/ranks';
 import type { Kata } from '../../domain/types';
+import { rankLabel } from '../../i18n/labels';
 import { useT } from '../../state/SettingsContext';
 import { clearFilters, toggleBelt, toggleRank, useKataListFilters } from '../../state/kataListStore';
 import './KataFilterSheet.css';
@@ -18,10 +19,6 @@ export function KataFilterSheet({ open, onClose, allKata, searched }: KataFilter
   const t = useT();
   const filters = useKataListFilters();
   const rankCount = (rank: string) => searched.filter((kata) => kata.beltRank === rank).length;
-  const rankName = (rank: string) => {
-    const known = getRank(rank);
-    return known ? t(`rank.${known.id}`) : t('common.unknown');
-  };
   const beltCount = (belt: BeltColor) => searched.filter((kata) => beltOf(kata.beltRank) === belt).length;
 
   return (
@@ -44,7 +41,7 @@ export function KataFilterSheet({ open, onClose, allKata, searched }: KataFilter
               onClick={() => toggleRank(rank)}
             >
               <span className={`belt-dot belt-dot--${beltOf(rank)} kata-filter__dot--rank`} aria-hidden="true" />
-              <span className="kata-filter__rank-name">{rankName(rank)}</span>
+              <span className="kata-filter__rank-name">{rankLabel(t, rank)}</span>
               <span className="kata-filter__count">({rankCount(rank)})</span>
             </button>
           ))}
