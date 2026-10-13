@@ -1,0 +1,80 @@
+.quiz-progress {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 16px;
+  background: var(--card);
+}
+
+.quiz-progress__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.quiz-progress__count {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.quiz-progress__time {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--text);
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
+
+.quiz-progress__time--warning {
+  color: var(--orange);
+}
+
+.quiz-progress__time--danger {
+  color: var(--red);
+}
+
+.quiz-progress__bar {
+  height: 8px;
+  overflow: hidden;
+  border-radius: 4px;
+  background: var(--fill);
+}
+
+.quiz-progress__fill {
+  height: 100%;
+  border-radius: 4px;
+  background: var(--accent);
+  transition: width 200ms ease;
+}
+
+.quiz-progress__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.quiz-progress__chip {
+  --chip-color: var(--accent);
+  display: inline-flex;
+  flex-direction: column;
+  padding: 4px 10px;
+  border-radius: var(--radius-s);
+  background: color-mix(in srgb, var(--chip-color) 10%, transparent);
+}
+
+.quiz-progress__chip--green {
+  --chip-color: var(--green-text);
+}
+
+.quiz-progress__chip-title {
+  color: var(--text-2);
+  font-size: 11px;
+}
+
+.quiz-progress__chip-value {
+  color: var(--chip-color);
+  font-size: 12px;
+  font-weight: 500;
+}

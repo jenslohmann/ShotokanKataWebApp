@@ -1,0 +1,58 @@
+.quiz-play__stack {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.explanation-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  border-radius: var(--radius-m);
+  background: var(--orange-soft);
+}
+
+.explanation-card__title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.explanation-card__icon {
+  color: var(--orange);
+}
+
+.explanation-card__text {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.explanation-card__related {
+  margin: 4px 0 0;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.explanation-card__kata {
+  display: flex;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  overflow-x: auto;
+  list-style: none;
+}
+
+.explanation-card__chip {
+  flex-shrink: 0;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 12px;
+  white-space: nowrap;
+}

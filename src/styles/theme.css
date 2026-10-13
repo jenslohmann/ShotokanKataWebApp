@@ -21,6 +21,7 @@
   --orange-soft: rgba(255, 149, 0, 0.1);
   --purple: #af52de;
   --indigo: #5856d6;
+  --gray: #8e8e93;
   --shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
   --on-accent: #ffffff;
   --navbar-bg: rgba(255, 255, 255, 0.95);
@@ -62,6 +63,7 @@
     --orange-soft: rgba(255, 159, 10, 0.18);
     --purple: #bf5af2;
     --indigo: #5e5ce6;
+    --gray: #8e8e93;
     --shadow: none;
     --navbar-bg: rgba(0, 0, 0, 0.95);
 

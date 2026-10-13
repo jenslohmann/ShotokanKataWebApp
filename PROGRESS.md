@@ -1,6 +1,6 @@
 # PROGRESS
 ## Current phase
-9 (done — green: typecheck/test/build all exit 0; committed). Next: Phase 10
+10 (done — green: typecheck/test/build all exit 0; committed). Next: Phase 11
 ## Done
 - 0.1 read AGENTS.md
 - 0.2 created PROGRESS.md
@@ -71,6 +71,13 @@
 - 9.1 state/QuizContext.tsx (useReducer(quizReducer), question pool generated once per session, availableCount, startQuiz → START + navigate quizPlay; leaving #/quiz/play dispatches RESET); provider added in App.tsx
 - 9.2 screens/quiz/QuizMenuScreen.tsx + RankPicker / DifficultyPicker / CategoryPicker (hero card, 20 rank buttons scrolled into view, 4 difficulty buttons, 9 category tiles, question/time sliders, timed toggle, available count, Start button disabled at 0)
 - 9.3 QuizMenuScreen.test.tsx (9th Kyū → 2 available, Advanced → 2nd Dan + more questions, Start → #/quiz/play) — 69 tests pass
+- 10.1 screens/quiz/QuizPlayScreen.tsx (full screen; Exit → ConfirmDialog; pause button when timed; Done when completed; deadline-based timer dispatching SYNC_TIME; reload on #/quiz/play → menu)
+- 10.2 QuizProgressHeader.tsx (Question n of m, m:ss timer coloured by remaining time, progress bar, Rank / Category chips)
+- 10.3–10.5 QuestionCard.tsx, AnswerOption.tsx (A–E, correct/wrong/selected/default states, ✓/✗ marks once revealed), ExplanationCard.tsx (lightbulb, related kata chips)
+- 10.6 KiaiSelection.tsx (all moves as toggle rows, stance capsule, direction, KIAI! badge when revealed, Correct!/Incorrect + "Correct answer: …" + explanation)
+- 10.7 QuizNavButtons.tsx (Previous, Submit/Next/Finish, Skip; sticky bottom with safe-area padding); question components keyed by question.id
+- 10.8–10.9 QuizPaused.tsx, QuizResults.tsx (score colour, floor(score)%, stats rows, Back to Main Menu → Kata list)
+- 10.10 QuizPlayScreen.test.tsx (submit enabling, explanation + ✓, finish → Quiz Complete! 50%, kiai wrong answer → Correct answer: 9, 17, exit confirm, countdown) + App.test start → exit → menu — 74 tests pass
 ## Blocked
 - (empty)
 ## Notes / decisions
@@ -101,3 +108,6 @@
 - Phase 8: answer actions (SELECT_OPTION, TOGGLE_MOVE, SUBMIT, NEXT, PREVIOUS, SKIP) are ignored unless status is inProgress (so nothing changes while paused or completed). Question ids: static-N, kata_moves_count-K, kata_kiai_selection-K, kata_techniques-K-n, kata_stances-K-n.
 - Phase 9: "leave quiz play → RESET" is implemented in QuizProvider by watching the route (not in an unmount effect, which React StrictMode would trigger on mount in dev).
 - Phase 9: QuizProvider accepts optional initialState / pool props, used only by tests.
+- Phase 10: Exit / Done / Back to Main Menu only navigate; QuizProvider dispatches RESET when the route leaves #/quiz/play. Resetting before the (async) history.back() would let the "not started → redirect" effect fire mid-navigation. The redirect is also guarded to run only while the hash is still #/quiz/play.
+- Phase 10: added theme variable --gray (#8E8E93, both modes) for the disabled main quiz button, unselected kiai circles and number badges.
+- Phase 10: manual full quiz run in the dev server (timed/untimed, kiai at 2nd Dan) NOT done by the agent (no browser) — covered by unit/integration tests only.

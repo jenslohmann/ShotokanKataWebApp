@@ -1,0 +1,151 @@
+.kiai-selection {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.kiai-selection__question {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.kiai-selection__instruction {
+  margin: -8px 0 0;
+  color: var(--text-2);
+  font-size: 15px;
+}
+
+.kiai-selection__moves {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.kiai-move {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 12px;
+  border: 1px solid var(--separator);
+  border-radius: var(--radius-m);
+  background: var(--card);
+  color: var(--text);
+  text-align: left;
+  cursor: pointer;
+}
+
+.kiai-move:disabled {
+  cursor: default;
+}
+
+.kiai-move--selected {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
+}
+
+.kiai-move__number {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+  height: 32px;
+  padding: 0 6px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--gray) 30%, transparent);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.kiai-move--selected .kiai-move__number {
+  background: var(--accent);
+  color: var(--on-accent);
+}
+
+.kiai-move__info {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.kiai-move__name {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.kiai-move__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.kiai-move__stance {
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--green-soft);
+  color: var(--green-text);
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.kiai-move__direction {
+  color: var(--text-2);
+  font-size: 12px;
+}
+
+.kiai-move__check {
+  flex-shrink: 0;
+  color: var(--gray);
+}
+
+.kiai-move__check--on {
+  flex-shrink: 0;
+  color: var(--accent);
+}
+
+.kiai-selection__result {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  border-radius: var(--radius-m);
+  background: var(--card);
+}
+
+.kiai-selection__verdict {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.kiai-selection__verdict--correct svg {
+  color: var(--green);
+}
+
+.kiai-selection__verdict--wrong svg {
+  color: var(--red);
+}
+
+.kiai-selection__answer {
+  margin: 0;
+  color: var(--text-2);
+  font-size: 15px;
+}
+
+.kiai-selection__explanation {
+  margin: 0;
+  color: var(--text-2);
+  font-size: 12px;
+}
