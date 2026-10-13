@@ -83,3 +83,7 @@
     transform: translateY(0);
   }
 }
+
+.sheet__body--flush {
+  padding: 0;
+}

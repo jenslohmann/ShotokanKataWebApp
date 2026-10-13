@@ -1,0 +1,17 @@
+.vocab-link {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--accent);
+  font: inherit;
+  font-weight: 700;
+  line-height: inherit;
+  text-align: inherit;
+  cursor: pointer;
+}
+
+.vocab-link:hover {
+  text-decoration: underline;
+}

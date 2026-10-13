@@ -1,6 +1,6 @@
 # PROGRESS
 ## Current phase
-4 (done — green: typecheck/test/build all exit 0; committed). Next: Phase 5
+5 (done — green: typecheck/test/build all exit 0; committed). Next: Phase 6
 ## Done
 - 0.1 read AGENTS.md
 - 0.2 created PROGRESS.md
@@ -43,6 +43,11 @@
 - 4.7 screens/kata/KataFilterSheet.tsx (rank grid + belt grid, toggle selection clears the other filter, Clear All / Done)
 - 4.8 state/kataListStore.ts module store (search, debouncedSearch, rank, belt) via useSyncExternalStore; 300 ms debounce lives in the store
 - 4.9 KataListScreen.test.tsx (10 rows, debounced "tekki" → 1, belt chip, Japanese toggle, empty state) — 41 tests pass
+- 5.1 components/VocabularySheetContext.tsx (openTerm; ONE app-level Sheet with Done; provider added in App.tsx)
+- 5.2 components/VocabText.tsx (linkVocabulary segments; linked terms as inline bold accent buttons with stopPropagation; highlightClass)
+- 5.3 components/ExpandableText.tsx (2-line clamp, chevron when > threshold or measured truncated via useLayoutEffect + ResizeObserver, tap body or chevron toggles)
+- 5.4 domain/speech.ts (isSpeechSupported, speak ja-JP rate 0.8 with Japanese voice, same-text tap stops, speaking-text subscription) + components/SpeakButton.tsx
+- 5.5 VocabText.test.tsx (term link opens term, chevron for long text only) — 44 tests pass
 ## Blocked
 - (empty)
 ## Notes / decisions
@@ -61,3 +66,5 @@
 - Phase 4: counts in the filter sheet (rank and belt) use the same rule as the belt chips — the search-filtered list ignoring rank/belt filters. (iOS counts from the fully filtered list, which makes non-selected belts show no count once a belt is selected; the plan rule for chips was applied consistently.)
 - Phase 4: chips and the "More" button are 32px tall visually but have an invisible ::before extending the touch target to 44px (same trick on Toggle).
 - Phase 4: visual check at 390px / 1024px in light and dark NOT done by the agent (no browser available in this session) — left for the user via npm run dev.
+- Phase 5: Sheet got a `flush` prop (no body padding) for the vocabulary sheet, and Sheet/ConfirmDialog now use useId for their aria ids since several dialogs can be in the DOM at once.
+- Phase 5: VocabularySheetContext has a no-op default value, so VocabText also renders outside the provider (handy in isolated tests).

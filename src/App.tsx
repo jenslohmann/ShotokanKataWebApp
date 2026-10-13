@@ -1,5 +1,6 @@
 import { Sidebar } from './components/Sidebar';
 import { TabBar } from './components/TabBar';
+import { VocabularySheetProvider } from './components/VocabularySheetContext';
 import { sectionOf, type Route } from './router/router';
 import { useRoute } from './router/useRoute';
 import { AboutScreen } from './screens/about/AboutScreen';
@@ -45,7 +46,9 @@ function Shell() {
 export function App() {
   return (
     <SettingsProvider>
-      <Shell />
+      <VocabularySheetProvider>
+        <Shell />
+      </VocabularySheetProvider>
     </SettingsProvider>
   );
 }

@@ -1,4 +1,4 @@
-import type { ReactNode } from 'react';
+import { useId, type ReactNode } from 'react';
 import { useModalDialog } from './useModalDialog';
 import './Sheet.css';
 
@@ -13,13 +13,16 @@ interface SheetProps {
   onClose(): void;
   leftAction?: SheetAction;
   rightAction?: SheetAction;
+  /** Body without padding, for content that draws its own backgrounds. */
+  flush?: boolean;
   children: ReactNode;
 }
 
-export function Sheet({ open, title, onClose, leftAction, rightAction, children }: SheetProps) {
+export function Sheet({ open, title, onClose, leftAction, rightAction, flush = false, children }: SheetProps) {
   const { ref, onCancel, onClick } = useModalDialog(open, onClose);
+  const titleId = useId();
   return (
-    <dialog ref={ref} className="sheet" aria-labelledby="sheet-title" onCancel={onCancel} onClick={onClick}>
+    <dialog ref={ref} className="sheet" aria-labelledby={titleId} onCancel={onCancel} onClick={onClick}>
       {open && (
         <div className="sheet__panel">
           <header className="sheet__header">
@@ -30,7 +33,7 @@ export function Sheet({ open, title, onClose, leftAction, rightAction, children 
                 </button>
               )}
             </div>
-            <h2 id="sheet-title" className="sheet__title">
+            <h2 id={titleId} className="sheet__title">
               {title}
             </h2>
             <div className="sheet__action sheet__action--right">
@@ -41,7 +44,7 @@ export function Sheet({ open, title, onClose, leftAction, rightAction, children 
               )}
             </div>
           </header>
-          <div className="sheet__body">{children}</div>
+          <div className={`sheet__body${flush ? ' sheet__body--flush' : ''}`}>{children}</div>
         </div>
       )}
     </dialog>
