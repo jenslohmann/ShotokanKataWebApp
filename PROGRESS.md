@@ -1,6 +1,6 @@
 # PROGRESS
 ## Current phase
-8 (done — green: typecheck/test/build all exit 0; committed). Next: Phase 9
+9 (done — green: typecheck/test/build all exit 0; committed). Next: Phase 10
 ## Done
 - 0.1 read AGENTS.md
 - 0.2 created PROGRESS.md
@@ -68,6 +68,9 @@
 - 8.4.1–8.4.7 domain/quiz/generate.ts (static + moves-count with 3 unique wrong answers + kiai selection + technique + stance; Rei excluded; questionsFor; pickQuizQuestions)
 - 8.5.1–8.5.4 domain/quiz/reducer.ts (all actions incl. SYNC_TIME, result computation, helpers isLastQuestion/canGoBack/currentQuestion/hasAnswerSelected/answerOutcome)
 - 8.6.1–8.6.2 generate.test.ts + reducer.test.ts — 66 tests pass
+- 9.1 state/QuizContext.tsx (useReducer(quizReducer), question pool generated once per session, availableCount, startQuiz → START + navigate quizPlay; leaving #/quiz/play dispatches RESET); provider added in App.tsx
+- 9.2 screens/quiz/QuizMenuScreen.tsx + RankPicker / DifficultyPicker / CategoryPicker (hero card, 20 rank buttons scrolled into view, 4 difficulty buttons, 9 category tiles, question/time sliders, timed toggle, available count, Start button disabled at 0)
+- 9.3 QuizMenuScreen.test.tsx (9th Kyū → 2 available, Advanced → 2nd Dan + more questions, Start → #/quiz/play) — 69 tests pass
 ## Blocked
 - (empty)
 ## Notes / decisions
@@ -96,3 +99,5 @@
 - Phase 7: definition / component breakdown are plain text (as in iOS VocabularyDetailView), not VocabText — also avoids opening a sheet from inside the sheet.
 - Phase 7: added components/NotFound.tsx shared by kata and vocabulary detail screens.
 - Phase 8: answer actions (SELECT_OPTION, TOGGLE_MOVE, SUBMIT, NEXT, PREVIOUS, SKIP) are ignored unless status is inProgress (so nothing changes while paused or completed). Question ids: static-N, kata_moves_count-K, kata_kiai_selection-K, kata_techniques-K-n, kata_stances-K-n.
+- Phase 9: "leave quiz play → RESET" is implemented in QuizProvider by watching the route (not in an unmount effect, which React StrictMode would trigger on mount in dev).
+- Phase 9: QuizProvider accepts optional initialState / pool props, used only by tests.

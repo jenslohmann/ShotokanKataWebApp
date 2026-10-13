@@ -1,0 +1,240 @@
+.quiz-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 16px;
+}
+
+.quiz-menu__hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 20px 16px;
+  border-radius: var(--radius-l);
+  background: var(--fill);
+  text-align: center;
+}
+
+.quiz-menu__hero-icon {
+  color: var(--accent);
+}
+
+.quiz-menu__hero-title {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.quiz-menu__card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  border: 1px solid var(--separator);
+  border-radius: var(--radius-m);
+  background: var(--card);
+}
+
+.quiz-menu__heading {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.quiz-menu__caption {
+  margin: -6px 0 0;
+  color: var(--text-2);
+  font-size: 13px;
+}
+
+.quiz-menu__hero .quiz-menu__caption {
+  margin: 0;
+  font-size: 15px;
+}
+
+/* Ranks */
+.quiz-menu__ranks {
+  display: flex;
+  gap: 8px;
+  margin: 0 -16px;
+  padding: 4px 16px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.quiz-menu__ranks::-webkit-scrollbar {
+  display: none;
+}
+
+.quiz-menu__rank {
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  min-width: 68px;
+  min-height: 64px;
+  padding: 8px 6px;
+  border: 2px solid transparent;
+  border-radius: var(--radius-s);
+  background: var(--fill);
+  cursor: pointer;
+}
+
+.quiz-menu__rank--selected {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.quiz-menu__rank-dot {
+  width: 20px;
+  height: 20px;
+}
+
+.quiz-menu__rank--selected .quiz-menu__rank-dot {
+  box-shadow: 0 0 0 3px var(--on-accent), 0 0 0 4px var(--separator);
+}
+
+.quiz-menu__rank-name {
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.quiz-menu__rank--selected .quiz-menu__rank-name {
+  font-weight: 700;
+}
+
+/* Difficulty */
+.quiz-menu__difficulties {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+.quiz-menu__difficulty {
+  --level-color: var(--accent);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  min-height: 64px;
+  padding: 10px 4px;
+  border: 0;
+  border-radius: var(--radius-s);
+  background: var(--fill);
+  color: var(--text);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.quiz-menu__difficulty svg {
+  color: var(--level-color);
+}
+
+.quiz-menu__difficulty--beginner { --level-color: var(--green); }
+.quiz-menu__difficulty--intermediate { --level-color: var(--accent); }
+.quiz-menu__difficulty--advanced { --level-color: var(--orange); }
+.quiz-menu__difficulty--expert { --level-color: var(--red); }
+
+.quiz-menu__difficulty--selected,
+.quiz-menu__difficulty--selected svg {
+  background: var(--level-color);
+  color: var(--on-accent);
+}
+
+/* Categories */
+.quiz-menu__categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 12px;
+}
+
+.quiz-menu__category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 80px;
+  padding: 8px;
+  border: 0;
+  border-radius: var(--radius-m);
+  background: var(--fill);
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.quiz-menu__category svg {
+  color: var(--accent);
+}
+
+.quiz-menu__category--selected,
+.quiz-menu__category--selected svg {
+  background: var(--accent);
+  color: var(--on-accent);
+}
+
+/* Settings */
+.quiz-menu__setting {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.quiz-menu__setting-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 31px;
+}
+
+.quiz-menu__value {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.quiz-menu__range {
+  width: 100%;
+  min-height: 44px;
+  margin: 0;
+  accent-color: var(--accent);
+}
+
+.quiz-menu__available {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+  color: var(--text-2);
+  font-size: 12px;
+}
+
+.quiz-menu__available-icon {
+  color: var(--accent);
+}
+
+/* Start */
+.quiz-menu__start {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 52px;
+  border: 0;
+  border-radius: var(--radius-m);
+  background: linear-gradient(135deg, var(--accent), color-mix(in srgb, var(--accent) 80%, transparent));
+  box-shadow: 0 4px 10px color-mix(in srgb, var(--accent) 30%, transparent);
+  color: var(--on-accent);
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.quiz-menu__start:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}

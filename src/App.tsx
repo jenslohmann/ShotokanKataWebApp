@@ -9,6 +9,7 @@ import { KataListScreen } from './screens/kata/KataListScreen';
 import { QuizMenuScreen } from './screens/quiz/QuizMenuScreen';
 import { VocabularyDetailScreen } from './screens/vocabulary/VocabularyDetailScreen';
 import { VocabularyListScreen } from './screens/vocabulary/VocabularyListScreen';
+import { QuizProvider } from './state/QuizContext';
 import { SettingsProvider } from './state/SettingsContext';
 import './App.css';
 
@@ -50,9 +51,11 @@ function Shell() {
 export function App() {
   return (
     <SettingsProvider>
-      <VocabularySheetProvider>
-        <Shell />
-      </VocabularySheetProvider>
+      <QuizProvider>
+        <VocabularySheetProvider>
+          <Shell />
+        </VocabularySheetProvider>
+      </QuizProvider>
     </SettingsProvider>
   );
 }
