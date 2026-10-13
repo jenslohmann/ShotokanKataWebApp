@@ -182,6 +182,8 @@ export const da: Record<keyof typeof en, string> = {
   "about.viewOnGitHub": "Se på GitHub",
   "about.language": "Sprog",
   "about.languageAuto": "Auto",
+  "about.languageEnglish": "English",
+  "about.languageDanish": "Dansk",
   "about.version": "Version {version}",
   "install.title": "Installer appen",
   "install.button": "Installer",

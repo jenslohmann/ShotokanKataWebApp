@@ -180,6 +180,8 @@ export const en = {
   "about.viewOnGitHub": "View on GitHub",
   "about.language": "Language",
   "about.languageAuto": "Auto",
+  "about.languageEnglish": "English",
+  "about.languageDanish": "Dansk",
   "about.version": "Version {version}",
   "install.title": "Install the app",
   "install.button": "Install",

@@ -1422,6 +1422,8 @@ Keys are grouped only for readability; the objects are flat (`'nav.kata': 'Kata'
 | about.viewOnGitHub | View on GitHub | Se på GitHub |
 | about.language | Language | Sprog |
 | about.languageAuto | Auto | Auto |
+| about.languageEnglish | English | English |
+| about.languageDanish | Dansk | Dansk |
 | about.version | Version {version} | Version {version} |
 | install.title | Install the app | Installer appen |
 | install.button | Install | Installer |

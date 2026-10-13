@@ -1,6 +1,6 @@
 # PROGRESS
 ## Current phase
-10 (done — green: typecheck/test/build all exit 0; committed). Next: Phase 11
+11 (done — green: typecheck/test/build all exit 0; committed). Next: Phase 12
 ## Done
 - 0.1 read AGENTS.md
 - 0.2 created PROGRESS.md
@@ -78,6 +78,8 @@
 - 10.7 QuizNavButtons.tsx (Previous, Submit/Next/Finish, Skip; sticky bottom with safe-area padding); question components keyed by question.id
 - 10.8–10.9 QuizPaused.tsx, QuizResults.tsx (score colour, floor(score)%, stats rows, Back to Main Menu → Kata list)
 - 10.10 QuizPlayScreen.test.tsx (submit enabling, explanation + ✓, finish → Quiz Complete! 50%, kiai wrong answer → Correct answer: 9, 17, exit confirm, countdown) + App.test start → exit → menu — 74 tests pass
+- 11.1 screens/about/AboutScreen.tsx (hero, About paragraphs + italic thanks, 5 features, Respect for Tradition, Open Source + GitHub link, Install the app via InstallHint, Language segmented control Auto/English/Dansk, version from package.json); state/installPrompt.ts captures beforeinstallprompt (listener registered in main.tsx), isStandalone, isIOS
+- 11.2 AboutScreen.test.tsx (Open Source + GitHub href, switching to Dansk updates title, sk.lang and <html lang>) — 76 tests pass
 ## Blocked
 - (empty)
 ## Notes / decisions
@@ -111,3 +113,4 @@
 - Phase 10: Exit / Done / Back to Main Menu only navigate; QuizProvider dispatches RESET when the route leaves #/quiz/play. Resetting before the (async) history.back() would let the "not started → redirect" effect fire mid-navigation. The redirect is also guarded to run only while the hash is still #/quiz/play.
 - Phase 10: added theme variable --gray (#8E8E93, both modes) for the disabled main quiz button, unselected kiai circles and number badges.
 - Phase 10: manual full quiz run in the dev server (timed/untimed, kiai at 2nd Dan) NOT done by the agent (no browser) — covered by unit/integration tests only.
+- Phase 11: added i18n keys about.languageEnglish ("English") and about.languageDanish ("Dansk") — same value in both languages (autonyms) — to en.ts, da.ts and PLAN.md Appendix A, so the language picker has no hard-coded text.
