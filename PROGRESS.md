@@ -1,6 +1,6 @@
 # PROGRESS
 ## Current phase
-7 (done — green: typecheck/test/build all exit 0; committed). Next: Phase 8
+8 (done — green: typecheck/test/build all exit 0; committed). Next: Phase 9
 ## Done
 - 0.1 read AGENTS.md
 - 0.2 created PROGRESS.md
@@ -62,6 +62,12 @@
 - 7.4 VocabularyDetailScreen.tsx (inline title, back to Vocabulary, not-found)
 - 7.5 the app-level vocabulary sheet (Phase 5) now renders VocabularyDetailContent (was wired in Phase 5 already, sheet body flush)
 - 7.6 VocabularyListScreen.test.tsx (112 rows, zenkutsu search, Kicks category, empty state, detail screen) — 54 tests pass
+- 8.1.1 domain/quiz/types.ts (QuestionCategory, QuestionType, QuizQuestion, QuizAnswer, QuizConfig, DEFAULT_QUIZ_CONFIG)
+- 8.2.1 domain/quiz/random.ts (shuffle, pick, randInt, mulberry32)
+- 8.3.1 domain/quiz/staticQuestions.ts — 6 questions verified verbatim against QuizDataService.swift
+- 8.4.1–8.4.7 domain/quiz/generate.ts (static + moves-count with 3 unique wrong answers + kiai selection + technique + stance; Rei excluded; questionsFor; pickQuizQuestions)
+- 8.5.1–8.5.4 domain/quiz/reducer.ts (all actions incl. SYNC_TIME, result computation, helpers isLastQuestion/canGoBack/currentQuestion/hasAnswerSelected/answerOutcome)
+- 8.6.1–8.6.2 generate.test.ts + reducer.test.ts — 66 tests pass
 ## Blocked
 - (empty)
 ## Notes / decisions
@@ -89,3 +95,4 @@
 - Phase 7: in VocabularyRow the speak button sits to the right of the text block (vertically centred) instead of inline after the hiragana on line 2 — required so it stays outside the <a> (no nested interactive elements).
 - Phase 7: definition / component breakdown are plain text (as in iOS VocabularyDetailView), not VocabText — also avoids opening a sheet from inside the sheet.
 - Phase 7: added components/NotFound.tsx shared by kata and vocabulary detail screens.
+- Phase 8: answer actions (SELECT_OPTION, TOGGLE_MOVE, SUBMIT, NEXT, PREVIOUS, SKIP) are ignored unless status is inProgress (so nothing changes while paused or completed). Question ids: static-N, kata_moves_count-K, kata_kiai_selection-K, kata_techniques-K-n, kata_stances-K-n.
