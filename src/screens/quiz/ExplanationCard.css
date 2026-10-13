@@ -18,7 +18,7 @@
   align-items: center;
   gap: 8px;
   margin: 0;
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-weight: 600;
 }
 
@@ -28,13 +28,13 @@
 
 .explanation-card__text {
   margin: 0;
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 1.4;
 }
 
 .explanation-card__related {
   margin: 4px 0 0;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 500;
 }
 
@@ -53,6 +53,6 @@
   border-radius: 999px;
   background: var(--accent-soft);
   color: var(--accent);
-  font-size: 12px;
+  font-size: 0.75rem;
   white-space: nowrap;
 }

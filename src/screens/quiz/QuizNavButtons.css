@@ -24,7 +24,7 @@
   min-height: 50px;
   border: 0;
   border-radius: var(--radius-m);
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-weight: 600;
   cursor: pointer;
 }
@@ -51,6 +51,6 @@
   border: 0;
   background: none;
   color: var(--text-2);
-  font-size: 15px;
+  font-size: 0.9375rem;
   cursor: pointer;
 }

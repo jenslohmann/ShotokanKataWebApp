@@ -26,14 +26,14 @@
 
 .about__app-name {
   margin: 8px 0 0;
-  font-size: 34px;
+  font-size: 2.125rem;
   font-weight: 700;
 }
 
 .about__tagline {
   margin: 0;
   color: var(--text-2);
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .about__section {
@@ -46,13 +46,13 @@
 
 .about__heading {
   margin: 0;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 
 .about__text {
   margin: 0;
-  font-size: 17px;
+  font-size: 1.0625rem;
   line-height: 1.45;
 }
 
@@ -87,14 +87,14 @@
 
 .about__feature-title {
   display: block;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 500;
 }
 
 .about__feature-desc {
   display: block;
   color: var(--text-2);
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .about__button {
@@ -108,7 +108,7 @@
   border-radius: var(--radius-m);
   background: var(--accent-soft);
   color: var(--accent);
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-weight: 500;
   text-decoration: none;
   cursor: pointer;
@@ -123,6 +123,6 @@
 .about__version {
   margin: 8px 0 0;
   color: var(--text-2);
-  font-size: 12px;
+  font-size: 0.75rem;
   text-align: center;
 }

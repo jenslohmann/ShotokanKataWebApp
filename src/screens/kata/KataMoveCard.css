@@ -24,7 +24,7 @@
   border-radius: 999px;
   background: var(--accent);
   color: var(--on-accent);
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-weight: 700;
 }
 
@@ -42,13 +42,13 @@
 }
 
 .kata-move__technique {
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-weight: 500;
 }
 
 .kata-move__hiragana {
   color: var(--text-2);
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .kata-move__meta {
@@ -61,7 +61,7 @@
 
 .kata-move__direction {
   color: var(--text-2);
-  font-size: 12px;
+  font-size: 0.75rem;
   white-space: nowrap;
 }
 

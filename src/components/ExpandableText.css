@@ -7,7 +7,7 @@
 .expandable-text__body {
   flex: 1;
   min-width: 0;
-  font-size: 17px;
+  font-size: 1.0625rem;
   line-height: 1.35;
 }
 

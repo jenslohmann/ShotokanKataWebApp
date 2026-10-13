@@ -7,14 +7,14 @@
   border-radius: 999px;
   background: color-mix(in srgb, var(--rank-belt) 20%, transparent);
   color: var(--text);
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 500;
   white-space: nowrap;
 }
 
 .rank-badge--small {
   padding: 3px 6px;
-  font-size: 11px;
+  font-size: 0.6875rem;
 }
 
 .rank-badge__dot {

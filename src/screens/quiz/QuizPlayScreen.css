@@ -30,7 +30,7 @@
   border: 0;
   background: none;
   color: var(--accent);
-  font-size: 17px;
+  font-size: 1.0625rem;
   cursor: pointer;
 }
 
@@ -60,14 +60,14 @@
 .quiz-play__caption {
   margin: 0;
   color: var(--text-2);
-  font-size: 12px;
+  font-size: 0.75rem;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
 
 .quiz-play__question {
   margin: 0;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 500;
   line-height: 1.3;
 }

@@ -25,7 +25,7 @@
 }
 
 .vocab-row__term {
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-weight: 600;
 }
 
@@ -39,7 +39,7 @@
   flex-wrap: wrap;
   align-items: center;
   gap: 6px;
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 
 .vocab-row__kanji {
@@ -55,7 +55,7 @@
   display: -webkit-box;
   overflow: hidden;
   color: var(--text-2);
-  font-size: 17px;
+  font-size: 1.0625rem;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
   line-clamp: 2;

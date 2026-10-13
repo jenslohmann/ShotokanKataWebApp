@@ -7,9 +7,9 @@
   padding: 16px;
   border: 2px solid transparent;
   border-radius: var(--radius-m);
-  background: var(--fill);
+  background: var(--card-2);
   color: var(--text);
-  font-size: 17px;
+  font-size: 1.0625rem;
   text-align: left;
   cursor: pointer;
 }

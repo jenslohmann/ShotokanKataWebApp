@@ -17,7 +17,7 @@
   padding: 8px 16px;
   border-radius: var(--radius-s);
   background: var(--fill);
-  font-size: 17px;
+  font-size: 1.0625rem;
 }
 
 .kata-history__value {

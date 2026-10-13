@@ -29,11 +29,11 @@
 }
 
 .kata-sub-move__technique {
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-weight: 500;
 }
 
 .kata-sub-move__hiragana {
   color: var(--text-2);
-  font-size: 12px;
+  font-size: 0.75rem;
 }

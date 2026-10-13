@@ -27,7 +27,7 @@
   border-radius: 50%;
   background: linear-gradient(135deg, var(--accent), color-mix(in srgb, var(--accent) 70%, transparent));
   color: var(--on-accent);
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
 }
 
@@ -48,18 +48,18 @@
 }
 
 .kata-row__name {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 
 .kata-row__japanese {
   color: var(--text-2);
-  font-size: 17px;
+  font-size: 1.0625rem;
 }
 
 .kata-row__hiragana {
   color: var(--text-2);
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .kata-row__techniques {
@@ -70,7 +70,7 @@
   border-radius: 999px;
   background: var(--orange);
   color: var(--on-accent);
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 500;
 }
 

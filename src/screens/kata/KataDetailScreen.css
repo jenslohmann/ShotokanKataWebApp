@@ -19,12 +19,12 @@
 
 .kata-tab__heading {
   margin: 0;
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-weight: 600;
 }
 
 .kata-tab__text {
   margin: 0;
-  font-size: 17px;
+  font-size: 1.0625rem;
   line-height: 1.4;
 }

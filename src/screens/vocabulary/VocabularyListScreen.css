@@ -22,7 +22,7 @@
   border-radius: 999px;
   background: var(--card);
   color: var(--text);
-  font-size: 15px;
+  font-size: 0.9375rem;
   cursor: pointer;
 }
 
@@ -32,7 +32,7 @@
   border: 0;
   background: none;
   color: var(--accent);
-  font-size: 17px;
+  font-size: 1.0625rem;
   cursor: pointer;
 }
 
@@ -62,7 +62,7 @@
 
 .vocab-list__empty-title {
   margin: 8px 0 0;
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-weight: 600;
 }
 
@@ -94,7 +94,7 @@
   border: 0;
   background: none;
   color: var(--text);
-  font-size: 17px;
+  font-size: 1.0625rem;
   text-align: left;
   cursor: pointer;
 }

@@ -9,13 +9,13 @@
 
 .quiz-results__title {
   margin: 0;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 700;
 }
 
 .quiz-results__score {
   margin: -16px 0 0;
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 600;
 }
 
@@ -61,7 +61,7 @@
   border-radius: var(--radius-m);
   background: var(--accent);
   color: var(--on-accent);
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-weight: 600;
   cursor: pointer;
 }

@@ -16,6 +16,9 @@ body {
   background: var(--bg-grouped);
   color: var(--text);
   -webkit-tap-highlight-color: transparent;
+  overflow-wrap: break-word;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 button,

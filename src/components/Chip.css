@@ -10,7 +10,7 @@
   border-radius: 999px;
   background: var(--card);
   color: var(--text);
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 500;
   white-space: nowrap;
   cursor: pointer;
@@ -35,7 +35,7 @@
 
 .chip__count {
   color: var(--text-2);
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .chip--selected .chip__count {

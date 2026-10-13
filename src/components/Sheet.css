@@ -44,7 +44,7 @@
 
 .sheet__title {
   margin: 0;
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-weight: 600;
 }
 
@@ -54,7 +54,7 @@
   border: 0;
   background: none;
   color: var(--accent);
-  font-size: 17px;
+  font-size: 1.0625rem;
   cursor: pointer;
 }
 

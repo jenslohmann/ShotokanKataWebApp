@@ -6,14 +6,14 @@
 
 .kiai-selection__question {
   margin: 0;
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-weight: 600;
 }
 
 .kiai-selection__instruction {
   margin: -8px 0 0;
   color: var(--text-2);
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 
 .kiai-selection__moves {
@@ -59,7 +59,7 @@
   padding: 0 6px;
   border-radius: 999px;
   background: color-mix(in srgb, var(--gray) 30%, transparent);
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 700;
 }
 
@@ -77,7 +77,7 @@
 }
 
 .kiai-move__name {
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-weight: 500;
 }
 
@@ -93,13 +93,13 @@
   border-radius: 999px;
   background: var(--green-soft);
   color: var(--green-text);
-  font-size: 11px;
+  font-size: 0.6875rem;
   font-weight: 600;
 }
 
 .kiai-move__direction {
   color: var(--text-2);
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .kiai-move__check {
@@ -126,7 +126,7 @@
   align-items: center;
   gap: 8px;
   margin: 0;
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-weight: 600;
 }
 
@@ -141,11 +141,11 @@
 .kiai-selection__answer {
   margin: 0;
   color: var(--text-2);
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 
 .kiai-selection__explanation {
   margin: 0;
   color: var(--text-2);
-  font-size: 12px;
+  font-size: 0.75rem;
 }

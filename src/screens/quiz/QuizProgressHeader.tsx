@@ -26,13 +26,20 @@ export function QuizProgressHeader() {
       <div className="quiz-progress__row">
         <span className="quiz-progress__count">{t('quiz.questionProgress', { current, total })}</span>
         {state.config.timed && remaining > 0 && (
-          <span className={`quiz-progress__time${timeClass(remaining)}`} role="timer">
+          <span className={`quiz-progress__time${timeClass(remaining)}`} role="timer" aria-live="off">
             <Icon name="clock" size={14} />
             {formatClock(remaining)}
           </span>
         )}
       </div>
-      <div className="quiz-progress__bar" aria-hidden="true">
+      <div
+        className="quiz-progress__bar"
+        role="progressbar"
+        aria-label={t('quiz.questionProgress', { current, total })}
+        aria-valuemin={0}
+        aria-valuemax={total}
+        aria-valuenow={current}
+      >
         <div className="quiz-progress__fill" style={{ width: `${total ? (current / total) * 100 : 0}%` }} />
       </div>
       <div className="quiz-progress__chips">

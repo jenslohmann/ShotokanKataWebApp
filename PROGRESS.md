@@ -1,6 +1,6 @@
 # PROGRESS
 ## Current phase
-12 (done — green: typecheck/test/build all exit 0; committed). Next: Phase 13
+13 (done — green: typecheck/test/build all exit 0; committed). Next: Phase 14
 ## Done
 - 0.1 read AGENTS.md
 - 0.2 created PROGRESS.md
@@ -86,6 +86,15 @@
 - 12.4 not needed (injectRegister: 'auto', no virtual:pwa-register import)
 - 12.5 base.css: html/body overscroll-behavior-y none; inputs/selects/textareas font-size ≥ 16px
 - 12.6 build output verified: dist/manifest.webmanifest (name, icons, standalone, scope ./), dist/sw.js (precache 16 entries, 977 KiB incl. JS/CSS/HTML/icons), dist/registerSW.js, dist/workbox-*.js; dist/index.html links manifest and registerSW.js. Browser check (DevTools Application / offline reload / Lighthouse) NOT done — sandbox blocks local port binding (listen EPERM on 4173).
+- 13.1 Keyboard: all actions are native <button>/<a>; global :focus-visible ring; Sheets/dialogs are native <dialog> (Escape → cancel → onClose, native focus containment); expandable text has a keyboard-reachable chevron button; no positive tabindex (checked by a11y.test.tsx)
+- 13.2 Screen readers: icon-only buttons labelled; new src/a11y.test.tsx renders 8 routes and asserts no button/link has an empty accessible name (+ sanity case); quiz options aria-pressed; quiz progress bar role=progressbar with aria-valuemin/max/now; timer role=timer aria-live=off
+- 13.3 All 103 CSS font sizes converted px → rem (1rem = 16px); text-size-adjust 100%
+- 13.4 Widths: fixed risks found by review — quiz difficulty buttons 2×2 below 420px, segmented-control labels ellipsize, kata header meta row wraps, body overflow-wrap: break-word; chip/rank rows scroll internally. Visual check at 320–1366px NOT done by the agent (no browser)
+- 13.5 Landscape: app content and tab bar pad env(safe-area-inset-left/right); in wide mode the sidebar handles the left inset (content padding-left 0, full-screen quiz keeps it)
+- 13.6 Dark mode: fixed invisible backgrounds where --fill sat on --card (both #1C1C1E in dark): answer options, quiz rank/difficulty/category buttons, progress track, kata number capsule now use --card-2; dark selected segment made lighter than its track. Visual check NOT done by the agent
+- 13.7 Reduced motion rule in base.css covers all transitions/animations
+- 13.8 Bundle: JS 148.4 KB gzip (< 250 KB), CSS 6.7 KB gzip; lucide imported only in components/Icon.tsx with named imports
+- 13.9 No console.log in src/ (only console.warn for a missing kata file)
 ## Blocked
 - (empty)
 ## Notes / decisions
@@ -121,3 +130,4 @@
 - Phase 10: manual full quiz run in the dev server (timed/untimed, kiai at 2nd Dan) NOT done by the agent (no browser) — covered by unit/integration tests only.
 - Phase 11: added i18n keys about.languageEnglish ("English") and about.languageDanish ("Dansk") — same value in both languages (autonyms) — to en.ts, da.ts and PLAN.md Appendix A, so the language picker has no hard-coded text.
 - Phase 12: `npm run preview` could not run in the agent sandbox (listen EPERM). User should verify manually: npm run build && npm run preview → http://localhost:4173 → DevTools → Application (manifest, service worker activated, Offline + reload).
+- Phase 13: still open for a human with a browser — visual pass at 320/375/390/430/768/834/1024/1366 px in light + dark, landscape phone, and the PWA offline check from Phase 12.
