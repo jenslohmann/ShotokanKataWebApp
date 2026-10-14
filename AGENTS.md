@@ -80,6 +80,7 @@ npm run sync-data:update # same, but first pulls the latest iOS repo
 npm run icons          # generate PWA icons into public/ (Phase 12)
 npm run dev            # dev server (http://localhost:5173)
 npm run test           # run unit tests once (vitest run)
+npm run test:e2e       # browser tests in e2e/ (Playwright + installed Google Chrome; builds and serves dist/ itself)
 npm run typecheck      # tsc --noEmit
 npm run build          # typecheck + production build into dist/
 npm run preview        # serve dist/ (test PWA + offline here, http://localhost:4173)
@@ -87,6 +88,8 @@ npm run preview        # serve dist/ (test PWA + offline here, http://localhost:
 
 **Definition of "green":** `npm run typecheck && npm run test && npm run build` all exit with code 0.
 You must be green at the end of every phase before committing.
+`npm run test:e2e` is not part of "green" (it needs Google Chrome and a free local port 4173), but run it
+when you change UI, layout, CSS or the PWA setup and your environment allows it.
 
 ## 5. Working rules for the agent
 

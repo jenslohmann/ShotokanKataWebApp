@@ -12,6 +12,8 @@ dist
 dist-ssr
 dev-dist
 coverage
+test-results
+playwright-report
 *.local
 
 # Read-only shallow clone of the iOS reference repository

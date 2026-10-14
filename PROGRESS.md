@@ -95,6 +95,7 @@ DONE — all phases (0–13) complete; green: typecheck/test/build all exit 0; c
 - 13.7 Reduced motion rule in base.css covers all transitions/animations
 - 13.8 Bundle: JS 148.4 KB gzip (< 250 KB), CSS 6.7 KB gzip; lucide imported only in components/Icon.tsx with named imports
 - 13.9 No console.log in src/ (only console.warn for a missing kata file)
+- Browser tests (after Phase 13): added e2e/ with Playwright, run by `npm run test:e2e` against `vite preview` (production build) in the installed Google Chrome. 50 tests replace the manual checks: layout.spec (no horizontal overflow on all 8 routes at 320–1366 px and phone landscape, light + dark; tab bar below 768 px, sidebar from 768 px; quiz buttons and selected segment visibly differ from their background), quiz.spec (untimed run at 9th Kyū to results and "Back to Main Menu"; timed 2nd Dan sequences run with ticking timer, kiai question and skip; pause/resume; exit confirmation), screens.spec (kata order, diacritic-insensitive search, Japanese toggle persists, vocabulary term opens sheet, expandable text, Rei/KIAI! labels, vocabulary search/detail, Dansk language persists), pwa.spec (manifest + icons; offline reload works for kata, vocabulary, quiz), a11y.spec (axe WCAG 2.1 A/AA on every route, light + dark, colour contrast excluded — see Open questions). Checked that the tests catch reintroduced bugs (dark-mode answer option background, a 500 px wide element). All 50 pass.
 ## Blocked
 - (empty)
 ## Notes / decisions
@@ -130,4 +131,8 @@ DONE — all phases (0–13) complete; green: typecheck/test/build all exit 0; c
 - Phase 10: manual full quiz run in the dev server (timed/untimed, kiai at 2nd Dan) NOT done by the agent (no browser) — covered by unit/integration tests only.
 - Phase 11: added i18n keys about.languageEnglish ("English") and about.languageDanish ("Dansk") — same value in both languages (autonyms) — to en.ts, da.ts and PLAN.md Appendix A, so the language picker has no hard-coded text.
 - Phase 12: `npm run preview` could not run in the agent sandbox (listen EPERM). User should verify manually: npm run build && npm run preview → http://localhost:4173 → DevTools → Application (manifest, service worker activated, Offline + reload).
-- Phase 13: still open for a human with a browser — visual pass at 320/375/390/430/768/834/1024/1366 px in light + dark, landscape phone, and the PWA offline check from Phase 12.
+- Phase 13: the open browser checks (widths, light/dark, landscape, quiz runs, vocabulary sheet, PWA offline) are now automated in e2e/ (npm run test:e2e). Not covered: real iOS Safari/WebKit (tests use Chrome), safe-area insets on a notched device, and speech output.
+- New devDependencies @playwright/test and @axe-core/playwright: browser tests for the checks that jsdom cannot do (layout, colours, service worker/offline). Dev-only; nothing is added to the app bundle.
+- e2e in the agent sandbox: the preview server cannot bind port 4173 inside the sandbox (listen EPERM), so the agent ran the browser tests outside it.
+## Open questions
+- Colour contrast: axe reports WCAG AA colour-contrast failures on most screens, caused by the iOS system colours copied by the plan (secondary text rgba(60,60,67,0.6), tab bar labels, belt-coloured rank badges with white text, quiz menu captions). The rule is disabled in e2e/a11y.spec.ts until the user decides whether to keep the iOS look or darken these colours.
