@@ -29,8 +29,6 @@ Phase overview:
 | 11 | About screen                                  | Text + install instructions + language        |
 | 12 | PWA                                           | Manifest, icons, service worker, offline      |
 | 13 | Polish: accessibility, responsive, dark mode  | Checklist passes                              |
-| 14 | Deployment                                    | GitHub Pages workflow + README                |
-| 15 | Final verification                            | Everything green, manual checklist done       |
 
 ---
 
@@ -89,7 +87,7 @@ Tasks:
   If the generator still asks questions, answer "No" to anything like "Install with npm and start now?".
   Make sure `AGENTS.md`, `PLAN.md`, `CLAUDE.md` and `PROGRESS.md` were not overwritten (the template has none of them,
   but check), and that `.gitignore` still contains `.ios-reference/` (the template's `.gitignore` may have replaced
-  yours — re-add the line). If the template created a `README.md`, delete it (a real one is written in Phase 14).
+  yours — re-add the line). If the template created a `README.md`, delete it.
   If the web project root is not a git repository yet (`git rev-parse --git-dir` fails), run `git init -b main`.
 - [ ] 1.2 Install dependencies:
   ```sh
@@ -1152,86 +1150,6 @@ Acceptance: green; `dist/sw.js` and `dist/manifest.webmanifest` exist. Commit.
 - [ ] 13.9 No `console.log` left in `src/` (warnings for missing data are OK).
 
 Acceptance: green; checklist results noted in PROGRESS.md. Commit.
-
----
-
-## Phase 14 — Deployment (GitHub Pages) and docs
-
-- [ ] 14.1 Create `.github/workflows/deploy.yml` **in the web project's own git repository** (path relative to that
-  repository's root). The workflow below assumes the web project root IS the repository root. If the web project
-  lives in a subfolder of its repository, set `working-directory`, `cache-dependency-path` and the artifact `path`
-  to that subfolder.
-  ```yaml
-  name: Deploy web app
-  on:
-    push:
-      branches: [main]
-    workflow_dispatch:
-  permissions:
-    contents: read
-    pages: write
-    id-token: write
-  concurrency:
-    group: pages
-    cancel-in-progress: true
-  jobs:
-    build:
-      runs-on: ubuntu-latest
-      defaults:
-        run:
-          working-directory: .
-      steps:
-        - uses: actions/checkout@v4
-        - uses: actions/setup-node@v4
-          with:
-            node-version: 22
-            cache: npm
-            cache-dependency-path: package-lock.json
-        - run: npm ci
-        - run: npm run test
-        - run: npm run build
-        - uses: actions/upload-pages-artifact@v3
-          with:
-            path: dist
-    deploy:
-      needs: build
-      runs-on: ubuntu-latest
-      environment:
-        name: github-pages
-        url: ${{ steps.deployment.outputs.page_url }}
-      steps:
-        - id: deployment
-          uses: actions/deploy-pages@v4
-  ```
-  (Check the branch name with `git branch --show-current` in the web project root and adjust `main` if different.
-  Newer major versions of these actions are fine.) CI does not need `.ios-reference/` or network access to the iOS
-  repository, because `src/data/`, `icon-source/` and `public/*.png` are committed. Because `base: './'` and a hash
-  router are used, the build works under any Pages sub-path without configuration.
-- [ ] 14.2 Create `README.md` in the web project root: what it is (web/PWA port of
-  https://github.com/jenslohmann/ShotokanKata), commands (from AGENTS.md §4), how data is synced from the iOS repository
-  (`npm run sync-data:update`, then commit `src/data/`; `src/data/source.json` shows the iOS commit used),
-  how to install on iPhone/iPad (Safari → Share → Add to Home Screen) and Android (Chrome → Install app), and how
-  deployment works (repository Settings → Pages → Source: "GitHub Actions"; the site URL is shown in the workflow run).
-- [ ] 14.3 Do NOT modify the iOS repository (https://github.com/jenslohmann/ShotokanKata or `.ios-reference/`).
-  If you think its README should mention the web version, write the suggested text in PROGRESS.md for the user.
-
-Acceptance: green. Commit. (Pushing is up to the user — do NOT push.)
-
----
-
-## Phase 15 — Final verification
-
-- [ ] 15.1 From a fresh clone of the web project (without `.ios-reference/`, without network to the iOS repo):
-  `npm ci && npm run typecheck && npm run test && npm run build` — all pass.
-- [ ] 15.2 Manual walkthrough in `npm run preview` (phone width and wide width, light and dark):
-  - Kata list: 10 kata in order 1,2,3,4,5,6,9,10,11,15; search "empi"; belt chip "Black Belt"; More → rank filter; Japanese toggle persists after reload.
-  - Kata detail: Moves tab default; Rei/Yōi badges; KIAI! badges; sub-move cards indented; stance badges green; long descriptions expand;
-    tapping a red bold term opens the vocabulary sheet; Overview links open in a new tab; History stats correct.
-  - Vocabulary: search, category filter, detail page, speak button pronounces Japanese (where the browser has a Japanese voice).
-  - Quiz: default 9th Kyū → 2 available questions; 2nd Dan + all categories; timed run; kiai question; skip; exit confirmation; results; "Back to Main Menu" lands on Kata.
-  - About: install hint, language switch to Dansk changes UI text.
-  - Offline: after first load, DevTools offline + reload works.
-- [ ] 15.3 Update PROGRESS.md "Current phase" to "DONE" with a summary of any deviations from this plan.
 
 ---
 

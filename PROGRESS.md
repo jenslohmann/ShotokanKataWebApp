@@ -1,6 +1,6 @@
 # PROGRESS
 ## Current phase
-13 (done — green: typecheck/test/build all exit 0; committed). Next: Phase 14
+DONE — all phases (0–13) complete; green: typecheck/test/build all exit 0; committed. Phases 14 (deployment) and 15 (final verification) were removed from the plan at the user's request.
 ## Done
 - 0.1 read AGENTS.md
 - 0.2 created PROGRESS.md
