@@ -1,0 +1,159 @@
+{
+  "description": "Jion er også navnet på et buddhistisk tempel i Kina, hvor munke trænede kampkunst, og kataens navn stammer muligvis derfra. De to tegn, som navnet skrives med, betyder henholdsvis 'kærlighed' og 'venlighed'. Jion har sine rødder i Tomari-Te og er med sine grundlæggende stillinger og fundamentale teknikker repræsentativ for Shōtōkan. Den findes også i Wadō-ryū. Kataen udtrykker en buddha-lignende glidende ro og stilhed, men med intens ånd og fremdrift, og er velegnet til at øve retning, skift, drejninger og yori-ashi.",
+  "moves": {
+    "0": {
+      "1": "Placer højre knytnæve foran hagen (håndryggen mod højre), og omslut den let med venstre hånd (håndryggen mod venstre), albuerne let bøjede."
+    },
+    "1": {
+      "1": "Træd tilbage med venstre ben ind i højre zenkutsu-dachi, samtidig med en højre indvendig blokering på mellemste niveau og en venstre lav blokering (krydsblokering)"
+    },
+    "2": {
+      "1": "Langsomt 45 grader til venstre: kileblokering i venstre zenkutsu-dachi. Armene starter krydset foran brystet og drejes langsomt udad. Venstre arm yderst"
+    },
+    "3": {
+      "1": "Højre fremadspark - armene forbliver i uændret position med albuerne bøjet 90 grader"
+    },
+    "4": {
+      "1": "Højre udfaldsslag på mellemste niveau i højre zenkutsu-dachi. Stræk det bageste ben helt, og skub fra med det for at skabe kraft til slaget"
+    },
+    "5": {
+      "1": "Venstre omvendt slag på mellemste niveau - samme stilling"
+    },
+    "6": {
+      "1": "Højre direkte slag på mellemste niveau - samme stilling"
+    },
+    "7": {
+      "1": "Langsomt 90 grader til højre: kileblokering i højre zenkutsu-dachi. Højre arm yderst"
+    },
+    "8": {
+      "1": "Venstre fremadspark - armene forbliver i uændret position med albuerne bøjet 90 grader"
+    },
+    "9": {
+      "1": "Venstre udfaldsslag på mellemste niveau i venstre zenkutsu-dachi"
+    },
+    "10": {
+      "1": "Højre omvendt slag på mellemste niveau - samme stilling"
+    },
+    "11": {
+      "1": "Venstre direkte slag på mellemste niveau - samme stilling"
+    },
+    "12": {
+      "1": "Højre opadgående knivhåndsblokering, mens du trækker venstre ben ind",
+      "2": "Lige frem: venstre høj opadgående blokering i venstre zenkutsu-dachi"
+    },
+    "13": {
+      "1": "Højre omvendt slag på mellemste niveau - samme stilling"
+    },
+    "14": {
+      "1": "Frem: højre høj opadgående blokering i højre zenkutsu-dachi (venstre hånd udfører age shutō-uke på vejen frem)"
+    },
+    "15": {
+      "1": "Venstre omvendt slag på mellemste niveau - samme stilling"
+    },
+    "16": {
+      "1": "Frem: venstre høj opadgående blokering i venstre zenkutsu-dachi (højre hånd udfører age shutō-uke på vejen frem)"
+    },
+    "17": {
+      "1": "Frem: højre udfaldsslag på mellemste niveau i højre zenkutsu-dachi. KIAI"
+    },
+    "18": {
+      "1": "Drej 270 grader bagud med en høj indvendig blokering i højre side og en lav blokering i venstre side i bagudrettet stilling. Disse blokeringer udføres altid med åbne hænder under bevægelsen"
+    },
+    "19": {
+      "1": "Yori-ashi (glid til venstre): højre krogslag på mellemste niveau i rytterstilling. Før kagi-zuki føres kamae-hånden til hoften - kraften skabes af en eksplosiv yori-ashi og dynamisk vægtoverførsel"
+    },
+    "20": {
+      "1": "180 grader til den modsatte side: høj indvendig blokering i venstre side og lav blokering i højre side i bagudrettet stilling"
+    },
+    "21": {
+      "1": "Yori-ashi (glid til højre): venstre krogslag på mellemste niveau i rytterstilling"
+    },
+    "22": {
+      "1": "Lige frem: venstre lav blokering i venstre zenkutsu-dachi"
+    },
+    "23": {
+      "1": "Frem: højre sideblokering med håndroden på mellemste niveau i rytterstilling. Brug kraften fra hofterotationen til at blokere modstanderens angreb. Lav en cirkulær blokering, ikke lige ud. 1--2-3-rytme for bevægelse 23-25"
+    },
+    "24": {
+      "1": "Frem: venstre sideblokering med håndroden på mellemste niveau i rytterstilling"
+    },
+    "25": {
+      "1": "Frem: højre sideblokering med håndroden på mellemste niveau i rytterstilling"
+    },
+    "26": {
+      "1": "Drej 270 grader bagud med en høj indvendig blokering i højre side og en lav blokering i venstre side i bagudrettet stilling"
+    },
+    "27": {
+      "1": "Høj forstærket blokering 45 grader til venstre i samlet fodstilling"
+    },
+    "28": {
+      "1": "180 grader til den modsatte side: høj indvendig blokering i venstre side og lav blokering i højre side i bagudrettet stilling"
+    },
+    "29": {
+      "1": "Høj forstærket blokering 45 grader til højre i samlet fodstilling"
+    },
+    "30": {
+      "1": "Klarstilling med begge arme (venstre hånd yderst) i samlet fodstilling (bevægelsen er langsom) - blikket rettes nu lige frem. Hænderne i gedan-niveau - ikke for højt!"
+    },
+    "31": {
+      "1": "Frem: lav X-blokering i krydsstilling. Dette er kataens vigtigste sekvens! Løb igennem modstanderen med en byge af jōdan-, chūdan- og gedan-teknikker"
+    },
+    "32": {
+      "1": "Tilbage på venstre ben ind i højre zenkutsu-dachi med en lav kileblokering med begge arme"
+    },
+    "33": {
+      "1": "Frem: indvendig blokering med begge arme i venstre zenkutsu-dachi (venstre hånd yderst)"
+    },
+    "34": {
+      "1": "Frem: høj X-blokering i højre zenkutsu-dachi (højre hånd yderst)"
+    },
+    "35": {
+      "1": "Højre højt knoslag med venstre opadgående blokering (venstre hånd bevæger sig ikke) - samme stilling"
+    },
+    "36": {
+      "1": "Venstre hånd stødes frem i et kombineret slag og blokering, mens højre indtager klarposition ved højre skulder - samme stilling"
+    },
+    "37": {
+      "1": "Højre knoslag, højt omvendt slag (højre albue hviler oven på venstre håndryg) - samme stilling"
+    },
+    "38": {
+      "1": "Drej 270 grader bagud: venstre indvendig blokering på mellemste niveau i venstre zenkutsu-dachi"
+    },
+    "39": {
+      "1": "Frem: højre udfaldsslag på mellemste niveau i højre zenkutsu-dachi"
+    },
+    "40": {
+      "1": "Drej 180 grader: højre indvendig blokering på mellemste niveau i højre zenkutsu-dachi"
+    },
+    "41": {
+      "1": "Frem: venstre udfaldsslag på mellemste niveau i venstre zenkutsu-dachi"
+    },
+    "42": {
+      "1": "90 grader til venstre: venstre lav blokering i venstre zenkutsu-dachi"
+    },
+    "43": {
+      "1": "Højre faldende slag samtidig med fumikomi i rytterstilling. Knytnæven løftes over hovedet, knæet på fumikomi-benet løftes højt med foden bøjet og hofterne i shōmen. Hofterne drejes skarpt, mens fumikomi udføres. 1--2-3-rytme for bevægelse 43-45"
+    },
+    "44": {
+      "1": "Venstre faldende slag samtidig med fumikomi i rytterstilling"
+    },
+    "45": {
+      "1": "Højre faldende slag samtidig med fumikomi i rytterstilling"
+    },
+    "46": {
+      "1": "Drej 270 grader: slag på mellemste niveau mod venstre side med højre hånd trukket tilbage i hikite ved brystet i rytterstilling. Højre hånd holdes foran skulderen med håndfladen fremad for at gribe modstanderens hånd fra siden (tsukami-uke). Yori-ashi i både bevægelse 46 og 47"
+    },
+    "47": {
+      "1": "180 grader til den modsatte side: slag på mellemste niveau mod højre side med venstre hånd trukket tilbage i hikite ved brystet - glid til højre i rytterstilling. KIAI"
+    },
+    "48": {
+      "1": "Før højre fod hen til venstre fod i heisoku-dachi. Placer højre knytnæve foran hagen (håndryggen mod højre), og omslut den let med venstre hånd (håndryggen mod venstre), albuerne let bøjede."
+    },
+    "49": {
+      "1": "Indtag musubi-dachi. Buk (rei) med hænderne på siden af lårene"
+    },
+    "-1": {
+      "1": "Buk (rei) fra musubi-dachi med hænderne på siden af lårene"
+    }
+  }
+}

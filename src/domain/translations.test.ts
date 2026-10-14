@@ -71,8 +71,7 @@ describe.each(TRANSLATED)('%s content translations', (lang) => {
     }
   });
 
-  it('show kata without a translation in English', () => {
-    const untranslated = ALL_KATA.find((kata) => !translatedKataNumbers(lang).includes(kata.kataNumber));
-    if (untranslated) expect(localizeKata(untranslated, lang)).toEqual({ ...untranslated, contentLang: SOURCE_LANG });
+  it('translate every kata', () => {
+    expect(translatedKataNumbers(lang)).toEqual(ALL_KATA.map((kata) => kata.kataNumber));
   });
 });

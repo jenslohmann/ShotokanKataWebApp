@@ -1,0 +1,115 @@
+{
+  "description": "Den første Tekki-kata, der udføres udelukkende i rytterstilling (kiba-dachi) med kraftfulde hoftebevægelser. Tekki betyder 'jernhest', og kataen er kendt for sine stærke sidelæns bevægelser, mens man vender fremad. Embusen er en lige linje, hvor alle teknikker udføres vendt mod nord, mens man bevæger sig til venstre og højre. Kataen lægger vægt på stærk hofteaktion, balance og udvikling af kraftfulde teknikker fra et stabilt fundament.",
+  "moves": {
+    "0": {
+      "1": "Indtag Heisoku-dachi, og læg venstre håndflade oven på højre hånds bagside foran den nederste del af maven, i en lille afstand fra kroppen."
+    },
+    "1": {
+      "1": "Hold overkroppen uændret, se til højre, sænk hofterne, og kryds forsigtigt venstre fod over højre fod, så alle tæer flugter."
+    },
+    "2": {
+      "1": "Udfør et højre trampespark til siden, mens du går ind i rytterstilling",
+      "2": "Højre krogblokering/håndledsblokering til siden på mellemste niveau med håndryggen og åben højre hånd (kake-uke). Venstre knytnæve i hikite."
+    },
+    "3": {
+      "1": "Bliv stående, stadig i kiba-dachi, og slå et venstre albueslag (empi-uchi) ind i den åbne højre hånd. Hofterne forbliver vendt fremad."
+    },
+    "4": {
+      "1": "Hold stillingen uændret, og se til venstre. Før samtidig begge knytnæver til højre hofte med venstre knytnæve oven på højre knytnæve, venstre knytnæves bagside vendt fremad og højre knytnæves bagside vendt nedad."
+    },
+    "5": {
+      "1": "Venstre fejende blokering på lavt niveau"
+    },
+    "6": {
+      "1": "Bliv stående, fortsat i kiba-dachi, og udfør et højre krogslag (kagi-zuki) på mellemste niveau. Træk venstre knytnæve tilbage i hikite."
+    },
+    "7": {
+      "1": "Hold overkroppen, overkroppens retning og venstre fods position uændret, hold hofterne lavt, og kryds forsigtigt højre fod over venstre fod, så alle tæer flugter."
+    },
+    "8": {
+      "1": "Venstre trampespark til siden, mens du går ind i rytterstilling",
+      "2": "Venstre indvendig underarmsblokering på mellemste niveau"
+    },
+    "9": {
+      "1": "Højre fejende blokering på lavt niveau",
+      "2": "Venstre fejende blokering på højt niveau",
+      "3": "Venstre knoslag på højt niveau med venstre albue hvilende på bagsiden af højre knytnæve"
+    },
+    "10": {
+      "1": "Hold stillingen og overkroppens position uændret, og se til venstre."
+    },
+    "11": {
+      "1": "Drej hovedet til venstre, og udfør et opadgående fejespark med venstre fod (nami-gaeshi), og sæt den ned igen i kiba-dachi",
+      "2": "Venstre forstærket lodret blokering på mellemste niveau, højre knytnæve hele tiden under venstre albue"
+    },
+    "12": {
+      "1": "Hold stillingen og overkroppens position uændret, og se til højre."
+    },
+    "13": {
+      "1": "Hold overkroppen, begge hænder, hofternes højde, begge knæ og venstre fods position uændret, brug højre knæ som drejepunkt, og løft højre fod højt med en fjedrende bevægelse op mod den nederste del af maven, indtil højre fodsål vender opad.",
+      "2": "Sving højre fod ned igen, og indtag Kiba-dachi. Hold samtidig højre knytnæves bagside mod undersiden af venstre albue, drej overkroppen med uret, og drej venstre underarm udad med knytnævens bagside vendt nedad."
+    },
+    "14": {
+      "1": "Vend hovedet mod venstre, og før de 2 knytnæver til højre hofte"
+    },
+    "15": {
+      "1": "Stød venstre knytnæve ud til venstre side lige under skulderhøjde (knytnævens bagside opad), mens du samtidig fører højre knytnæve frem og derefter til venstre i en retvinklet bøjning foran solar plexus (knytnævens bagside opad), højre knytnæve på linje med venstre side. Begge knytnæver bevæger sig samtidig."
+    },
+    "16": {
+      "1": "Før langsomt og kraftfuldt venstre hånd ind under højre armhule, og udfør en krogblokering/håndledsblokering med åben venstre hånd (kake-uke) på mellemste niveau til venstre. Højre knytnæve i hikite."
+    },
+    "17": {
+      "1": "Bliv stående, fortsat i kiba-dachi, og slå et højre albueslag (empi-uchi) ind i den åbne venstre hånd. Hofterne forbliver vendt fremad."
+    },
+    "18": {
+      "1": "Hold stillingen uændret, og se til højre. Før samtidig begge knytnæver til venstre hofte med højre knytnæve oven på venstre knytnæve, højre knytnæves bagside vendt fremad og venstre knytnæves bagside vendt nedad."
+    },
+    "19": {
+      "1": "Højre fejende blokering på lavt niveau"
+    },
+    "20": {
+      "1": "Bliv stående, fortsat i kiba-dachi, og udfør et venstre krogslag (kagi-zuki) på mellemste niveau. Træk højre knytnæve tilbage i hikite."
+    },
+    "21": {
+      "1": "Hold overkroppen, overkroppens retning og højre fods position uændret, hold hofterne lavt, og kryds forsigtigt venstre fod over højre fod, så alle tæer flugter."
+    },
+    "22": {
+      "1": "Sæt venstre hæl i gulvet, løft derefter højre knæ højt, og udfør et højre trampespark (fumikomi) ned i kiba-dachi",
+      "2": "Venstre indvendig underarmsblokering på mellemste niveau indefra og ud, på mellemste niveau til venstre. Hofterne og blikket er vendt fremad."
+    },
+    "23": {
+      "1": "Venstre fejende blokering på lavt niveau",
+      "2": "Højre fejende blokering på højt niveau",
+      "3": "Højre knoslag på højt niveau med højre albue hvilende på bagsiden af venstre knytnæve"
+    },
+    "24": {
+      "1": "Hold stillingen og overkroppens position uændret, og se til højre."
+    },
+    "25": {
+      "1": "Drej hovedet til højre, spark opad og fej op med højre fod (nami-gaeshi), og sæt den ned igen i kiba-dachi",
+      "2": "Højre forstærket lodret blokering på mellemste niveau, venstre knytnæve hele tiden under højre albue"
+    },
+    "26": {
+      "1": "Hold stillingen og overkroppens position uændret, og se til venstre."
+    },
+    "27": {
+      "1": "Drej hovedet til venstre, og udfør et opadgående fejespark med venstre fod (nami-gaeshi), og sæt den ned igen i kiba-dachi",
+      "2": "Højre forstærket udvendig blokering udefra og ind på mellemste niveau, venstre knytnæve hele tiden under højre albue"
+    },
+    "28": {
+      "1": "Vend hovedet mod højre, og før de 2 knytnæver til venstre hofte"
+    },
+    "29": {
+      "1": "Vend hovedet mod højre, før de 2 knytnæver i hikité, højre knytnæve lodret på venstre knytnæve, til venstre hofte, og udfør derefter på stedet et dobbelt angreb med knytnæverne på mellemste niveau, højre arm strakt (yoko-zuki) og venstre arm bøjet (kagi-zuki)"
+    },
+    "30": {
+      "1": "Venstre fod bliver på stedet, mens højre fod føres tilbage ved siden af venstre fod, og du vender tilbage til YŌI-stillingen. Læg venstre håndflade oven på højre hånds bagside foran den nederste del af maven, i en lille afstand fra kroppen."
+    },
+    "31": {
+      "1": "Indtag musubi-dachi. Buk (rei) med hænderne på siden af lårene"
+    },
+    "-1": {
+      "1": "Buk (rei) fra musubi-dachi med hænderne på siden af lårene"
+    }
+  }
+}

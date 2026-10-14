@@ -1,0 +1,131 @@
+{
+  "description": "Empi (eller Enpi) betyder 'flyvende svale' eller 'svale under flugt', hvilket symboliseres af de hurtige op- og nedadgående bevægelser i kataen. Den stammer fra Tomari-Te, er en af de ældste i Shōtōkan og hed tidligere 'Wanshū'. Kataen er kendetegnet ved skift fra høje til lave stillinger, let som en svale, med hurtige og adrætte bevægelser og hurtige vendinger af kropspositionen.",
+  "moves": {
+    "0": {
+      "1": "Stå i Heisoku-dachi, venstre hånd på venstre hofte (håndryggen vender mod venstre), højre knytnæve rører venstre håndflade (knytnævens bagside fremad)."
+    },
+    "1": {
+      "1": "Gå ned på højre knæ (en håndsbredde mellem venstre fod og højre knæ) - bloker 45 grader til højre med gedan-barai - hikite-hånden ligger også 45 grader foran solar plexus - blikket følger med"
+    },
+    "2": {
+      "1": "Hurtigt op i koshi-kamae (hænderne på højre side) i shizentai. Mens du rejser dig, holdes blikket 45 grader"
+    },
+    "3": {
+      "1": "Til højre side: højre gedan-barai i zenkutsu-dachi. Ingen hikite"
+    },
+    "4": {
+      "1": "Venstre krogslag i rytterstilling - hold blikket mod højre. For at skabe kraft i kagi-zuki drejer du hofterne skarpt, mens du trækker venstre fod ind"
+    },
+    "5": {
+      "1": "Lige frem: venstre gedan-barai i venstre zenkutsu-dachi"
+    },
+    "6": {
+      "1": "Højre opadgående slag på højt niveau, samme stilling. Age-zuki udføres ved at føre hofterne til shōmen, mens du slår chūdan, og straks løfte hånden til jōdan"
+    },
+    "7": {
+      "1": "Hånden åbnes (som for at gribe en hestehale), højre knæ trækkes op og tramper ned i fumikomi",
+      "2": "Krydsstilling med højre afledende blokering på højt niveau og venstre faldende slag på mellemste niveau"
+    },
+    "8": {
+      "1": "180 grader modsat: højre omvendt lav blokering i venstre zenkutsu-dachi. Med højre hæl som drejepunkt strækkes højre ben helt og kraftfuldt, mens lår og overkrop drejes mod uret"
+    },
+    "9": {
+      "1": "Fremad: venstre gedan-barai i samme stilling. Kroppen lodret som normalt"
+    },
+    "10": {
+      "1": "Højre opadgående slag på højt niveau i samme stilling"
+    },
+    "11": {
+      "1": "Hånden åbnes (som for at gribe en hestehale), højre knæ trækkes op og tramper ned i fumikomi",
+      "2": "Krydsstilling med højre afledende blokering på højt niveau og venstre faldende slag på mellemste niveau"
+    },
+    "12": {
+      "1": "180 grader modsat: højre omvendt lav blokering i venstre hiza-kutsu-dachi"
+    },
+    "13": {
+      "1": "Fremad: venstre gedan-barai i samme stilling"
+    },
+    "14": {
+      "1": "Forreste ben bevæger sig langsomt op og i en bue til venstre ned i rytterstilling samtidig med en blokering med håndryggen på højt niveau 45 grader til venstre. Arme og ben skal bevæge sig synkront og langsomt i en bue"
+    },
+    "15": {
+      "1": "Højre håndledsslag på højt niveau ind i venstre håndflade, højre fod trækkes ind ved venstre knæ, balancer på venstre ben. KIAI"
+    },
+    "16": {
+      "1": "Langsomt ned i rytterstilling - venstre lodret knivhåndsblokering på mellemste niveau"
+    },
+    "17": {
+      "1": "Højre slag på mellemste niveau - samme stilling"
+    },
+    "18": {
+      "1": "Venstre slag på mellemste niveau - samme stilling"
+    },
+    "19": {
+      "1": "Til venstre: venstre gedan-barai i zenkutsu-dachi"
+    },
+    "20": {
+      "1": "Højre opadgående slag på højt niveau i samme stilling"
+    },
+    "21": {
+      "1": "Frem: højre knivhåndsblokering på mellemste niveau i bagudrettet stilling"
+    },
+    "22": {
+      "1": "På samme sted - forreste fod tilbage, derefter frem: venstre knivhåndsblokering på mellemste niveau i bagudrettet stilling"
+    },
+    "23": {
+      "1": "Højre omvendt slag på mellemste niveau i bagudrettet stilling (uændret stilling)"
+    },
+    "24": {
+      "1": "Frem: højre knivhåndsblokering på mellemste niveau i bagudrettet stilling"
+    },
+    "25": {
+      "1": "180 grader rundt: venstre gedan-barai i venstre zenkutsu-dachi"
+    },
+    "26": {
+      "1": "Højre opadgående slag på højt niveau i samme stilling"
+    },
+    "27": {
+      "1": "Hånden åbnes (som for at gribe en hestehale), højre knæ trækkes op og tramper ned i fumikomi",
+      "2": "Krydsstilling med højre afledende blokering på højt niveau og venstre faldende slag på mellemste niveau"
+    },
+    "28": {
+      "1": "180 grader modsat: højre omvendt lav blokering i venstre zenkutsu-dachi"
+    },
+    "29": {
+      "1": "Fremad: venstre gedan-barai i samme stilling"
+    },
+    "30": {
+      "1": "Højre håndrodsblokering mod 45 grader - samme stilling"
+    },
+    "31": {
+      "1": "Frem mod shōmen: kombineret håndrodsblokering i højre zenkutsu-dachi. Håndrødderne skubbes op/ned på en lodret linje"
+    },
+    "32": {
+      "1": "Kombineret håndrodsblokering i venstre zenkutsu-dachi"
+    },
+    "33": {
+      "1": "Kombineret håndrodsblokering i højre zenkutsu-dachi"
+    },
+    "34": {
+      "1": "(Kort) Yori-ashi ind på midterlinjen til en hidari kōkutsu-dachi. Højre hånd i gedan kamae (som for at udføre et lavt slag), og venstre hånd føres til venstre hofte"
+    },
+    "35": {
+      "1": "Yori-ashi ind i fudō-dachi (fødderne står på en nord-syd-linje). Hænderne åbnes i en gribeblokering (tsukami-uke) - venstre hånd tæt ved panden, højre albue tæt ved højre hofte, håndfladen opad"
+    },
+    "36": {
+      "1": "Højt roterende spring med landing i bagudrettet stilling med højre knivhåndsblokering på mellemste niveau. KIAI"
+    },
+    "37": {
+      "1": "Træd tilbage: venstre knivhåndsblokering på mellemste niveau i bagudrettet stilling"
+    },
+    "38": {
+      "1": "Flyt venstre fod, og drej højre fod ind i Heisoku-dachi, venstre hånd på venstre hofte (håndryggen vender mod venstre), højre knytnæve rører venstre håndflade (knytnævens bagside fremad)."
+    },
+    "39": {
+      "1": "Indtag musubi-dachi. Buk (rei) med hænderne på siden af lårene"
+    },
+    "-1": {
+      "1": "Buk (rei) fra musubi-dachi med hænderne på siden af lårene"
+    }
+  }
+}

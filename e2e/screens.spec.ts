@@ -97,9 +97,11 @@ test.describe('in Danish', () => {
     await expect(page.locator('.kata-tab__text').first()).toContainText('Heian Shodan er den første kata');
   });
 
-  test('kata without a translation are shown in English and marked as English', async ({ page }) => {
-    await openRoute(page, '#/kata/6?tab=moves');
-    await expect(page.locator('.expandable-text__body').first()).toHaveAttribute('lang', 'en');
+  test('every kata is shown in Danish', async ({ page }) => {
+    await openRoute(page, '#/kata/15?tab=moves');
+    await expect(page.locator('.expandable-text__body').first()).toHaveAttribute('lang', 'da');
+    await openRoute(page, '#/kata/15?tab=overview');
+    await expect(page.locator('.kata-tab__text').first()).toHaveAttribute('lang', 'da');
   });
 
   test('quiz questions are Danish', async ({ page }) => {

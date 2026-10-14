@@ -1,0 +1,143 @@
+{
+  "description": "Bassai Dai, der betyder 'at trænge ind i fæstningen (stor)', er en kraftfuld kata, der lægger vægt på stærke lineære bevægelser og dynamiske teknikker. Kataen viser princippet om at bryde igennem en modstanders forsvar med eksplosiv kraft og varieret timing. Kataen indeholder den karakteristiske bjergslag-kombination (yama-zuki), kraftfulde blokeringer og viser både offensive og defensive anvendelser. Bassai Dai er kendetegnet ved sin stærke fremadrettede fremdrift, skiftende rytmer og princippet om overvældende kraft. Traditionelt læres den på 1. Dan-niveau (sort bælte) i JKA's pensum.",
+  "moves": {
+    "0": {
+      "1": "Placer højre knytnæve i venstre hånd. Venstre hånd er let bøjet uden at gribe om højre hånd."
+    },
+    "1": {
+      "1": "Løft højre knæ, og spring frem, så højre fod lander i kōsa-dachi. Udfør samtidig en dobbelt højre blokering indefra og ud (morote-uke), hvor venstre hånd forstærker højre underarm"
+    },
+    "2": {
+      "1": "Drej hovedet til venstre, og stræk venstre ben bagud, mens venstre hånd krydser foran dig under højre arm. Udfør en venstre blokering indefra og ud på mellemste niveau (uchi-uke) ved at dreje bækkenet til venstre i zenkutsu-dachi, højre knytnæve i hikite"
+    },
+    "3": {
+      "1": "Udfør på stedet en blokering med højre arm på mellemste niveau (uchi-uke) indefra og ud med en kraftig rotation af hofterne. Højre skulder føres frem, og hofterne er i Gyaku-Hanmi, stadig i zenkutsu-dachi, venstre knytnæve i hikite"
+    },
+    "4": {
+      "1": "Drej 180°, og udfør en venstre blokering indefra og ud på mellemste niveau (soto-uke) i zenkutsu-dachi, højre knytnæve i hikite"
+    },
+    "5": {
+      "1": "Udfør på stedet en blokering med højre arm på mellemste niveau (uchi-uke) indefra og ud med en kraftig rotation af hofterne. Højre skulder føres frem, og overkroppen er i 3/4, stadig i zenkutsu-dachi, venstre knytnæve i hikite"
+    },
+    "6": {
+      "1": "Udfør en højre øsende blokering på lavt niveau",
+      "2": "Følg op med en højre udvendig blokering på mellemste niveau"
+    },
+    "7": {
+      "1": "Udfør på stedet en blokering med venstre arm på mellemste niveau (uchi-uke) indefra og ud med en kraftig rotation af hofterne. Venstre skulder føres frem, og overkroppen er i 3/4, stadig i zenkutsu-dachi, højre knytnæve i hikite"
+    },
+    "8": {
+      "1": "Træk venstre fod ind mod højre fod til hachiji-dachi, mens du placerer venstre knytnæve lodret på højre knytnæve i hikite ved højre hofte"
+    },
+    "9": {
+      "2": "Udfør en venstre lodret knivhåndsblokering i skulderhøjde"
+    },
+    "10": {
+      "1": "Udfør på stedet et direkte højre slag på mellemste niveau (choku-zuki) i hachiji-dachi, venstre knytnæve i hikite"
+    },
+    "11": {
+      "1": "Udfør på stedet, stadig i hachiji-dachi, en højre blokering på mellemste niveau indefra og ud (uchi-uke) ved kraftigt at dreje bækkenet mod venstre. Højre ben strækkes, og venstre knæ bøjes let"
+    },
+    "12": {
+      "1": "Udfør på stedet et direkte venstre slag på mellemste niveau (choku-zuki) i hachiji-dachi, højre knytnæve i hikite"
+    },
+    "13": {
+      "1": "Udfør på stedet, stadig i hachiji-dachi, en venstre blokering på mellemste niveau indefra og ud (uchi-uke) ved kraftigt at dreje bækkenet mod højre. Venstre ben strækkes, og højre knæ bøjes let"
+    },
+    "14": {
+      "1": "Træd frem med højre fod på kataens startakse i Kōkutsu-dachi, mens du udfører en blokering med højre knivhånd på mellemste niveau (shutō-uke)"
+    },
+    "15": {
+      "1": "Træd frem med venstre fod på kataens startakse i Kōkutsu-dachi, mens du udfører en blokering med venstre knivhånd på mellemste niveau (shutō-uke)"
+    },
+    "16": {
+      "1": "Træd frem med højre fod på kataens startakse i Kōkutsu-dachi, mens du udfører en blokering med højre knivhånd på mellemste niveau (shutō-uke)"
+    },
+    "17": {
+      "1": "Træk højre fod tilbage på kataens startakse i Kōkutsu-dachi, mens du udfører en blokering med venstre knivhånd på mellemste niveau (shutō-uke)"
+    },
+    "18": {
+      "1": "Skift til zenkutsu-dachi (gyaku-hanmi). Før samtidig højre hånd i en halvcirkel ind under venstre hånd, og ræk den frem foran venstre hånd, så venstre fingerspidser er meget tæt på højre håndled. Bøj begge albuer let, hold armhulerne og albuerne tæt ind, med håndryggene opad og højre albue halvanden knytnæves afstand fra højre side af kroppen. Venstre hånd bevæger sig ikke, når højre hånd rækkes frem foran den. De to hænder rører ikke hinanden."
+    },
+    "19": {
+      "1": "Løft højre knæ højt op i rummet mellem armene. Knyt samtidig hænderne, og træk knytnæverne skarpt opad side om side til højde med højre brystvorte med håndryggene opad, og spark højre ben nedad med yderkanten af højre fod.",
+      "2": "Det stødende spark rettes mod et punkt lidt over hoftebenet. KIAI ved afslutningen af denne bevægelse."
+    },
+    "20": {
+      "1": "Se til venstre mod bagsiden (ura-shōmen). Drej 180 grader til venstre ind i bagudrettet stilling, mens du udfører en venstre knivhåndsblokering på mellemste niveau (shutō-uke)"
+    },
+    "21": {
+      "1": "Glid højre fod frem (mod ura-shōmen) til hidari kōkutsu-dachi. Udfør samtidig migi shutō-uke"
+    },
+    "22": {
+      "1": "Hold venstre fod på plads, og før højre fod ind mod venstre fod. Træk samtidig begge knytnæver opad foran og lidt over panden."
+    },
+    "23": {
+      "1": "Hold venstre fod på plads, og glid højre fod frem. Træk samtidig begge knytnæver en knytnæves afstand fra hinanden, og slå i en halvcirkel med knytnævernes ryg udad mod hver side af maven,"
+    },
+    "24": {
+      "1": "Udfør et højre slag på mellemste niveau, mens du glider frem (yori-ashi) i fremadrettet stilling"
+    },
+    "25": {
+      "1": "Drej 180 grader til venstre ind i fremadrettet stilling, mens du samtidig udfører en afledende blokering på højt niveau (nagashi-uke) med venstre arm og et knivhåndsslag på lavt niveau (shutō-uchi) med højre hånd",
+      "2": "Før venstre fod ind mod højre fod til heisoku-dachi, mens du samtidig udfører en højre sideblokering på højt niveau (sokumen-uke) og en venstre sideblokering på lavt niveau (sokumen-uke)"
+    },
+    "26": {
+      "1": "Drej 90 grader til højre ind i kiba-dachi, mens du udfører et højre sidetramp (fumikomi) efterfulgt af en højre nedadgående blokering (gedan-barai)"
+    },
+    "27": {
+      "1": "Se til venstre, mens du udfører en venstre krogblokering med håndleddet (kake-uke) til venstre side på mellemste niveau (sokumen)"
+    },
+    "28": {
+      "1": "Løft højre knæ højt, og udfør et højre halvmånespark (mikazuki-geri), der fejer rummet foran dig, og sæt foden ned i kiba-dachi",
+      "2": "Slå samtidig med højre albue (empi-uchi) fremad, venstre knytnæve (empi-uchi)"
+    },
+    "29": {
+      "1": "Fortsæt på stedet direkte ved at sænke højre knytnæve (gedan-uke), venstre knytnæve i kontakt med højre albue, stadig i kiba-dachi"
+    },
+    "30": {
+      "1": "Fortsæt med en venstre nedadgående blokering"
+    },
+    "31": {
+      "1": "Afslut med en højre nedadgående blokering"
+    },
+    "32": {
+      "1": "Drej hovedet til højre, og flyt højre fod lidt, så du ender i zenkutsu-dachi. Træk samtidig knytnæverne op over venstre hofte, højre knytnæve over venstre knytnæve i hikite (koshi-kamae)"
+    },
+    "33": {
+      "1": "Slå derefter med begge knytnæver samtidig (yama-zuki), venstre knytnæve mod ansigtet og højre knytnæve på lavt niveau. Ved teknikkens afslutning er de to knytnæver på samme lodrette akse, og overkroppen hælder fremad"
+    },
+    "34": {
+      "1": "Træk højre fod tilbage ind mod venstre fod til heisoku-dachi, mens du fører de to knytnæver op over højre hofte, venstre knytnæve over højre knytnæve i hikite (koshi-kamae)"
+    },
+    "35": {
+      "1": "Løft venstre knæ, og udfør et knusende venstre tramp (fumikomi) i zenkutsu-dachi, og slå med begge knytnæver samtidig (yama-zuki), højre knytnæve mod ansigtet og venstre knytnæve på lavt niveau. Ved teknikkens afslutning er de to knytnæver på samme lodrette akse, og overkroppen hælder fremad",
+      "2": "Mens du samtidig slår med begge knytnæver (yama-zuki), højre knytnæve i ansigtshøjde og venstre knytnæve på mellemste niveau. Ved teknikkens afslutning er de to knytnæver på samme lodrette akse, og overkroppen hælder fremad"
+    },
+    "36": {
+      "1": "Træk venstre fod tilbage ind mod venstre fod til heisoku-dachi, mens du fører de to knytnæver op over venstre hofte, højre knytnæve over højre knytnæve til venstre (koshi-kamae)"
+    },
+    "37": {
+      "1": "Løft højre knæ, og udfør et knusende højre spark (fumikomi) i zenkutsu-dachi",
+      "2": "Mens du samtidig slår med begge knytnæver (yama-zuki), venstre knytnæve i ansigtshøjde og højre knytnæve på lavt niveau. Ved teknikkens afslutning er de to knytnæver på samme lodrette akse, og overkroppen hælder fremad"
+    },
+    "38": {
+      "1": "Drej på højre fod, mens venstre ben beskriver en bue på 90°. Sæt foden ned i zenkutsu-dachi. Højre knytnæve beskriver en stor cirkelbevægelse fra venstre skulder og udfører en øsende blokering (sukui-uke). Venstre knytnæve placeres i hikité"
+    },
+    "39": {
+      "1": "Drej på begge fødder til højre. Venstre knytnæve beskriver en stor cirkelbevægelse fra højre skulder og udfører en øsende blokering (sukui-uke). Højre knytnæve placeres i hikité"
+    },
+    "40": {
+      "1": "Drej hovedet 45° til højre, saml venstre fod ind til højre fod, og træd frem med højre fod i en vinkel på 45° til højre i Kōkutsu-dachi, mens du udfører en blokering med højre knivhånd på mellemste niveau (shutō-uke)"
+    },
+    "41": {
+      "1": "Drej hovedet 90° til venstre, og flyt langsomt højre fod 90° bagud, stadig i Kōkutsu-dachi, mens overkroppen bevarer samme stilling (shutō-uke) mod denne bageste retning"
+    },
+    "42": {
+      "1": "Før højre fod ind under højre skulder, og træd derefter frem med venstre fod i Kōkutsu-dachi, mens du udfører en blokering med venstre knivhånd (shutō-uke)"
+    },
+    "-1": {
+      "1": "Buk (rei) fra musubi-dachi med hænderne på siden af lårene"
+    }
+  }
+}
