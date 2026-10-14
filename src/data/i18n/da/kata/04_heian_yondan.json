@@ -1,0 +1,100 @@
+{
+  "description": "Heian Yondan er den fjerde kata i Heian-serien med 27 bevægelser og kiai på bevægelse 13 og 25. Kataen begynder som Heian Nidan, men bevægelsen er langsom, og blokeringerne udføres med åbne hænder (kaishu haiwan-uke). Den indeholder også en nedadgående blokering med begge hænder (gedan jūji-uke), albueslag lige fremad (mae-empi-uchi), kileblokering (kakiwake-uke) og knæspark (hiza-uchi). Det tager cirka 50 sekunder at udføre kataen.",
+  "moves": {
+    "0": {
+      "1": "Træd fra musubi-dachi ud i hachiji-dachi (venstre fod først, så højre), og indtag klarstillingen (yōi) med knyttede næver."
+    },
+    "1": {
+      "1": "Gå ned i bagudrettet stilling mod venstre, samtidig med en høj blokering med håndryggen med åben hånd - højre holdes foran panden i kamae - begge albuer bøjet 90 grader. Teashi-doji og så langsomt som muligt. Højre hånds fingerspidser peger mod venstre håndled"
+    },
+    "2": {
+      "1": "Skift til højre - samme teknik. Venstre hånds fingerspidser peger mod højre håndled"
+    },
+    "3": {
+      "1": "Træd frem i venstre zenkutsu-dachi, og udfør en lav X-blokering med knyttede næver. Bruges både som blokering og som angreb med knoerne mod modstanderens skinneben. Håndryggene vender mod hinanden"
+    },
+    "4": {
+      "1": "Frem i bagudrettet stilling, højre forstærket blokering på mellemste niveau. Lille bevægelse - som en indadgående blokering, men med støtte"
+    },
+    "5": {
+      "1": "Flyt vægten over på højre ben, og løft venstre fod, så den rører indersiden af højre knæ (anklen bøjet, knæet peger mod venstre). Før samtidig venstre knytnæve oven på højre knytnæve ved højre hofte."
+    },
+    "6": {
+      "1": "Venstre cirkulært knoslag til venstre - samtidig venstre sidespark. Det vandrette uraken følger den korteste vej. Uraken og keage på samme tid"
+    },
+    "7": {
+      "1": "Højre albueslag fremad i venstre zenkutsu-dachi. Efter sparket skubber du fra med standbenet for at flytte vægten frem til mae empi"
+    },
+    "8": {
+      "1": "Se til højre, glid venstre fod et halvt skridt indad, og løft højre ben, så fodsålen rører indersiden af venstre knæ; højre ankel er helt bøjet, og højre knæ peger mod højre. Før samtidig højre knytnæve til venstre hofte oven på venstre knytnæve, med højre knytnæves bagside fremad og venstre knytnæves bagside nedad."
+    },
+    "9": {
+      "1": "Højre cirkulært knoslag til højre - samtidig højre sidespark. Uraken og keage på samme tid"
+    },
+    "10": {
+      "1": "Venstre albueslag fremad i højre zenkutsu-dachi"
+    },
+    "11": {
+      "1": "Mod shōmen: venstre knivhånd fejer lavt under overgangen",
+      "2": "Høj opadgående blokering med knivhånd efterfulgt af højre cirkulært knivhåndsslag med venstre hånd i høj blokering, hofterne i hanmi. Begyndere kan udføre gedan shutō og age-uke hver for sig, øvede kan udføre det mere flydende"
+    },
+    "12": {
+      "1": "Højre opadgående fremadspark på højt niveau"
+    },
+    "13": {
+      "1": "Frem i krydsstilling: venstre trykkende blokering på højt niveau - højre lodret cirkulært knoslag, mens venstre knyttede næve trækkes tilbage i hikite ved hoften. Hofterne har i krydsstilling samme højde som i zenkutsu-dachi. KIAI"
+    },
+    "14": {
+      "1": "Drej bagud og 45 grader fremad til venstre i forhold til den nye shōmen: kileblokering på mellemste niveau i bagudrettet stilling - venstre fod forrest, venstre arm yderst. De knyttede næver krydses foran brystet og føres derefter ad den korteste og mest direkte vej ud til skulderhøjde"
+    },
+    "15": {
+      "1": "Højre fremadspark på højt niveau"
+    },
+    "16": {
+      "1": "Sæt højre fod ned i zenkutsu-dachi samtidig med et højre udfaldsslag på mellemste niveau"
+    },
+    "17": {
+      "1": "Samme stilling - venstre modsat slag på mellemste niveau"
+    },
+    "18": {
+      "1": "90 grader til højre side i forhold til shōmen: kileblokering på mellemste niveau i bagudrettet stilling - højre fod forrest, venstre arm yderst"
+    },
+    "19": {
+      "1": "Venstre fremadspark på højt niveau"
+    },
+    "20": {
+      "1": "Sæt venstre fod ned i zenkutsu-dachi samtidig med et venstre udfaldsslag på mellemste niveau"
+    },
+    "21": {
+      "1": "Samme stilling - højre modsat slag på mellemste niveau"
+    },
+    "22": {
+      "1": "Lige frem 45 grader: venstre forstærket blokering på mellemste niveau i bagudrettet stilling"
+    },
+    "23": {
+      "1": "Frem: højre forstærket blokering på mellemste niveau i bagudrettet stilling"
+    },
+    "24": {
+      "1": "Frem: venstre forstærket blokering på mellemste niveau i bagudrettet stilling"
+    },
+    "25": {
+      "1": "Begge åbne hænder strækkes frem i ansigtshøjde og føres derefter straks ned på hver side af højre knæ",
+      "2": "Højre knæspark løftet højt. Foden er bøjet. Hænderne griber ikke om ørerne; forestil dig, at du griber om modstanderens nakke. KIAI"
+    },
+    "26": {
+      "1": "Vend om: venstre knivhåndsblokering på mellemste niveau i bagudrettet stilling, venstre fod forrest. Højre knivhånd ligger i kamae foran brystet"
+    },
+    "27": {
+      "1": "Frem: højre knivhåndsblokering på mellemste niveau i bagudrettet stilling, højre fod forrest"
+    },
+    "28": {
+      "1": "Træd fra kōkutsu-dachi med højre fod tilbage til hachiji-dachi, og indtag klarstillingen (yōi) med knyttede næver."
+    },
+    "29": {
+      "1": "Indtag musubi-dachi (flyt venstre fod først, så højre). Buk (rei) med hænderne på siden af lårene"
+    },
+    "-1": {
+      "1": "Buk (rei) fra musubi-dachi med hænderne på siden af lårene"
+    }
+  }
+}

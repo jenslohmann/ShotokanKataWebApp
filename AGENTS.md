@@ -189,7 +189,7 @@ use **Hepburn romanization with macrons** to represent long vowels (ā, ē, ī, 
   `moves["<sequence>"]["<sub-move order>"]` (sub-move descriptions). Only this English prose is translated;
   names, techniques, stances and Japanese fields are not. A kata is shown translated only when its file is
   complete (`src/domain/kataTranslations.ts`); otherwise it is shown in English, marked `lang="en"`.
-  Keep "KIAI" markers. Translate further kata only when the user asks. Translated so far (da): 1 Heian Shodan.
+  Keep "KIAI" markers. Translate further kata only when the user asks. Translated so far (da): 1–5 (Heian Shodan–Godan).
 - **Adding a language**: add it to `LANGUAGES` in `src/i18n/languages.ts`, add `src/i18n/<code>.ts` with all
   keys and register it in `STRINGS` in `src/i18n/index.ts`, then add `src/data/i18n/<code>/vocabulary.json` and
   `quiz.json`. The language picker, browser-language detection and tests pick it up automatically.

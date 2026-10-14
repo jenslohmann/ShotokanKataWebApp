@@ -1,0 +1,89 @@
+{
+  "description": "Den femte og sidste kata i Heian-serien, med den første springteknik (tobi-komi) i Shōtōkan (trin 19). Introducerer halvmånespark, krogslag og komplekse, flydende bevægelser. Kendt for sin kombination af hurtige og langsomme bevægelser, der kræver timing, færdighed og flydende udførelse.",
+  "moves": {
+    "0": {
+      "1": "Træd fra musubi-dachi ud i hachiji-dachi (venstre fod først, så højre), og indtag klarstillingen (yōi) med knyttede næver."
+    },
+    "1": {
+      "1": "Drej hovedet til venstre, og flyt venstre fod ind i bagudrettet stilling med hidari chūdan uchi-uke"
+    },
+    "2": {
+      "1": "Udfør på stedet i bagudrettet stilling et højre omvendt slag i solar plexus-højde"
+    },
+    "3": {
+      "1": "Før langsomt højre fod hen til venstre fod i heisoku-dachi. Se til højre, og træk højre knytnæve tilbage til højre hofte. Før samtidig venstre underarm frem, mens den stryger langs kroppen, og derefter til højre, med albuen bøjet 90° og knytnævens bagside opad, til en position foran solar plexus (mizunagare-no-kamae)."
+    },
+    "4": {
+      "1": "Flyt højre fod ind i bagudrettet stilling med en højre indadgående underarmsblokering på mellemste niveau"
+    },
+    "5": {
+      "1": "Udfør på stedet i bagudrettet stilling et venstre omvendt slag i solar plexus-højde"
+    },
+    "6": {
+      "1": "Før langsomt venstre fod hen til højre fod i heisoku-dachi. Se frem, og træk venstre knytnæve tilbage til venstre hofte. Før samtidig højre underarm frem, mens den stryger langs kroppen, og derefter til venstre, med albuen bøjet 90° og knytnævens bagside opad, til en position foran solar plexus (mizunagare-no-kamae)."
+    },
+    "7": {
+      "1": "Flyt højre fod ind i bagudrettet stilling med en højre forstærket blokering på mellemste niveau fra venstre mod højre"
+    },
+    "8": {
+      "1": "Træd frem med venstre fod i fremadrettet stilling med en lav, nedadgående X-blokering med knytnæverne og armene krydset"
+    },
+    "9": {
+      "1": "Hurtigt efter trin 8, på stedet (venstre fod kan trækkes en smule tilbage): Løft de krydsede arme, og åbn hænderne til en høj X-blokering"
+    },
+    "10": {
+      "1": "Drej begge hænder håndflade mod håndflade til højre hofte (som om du presser ned)"
+    },
+    "11": {
+      "1": "Knyt begge hænder. Driv venstre knytnæve frem i brysthøjde, højre knytnæve til højre hofte."
+    },
+    "12": {
+      "1": "Træd frem med højre fod i fremadrettet stilling med et højre direkte slag på mellemste niveau"
+    },
+    "13": {
+      "1": "Flyt vægten bagud, drej 180° mod uret på venstre fod med kraftig hofterotation, og stamp højre fod ned i rytterstilling",
+      "2": "Udfør samtidig en højre fejende blokering"
+    },
+    "14": {
+      "1": "Drej hovedet til venstre, åbn venstre hånd, og placer begge arme foran kroppen (højre oven på venstre underarm). Før venstre hånd (først flad) i en cirkelbevægelse fra under højre albue mod venstre side af kroppen (chūdan), og drej hånden lodret til sidst (haishu-uke eller kake-uke). Højre knytnæve placeres samtidig ved højre hofte. Langsom bevægelse, som når man spænder en bue."
+    },
+    "15": {
+      "1": "Udfør et højre halvmånespark med fodsålen ind i venstre hånd, mens du drejer 180° mod uret på venstre fod"
+    },
+    "16": {
+      "1": "Fortsæt rotationen, placer højre fod i rytterstilling, og slå med højre albue ind i den åbne venstre hånd"
+    },
+    "17": {
+      "1": "Se til højre. Hold højre fod på plads, glid med venstre fod bag om med hælen løftet ind i krydsstilling, og udfør en forstærket blokering fra venstre mod højre"
+    },
+    "18": {
+      "1": "Flyt venstre fod lidt tilbage, stræk det (let bøjede) højre ben ind i L-stilling, og drej hoved og hofter til venstre med en opadgående bevægelse af begge knytnæver"
+    },
+    "19": {
+      "1": "Drej 180° på venstre fod, og lav et højt spring mod syd for at lande i lav krydsstilling vendt mod øst med en nedadgående X-blokering med knytnæverne"
+    },
+    "20": {
+      "1": "Flyt højre fod mod højre ind i en smal fremadrettet stilling med en højre forstærket blokering på mellemste niveau fra venstre mod højre"
+    },
+    "21": {
+      "1": "Drej til venstre, og hold fødderne på plads. Åbn begge hænder: venstre til nederste højre del af maven (håndfladen nedad), højre ved siden af højre øre (håndfladen fremad). Skift til hidari-ashi zenkutsu, og før venstre hånd til højre skulder (håndfladen indad), mens højre hånd udfører gedan shutō-uchikomi (håndfladen opad)",
+      "2": "Skift til højre bagudrettet stilling (venstre fod må flyttes en smule). Knyt hænderne, og udfør samtidig en venstre fejende blokering og en højre høj indadgående blokering med knytnæven opad og bagud."
+    },
+    "22": {
+      "1": "Hold overkroppens position uændret, og før venstre fod hen til højre fod"
+    },
+    "23": {
+      "1": "Åbn begge hænder. Før højre hånd til nederste højre del af maven (gedan), håndfladen nedad, og venstre hånd ved siden af venstre øre, håndfladen fremad. Skift til migi-ashi zenkutsu, mens du fører højre hånd til venstre skulder (håndfladen indad) og udfører gedan shutō-uchikomi med venstre hånd, håndfladen opad.",
+      "2": "Skift til venstre bagudrettet stilling (højre fod må flyttes en smule). Knyt hænderne, og udfør samtidig en højre fejende blokering og en venstre høj indadgående blokering med knytnæven opad og bagud"
+    },
+    "24": {
+      "1": "Træd fra kōkutsu-dachi tilbage til hachiji-dachi, og indtag klarstillingen (yōi) med knyttede næver."
+    },
+    "25": {
+      "1": "Indtag musubi-dachi (flyt venstre fod først, så højre). Buk (rei) med hænderne på siden af lårene"
+    },
+    "-1": {
+      "1": "Buk (rei) fra musubi-dachi med hænderne på siden af lårene"
+    }
+  }
+}

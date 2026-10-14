@@ -98,7 +98,7 @@ test.describe('in Danish', () => {
   });
 
   test('kata without a translation are shown in English and marked as English', async ({ page }) => {
-    await openRoute(page, '#/kata/2?tab=moves');
+    await openRoute(page, '#/kata/6?tab=moves');
     await expect(page.locator('.expandable-text__body').first()).toHaveAttribute('lang', 'en');
   });
 

@@ -1,0 +1,87 @@
+{
+  "description": "Den tredje kata i Heian-serien, kendt for sine kombinationer af samtidige blokeringer og slag og for introduktionen af Kiba-dachi (rytterstilling). Den indeholder fumikomi (trampespark), drejende teknikker og lodrette knoslag. Den korteste kata i Heian-serien med karakteristiske skift i rytmen.",
+  "moves": {
+    "0": {
+      "1": "Træd fra musubi-dachi ud i hachiji-dachi (venstre fod først, så højre), og indtag klarstillingen (yōi) med knyttede næver."
+    },
+    "1": {
+      "1": "Drej hovedet til venstre, og flyt venstre fod ind i bagudrettet stilling med venstre indvendig underarmsblokering; højre knytnæve i hikite"
+    },
+    "2": {
+      "1": "Før højre ben ind til venstre ben i retstilling, og udfør en venstre nedadgående blokering",
+      "2": "Højre indvendig underarmsblokering på mellemste niveau med let bøjede knæ"
+    },
+    "3": {
+      "1": "Byt om på armene, og udfør en højre nedadgående blokering",
+      "2": "Venstre indvendig underarmsblokering på mellemste niveau med let bøjede knæ"
+    },
+    "4": {
+      "1": "Drej hovedet til højre, drej 90° på venstre fod, og flyt højre fod ind i bagudrettet stilling med højre indvendig underarmsblokering"
+    },
+    "5": {
+      "1": "Før venstre ben ind til højre ben i retstilling, og udfør en højre nedadgående blokering",
+      "2": "Venstre indvendig underarmsblokering på mellemste niveau med let bøjede knæ"
+    },
+    "6": {
+      "1": "Byt om på armene, og udfør en venstre nedadgående blokering",
+      "2": "Højre indvendig underarmsblokering på mellemste niveau med let bøjede knæ"
+    },
+    "7": {
+      "1": "Drej hovedet til venstre, drej 90° på højre fod, og flyt venstre fod ind i bagudrettet stilling med venstre forstærket blokering"
+    },
+    "8": {
+      "1": "Træd frem med højre fod i fremadrettet stilling med et lodret højre spydhåndsstød",
+      "2": "Venstre pressende blokering foldet foran kroppen under den fremadgående bevægelse"
+    },
+    "9": {
+      "1": "Vrid højre arm om på ryggen, drej 180° på højre fod, og flyt venstre fod ind i rytterstilling med et sideværts slag med venstre hammernæve"
+    },
+    "10": {
+      "1": "Træd frem med højre fod i fremadrettet stilling med et fremadskridende højre slag"
+    },
+    "11": {
+      "1": "Drej langsomt 180° bagud, før venstre fod ind til højre fod, og placer begge knytnæver fast på hofterne"
+    },
+    "12": {
+      "1": "Drej 90° til venstre på venstre fod, løft højre knæ højt, og udfør et trampespark ned i rytterstilling",
+      "2": "Højre albueslag fremad samtidig med trampesparket"
+    },
+    "13": {
+      "1": "Lodret højre knoslag i det lodrette plan; før derefter højre knytnæve til bæltet"
+    },
+    "14": {
+      "1": "Drej 180° til højre på højre fod, løft venstre knæ højt, og udfør et trampespark ned i rytterstilling",
+      "2": "Venstre albueslag fremad samtidig med trampesparket"
+    },
+    "15": {
+      "1": "Lodret venstre knoslag i det lodrette plan; før derefter venstre knytnæve til bæltet"
+    },
+    "16": {
+      "1": "Drej 180° til venstre på venstre fod, løft højre knæ højt, og udfør et trampespark ned i rytterstilling",
+      "2": "Højre albueslag fremad samtidig med trampesparket"
+    },
+    "17": {
+      "1": "Lodret højre knoslag i det lodrette plan; før derefter højre knytnæve til bæltet"
+    },
+    "18": {
+      "1": "Træd frem med venstre fod i fremadrettet stilling med et fremadskridende venstre slag"
+    },
+    "19": {
+      "1": "Træd frem med højre fod ved siden af venstre fod (hoftebredde), flyt derefter venstre fod mod højre, og drej 180° mod uret ind i kiba-dachi. Sving samtidig højre knytnæve i en stor bue op over venstre skulder (knytnævens overside opad).",
+      "2": "Træk samtidig venstre knytnæve tilbage til venstre hofte, og udfør et albueslag."
+    },
+    "20": {
+      "1": "Glid let til højre (yori-ashi), og udfør et lodret venstre slag over højre skulder",
+      "2": "Højre albueslag bagud samtidig med det lodrette slag og kiai"
+    },
+    "21": {
+      "1": "Træd fra kiba-dachi tilbage til hachiji-dachi, og indtag klarstillingen (yōi) med knyttede næver."
+    },
+    "22": {
+      "1": "Indtag musubi-dachi (flyt venstre fod først, så højre). Buk (rei) med hænderne på siden af lårene"
+    },
+    "-1": {
+      "1": "Buk (rei) fra musubi-dachi med hænderne på siden af lårene"
+    }
+  }
+}
