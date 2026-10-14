@@ -1,12 +1,11 @@
 import { Icon } from '../../components/Icon';
 import { SpeakButton } from '../../components/SpeakButton';
-import type { VocabularyTerm } from '../../domain/types';
-import { categoryOf } from '../../domain/vocabulary';
+import { categoryOf, type LocalizedTerm } from '../../domain/vocabulary';
 import { routeToHash } from '../../router/router';
 import { categoryIcon } from './categoryIcon';
 import './VocabularyRow.css';
 
-export function VocabularyRow({ term }: { term: VocabularyTerm }) {
+export function VocabularyRow({ term }: { term: LocalizedTerm }) {
   const href = routeToHash({ name: 'vocabDetail', id: term.id });
   return (
     <div className="vocab-row">
@@ -26,7 +25,9 @@ export function VocabularyRow({ term }: { term: VocabularyTerm }) {
             {term.hiraganaName}
           </span>
         </span>
-        <span className="vocab-row__short">{term.shortDescription}</span>
+        <span className="vocab-row__short" lang={term.contentLang}>
+          {term.shortDescription}
+        </span>
       </a>
       <span className="vocab-row__speak">
         <SpeakButton text={term.hiraganaName} />

@@ -26,7 +26,7 @@ describe('AboutScreen', () => {
 
   it('switches the UI language to Danish', () => {
     renderAbout();
-    fireEvent.click(screen.getByRole('tab', { name: 'Dansk' }));
+    fireEvent.change(screen.getByRole('combobox', { name: 'Language' }), { target: { value: 'da' } });
     expect(screen.getByRole('heading', { level: 1, name: 'Om' })).toBeInTheDocument();
     expect(localStorage.getItem('sk.lang')).toBe('da');
     expect(document.documentElement.lang).toBe('da');

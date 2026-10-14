@@ -25,6 +25,6 @@ describe('vocabulary', () => {
   });
 
   it('finds terms by id', () => {
-    expect(findTerm(ALL_TERMS[0].id)).toBe(ALL_TERMS[0]);
+    expect(findTerm(ALL_TERMS[0].id)).toEqual({ ...ALL_TERMS[0], contentLang: 'en' });
   });
 });

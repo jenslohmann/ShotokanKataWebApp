@@ -1,10 +1,10 @@
 import pkg from '../../../package.json';
 import { Icon, type IconName } from '../../components/Icon';
 import { NavBar } from '../../components/NavBar';
-import { SegmentedControl } from '../../components/SegmentedControl';
 import type { TKey } from '../../i18n';
-import { useSettings, type LangSetting } from '../../state/SettingsContext';
+import { useSettings } from '../../state/SettingsContext';
 import { InstallHint } from './InstallHint';
+import { LanguagePicker } from './LanguagePicker';
 import './AboutScreen.css';
 
 const GITHUB_URL = 'https://github.com/jenslohmann/ShotokanKata';
@@ -18,7 +18,7 @@ const FEATURES: { icon: IconName; title: TKey; desc: TKey }[] = [
 ];
 
 export function AboutScreen() {
-  const { t, langSetting, setLangSetting } = useSettings();
+  const { t } = useSettings();
   return (
     <>
       <NavBar large title={t('nav.about')} />
@@ -75,17 +75,7 @@ export function AboutScreen() {
 
         <section className="about__section">
           <h2 className="about__heading">{t('about.language')}</h2>
-          <SegmentedControl<LangSetting>
-            label={t('about.language')}
-            value={langSetting}
-            onChange={setLangSetting}
-            options={[
-              { value: 'auto', label: t('about.languageAuto') },
-              // Language names are shown in their own language (same value in en and da).
-              { value: 'en', label: t('about.languageEnglish') },
-              { value: 'da', label: t('about.languageDanish') },
-            ]}
-          />
+          <LanguagePicker />
         </section>
 
         <p className="about__version">{t('about.version', { version: pkg.version })}</p>

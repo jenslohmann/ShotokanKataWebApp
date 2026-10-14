@@ -1,4 +1,6 @@
 // Copied verbatim from generateStaticQuestions() in Services/QuizDataService.swift.
+// Translations: src/data/i18n/<lang>/quiz.json, keyed by question id.
+import { SOURCE_LANG, type Lang } from '../../i18n/languages';
 import type { QuizQuestion } from './types';
 
 export const STATIC_QUESTIONS: QuizQuestion[] = [
@@ -70,3 +72,25 @@ export const STATIC_QUESTIONS: QuizQuestion[] = [
     relatedKataNames: ['Bassai Dai'],
   },
 ];
+
+type QuestionText = Pick<QuizQuestion, 'question' | 'options' | 'explanation'>;
+
+const translationFiles = import.meta.glob('../../data/i18n/*/quiz.json', { eager: true, import: 'default' }) as Record<
+  string,
+  Record<string, QuestionText>
+>;
+const TRANSLATIONS = new Map(
+  Object.entries(translationFiles).map(([path, translations]) => [/i18n\/([^/]+)\//.exec(path)![1], translations]),
+);
+
+export function staticQuestionTranslation(id: string, lang: Lang): QuestionText | undefined {
+  return TRANSLATIONS.get(lang)?.[id];
+}
+
+/** The question in `lang` if a complete translation exists (same number of options), else English. */
+export function localizeStaticQuestion(question: QuizQuestion, lang: Lang): QuizQuestion {
+  if (lang === SOURCE_LANG) return question;
+  const text = staticQuestionTranslation(question.id, lang);
+  if (!text?.question || text.options?.length !== question.options.length) return question;
+  return { ...question, question: text.question, options: text.options, explanation: text.explanation ?? question.explanation };
+}

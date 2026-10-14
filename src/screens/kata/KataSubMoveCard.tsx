@@ -1,6 +1,7 @@
 import { ExpandableText } from '../../components/ExpandableText';
 import { MoveIcon } from '../../components/Icon';
 import { VocabText } from '../../components/VocabText';
+import { KATA_CONTENT_LANG } from '../../domain/kata';
 import type { KataSubMove } from '../../domain/types';
 import { useSettings } from '../../state/SettingsContext';
 import { KiaiBadge } from './KiaiBadge';
@@ -24,7 +25,7 @@ export function KataSubMoveCard({ subMove }: { subMove: KataSubMove }) {
         </div>
         {subMove.kiai && <KiaiBadge />}
       </div>
-      <ExpandableText text={subMove.description} />
+      <ExpandableText text={subMove.description} lang={KATA_CONTENT_LANG} />
     </div>
   );
 }

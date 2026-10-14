@@ -1,6 +1,6 @@
 import { ExpandableText } from '../../components/ExpandableText';
 import { VocabText } from '../../components/VocabText';
-import { directionArrow, moveBadgeShowsKiai, moveLabel } from '../../domain/kata';
+import { directionArrow, directionLabel, KATA_CONTENT_LANG, moveBadgeShowsKiai, moveLabel } from '../../domain/kata';
 import type { KataMove } from '../../domain/types';
 import { useSettings } from '../../state/SettingsContext';
 import { KataSubMoveCard } from './KataSubMoveCard';
@@ -9,7 +9,7 @@ import { StanceBadge } from './StanceBadge';
 import './KataMoveCard.css';
 
 export function KataMoveCard({ move }: { move: KataMove }) {
-  const { showJapanese } = useSettings();
+  const { showJapanese, t } = useSettings();
   const [first, ...rest] = move.subMoves;
   return (
     <article className="kata-move">
@@ -33,11 +33,11 @@ export function KataMoveCard({ move }: { move: KataMove }) {
         <div className="kata-move__meta">
           {moveBadgeShowsKiai(move) && <KiaiBadge />}
           <span className="kata-move__direction">
-            {move.direction.toUpperCase()} ({directionArrow(move.direction)})
+            {directionLabel(move.direction, (point) => t(`compass.${point}`))} ({directionArrow(move.direction)})
           </span>
         </div>
       </div>
-      {first && <ExpandableText text={first.description} />}
+      {first && <ExpandableText text={first.description} lang={KATA_CONTENT_LANG} />}
       {rest.length > 0 && (
         <div className="kata-move__subs">
           {rest.map((subMove) => (

@@ -4,6 +4,7 @@ import { generateAllQuestions, pickQuizQuestions, questionsFor } from '../domain
 import { initialQuizState, quizReducer, type QuizAction, type QuizState } from '../domain/quiz/reducer';
 import type { QuizQuestion } from '../domain/quiz/types';
 import { navigate, useRoute } from '../router/useRoute';
+import { useLang } from './SettingsContext';
 
 export interface QuizContextValue {
   state: QuizState;
@@ -24,7 +25,9 @@ interface QuizProviderProps {
 export function QuizProvider({ children, initialState, pool: poolOverride }: QuizProviderProps) {
   const [state, dispatch] = useReducer(quizReducer, initialState ?? initialQuizState());
   // Generated once per app session (random technique/stance picks differ between sessions, like iOS).
-  const pool = useMemo(() => poolOverride ?? generateAllQuestions(ALL_KATA), [poolOverride]);
+  // Questions are generated in the UI language; a running quiz keeps the language it started in.
+  const lang = useLang();
+  const pool = useMemo(() => poolOverride ?? generateAllQuestions(ALL_KATA, Math.random, lang), [poolOverride, lang]);
   const availableCount = questionsFor(pool, state.config.rank, state.config.category).length;
 
   const startQuiz = useCallback(() => {

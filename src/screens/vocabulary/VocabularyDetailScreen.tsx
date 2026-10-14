@@ -3,12 +3,12 @@ import { NavBar } from '../../components/NavBar';
 import { findTerm } from '../../domain/vocabulary';
 import { routeToHash } from '../../router/router';
 import { goBack } from '../../router/useRoute';
-import { useT } from '../../state/SettingsContext';
+import { useLang, useT } from '../../state/SettingsContext';
 import { VocabularyDetailContent } from './VocabularyDetailContent';
 
 export function VocabularyDetailScreen({ id }: { id: number }) {
   const t = useT();
-  const term = findTerm(id);
+  const term = findTerm(id, useLang());
   const back = { label: t('nav.vocabulary'), onClick: () => goBack({ name: 'vocabList' }) };
   if (!term) {
     return (

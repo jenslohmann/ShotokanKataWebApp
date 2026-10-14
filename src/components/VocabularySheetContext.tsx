@@ -1,7 +1,7 @@
 // App-level vocabulary sheet: any VocabText link can open a term in ONE shared Sheet.
 import { createContext, useCallback, useContext, useMemo, useState, type ReactNode } from 'react';
 import { findTerm } from '../domain/vocabulary';
-import { useT } from '../state/SettingsContext';
+import { useLang, useT } from '../state/SettingsContext';
 import { Sheet } from './Sheet';
 import { VocabularyDetailContent } from '../screens/vocabulary/VocabularyDetailContent';
 
@@ -13,8 +13,9 @@ export const VocabularySheetContext = createContext<VocabularySheetValue>({ open
 
 export function VocabularySheetProvider({ children }: { children: ReactNode }) {
   const t = useT();
+  const lang = useLang();
   const [termId, setTermId] = useState<number | null>(null);
-  const term = termId === null ? undefined : findTerm(termId);
+  const term = termId === null ? undefined : findTerm(termId, lang);
   const close = useCallback(() => setTermId(null), []);
   const value = useMemo<VocabularySheetValue>(() => ({ openTerm: setTermId }), []);
 

@@ -1,13 +1,12 @@
 import { Icon } from '../../components/Icon';
 import { SpeakButton } from '../../components/SpeakButton';
-import type { VocabularyTerm } from '../../domain/types';
-import { categoryOf } from '../../domain/vocabulary';
+import { categoryOf, type LocalizedTerm } from '../../domain/vocabulary';
 import { useT } from '../../state/SettingsContext';
 import { categoryIcon } from './categoryIcon';
 import './VocabularyDetailContent.css';
 
 /** Shared by the vocabulary detail screen and the app-level vocabulary sheet. */
-export function VocabularyDetailContent({ term }: { term: VocabularyTerm }) {
+export function VocabularyDetailContent({ term }: { term: LocalizedTerm }) {
   const t = useT();
   const category = categoryOf(term);
   return (
@@ -33,17 +32,23 @@ export function VocabularyDetailContent({ term }: { term: VocabularyTerm }) {
             <Icon name={categoryIcon(category)} size={22} className="vocab-detail__icon" />
           </div>
         </div>
-        <p className="vocab-detail__short">{term.shortDescription}</p>
+        <p className="vocab-detail__short" lang={term.contentLang}>
+          {term.shortDescription}
+        </p>
       </header>
       <div className="vocab-detail__body">
         <section className="vocab-detail__card">
           <h3 className="vocab-detail__heading">{t('vocabulary.definition')}</h3>
-          <p className="vocab-detail__text">{term.definition}</p>
+          <p className="vocab-detail__text" lang={term.contentLang}>
+            {term.definition}
+          </p>
         </section>
         {term.componentBreakdown && (
           <section className="vocab-detail__card">
             <h3 className="vocab-detail__heading">{t('vocabulary.breakdown')}</h3>
-            <p className="vocab-detail__text">{term.componentBreakdown}</p>
+            <p className="vocab-detail__text" lang={term.contentLang}>
+              {term.componentBreakdown}
+            </p>
           </section>
         )}
         <section className="vocab-detail__card">

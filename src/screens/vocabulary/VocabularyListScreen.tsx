@@ -3,8 +3,8 @@ import { Icon } from '../../components/Icon';
 import { NavBar } from '../../components/NavBar';
 import { SearchField } from '../../components/SearchField';
 import { Sheet } from '../../components/Sheet';
-import { ALL_TERMS, categoriesWithTerms, filterTerms, type VocabularyCategory } from '../../domain/vocabulary';
-import { useT } from '../../state/SettingsContext';
+import { ALL_TERMS, categoriesWithTerms, filterTerms, termsFor, type VocabularyCategory } from '../../domain/vocabulary';
+import { useLang, useT } from '../../state/SettingsContext';
 import { vocabularyListStore } from '../../state/vocabularyListStore';
 import { categoryIcon } from './categoryIcon';
 import { VocabularyRow } from './VocabularyRow';
@@ -14,9 +14,10 @@ const CATEGORIES = categoriesWithTerms(ALL_TERMS);
 
 export function VocabularyListScreen() {
   const t = useT();
+  const lang = useLang();
   const { search, category } = vocabularyListStore.use();
   const [pickerOpen, setPickerOpen] = useState(false);
-  const terms = useMemo(() => filterTerms(ALL_TERMS, search, category), [search, category]);
+  const terms = useMemo(() => filterTerms(termsFor(lang), search, category), [lang, search, category]);
 
   const choose = (next: VocabularyCategory | null) => {
     vocabularyListStore.set({ category: next });

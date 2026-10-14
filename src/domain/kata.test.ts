@@ -2,6 +2,7 @@ import {
   ALL_KATA,
   availableBelts,
   directionArrow,
+  directionLabel,
   filterKata,
   kiaiMoveNumbers,
   loadAllKata,
@@ -62,5 +63,14 @@ describe('kata', () => {
     const belts = availableBelts(ALL_KATA);
     expect(belts[0]).toBe(beltOf(ALL_KATA[0].beltRank));
     expect(belts[belts.length - 1]).toBe('black');
+  });
+});
+
+describe('directionLabel', () => {
+  it('translates each compass letter', () => {
+    const danish = { N: 'N', E: 'Ø', S: 'S', W: 'V' } as const;
+    expect(directionLabel('nne', (point) => danish[point])).toBe('NNØ');
+    expect(directionLabel('WSW', (point) => danish[point])).toBe('VSV');
+    expect(directionLabel('', (point) => danish[point])).toBe('');
   });
 });

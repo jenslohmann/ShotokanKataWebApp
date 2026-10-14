@@ -52,3 +52,29 @@ describe('generateAllQuestions', () => {
     expect(picked).toHaveLength(5);
   });
 });
+
+describe('generateAllQuestions in Danish', () => {
+  const english = generateAllQuestions(ALL_KATA, mulberry32(7));
+  const danish = generateAllQuestions(ALL_KATA, mulberry32(7), 'da');
+
+  it('has the same questions and answers as English, with Danish text', () => {
+    expect(danish.map((q) => [q.id, q.correctAnswerIndex, q.options.length])).toEqual(
+      english.map((q) => [q.id, q.correctAnswerIndex, q.options.length]),
+    );
+    for (const [index, question] of danish.entries()) {
+      expect(question.question, question.id).not.toBe(english[index].question);
+    }
+  });
+
+  it('keeps kata names, technique and stance options untranslated', () => {
+    for (const [index, question] of danish.entries()) {
+      if (question.type !== 'static_question') expect(question.options).toEqual(english[index].options);
+      expect(question.relatedKataNames).toEqual(english[index].relatedKataNames);
+    }
+  });
+
+  it('formats the kiai explanation in Danish', () => {
+    const kiai = danish.find((q) => q.type === 'kata_kiai_selection' && (q.correctMoves?.length ?? 0) > 1)!;
+    expect(kiai.explanation).toMatch(/^I .+ udføres kiai på bevægelse \d+ og bevægelse \d+/);
+  });
+});

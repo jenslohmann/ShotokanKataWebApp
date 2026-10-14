@@ -7,10 +7,12 @@ import './ExpandableText.css';
 interface ExpandableTextProps {
   text: string;
   threshold?: number;
+  /** Language of the text, when it can differ from the UI language. */
+  lang?: string;
 }
 
 /** Two-line clamped text with vocabulary links (ExpandableDescriptionView.swift). */
-export function ExpandableText({ text, threshold = 100 }: ExpandableTextProps) {
+export function ExpandableText({ text, threshold = 100, lang }: ExpandableTextProps) {
   const t = useT();
   const ref = useRef<HTMLDivElement>(null);
   const [expanded, setExpanded] = useState(false);
@@ -34,6 +36,7 @@ export function ExpandableText({ text, threshold = 100 }: ExpandableTextProps) {
     <div className="expandable-text">
       <div
         ref={ref}
+        lang={lang}
         className={`expandable-text__body${expanded ? '' : ' expandable-text__body--clamped'}`}
         onClick={expandable ? toggle : undefined}
       >

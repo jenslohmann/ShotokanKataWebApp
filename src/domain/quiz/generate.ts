@@ -1,12 +1,14 @@
 // Quiz question generation (generate*Questions in Services/QuizDataService.swift).
+import { formatList, translate, type TKey } from '../../i18n';
+import { SOURCE_LANG, type Lang } from '../../i18n/languages';
 import { kiaiMoveNumbers, moveLabel } from '../kata';
 import { rankSortOrder } from '../ranks';
 import type { Kata, KataMove, KataSubMove } from '../types';
 import { pick, randInt, shuffle, type Rng } from './random';
-import { STATIC_QUESTIONS } from './staticQuestions';
+import { localizeStaticQuestion, STATIC_QUESTIONS } from './staticQuestions';
 import type { QuestionCategory, QuestionType, QuizConfig, QuizQuestion } from './types';
 
-function movesCountQuestion(kata: Kata, katas: Kata[], rng: Rng): QuizQuestion {
+function movesCountQuestion(kata: Kata, katas: Kata[], rng: Rng, lang: Lang): QuizQuestion {
   const correct = kata.numberOfMoves;
   const wrong = new Set<number>();
   const add = (value: number | undefined) => {
@@ -20,30 +22,33 @@ function movesCountQuestion(kata: Kata, katas: Kata[], rng: Rng): QuizQuestion {
   const options = shuffle([correct, ...wrong].map(String), rng);
   return {
     id: `kata_moves_count-${kata.kataNumber}`,
-    question: `How many moves are in ${kata.name}?`,
+    question: translate(lang, 'quizGen.movesCount.question', { kata: kata.name }),
     options,
     correctAnswerIndex: options.indexOf(String(correct)),
     category: 'sequences',
     type: 'kata_moves_count',
     requiredRank: kata.beltRank,
-    explanation: `${kata.name} contains ${correct} moves in total.`,
+    explanation: translate(lang, 'quizGen.movesCount.explanation', { kata: kata.name, count: correct }),
     relatedKataNames: [kata.name],
   };
 }
 
-function kiaiQuestion(kata: Kata): QuizQuestion | null {
+function kiaiQuestion(kata: Kata, lang: Lang): QuizQuestion | null {
   const moves = kiaiMoveNumbers(kata);
   if (moves.length === 0) return null;
-  const parts = moves.map((move) => `move ${move}`).join(' and ');
+  const parts = formatList(
+    lang,
+    moves.map((move) => translate(lang, 'quizGen.kiai.move', { move })),
+  );
   return {
     id: `kata_kiai_selection-${kata.kataNumber}`,
-    question: `Select the moves where the karateka should say kiai in ${kata.name}:`,
+    question: translate(lang, 'quizGen.kiai.question', { kata: kata.name }),
     options: [],
     correctAnswerIndex: 0,
     category: 'sequences',
     type: 'kata_kiai_selection',
     requiredRank: kata.beltRank,
-    explanation: `In ${kata.name}, kiai is performed on ${parts}.`,
+    explanation: translate(lang, 'quizGen.kiai.explanation', { kata: kata.name, moves: parts }),
     relatedKataNames: [kata.name],
     kataNumber: kata.kataNumber,
     correctMoves: moves,
@@ -55,11 +60,11 @@ const isRei = (move: KataMove) => move.sequenceName === 'Rei';
 interface SubMoveQuestionSpec {
   type: QuestionType;
   field: (subMove: KataSubMove) => string;
-  question: (kataName: string, label: string) => string;
-  explanation: (kataName: string, label: string, correct: string) => string;
+  question: TKey;
+  explanation: TKey;
 }
 
-function subMoveQuestions(katas: Kata[], spec: SubMoveQuestionSpec, rng: Rng): QuizQuestion[] {
+function subMoveQuestions(katas: Kata[], spec: SubMoveQuestionSpec, rng: Rng, lang: Lang): QuizQuestion[] {
   const all = new Set<string>();
   for (const kata of katas) {
     for (const move of kata.moves) {
@@ -82,13 +87,13 @@ function subMoveQuestions(katas: Kata[], spec: SubMoveQuestionSpec, rng: Rng): Q
         const label = moveLabel(move);
         questions.push({
           id: `${spec.type}-${kata.kataNumber}-${n}`,
-          question: spec.question(kata.name, label),
+          question: translate(lang, spec.question, { kata: kata.name, step: label }),
           options,
           correctAnswerIndex: options.indexOf(correct),
           category: 'techniques',
           type: spec.type,
           requiredRank: kata.beltRank,
-          explanation: spec.explanation(kata.name, label, correct),
+          explanation: translate(lang, spec.explanation, { kata: kata.name, step: label, answer: correct }),
           relatedKataNames: [kata.name],
         });
       });
@@ -96,30 +101,34 @@ function subMoveQuestions(katas: Kata[], spec: SubMoveQuestionSpec, rng: Rng): Q
   return questions;
 }
 
-export function generateAllQuestions(katas: Kata[], rng: Rng = Math.random): QuizQuestion[] {
-  const movesCount = katas.map((kata) => movesCountQuestion(kata, katas, rng));
-  const kiai = katas.map(kiaiQuestion).filter((question): question is QuizQuestion => question !== null);
+/** All questions, with text in `lang` (Japanese terms and kata names stay as in the data). */
+export function generateAllQuestions(katas: Kata[], rng: Rng = Math.random, lang: Lang = SOURCE_LANG): QuizQuestion[] {
+  const movesCount = katas.map((kata) => movesCountQuestion(kata, katas, rng, lang));
+  const kiai = katas.map((kata) => kiaiQuestion(kata, lang)).filter((question): question is QuizQuestion => question !== null);
   const techniques = subMoveQuestions(
     katas,
     {
       type: 'kata_techniques',
       field: (subMove) => subMove.technique,
-      question: (name, label) => `What technique is used in ${name} in step ${label}?`,
-      explanation: (name, label, correct) => `The technique used in ${name} step ${label} is ${correct}.`,
+      question: 'quizGen.technique.question',
+      explanation: 'quizGen.technique.explanation',
     },
     rng,
+    lang,
   );
   const stances = subMoveQuestions(
     katas,
     {
       type: 'kata_stances',
       field: (subMove) => subMove.stance,
-      question: (name, label) => `What stance is used in ${name} in step ${label}?`,
-      explanation: (name, label, correct) => `The stance used in ${name} step ${label} is ${correct}.`,
+      question: 'quizGen.stance.question',
+      explanation: 'quizGen.stance.explanation',
     },
     rng,
+    lang,
   );
-  return [...STATIC_QUESTIONS, ...movesCount, ...kiai, ...techniques, ...stances];
+  const statics = STATIC_QUESTIONS.map((question) => localizeStaticQuestion(question, lang));
+  return [...statics, ...movesCount, ...kiai, ...techniques, ...stances];
 }
 
 export function questionsFor(all: QuizQuestion[], rank: string, category: QuestionCategory | null): QuizQuestion[] {

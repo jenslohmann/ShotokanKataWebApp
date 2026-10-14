@@ -1,5 +1,5 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
-import { detectLang, translate, type Lang, type TKey, type TVars } from '../i18n';
+import { detectLang, isLang, translate, type Lang, type TKey, type TVars } from '../i18n';
 
 export type LangSetting = 'auto' | Lang;
 
@@ -33,7 +33,7 @@ function writeStorage(key: string, value: string): void {
 
 function initialLangSetting(): LangSetting {
   const stored = readStorage(LANG_KEY);
-  return stored === 'en' || stored === 'da' ? stored : 'auto';
+  return isLang(stored) ? stored : 'auto';
 }
 
 const SettingsContext = createContext<SettingsValue | null>(null);
@@ -76,6 +76,11 @@ export function useSettings(): SettingsValue {
   const value = useContext(SettingsContext);
   if (!value) throw new Error('useSettings must be used inside SettingsProvider');
   return value;
+}
+
+/** Current UI language (for content that has translations, e.g. vocabulary). */
+export function useLang(): Lang {
+  return useSettings().lang;
 }
 
 export function useT(): SettingsValue['t'] {

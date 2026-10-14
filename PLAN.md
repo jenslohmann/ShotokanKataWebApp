@@ -424,7 +424,7 @@ Acceptance: green. Commit "web: phase 2 – data + domain".
   ```ts
   export type Lang = 'en' | 'da';
   export type TKey = keyof typeof en;
-  export function detectLang(): Lang; // navigator.language starts with 'da' → 'da', else 'en'
+  export function detectLang(): Lang; // first supported language in navigator.languages, else 'en' (see AGENTS.md §9)
   export function translate(lang: Lang, key: TKey, vars?: Record<string, string | number>): string;
   // replaces {name} placeholders with vars[name]
   ```
@@ -1317,6 +1317,19 @@ Keys are grouped only for readability; the objects are flat (`'nav.kata': 'Kata'
 | quiz.timeSpent | Time Spent | Tidsforbrug |
 | quiz.rankLevel | Rank Level | Gradueringsniveau |
 | quiz.backToMenu | Back to Main Menu | Tilbage til hovedmenuen |
+| compass.N | N | N |
+| compass.E | E | Ø |
+| compass.S | S | S |
+| compass.W | W | V |
+| quizGen.movesCount.question | How many moves are in {kata}? | Hvor mange bevægelser er der i {kata}? |
+| quizGen.movesCount.explanation | {kata} contains {count} moves in total. | {kata} består af {count} bevægelser i alt. |
+| quizGen.kiai.question | Select the moves where the karateka should say kiai in {kata}: | Vælg de bevægelser, hvor karatekaen skal råbe kiai i {kata}: |
+| quizGen.kiai.move | move {move} | bevægelse {move} |
+| quizGen.kiai.explanation | In {kata}, kiai is performed on {moves}. | I {kata} udføres kiai på {moves}. |
+| quizGen.technique.question | What technique is used in {kata} in step {step}? | Hvilken teknik bruges i {kata} i trin {step}? |
+| quizGen.technique.explanation | The technique used in {kata} step {step} is {answer}. | Teknikken i {kata} trin {step} er {answer}. |
+| quizGen.stance.question | What stance is used in {kata} in step {step}? | Hvilken stilling bruges i {kata} i trin {step}? |
+| quizGen.stance.explanation | The stance used in {kata} step {step} is {answer}. | Stillingen i {kata} trin {step} er {answer}. |
 | about.tagline | Traditional Karate Learning | Traditionel karatelæring |
 | about.about | About | Om |
 | about.p1 | Shōtōkan Kata is a comprehensive learning platform for traditional Shōtōkan karate practitioners. This app provides detailed information about authentic JKA (Japan Karate Association) kata, including complete move sequences, Japanese terminology, and proper pronunciation guides. | Shōtōkan Kata er en omfattende læringsplatform for udøvere af traditionel Shōtōkan karate. Appen giver detaljeret information om autentiske JKA-kata (Japan Karate Association), herunder komplette bevægelsessekvenser, japansk terminologi og udtalevejledning. |
@@ -1340,8 +1353,6 @@ Keys are grouped only for readability; the objects are flat (`'nav.kata': 'Kata'
 | about.viewOnGitHub | View on GitHub | Se på GitHub |
 | about.language | Language | Sprog |
 | about.languageAuto | Auto | Auto |
-| about.languageEnglish | English | English |
-| about.languageDanish | Dansk | Dansk |
 | about.version | Version {version} | Version {version} |
 | install.title | Install the app | Installer appen |
 | install.button | Install | Installer |

@@ -7,11 +7,16 @@ for (const colorScheme of ['light', 'dark'] as const) {
     test.use({ colorScheme });
 
     for (const width of WIDTHS) {
-      test(`${width}px: no horizontal overflow, correct navigation`, async ({ page }) => {
+      test(`${width}px: no horizontal overflow (English and Danish), correct navigation`, async ({ page }) => {
         await page.setViewportSize({ width, height: 800 });
-        for (const route of ROUTES) {
-          await openRoute(page, route);
-          expect(await elementsOutsideViewport(page), `${route} at ${width}px`).toEqual([]);
+        await openRoute(page, ROUTES[0]);
+        for (const lang of ['en', 'da']) {
+          await page.evaluate((code) => localStorage.setItem('sk.lang', code), lang);
+          await page.reload();
+          for (const route of ROUTES) {
+            await openRoute(page, route);
+            expect(await elementsOutsideViewport(page), `${lang} ${route} at ${width}px`).toEqual([]);
+          }
         }
         const wide = width >= SIDEBAR_MIN_WIDTH;
         await expect(page.locator('.sidebar')).toBeVisible({ visible: wide });

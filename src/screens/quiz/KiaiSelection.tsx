@@ -1,5 +1,5 @@
 import { Icon } from '../../components/Icon';
-import { ALL_KATA, moveHasKiai, moveLabel, sortedMoves } from '../../domain/kata';
+import { ALL_KATA, directionLabel, moveHasKiai, moveLabel, sortedMoves } from '../../domain/kata';
 import { answerOutcome } from '../../domain/quiz/reducer';
 import type { QuizQuestion } from '../../domain/quiz/types';
 import { useQuiz } from '../../state/QuizContext';
@@ -44,7 +44,7 @@ export function KiaiSelection({ question }: { question: QuizQuestion }) {
                           {first.stanceHiragana && ` (${first.stanceHiragana})`}
                         </span>
                       )}
-                      <span className="kiai-move__direction">{move.direction}</span>
+                      <span className="kiai-move__direction">{directionLabel(move.direction, (point) => t(`compass.${point}`))}</span>
                       {revealed && moveHasKiai(move) && <KiaiBadge />}
                     </span>
                   </span>

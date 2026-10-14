@@ -1,0 +1,32 @@
+{
+  "static-1": {
+    "question": "Hvad er den første kata, man lærer i Shōtōkan karate?",
+    "options": ["Heian Shodan", "Heian Nidan", "Tekki Shodan", "Bassai Dai"],
+    "explanation": "Heian Shodan er traditionelt den første kata, som begyndere lærer i Shōtōkan karate."
+  },
+  "static-2": {
+    "question": "Hvad betyder 'Heian' på dansk?",
+    "options": ["Fred", "Styrke", "Kraft", "Balance"],
+    "explanation": "Heian betyder 'fredfyldt sind' eller 'fred' på japansk."
+  },
+  "static-3": {
+    "question": "Hvilken kata lærer man typisk på 5. Kyū-niveau?",
+    "options": ["Heian Godan", "Tekki Shodan", "Bassai Dai", "Kankū Dai"],
+    "explanation": "Tekki Shodan undervises traditionelt på 5. Kyū-niveau (brunt bælte)."
+  },
+  "static-4": {
+    "question": "Hvilken stilling bruges overvejende i Tekki Shodan?",
+    "options": ["Zenkutsu-dachi", "Kōkutsu-dachi", "Kiba-dachi", "Shiko-dachi"],
+    "explanation": "Tekki Shodan udføres udelukkende i Kiba-dachi (rytterstilling)."
+  },
+  "static-5": {
+    "question": "Hvilken kata betragtes ofte som Shōtōkans flagskibskata?",
+    "options": ["Heian Shodan", "Tekki Shodan", "Bassai Dai", "Empi"],
+    "explanation": "Bassai Dai betragtes ofte som Shōtōkans flagskibskata og repræsenterer essensen af stilarten."
+  },
+  "static-6": {
+    "question": "Hvad betyder 'Bassai'?",
+    "options": ["At storme en fæstning", "Flyvende svale", "Fredfyldt sind", "Jernhest"],
+    "explanation": "Bassai betyder 'at storme en fæstning' eller 'at trænge ind i en fæstning', hvilket afspejler kataens kraftfulde karakter."
+  }
+}

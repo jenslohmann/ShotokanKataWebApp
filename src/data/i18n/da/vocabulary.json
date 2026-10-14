@@ -1,0 +1,562 @@
+{
+  "1": {
+    "shortDescription": "Fastlagt rækkefølge af karatebevægelser",
+    "definition": "En rækkefølge af karatebevægelser udført i et fastlagt mønster mod imaginære modstandere. Kata er en af karatetræningens tre hovedsøjler sammen med kihon (grundteknikker) og kumite (kamp). Hver kata fortæller en historie om kamp mod flere angribere og rummer essensen af forskellige kampteknikker og strategier.",
+    "componentBreakdown": "型 (kata) - Dette enkelte kanji-tegn betyder 'form', 'skikkelse' eller 'støbeform'. Det repræsenterer begrebet et fast mønster eller en skabelon, der bevarer traditionelle teknikker og bevægelser for kommende generationer."
+  },
+  "2": {
+    "shortDescription": "Træningssal for kampkunst",
+    "definition": "Træningssal eller sted, hvor kampkunst udøves. Ordet dōjō betyder bogstaveligt 'vejens sted' og repræsenterer ikke blot et fysisk rum, men et helligt miljø, hvor elever lærer disciplin, respekt og kampkunst. Traditionel dōjō-etikette overholdes nøje for at bevare den rette læringsatmosfære.",
+    "componentBreakdown": "道 (dō) - 'vej' eller 'sti', der henviser til kampkunstens åndelige og filosofiske rejse; 場 (jō) - 'sted' eller 'placering'. Tilsammen betyder de 'vejens sted' - et helligt rum, hvor man lærer kampkunstens vej."
+  },
+  "3": {
+    "shortDescription": "Hilsen, der viser respekt og ydmyghed",
+    "definition": "Hilsen; en gestus af respekt og ydmyghed, der er grundlæggende i japansk kampkunst. Rei udføres ved træningens begyndelse og afslutning, når man går ind i eller forlader dōjō'en, og når man hilser på instruktører og træningspartnere. Den viser respekt for kunsten, dōjō'en og andre udøvere.",
+    "componentBreakdown": "礼 (rei) - Dette enkelte kanji repræsenterer 'høflighed', 'hilsen', 'ceremoni' eller 'respekt'. Det omfatter hele begrebet om korrekt etikette, høflighed og ærbødighed over for andre."
+  },
+  "4": {
+    "shortDescription": "Lærer eller instruktør",
+    "definition": "Lærer eller instruktør; betyder bogstaveligt 'en, der er gået forud'. En sensei er ikke blot en, der underviser i teknikker, men en mentor, der vejleder elever på deres rejse i kampkunsten og i deres personlige udvikling. Forholdet mellem sensei og elev bygger på gensidig respekt og dedikation til læring.",
+    "componentBreakdown": "先 (sen) - 'før', 'forude' eller 'forrige'; 生 (sei) - 'liv', 'fødsel' eller 'levende'. Tilsammen betyder de 'en, der er født før' eller 'en, der er gået forud', hvilket angiver en person med mere erfaring og visdom."
+  },
+  "5": {
+    "shortDescription": "Kampkunst med tomme hænder",
+    "definition": "Tom hånd; kampkunsten at kæmpe uden våben. Karate blev oprindeligt udviklet på Okinawa og lægger vægt på slagteknikker med hænder, fødder, albuer og knæ. Karatens filosofi rækker ud over de fysiske teknikker og omfatter mental disciplin, karakterudvikling og åndelig vækst.",
+    "componentBreakdown": "空 (kara) - 'tom' eller 'tomrum', der repræsenterer både fraværet af våben og det buddhistiske begreb om tomhed; 手 (te) - 'hånd'. Tilsammen betyder de 'tom hånd', hvilket understreger kamp uden våben."
+  },
+  "6": {
+    "shortDescription": "Kampråb for fokus og kraft",
+    "definition": "Kampråb; et højt råb, der bruges til at fokusere energi og skræmme modstandere. Kiai opstår ved samordning af åndedræt, ånd og fysisk teknik. Det hjælper med at samle kraften i træfningsøjeblikket og kan også bruges til at forskrække eller påvirke en modstander psykologisk.",
+    "componentBreakdown": "気 (ki) - 'ånd', 'energi' eller 'livskraft'; 合 (ai) - 'forening', 'harmoni' eller 'møde'. Tilsammen repræsenterer de foreningen af ånd og energi, fokuseringen af ens indre kraft gennem råbet."
+  },
+  "7": {
+    "shortDescription": "Fremadrettet stilling, lang og lav",
+    "definition": "Forreste stilling; en lang, lav stilling med det meste af vægten på det forreste ben. Det er en af de mest grundlæggende stillinger i karate og giver et stærkt fundament for angreb fremad og god balance til forskellige teknikker. Det bagerste ben forbliver strakt, mens det forreste knæ er bøjet, hvilket skaber en stabil platform for slag og blokeringer.",
+    "componentBreakdown": "前 (zen) - 'forreste' eller 'fremad'; 屈 (kutsu) - 'bøje' eller 'krybe sammen'; 立 (dachi/tachi) - 'stå' eller 'stilling'. Tilsammen beskriver de en stilling, hvor du står fremad med bøjede ben."
+  },
+  "8": {
+    "shortDescription": "Bagudrettet stilling med vægten på det bagerste ben",
+    "definition": "Bagudrettet stilling; en stilling med det meste af vægten på det bagerste ben. Stillingen er fremragende til forsvarsteknikker og giver mulighed for hurtig bevægelse fremad. Det forreste ben er placeret let med tæerne pegende fremad, mens det bagerste ben bærer det meste af kropsvægten. Den bruges ofte sammen med blokeringsteknikker.",
+    "componentBreakdown": "後 (kō) - 'bag' eller 'bagerste'; 屈 (kutsu) - 'bøje' eller 'krybe sammen'; 立 (dachi/tachi) - 'stå' eller 'stilling'. Tilsammen beskriver de en stilling, hvor du står tilbage med bøjede ben og vægten på det bagerste ben."
+  },
+  "9": {
+    "shortDescription": "Nedadgående fejende blokering",
+    "definition": "Nedadgående blokering; en blokeringsteknik, der fejer nedad for at aflede lave angreb. Blokeringen bruges til at forsvare mod angreb rettet mod underkroppen, såsom spark mod skridtet eller maven. Den blokerende arm bevæger sig i en fejende bevægelse fra højt til lavt og afleder angrebet væk fra kroppen.",
+    "componentBreakdown": "下 (ge) - 'ned' eller 'nedre'; 段 (dan) - 'niveau' eller 'trin'; 払い (barai) - 'feje' eller 'børste væk'. Tilsammen beskriver de en fejende bevægelse, der afleder angreb på lavt niveau."
+  },
+  "10": {
+    "shortDescription": "Opadgående blokering mod angreb oppefra",
+    "definition": "Opadgående blokering; en opadrettet blokeringsteknik til forsvar mod angreb oppefra. Underarmen bevæger sig opad og udad for at opfange og aflede angreb, der kommer ovenfra, såsom slag oppefra eller angreb med våben. Den blokerende arm slutter over og foran panden.",
+    "componentBreakdown": "上げ (age) - 'hæve' eller 'løfte op'; 受け (uke) - 'modtage' eller 'blokere'. Tilsammen beskriver de handlingen at hæve armen for at modtage og aflede et indkommende angreb."
+  },
+  "11": {
+    "shortDescription": "Slag under et skridt fremad",
+    "definition": "Udfaldsslag; et lige slag udført under et skridt fremad. Teknikken kombinerer bevægelse fremad med et kraftfuldt lige slag og udnytter hele kroppens fremdrift. Det trædende ben og den slående arm bevæger sig samtidigt og skaber et ødelæggende angreb, der kan tilbagelægge en betydelig afstand.",
+    "componentBreakdown": "追い (oi) - 'jage' eller 'forfølge'; 突き (zuki) - 'stød' eller 'slag'. Tilsammen beskriver de en slagteknik, der jager eller forfølger målet ved at træde fremad."
+  },
+  "12": {
+    "shortDescription": "Omvendt slag med den modsatte hånd",
+    "definition": "Omvendt slag; et slag med hånden modsat det forreste ben. Det er en af de mest grundlæggende og kraftfulde slagteknikker i karate. Slaget udføres fra en stabil stilling og bruger hoftens rotation og den modsatte hånds modbevægelse til at skabe maksimal kraft.",
+    "componentBreakdown": "逆 (gyaku) - 'omvendt' eller 'modsat'; 突き (zuki) - 'stød' eller 'slag'. Tilsammen beskriver de et slag udført med hånden modsat det forreste ben."
+  },
+  "13": {
+    "shortDescription": "Lige spark fremad",
+    "definition": "Spark fremad; et lige spark udført med trædepuden. Knæet løftes højt, og foden piskes fremad i en lige linje mod målet. Sparket kan bruges til at angribe solar plexus, maven eller skridtet og er en af de hurtigste og mest direkte sparketeknikker.",
+    "componentBreakdown": "前 (mae) - 'forreste' eller 'fremad'; 蹴り (geri) - 'spark'. Tilsammen beskriver de et spark udført lige fremad mod forsiden."
+  },
+  "14": {
+    "shortDescription": "Sidespark med fodens kant",
+    "definition": "Sidespark; et spark udført med siden eller kanten af foden. Benet løftes til siden og drives udad, så der rammes med fodens yderkant. Dette kraftfulde spark kan rettes mod ribbenene, nyrerne eller knæet og giver god rækkevidde, samtidig med at balancen bevares.",
+    "componentBreakdown": "横 (yoko) - 'side' eller 'vandret'; 蹴り (geri) - 'spark'. Tilsammen beskriver de et spark udført til siden eller i vandret retning."
+  },
+  "15": {
+    "shortDescription": "Blokering med knivhånd",
+    "definition": "Knivhåndsblokering; en blokeringsteknik, hvor man bruger håndens kant. Hånden holdes med strakte fingre presset sammen, så den danner et bladlignende våben. Blokeringen kan bruges til at aflede angreb og samtidig forberede et modangreb med den samme hånd.",
+    "componentBreakdown": "手 (shu/te) - 'hånd'; 刀 (tō) - 'sværd' eller 'klinge'; 受け (uke) - 'modtage' eller 'blokere'. Tilsammen beskriver de en blokering med hånden formet som en sværdklinge."
+  },
+  "16": {
+    "shortDescription": "Kamptræning mellem partnere",
+    "definition": "Kamp; fri kamptræning mellem to personer. Kumite giver udøvere mulighed for at anvende teknikker lært i kata og kihon i en mere realistisk kampsituation. Det udvikler timing, afstand, strategi og evnen til at tilpasse teknikker under pres, samtidig med at man bevarer kontrol og respekt for sin partner.",
+    "componentBreakdown": "組 (kumi) - 'par' eller 'samle'; 手 (te) - 'hånd'. Tilsammen betyder de 'parrede hænder' eller 'gribende hænder', hvilket henviser til at træne sammen med en partner."
+  },
+  "17": {
+    "shortDescription": "Grundlæggende teknikker",
+    "definition": "Grundteknikker; grundlæggende teknikker, der øves gentagne gange for at perfektionere formen og udvikle muskelhukommelse. Kihon-træning består i at øve enkelte teknikker isoleret med fokus på korrekt form, timing og kraftudvikling. Denne grundlæggende træning er afgørende for at udvikle en stærk karateteknik.",
+    "componentBreakdown": "基 (ki) - 'fundament' eller 'basis'; 本 (hon) - 'oprindelse' eller 'grundlæggende'. Tilsammen betyder de teknikkens 'grundlæggende basis' eller 'fundamentale oprindelse'."
+  },
+  "18": {
+    "shortDescription": "Graduering for sort bælte",
+    "definition": "Graduering for sort bælte; nummererede grader over brunt bælte, der repræsenterer avancerede niveauer af færdighed og viden. Dan-gradueringer går typisk fra 1. Dan til 10. Dan, og hvert niveau kræver mange års dedikeret træning og beherskelse af stadig mere sofistikerede teknikker og begreber.",
+    "componentBreakdown": "段 (dan) - Dette enkelte kanji betyder 'trin', 'grad' eller 'niveau'. Det repræsenterer fremgang gennem niveauer af mesterskab, som trin på en trappe, der fører til en højere forståelse."
+  },
+  "19": {
+    "shortDescription": "Graduering for farvede bælter",
+    "definition": "Graduering for farvede bælter; nummererede grader under sort bælte, der repræsenterer gradvise niveauer i udviklingen af grundlæggende færdigheder. Kyū-gradueringer går typisk fra højere numre (10. kyū) til lavere numre (1. kyū), og hvert niveau viser beherskelse af bestemte teknikker og kata.",
+    "componentBreakdown": "級 (kyū) - Dette enkelte kanji betyder 'klasse', 'grad' eller 'niveau'. Det repræsenterer klassificering eller rangordning i et system og angiver ens nuværende niveau."
+  },
+  "20": {
+    "shortDescription": "Bælte, der viser graduering og fremgang",
+    "definition": "Bælte; det farvede bånd, der bæres om livet for at vise graduering og niveau i karate. Obi'en er mere end blot en praktisk genstand, der holder gi'en lukket; den repræsenterer elevens rejse, dedikation og forståelsesniveau i kampkunsten.",
+    "componentBreakdown": "帯 (obi) - Dette enkelte kanji betyder 'bælte', 'skærf' eller 'bånd'. Det repræsenterer noget, der binder eller holder sammen, og symboliserer bindingen af viden og fremgang."
+  },
+  "21": {
+    "shortDescription": "Naturlig stilling med fødderne i skulderbredde",
+    "definition": "Naturlig stilling, hvor fødderne er placeret i skulderbredde med tæerne pegende udad i ca. 45 grader, så de danner formen af tegnet '八' (hachi - otte). Det er den grundlæggende klarstilling, der bruges i begyndelsen og slutningen af kata, og den giver et stabilt og afbalanceret fundament.",
+    "componentBreakdown": "八 (hachi) - 'otte', der henviser til den form, fødderne danner; 字 (ji) - 'tegn' eller 'bogstav'; 立 (dachi/tachi) - 'stå' eller 'stilling'. Tilsammen beskriver de en stilling, der danner formen af tegnet '八'."
+  },
+  "22": {
+    "shortDescription": "Retstilling med hælene samlet",
+    "definition": "Formel retstilling, hvor hælene er samlet og tæerne peger udad i ca. 60 grader. Stillingen bruges ved formelle hilsener og ved at hilse (rei) og viser respekt og disciplin. Kroppen er oprejst med afslappede skuldre.",
+    "componentBreakdown": "結び (musubi) - 'knytte' eller 'binde sammen'; 立 (dachi/tachi) - 'stå' eller 'stilling'. Tilsammen beskriver de en stilling, hvor fødderne er bundet eller knyttet sammen ved hælene."
+  },
+  "23": {
+    "shortDescription": "Rytterstilling, bred og lav",
+    "definition": "Rytterstilling, hvor fødderne er placeret bredt fra hinanden (ca. to skulderbredder) med tæerne pegende fremad og knæene bøjede, som om man sidder på en hest. Stillingen udvikler benstyrke og stabilitet og bruges til kraftfulde teknikker til siden. Ryggen holdes ret, og vægten er jævnt fordelt.",
+    "componentBreakdown": "騎 (ki) - 'ride' eller 'sidde op'; 馬 (ba/uma) - 'hest'; 立 (dachi/tachi) - 'stå' eller 'stilling'. Tilsammen beskriver de en stilling, der efterligner at ride på en hest."
+  },
+  "24": {
+    "shortDescription": "Lukket stilling med samlede fødder",
+    "definition": "Lukket stilling, hvor begge fødder er placeret side om side tæt sammen med tæerne pegende fremad. Stillingen bruges i overgangsbevægelser og i visse positioner i kata. Den kræver god balance og bruges ofte før eller efter spark.",
+    "componentBreakdown": "閉 (hei) - 'lukke' eller 'lukket'; 足 (soku/ashi) - 'fod'; 立 (dachi/tachi) - 'stå' eller 'stilling'. Tilsammen beskriver de en stilling med lukkede eller samlede fødder."
+  },
+  "25": {
+    "shortDescription": "Krydsstilling med krydsede ben",
+    "definition": "Krydsstilling, hvor det ene ben krydser bag eller foran det andet og danner et X-mønster set ovenfra. Stillingen bruges til hurtige retningsskift og undvigende bevægelser, men ofrer stabilitet for bevægelighed.",
+    "componentBreakdown": "交 (kō) - 'krydse' eller 'skære hinanden'; 差 (sa) - 'forskel' eller 'indsætte'; 立 (dachi/tachi) - 'stå' eller 'stilling'. Tilsammen beskriver de en stilling, hvor benene krydser eller skærer hinanden."
+  },
+  "26": {
+    "shortDescription": "Etbensstilling til spark og overgange",
+    "definition": "Etbensstilling, hvor det meste af vægten bæres af ét ben, mens det andet ben er løftet eller placeret let. Stillingen bruges til sparketeknikker, balancetræning og overgangsbevægelser mellem teknikker.",
+    "componentBreakdown": "足 (ashi) - 'fod' eller 'ben'; 立 (dachi/tachi) - 'stå' eller 'stilling'. Tilsammen beskriver de en stilling med fokus på fodens/benets placering, typisk på ét ben."
+  },
+  "27": {
+    "shortDescription": "Mellemste niveau som målområde",
+    "definition": "Mellemste niveau for angreb og forsvar, typisk rettet mod området fra solar plexus til nederst på brystkassen. De fleste grundlæggende slag og blokeringer udføres på chūdan-niveau. Det er det mest anvendte målområde i karateteknikker.",
+    "componentBreakdown": "中 (chū) - 'midte' eller 'center'; 段 (dan) - 'niveau' eller 'trin'. Tilsammen beskriver de det mellemste niveau for mål i kampkunstteknikker."
+  },
+  "28": {
+    "shortDescription": "Højt niveau som mål",
+    "definition": "Højt niveau for angreb og forsvar, typisk rettet mod området fra kravebenet til toppen af hovedet. Jōdan-teknikker omfatter høje slag, høje blokeringer og angreb i ansigtshøjde. Disse teknikker kræver god smidighed og timing.",
+    "componentBreakdown": "上 (jō) - 'øvre' eller 'over'; 段 (dan) - 'niveau' eller 'trin'. Tilsammen beskriver de det høje niveau, der rettes mod i kampsportsteknikker."
+  },
+  "29": {
+    "shortDescription": "Lavt niveau som mål",
+    "definition": "Lavt niveau for angreb og forsvar, typisk rettet mod området under bæltet, herunder skridtet, lårene og benene. Gedan-teknikker omfatter lave blokeringer, lave slag og spark mod underkroppen. Det er ofte forsvarsteknikker.",
+    "componentBreakdown": "下 (ge) - 'nedre' eller 'under'; 段 (dan) - 'niveau' eller 'trin'. Tilsammen beskriver de det lave niveau, der rettes mod i kampsportsteknikker."
+  },
+  "30": {
+    "shortDescription": "Hammerslag med knytnæven",
+    "definition": "Hammerslag, hvor undersiden af den lukkede knytnæve bruges til at give et kraftigt nedadgående eller cirkulært slag. Teknikken efterligner bevægelsen med en hammer og kan bruges mod forskellige mål, herunder hovedet, ribbenene eller lemmerne. Det er en alsidig teknik på kort afstand.",
+    "componentBreakdown": "鉄 (tetsu) - 'jern'; 槌 (tsui) - 'hammer'; 打 (uchi) - 'slag' eller 'ramme'. Tilsammen beskriver de en slagteknik, der efterligner en jernhammer."
+  },
+  "31": {
+    "shortDescription": "Tohåndsblokering",
+    "definition": "Blokering med begge hænder, hvor hænderne arbejder sammen for at forsvare mod kraftige angreb. Den ene hånd udfører selve blokeringen, mens den anden hånd giver støtte og ekstra styrke. Teknikken bruges mod stærke angreb, som en enhåndsblokering ikke ville kunne modstå.",
+    "componentBreakdown": "諸 (moro) - 'begge' eller 'alle'; 手 (te) - 'hånd'; 受け (uke) - 'modtage' eller 'blokere'. Tilsammen beskriver de en blokeringsteknik, hvor begge hænder bruges sammen."
+  },
+  "32": {
+    "shortDescription": "Udvendig blokering, der afleder indad",
+    "definition": "Udvendig blokering, der bevæger sig udefra og ind og afleder angreb væk fra kroppens midterlinje. Den blokerende arm bevæger sig i en bue fra en udvendig position hen over kroppen og bruger underarmen til at omdirigere indkommende angreb.",
+    "componentBreakdown": "外 (soto) - 'udenfor' eller 'yderside'; 受け (uke) - 'modtage' eller 'blokere'. Tilsammen beskriver de en blokering, der starter udefra og bevæger sig indad."
+  },
+  "33": {
+    "shortDescription": "Indvendig blokering, der afleder udad",
+    "definition": "Indvendig blokering, der bevæger sig indefra og ud og afleder angreb væk fra kroppens midterlinje. Den blokerende arm starter nær den modsatte skulder og bevæger sig udad i en bue og bruger underarmen til at omdirigere indkommende angreb.",
+    "componentBreakdown": "内 (uchi) - 'indenfor' eller 'inderside'; 受け (uke) - 'modtage' eller 'blokere'. Tilsammen beskriver de en blokering, der starter indefra og bevæger sig udad."
+  },
+  "34": {
+    "shortDescription": "Albueslag",
+    "definition": "Albueslag, hvor albuens spids eller side bruges til at give et kraftigt angreb på kort afstand. Albueslag kan udføres i forskellige retninger: fremad, bagud, opad, nedad eller til siden. De er yderst effektive i nærkamp.",
+    "componentBreakdown": "肘 (empi) - 'albue'; 打 (uchi) - 'slag' eller 'ramme'. Tilsammen beskriver de en slagteknik, hvor albuen bruges som våben."
+  },
+  "35": {
+    "shortDescription": "Slag med bagsiden af knytnæven",
+    "definition": "Slag med bagsiden af knoerne, der giver et piskende slag. Teknikken bruger en smældende bevægelse fra albuen eller håndleddet til at skabe fart og kraft. Den er effektiv til angreb på kort afstand og kan rettes mod ansigtet, ribbenene eller tindingerne.",
+    "componentBreakdown": "裏 (ura) - 'bagside' eller 'omvendt side'; 拳 (ken) - 'knytnæve'; 打 (uchi) - 'slag' eller 'ramme'. Tilsammen beskriver de et slag med bagsiden af knytnæven."
+  },
+  "36": {
+    "shortDescription": "Gennemtrængende spydhånd",
+    "definition": "Spydhåndsteknik, hvor fingrene er strakte og presset sammen, så de danner et gennemtrængende våben. Fingerspidserne bruges til at ramme vitale punkter og bløde mål. Teknikken kræver omfattende tilvænning og præcis træfsikkerhed.",
+    "componentBreakdown": "貫 (nuki) - 'trænge igennem' eller 'gennembore'; 手 (te) - 'hånd'. Tilsammen beskriver de en håndteknik, der trænger igennem eller gennemborer målet."
+  },
+  "37": {
+    "shortDescription": "Smældende sparkebevægelse",
+    "definition": "Smældende sparkebevægelse, hvor benet hurtigt strækkes og straks trækkes tilbage. Det giver en hurtig, piskende bevægelse, der lægger vægt på fart frem for gennemslagskraft. Keage-spark bruges til hurtige angreb og til at holde afstand til modstandere.",
+    "componentBreakdown": "蹴 (ke) - 'spark'; 上 (age) - 'op' eller 'løfte'. Tilsammen beskriver de en sparkebevægelse, der smælder opad og hurtigt trækkes tilbage."
+  },
+  "38": {
+    "shortDescription": "Stødende sparkebevægelse",
+    "definition": "Stødende sparkebevægelse, hvor benet drives frem med gennemtrængende kraft og forbliver strakt et øjeblik ved træffet. Det giver maksimal kraftoverførsel og bruges til at skubbe til eller bryde igennem mål. Kekomi-spark lægger vægt på kraft frem for fart.",
+    "componentBreakdown": "蹴 (ke) - 'spark'; 込 (komi) - 'ind i' eller 'støde ind'. Tilsammen beskriver de en sparkebevægelse, der støder dybt ind i målet."
+  },
+  "39": {
+    "shortDescription": "Stampende eller trædende teknik",
+    "definition": "Stampende eller trædende teknik, hvor foden føres kraftigt ned på et mål, typisk modstanderens fod, skinneben eller vrist. Teknikken kan bruges til angreb, til at bryde balancen eller til at skabe afstand. Den kombinerer et skridt med et slag.",
+    "componentBreakdown": "踏み (fumi) - 'træde på' eller 'trampe'; 込み (komi) - 'ind i' eller 'dybt'. Tilsammen beskriver de en teknik, der træder kraftigt ind i eller på et mål."
+  },
+  "40": {
+    "shortDescription": "Krydsblokering med begge arme",
+    "definition": "Krydsblokering, hvor begge arme danner et X for at blokere kraftige angreb ovenfra eller forfra. Armene kan krydses med lukkede knytnæver eller åbne hænder. Blokeringen giver et stærkt forsvar mod tunge angreb, men binder kroppen et øjeblik i blokeringspositionen.",
+    "componentBreakdown": "十 (jū) - 'ti'; 字 (ji) - 'tegn' eller 'bogstav'; 受け (uke) - 'modtage' eller 'blokere'. Tilsammen beskriver de en blokering, der danner tegnet '十' (kryds eller plustegn)."
+  },
+  "41": {
+    "shortDescription": "Øsende blokering",
+    "definition": "Øsende blokering, der bevæger sig i en opadgående, øsende bevægelse for at aflede lave angreb eller spark. Den blokerende arm bevæger sig fra lavt til højt i en cirkulær bevægelse, som når man øser vand. Blokeringen er effektiv mod lave spark og kan lægge op til kontraangreb.",
+    "componentBreakdown": "掬い (sukui) - 'øse' eller 'øse op'; 受け (uke) - 'modtage' eller 'blokere'. Tilsammen beskriver de en blokeringsteknik, der øser opad for at aflede angreb."
+  },
+  "42": {
+    "shortDescription": "Fejende, afledende blokering",
+    "definition": "Fejende, afledende blokering, der omdirigerer angreb med minimal kraft ved at lede dem forbi kroppen. I stedet for at stoppe et angreb direkte bruger nagashi-uke cirkulære eller flydende bevægelser til at omdirigere angrebets energi og skabe åbninger for kontraangreb.",
+    "componentBreakdown": "流し (nagashi) - 'flyde' eller 'feje væk'; 受け (uke) - 'modtage' eller 'blokere'. Tilsammen beskriver de en blokering, der lader angreb flyde forbi eller fejer dem væk i stedet for at stoppe dem direkte."
+  },
+  "43": {
+    "shortDescription": "Pressende eller undertrykkende blokering",
+    "definition": "Pressende eller undertrykkende blokering, der kontrollerer og holder et angreb tilbage i stedet for at aflede det. Den blokerende hånd presser ned eller holder den angribende arm eller det angribende ben fast og bruges ofte på kort afstand til at kontrollere modstanderens bevægelser.",
+    "componentBreakdown": "押さえ (osae) - 'presse ned' eller 'undertrykke'; 受け (uke) - 'modtage' eller 'blokere'. Tilsammen beskriver de en blokering, der presser ned for at undertrykke eller kontrollere angreb."
+  },
+  "44": {
+    "shortDescription": "Blokering med håndryggen",
+    "definition": "Blokering med bagsiden af den åbne hånd for at aflede angreb. Håndfladen vender ind mod kroppen, mens håndryggen rammer den angribende arm eller det angribende ben. Blokeringen giver mulighed for hurtige overgange til greb eller slag.",
+    "componentBreakdown": "背 (hai) - 'ryg' eller 'bagside'; 手 (shu/te) - 'hånd'; 受け (uke) - 'modtage' eller 'blokere'. Tilsammen beskriver de en blokering med håndens bagside."
+  },
+  "45": {
+    "shortDescription": "Halvmånespark",
+    "definition": "Halvmånespark, der bevæger sig i en buet bane, som minder om en halvmåne. Benet svinger i en cirkulær bevægelse indefra og ud eller udefra og ind og rammer med fodens inder- eller yderkant. Bruges til angreb mod hovedet eller til fejninger.",
+    "componentBreakdown": "三日月 (mikazuki) - 'halvmåne' (bogstaveligt 'tredagsmåne'); 蹴り (geri) - 'spark'. Tilsammen beskriver de et spark, der følger en buet bane som en halvmåne."
+  },
+  "46": {
+    "shortDescription": "Lodret slag",
+    "definition": "Lodret slag, hvor knytnæven holdes lodret med tommelfingeren øverst. Slaget kan udføres lige frem eller opad og er effektivt på kort afstand, hvor et traditionelt vandret slag kan blive blokeret eller være virkningsløst.",
+    "componentBreakdown": "縦 (tate) - 'lodret' eller 'på langs'; 突き (zuki) - 'stød' eller 'slag'. Tilsammen beskriver de et slag, hvor knytnæven holdes lodret."
+  },
+  "47": {
+    "shortDescription": "Uppercut på kort afstand",
+    "definition": "Uppercut på kort afstand, udført med håndfladen opad. Slaget bevæger sig i en opadgående bue og bruges typisk i nærkamp mod solar plexus, hagen eller ribbenene. Det er effektivt, når modstanderen er meget tæt på.",
+    "componentBreakdown": "裏 (ura) - 'bagside', 'omvendt' eller 'nedenunder'; 突き (zuki) - 'stød' eller 'slag'. Tilsammen beskriver de et slag, der udføres nedefra eller fra den omvendte side."
+  },
+  "48": {
+    "shortDescription": "Sideslag",
+    "definition": "Sideslag, der udføres vandret ud til siden af kroppen, ofte i en stilling med siden til. Slaget bruges, når kroppen står sidelæns i forhold til modstanderen, og kan rettes mod ribbenene, nyrerne eller siden af hovedet.",
+    "componentBreakdown": "横 (yoko) - 'side' eller 'vandret'; 突き (zuki) - 'stød' eller 'slag'. Tilsammen beskriver de et slag, der udføres til siden eller vandret."
+  },
+  "49": {
+    "shortDescription": "Klarstilling eller forberedende stilling",
+    "definition": "Klarstilling, der indtages i begyndelsen af kata eller kumite og viser parathed og årvågenhed. I denne stilling står udøveren i hachiji-dachi med knytnæverne ud for siderne, klar til at begynde kataen eller reagere på angreb.",
+    "componentBreakdown": "用 (yō) - 'brug' eller 'forberedelse'; 意 (i) - 'sind' eller 'hensigt'. Tilsammen betyder de 'sindets forberedelse' eller 'parat hensigt' og angiver mental og fysisk parathed."
+  },
+  "50": {
+    "shortDescription": "Tilbagetrækkende hånd",
+    "definition": "Tilbagetrækkende hånd, hvor den ene hånd trækkes tilbage til hoften, mens den anden udfører en teknik. Bevægelsen hjælper med at skabe kraft gennem reaktionsprincippet, bevarer balancen og kan bruges til at trække en modstander til sig eller rydde vejen for den slående hånd.",
+    "componentBreakdown": "引き (hiki) - 'trække' eller 'trække tilbage'; 手 (te) - 'hånd'. Tilsammen beskriver de handlingen at trække hånden tilbage, typisk til hoften."
+  },
+  "51": {
+    "shortDescription": "Højre side eller retning",
+    "definition": "Højre; angiver kroppens højre side eller højre retning ved udførelse af en teknik. Dette grundlæggende retningsbegreb bruges meget i karate til at angive, hvilken side af kroppen der udfører en teknik, f.eks. 'migi gedan-barai' (højre nedadgående blokering) eller 'migi oi-zuki' (højre fremadgående slag).",
+    "componentBreakdown": "右 (migi) - Dette enkelte kanji betyder 'højre' som retning eller side. Det står for kroppens højre side eller bevægelse mod højre i kampsportsteknikker."
+  },
+  "52": {
+    "shortDescription": "Venstre side eller retning",
+    "definition": "Venstre; angiver kroppens venstre side eller venstre retning ved udførelse af en teknik. Dette grundlæggende retningsbegreb bruges meget i karate til at angive, hvilken side af kroppen der udfører en teknik, f.eks. 'hidari gedan-barai' (venstre nedadgående blokering) eller 'hidari oi-zuki' (venstre fremadgående slag).",
+    "componentBreakdown": "左 (hidari) - Dette enkelte kanji betyder 'venstre' som retning eller side. Det står for kroppens venstre side eller bevægelse mod venstre i kampsportsteknikker."
+  },
+  "53": {
+    "shortDescription": "L-formet stilling, der danner katakana 'レ'",
+    "definition": "L-formet stilling, hvor fødderne placeres, så de danner katakana-tegnet 'レ' (re). Den forreste fod peger fremad, mens den bagerste fod står i cirka 90 grader, så der dannes en L-form. Stillingen giver stabilitet og samtidig mulighed for hurtige overgange og bruges ofte i kata-sekvenser.",
+    "componentBreakdown": "レ (re) - katakana-tegnet for 'RE'; の (no) - ejefaldspartikel; 字 (ji) - 'tegn' eller 'bogstav'; 立 (dachi/tachi) - 'stå' eller 'stilling'. Tilsammen beskriver de en stilling, der danner katakana-tegnet 'レ'."
+  },
+  "54": {
+    "shortDescription": "Kommando om at vende tilbage til klarstilling",
+    "definition": "Vend tilbage til klarstilling; en kommando, der gives for at vende tilbage til yōi-stillingen (klarstilling) efter at have afsluttet en kata eller en øvelse. Denne instruktion markerer afslutningen på den formelle del af træningen og angiver, at eleverne skal indtage klarstillingen som forberedelse til den afsluttende hilsen.",
+    "componentBreakdown": "直れ (naore) - bydeform af 'naoru', der betyder 'at blive rettet' eller 'at vende tilbage til korrekt position'. Det er en kommando, der beder udøverne om at vende tilbage til den korrekte klarstilling."
+  },
+  "55": {
+    "shortDescription": "Lodret eller opret blokeringsteknik",
+    "definition": "Lodret blokering, hvor underarmen holdes lodret for at aflede angreb. Den blokerende arm holdes opret med knytnæven typisk i skulderhøjde, hvilket danner en stærk lodret barriere. Denne blokering er effektiv mod vandrette angreb og kan hurtigt gå over i kontraslag.",
+    "componentBreakdown": "立 (tate) - 'lodret', 'opret' eller 'stående'; 受け (uke) - 'modtage' eller 'blokere'. Tilsammen beskriver de en blokeringsteknik, der udføres med armen i en lodret eller opret position."
+  },
+  "56": {
+    "shortDescription": "Bagarms- eller omvendt underarmsblokering",
+    "definition": "Bagarmsblokering, der bruger bagsiden eller den omvendte side af underarmen til at aflede angreb. Denne blokeringsteknik bruger underarmens yderkant og anvendes ofte, når den almindelige underarmsposition ikke er egnet, og giver en alternativ vinkel til afledning.",
+    "componentBreakdown": "背 (hai) - 'bagside' eller 'bagerste'; 腕 (wan) - 'arm' eller 'underarm'; 受け (uke) - 'modtage' eller 'blokere'. Tilsammen beskriver de en blokering med bagsiden eller den omvendte side af underarmen."
+  },
+  "57": {
+    "shortDescription": "Bagknytnæve som slagflade",
+    "definition": "Bagknytnæve; slagfladen, der dannes af bagsiden af knoerne, når hånden er knyttet. Dette våben bruges til hurtige, piskende slag, hvor hastighed vægtes over kraft. Uraken kan rettes mod ansigtet, tindingerne, ribbenene eller andre sårbare områder og er effektiv i nærkamp.",
+    "componentBreakdown": "裏 (ura) - 'bagside', 'omvendt side' eller 'bagerste'; 拳 (ken) - 'knytnæve'. Tilsammen beskriver de bagsiden eller den omvendte side af knytnæven brugt som slagvåben."
+  },
+  "58": {
+    "shortDescription": "Korrekt knytnæve eller forknytnæve",
+    "definition": "Korrekt knytnæve; det almindelige våben med lukket hånd, der bruges til de fleste slagteknikker i karate. Seiken dannes ved at knytte hånden fast med de to første knoer (på pege- og langfinger) som den primære slagflade. Dette er det mest grundlæggende våben i karates slagteknikker.",
+    "componentBreakdown": "正 (sei) - 'korrekt', 'rigtig' eller 'sand'; 拳 (ken) - 'knytnæve'. Tilsammen beskriver de den korrekte eller rigtige måde at danne en knytnæve til slag i karate."
+  },
+  "59": {
+    "shortDescription": "Lodret spydhåndsstød",
+    "definition": "Lodret spydhåndsstød, hvor fingrene er strakte og presset sammen, udført i lodret retning. Denne teknik kombinerer den gennemtrængende kraft fra nukite (spydhånd) med den lodrette vinkel fra tate-zuki (lodret slag) og skaber et præcist stød rettet mod vitale punkter.",
+    "componentBreakdown": "貫手 (nukite) - 'spydhånd' eller 'gennemtrængende hånd'; 立 (tate) - 'lodret' eller 'opret'; 突き (zuki) - 'stød' eller 'slag'. Tilsammen beskriver de en lodret stødteknik med spydhånden."
+  },
+  "60": {
+    "shortDescription": "Piskende frontspark",
+    "definition": "Piskende frontspark, hvor benet hurtigt strækkes fremad og straks trækkes tilbage i en piskende bevægelse. Denne teknik vægter hastighed og præcision over gennemtrængende kraft og bruger trædeballen til hurtigt at ramme mål som solar plexus, ansigtet eller skridtet.",
+    "componentBreakdown": "前 (mae) - 'forreste' eller 'fremad'; 蹴り (geri) - 'spark'; 蹴上 (keage) - 'piske op' eller 'sparke op'. Tilsammen beskriver de et frontspark udført med en piskende bevægelse."
+  },
+  "61": {
+    "shortDescription": "Opadgående knivhåndsblokering",
+    "definition": "Opadgående knivhåndsblokering, der bevæger sig opad for at aflede angreb ovenfra med kanten af den åbne hånd. Denne teknik kombinerer den skærende bevægelse fra shutō (knivhånd) med den opadgående bevægelse fra age-uke (opadgående blokering) og skaber et effektivt forsvar mod angreb på højt niveau, samtidig med at evnen til kontraslag bevares.",
+    "componentBreakdown": "手刀 (shutō) - 'knivhånd' eller 'håndsværd'; 上げ (age) - 'hæve' eller 'løfte op'; 受け (uke) - 'modtage' eller 'blokere'. Tilsammen beskriver de en opadgående blokering udført med knivhåndsteknikken."
+  },
+  "62": {
+    "shortDescription": "Halvkrops- eller sidevendt position",
+    "definition": "Halvkropsposition, hvor kroppen er drejet i en vinkel, typisk 45 grader, så den udgør et mindre mål for modstanderen, samtidig med at balance og bevægelighed bevares. Denne position er grundlæggende i mange kampsporter, da den mindsker det område, der kan rammes, og samtidig holder begge hænder og fødder klar til teknikker. Hanmi bruges ofte i defensive situationer og i overgangsbevægelser.",
+    "componentBreakdown": "半 (han) - 'halv' eller 'semi'; 身 (mi) - 'krop' eller 'selv'. Tilsammen beskriver de en position, hvor kroppen er drejet, så kun halvdelen vender mod modstanderen, hvilket giver en mere defensiv og bevægelig stilling."
+  },
+  "63": {
+    "shortDescription": "Krogende blokeringsteknik",
+    "definition": "Krogende blokering, hvor den blokerende arm bevæger sig i en krogende eller trækkende bevægelse for at fange og kontrollere et indkommende angreb. Denne teknik kombinerer blokering med elementer fra grappling og bruger armen til at hage sig fast om det angribende lem og trække det til side, samtidig med at angrebet afledes. Den er effektiv til forsvar på kort afstand og kan lægge op til kontraangreb eller kast.",
+    "componentBreakdown": "掛け (kake) - 'krog', 'hænge' eller 'fange'; 受け (uke) - 'modtage' eller 'blokere'. Tilsammen beskriver de en blokeringsteknik, der hager sig fast i eller fanger det indkommende angreb i stedet for blot at aflede det."
+  },
+  "64": {
+    "shortDescription": "Side- eller flankeposition",
+    "definition": "Side eller flanke; henviser til siden eller den sideværts position i kampsport. Udtrykket bruges til at beskrive placering, bevægelse eller angreb, der kommer fra eller er rettet mod siden af kroppen eller modstanderen. Sokumen-placering er vigtig for at skabe angrebsvinkler, defensiv placering og taktisk fordel ved at bevæge sig til modstanderens svage side.",
+    "componentBreakdown": "側 (soku) - 'side' eller 'sideværts'; 面 (men) - 'ansigt', 'overflade' eller 'aspekt'. Tilsammen beskriver de sidefladen eller det sideværts aspekt og angiver placering eller bevægelse til siden."
+  },
+  "65": {
+    "shortDescription": "Naturlig kropsposition eller stilling",
+    "definition": "Naturlig stilling eller naturlig kropsposition; en afslappet, opret stilling, hvor kroppen er i en naturlig, afbalanceret position uden spændinger. Fødderne er typisk i skulderbredde med let bøjede knæ, vægten er jævnt fordelt, og kroppen er klar til at bevæge sig i alle retninger. Denne stilling lægger vægt på naturlighed og effektiv bevægelse og bruges ofte i overgangsbevægelser eller som klarstilling.",
+    "componentBreakdown": "自然 (shizen) - 'naturlig', 'natur' eller 'spontan'; 体 (tai) - 'krop', 'stilling' eller 'holdning'. Tilsammen beskriver de en naturlig kropsposition, der er afslappet og samtidig klar, i overensstemmelse med principperne for naturlig bevægelse."
+  },
+  "66": {
+    "shortDescription": "Lige slag direkte fremad",
+    "definition": "Lige slag; et direkte, lineært slag udført lige fremad fra hoften. Det er en grundlæggende slagteknik, der lægger vægt på direkthed og kraft langs en lige linje mod målet. I modsætning til andre slag, der kan indebære rotation af kroppen eller skridt, kendetegnes choku-zuki ved sin rene lineære bevægelse, hvilket gør det til en af de mest direkte og effektive slagteknikker i karate.",
+    "componentBreakdown": "直 (choku) - 'lige', 'direkte' eller 'opret'; 突き (zuki) - 'stød' eller 'slag'. Tilsammen beskriver de et slag, der bevæger sig i en helt lige linje mod målet."
+  },
+  "67": {
+    "shortDescription": "Side eller vandret retning",
+    "definition": "Side eller vandret; et retningsudtryk, der angiver sideværts eller vandret orientering. I karate bruges yoko ofte til at beskrive teknikker udført til siden eller med vandret orientering, såsom yoko-geri (sidespark), yoko-zuki (sideslag) eller yoko-uke (sideblokering). Dette retningsudtryk er grundlæggende for at forstå mange karateteknikker og bevægelser, der involverer sidelæns bevægelse eller vandret placering.",
+    "componentBreakdown": "横 (yoko) - Dette enkelte kanji betyder 'side', 'vandret', 'sidelæns' eller 'sideværts'. Det angiver orientering langs den vandrette akse eller bevægelse til siden i modsætning til tate (縦), der betyder lodret eller på langs."
+  },
+  "68": {
+    "shortDescription": "Forreste eller fremadrettet retning",
+    "definition": "Foran eller fremad; et retningsudtryk, der angiver fremadrettet orientering eller bevægelse mod forsiden. I karate bruges mae ofte til at beskrive teknikker udført fremad eller mod forsiden, såsom mae-geri (frontspark), mae-zuki (lige slag) eller mae-empi (fremadrettet albueslag). Dette retningsudtryk er grundlæggende for at forstå mange karateteknikker og bevægelser, der involverer fremadrettet bevægelse eller angreb forfra.",
+    "componentBreakdown": "前 (mae) - Dette enkelte kanji betyder 'forreste', 'fremad', 'før' eller 'forude'. Det angiver retning mod forsiden eller fremadrettet bevægelse i modsætning til ushiro (後ろ), der betyder bagud eller bagerste."
+  },
+  "69": {
+    "shortDescription": "Meditation eller stille kontemplation",
+    "definition": "Meditation eller stille kontemplation; en periode med stille eftertanke, der praktiseres i kampsportstræning. Mokusō udføres typisk i begyndelsen og slutningen af træningen, mens man sidder i seiza (formel knælende stilling). Under mokusō rydder udøverne tankerne, fokuserer og forbereder sig mentalt til træningen eller reflekterer over det, de har lært. Denne praksis hjælper med at udvikle mental disciplin, koncentration og indre ro, som er væsentlige sider af kampsportstræning ud over de fysiske teknikker.",
+    "componentBreakdown": "黙 (moku) - 'stilhed' eller 'ro', som repræsenterer meditationens ordløse natur; 想 (sō) - 'tanke', 'kontemplation' eller 'begreb'. Tilsammen betyder de 'stille kontemplation' eller 'meditation' og understreger praksis med stille mental eftertanke."
+  },
+  "70": {
+    "shortDescription": "Formel knælende siddestilling",
+    "definition": "Formel knælende siddestilling; en traditionel japansk måde at sidde på, hvor man knæler med fodryggene fladt mod gulvet og sidder tilbage på hælene. I kampsport bruges seiza ved formelle ceremonier, meditation (mokusō) og når man viser respekt over for instruktører. Denne stilling udtrykker disciplin, respekt og korrekt etikette. At holde seiza kræver en korrekt holdning med ret ryg og en fattet fremtoning, hvilket afspejler den mentale og fysiske disciplin, der er central i kampsportstræning.",
+    "componentBreakdown": "正 (sei) - 'korrekt', 'rigtig' eller 'formel', som angiver denne siddestillings korrekte og respektfulde karakter; 座 (za) - 'sidde' eller 'sæde'. Tilsammen betyder de 'korrekt siddestilling' og understreger den formelle og korrekte måde at sidde på i traditionel japansk kultur."
+  },
+  "71": {
+    "shortDescription": "Åbn øjnene (afslut meditation)",
+    "definition": "Åbn øjnene; kommandoen, der gives for at afslutte meditation (mokusō) i kampsportstræning. Efter perioden med stille kontemplation med lukkede øjne siger instruktøren 'Kaimoku' som signal til eleverne om at åbne øjnene og vende fokus tilbage til nuet. Denne kommando markerer overgangen fra den meditative tilstand tilbage til aktiv træning eller til den formelle hilsen. Det at lukke og åbne øjnene bevidst styrker den mentale disciplin og det fokus, der er en integreret del af kampsport.",
+    "componentBreakdown": "開 (kai) - 'åbne' eller 'folde ud', som angiver handlingen at åbne; 目 (moku) - 'øje' eller 'øjne'. Tilsammen betyder de bogstaveligt 'åbn øjnene', kommandoen til at afslutte meditationsperioden og vende opmærksomheden tilbage til omgivelserne."
+  },
+  "72": {
+    "shortDescription": "Knivhånd eller håndsværdsteknik",
+    "definition": "Knivhånd eller håndsværd; en teknik, der bruger kanten af den åbne hånd som slag- eller blokeringsflade. Hånden holdes åben med strakte, samlede fingre og bøjet tommelfinger, så der dannes en stiv, klingelignende kant langs lillefingersiden af hånden. Shutō kan bruges til både slag- (shutō-uchi) og blokeringsteknikker (shutō-uke). Når shutō-slag udføres korrekt med korrekt kropsmekanik og hofterotation, kan de være meget kraftfulde og effektive. Denne teknik er grundlæggende i mange kata og i kumite-anvendelser.",
+    "componentBreakdown": "手 (shu/te) - 'hånd'; 刀 (tō) - 'sværd' eller 'klinge'. Tilsammen betyder de bogstaveligt 'håndsværd' og beskriver, hvordan håndens kant bruges som en klinge til slag eller blokering."
+  },
+  "73": {
+    "shortDescription": "Blokering eller modtage",
+    "definition": "Blokering eller modtage; en defensiv teknik, der bruges til at aflede, omdirigere eller absorbere en modstanders angreb. Ordet uke betyder bogstaveligt 'at modtage' og understreger idéen om at modtage og kontrollere angrebet frem for blot at stoppe det. Uke-teknikker er grundlæggende i karate og omfatter forskellige blokeringer såsom age-uke (opadgående blokering), gedan-barai (nedadgående blokering), soto-uke (udefra-blokering) og uchi-uke (indefra-blokering). Korrekt uke kræver den rette timing, placering og kropsmekanik for effektivt at neutralisere angreb, samtidig med at man bevarer balancen og er klar til kontraangreb.",
+    "componentBreakdown": "受け (uke) - Dette ord betyder 'modtage', 'acceptere' eller 'blokere'. Det kommer af verbet ukeru (受ける) og understreger den defensive karakter af at modtage og kontrollere en modstanders angreb frem for blot at blokere det."
+  },
+  "74": {
+    "shortDescription": "Højre håndflade",
+    "definition": "Højre håndflade; henviser til den højre åbne hånd eller håndflade, der bruges i forskellige karateteknikker. Håndfladen kan bruges til slag (shōtei-uchi), blokering, skub eller greb. Teknikker med åben hånd, der bruger håndfladen, betragtes som mere avancerede end teknikker med knytnæve og kræver præcis kontrol og målretning. Håndfladeslaget overfører kraften gennem håndroden, mens fingrene holdes strakte og let bøjet bagud af sikkerhedshensyn.",
+    "componentBreakdown": "右 (u) - 'højre' (retning/side); 掌 (shō) - 'håndflade' eller 'håndens inderside'. Tilsammen angiver de den højre håndflade og adskiller den fra den venstre håndflade (sa-shō) i teknikker, der angiver, hvilken hånd der bruges."
+  },
+  "75": {
+    "shortDescription": "Venstre håndflade",
+    "definition": "Venstre håndflade; henviser til den venstre åbne hånd eller håndflade, der bruges i forskellige karateteknikker. Håndfladen kan bruges til slag (shōtei-uchi), blokering, skub eller greb. Teknikker med åben hånd, der bruger håndfladen, betragtes som mere avancerede end teknikker med knytnæve og kræver præcis kontrol og målretning. Håndfladeslaget overfører kraften gennem håndroden, mens fingrene holdes strakte og let bøjet bagud af sikkerhedshensyn.",
+    "componentBreakdown": "左 (sa) - 'venstre' (retning/side); 掌 (shō) - 'håndflade' eller 'håndens inderside'. Tilsammen angiver de den venstre håndflade og adskiller den fra den højre håndflade (u-shō) i teknikker, der angiver, hvilken hånd der bruges."
+  },
+  "76": {
+    "shortDescription": "Knivhåndsslag",
+    "definition": "Knivhåndsslag eller gennemtrængende slag; en kraftfuld slagteknik, der bruger kanten af den åbne hånd (shutō) med en drivende, gennemtrængende bevægelse. Udtrykket uchikomi betyder 'at drive ind' eller 'at slå ind i' og angiver et kraftfuldt, helhjertet slag, der trænger igennem målet. Denne teknik kombinerer knivhåndens kant med en stødende bevægelse og bruges ofte til at ramme vitale punkter eller sårbare områder. Slaget udføres med håndens kant, mens den korrekte form bevares med strakte fingre og tommelfingeren trukket ind.",
+    "componentBreakdown": "手 (shu) - 'hånd'; 刀 (tō) - 'sværd' eller 'klinge'; 打ち込み (uchikomi) - 'at slå ind' eller 'at drive ind'. Tilsammen beskriver de en knivhåndsteknik, der driver kraftfuldt ind i målet og kombinerer håndens skærende kant med gennemtrængende kraft."
+  },
+  "77": {
+    "shortDescription": "Overkrop eller bevar positionen",
+    "definition": "Overkrop eller bevar overkroppens position; en kommando, der bruges i kata for at angive, at overkroppens position, stilling eller holdning skal bevares, mens den næste bevægelse udføres. Udtrykket understreger, at torso, skuldre og arme holdes i deres nuværende position, mens kun underkroppen eller fødderne bevæges. Det bruges ofte sammen med andre kommandoer for at angive præcis kropsmekanik under overgange.",
+    "componentBreakdown": "上 (jō) - 'øvre' eller 'over'; 体 (tai) - 'krop' eller 'form'. Tilsammen henviser de til overkroppen eller instruktionen om at bevare overkroppens position under en teknik eller overgang."
+  },
+  "78": {
+    "shortDescription": "Som det er, bliv på stedet, bevæg dig ikke",
+    "definition": "Som det er, bliv på stedet, bevæg dig ikke; en kommando om at bevare den nuværende position uden nogen bevægelse. Denne instruktion bruges ofte under træning til at fastfryse eleverne i deres nuværende stilling og position med henblik på korrektion eller gennemgang. Den understreger, at man holder den nøjagtige holdning, spænding og form uden nogen justering eller afslapning. I forbindelse med kata kan den angive, at en position skal holdes et øjeblik, før man fortsætter til næste bevægelse.",
+    "componentBreakdown": "其の (sono) - 'den' eller 'det'; 儘 (mama) - 'som det er', 'uændret' eller 'まままま'. Tilsammen danner de et udtryk, der betyder 'præcis som det er' eller 'uden ændring', og understreger, at den nøjagtige nuværende tilstand bevares."
+  },
+  "79": {
+    "shortDescription": "Til venstre håndflade, mod venstre håndflade",
+    "definition": "Til venstre håndflade eller mod venstre håndflade; angiver, at en teknik er rettet mod, ind i eller imod venstre håndflade. Partiklen 'ni' (に) angiver retning eller mål, så udtrykket bruges, når et slag eller en bevægelse er rettet mod eller rammer venstre håndflade. Bruges ofte i teknikker, hvor den ene hånd slår ind i den anden hånds åbne håndflade, f.eks. i sparketeknikker, hvor foden rammer den støttende håndflade.",
+    "componentBreakdown": "左 (sa) - 'venstre'; 掌 (shō) - 'håndflade'; に (ni) - partikel, der angiver retning 'til' eller 'mod'. Tilsammen angiver de, at handlingen er rettet mod venstre håndflade."
+  },
+  "80": {
+    "shortDescription": "Opadgående slag mod højre side",
+    "definition": "Opadgående slag mod højre side; en slagteknik, hvor højre knytnæve (uken) drives opad i en vinkel mod højre med knytnævens bagside vendt bagud. I Heian Godan (bevægelse 18) udføres uhō-tsuki-age, mens man skarpt kigger til venstre mod bagsiden (ura-shōmen): venstre knytnæve rører højre albue, mens højre knytnæve stiger, og venstre ben strækkes ud for at danne hidari-ashi mae renoji-dachi. Udtrykket kombinerer 'uhō' (højre side/retning), 'tsuki' (slag/stød) og 'age' (opadgående). Det er højresidens modstykke til de retningsbestemte opadgående slag som kōhō-tsuki-age (opadgående slag bagud) i Heian Sandan. Den opadgående, vinklede bane gør det effektivt mod en modstanders hage eller ansigt, mens kroppen drejer væk.",
+    "componentBreakdown": "右方 (uhō) - 'højre side' eller 'højre retning', af 右 (u/migi) 'højre' og 方 (hō) 'retning' eller 'side'; 突き (tsuki) - 'stød' eller 'slag'; 上げ (age) - 'opadgående' eller 'opad', af verbet 上げる (ageru) 'at hæve'. Tilsammen beskriver de et slag, der stiger opad mod højre side. Sammenlign 左方 (sahō) 'venstre side' og 後方 (kōhō) 'bagud'."
+  },
+  "81": {
+    "shortDescription": "Udvendig flydende blokering med håndryggen",
+    "definition": "Udvendig flydende blokering; en afledende teknik, der bruger håndryggen til at omdirigere angreb udefra og ind i en flydende, cirkulær bevægelse. I modsætning til den almindelige soto-uke, som blokerer med underarmen, lægger nagashi-uke vægt på omdirigering frem for direkte blokering. Hånden følger med angrebet og leder det væk fra kroppen i en jævn, sammenhængende bevægelse. Teknikken er særlig effektiv til at omdirigere lige slag og giver mulighed for hurtige kontraangreb.",
+    "componentBreakdown": "外 (soto) - 'udenfor' eller 'yderside'; 流し (nagashi) - 'flydende', 'skylle væk' eller 'omdirigere'; 受け (uke) - 'modtage' eller 'blokere'. Tilsammen beskriver de en flydende blokering, der omdirigerer angreb udefra."
+  },
+  "82": {
+    "shortDescription": "Udvendigt cirkulært slag",
+    "definition": "Udvendigt cirkulært slag; en slagteknik, der bevæger sig i en cirkulær bane udefra og ind. Teknikken kan udføres med forskellige våben såsom knytnæven, bagsiden af knytnæven (uraken) eller hammernæven (tettsui). Den cirkulære bevægelse skaber kraft gennem rotation og er særlig effektiv til at slå uden om modstanderens garde eller angribe fra uventede vinkler. Slaget følger en bue fra ydersiden (soto) og roterer indad (mawashi) for at ramme (uchi).",
+    "componentBreakdown": "外 (soto) - 'udenfor' eller 'yderside'; 回し (mawashi) - 'rotere', 'dreje' eller 'cirkulær'; 打 (uchi) - 'slag' eller 'ramme'. Tilsammen beskriver de et slag, der bevæger sig i en cirkulær bane udefra."
+  },
+  "83": {
+    "shortDescription": "Cirkulært sideslag med knytnævens bagside",
+    "definition": "Cirkulært sideslag med knytnævens bagside; en slagteknik, hvor knytnævens bagside (uraken) svinges i en vandret, cirkulær bue for at ramme siden af modstanderens hoved, tinding eller ansigt. Albuen leder bevægelsen, og underarmen smælder udad, så træffet sker med knoerne på knytnævens bagside. Håndleddet holdes fast i træfmomentet, og armen trækkes hurtigt tilbage efter slaget. Teknikken kombinerer knytnævens bagside (uraken) med en sidelæns, cirkulær bane (yoko-mawashi), hvilket gør den til et hurtigt og vildledende angreb, der kan være svært at se komme. Den forekommer især i Heian Godan og andre kata på mellemniveau.",
+    "componentBreakdown": "裏拳 (uraken) - 'knytnævens bagside', der kombinerer 裏 (ura) 'omvendt/bagside' og 拳 (ken) 'knytnæve'; 横 (yoko) - 'side' eller 'sidelæns'; 回し (mawashi) - 'cirkulær' eller 'rundtgående'; 打ち (uchi) - 'slag' eller 'træf'. Tilsammen beskriver de et cirkulært, sidelæns slag med knytnævens bagside."
+  },
+  "84": {
+    "shortDescription": "Krogslag",
+    "definition": "Krogslag; en slagteknik, hvor armen bøjes i albuen, og knytnæven bevæger sig i en krogformet bue for at ramme siden af modstanderens hoved, kæbe eller ribben. Albuen løftes til omtrent skulderhøjde, og underarmen svinger vandret indad, så knytnæven rammer i en vinkel på omtrent 90 grader i forhold til målet. I modsætning til et lige slag (choku-zuki) går kagi-zuki uden om modstanderens garde og er effektivt på tæt hold. Teknikken kræver en skarp hofterotation (kime) i træfmomentet for at skabe kraft. Den forekommer i Tekki Shodan og andre kata, hvor teknikker på tæt hold er fremtrædende.",
+    "componentBreakdown": "鉤 (kagi) - 'krog' eller 'modhage', der henviser til slagets buede bane; 突き (zuki/tsuki) - 'stød' eller 'slag'. Tilsammen beskriver de et slag, der følger en krogformet, buet bane frem for en lige linje."
+  },
+  "85": {
+    "shortDescription": "Åben hånd",
+    "definition": "Åben hånd; en betegnelse, der angiver, at hånden holdes åben med fingrene strakt og samlet i stedet for knyttet til en knytnæve. Kaishō-teknikker bruger håndens flade, knivhåndens kant (shutō), fingerspidserne (nukite) eller håndroden (teishō) som slag- eller blokeringsflade. Betegnelsen bruges foran et teknikknavn for at angive, at der anvendes åbne hænder, for eksempel i 'kaishō jōdan jūji-uke' (X-blokering på højt niveau med åbne hænder) som i Heian Godan. At udføre teknikker i kaishō kræver præcis håndkontrol og tilføjer et ekstra lag af kompleksitet i forhold til versionerne med knyttet hånd (heiken/seiken).",
+    "componentBreakdown": "開 (kai) - 'åben' eller 'at åbne'; 手 (shō/te) - 'hånd'. Tilsammen betyder de bogstaveligt 'åben hånd' i modsætning til den knyttede hånd, der bruges i de fleste slag- og blokeringsteknikker."
+  },
+  "86": {
+    "shortDescription": "Slag eller stød",
+    "definition": "Slag eller stød; den grundlæggende slagbevægelse i karate, hvor knytnæven drives fremad (eller i en angivet retning) for at ramme med seiken (forknytnæven, knoerne på pege- og langfingeren). Zuki bruges både som selvstændigt udtryk og som endelse efter retningsangivende eller beskrivende led for at danne navngivne teknikker, såsom oi-zuki (udfaldsslag), gyaku-zuki (omvendt slag), choku-zuki (lige slag) og kagi-zuki (krogslag). Korrekt udførelse af zuki kræver en koordineret helkropsbevægelse: det fraskubbende ben, hofterotationen (koshi no kaiten) og den strækkende arm arbejder sammen for at skabe maksimal kraft i kime-øjeblikket (fokus). Den arm, der ikke slår, trækkes samtidig tilbage til hoften (hikite) for at øge rotationskraften.",
+    "componentBreakdown": "突き (zuki/tsuki) - afledt af verbet 突く (tsuku), der betyder 'at støde', 'at prikke' eller 'at stikke'. Skrives med kanji 突 (totsu/tsuki), der betyder 'stød' eller 'stik', kombineret med き (ki) som verbalstammens endelse. Den stemte form づき (dzuki) bruges, når ordet følger efter et andet led som endelse i et sammensat ord."
+  },
+  "87": {
+    "shortDescription": "Krydsform, X-mønster",
+    "definition": "Krydsform eller X-mønster; en betegnelse i karate, der angiver, at to lemmer, arme eller blokeringsflader krydses, så de danner formen af kanji 十 (jū, der betyder 'ti'), som ligner et plus- eller krydstegn. Når den bruges som tillæg — som i jūji-uke (X-blokering) eller jōdan kaishō jūji-uke (X-blokering på højt niveau med åbne hænder) — angiver den, at begge arme krydses ved håndleddene eller underarmene for at opfange et angreb med begge lemmer samtidig. Jūji-teknikker er fremtrædende i Heian Godan (bevægelse 8, 9 og 19) som X-blokeringer på både gedan (lavt) og jōdan (højt) niveau. Den krydsede armstilling giver en stærk dobbelt barriere og kan bruges til at fange eller omdirigere modstanderens angreb. Blokeringerne kan udføres med knyttede hænder (seiken) eller åbne hænder (kaishō).",
+    "componentBreakdown": "十 (jū) - kanji for tallet ti, som visuelt ligner et kryds- eller plustegn (+); 字 (ji) - 'tegn', 'bogstav' eller 'form'. Tilsammen betyder 十字 (jūji) 'krydsform' eller 'korsformet mønster' og beskriver den X-form, som de krydsede arme danner."
+  },
+  "88": {
+    "shortDescription": "Venstre fod / venstre ben forrest",
+    "definition": "Venstre fod eller venstre ben; et retningsangivende forled i navne på stillinger og beskrivelser af teknikker, der angiver, at venstre fod er forrest, eller at venstre ben har en bestemt rolle i bevægelsen. Sat foran et stillingsnavn — såsom hidari-ashi zenkutsu (fremadstilling med venstre fod forrest) eller hidari-ashi mae kōsa-dachi — angiver det, hvilken fod der fører i stillingen. Det bruges også i bevægelsesanvisninger til at angive, at der trædes eller drejes på venstre fod. Modstykket er migi-ashi (højre fod/ben). Disse forled er afgørende for præcis kommunikation om fodarbejdet i kata-sekvenser.",
+    "componentBreakdown": "左 (hidari) - 'venstre'; 足 (ashi) - 'fod' eller 'ben'. Tilsammen betyder de 'venstre fod' eller 'venstre ben' og angiver venstre side som det førende eller aktive lem i en stilling eller bevægelse."
+  },
+  "89": {
+    "shortDescription": "Højre fod / højre ben forrest",
+    "definition": "Højre fod eller højre ben; et retningsangivende forled i navne på stillinger og beskrivelser af teknikker, der angiver, at højre fod er forrest, eller at højre ben har en bestemt rolle i bevægelsen. Sat foran et stillingsnavn — såsom migi-ashi zenkutsu (fremadstilling med højre fod forrest) eller migi-ashi mae kōsa-dachi — angiver det, hvilken fod der fører i stillingen. Det bruges også i bevægelsesanvisninger til at angive, at der trædes eller drejes på højre fod. Modstykket er hidari-ashi (venstre fod/ben). Disse forled er afgørende for præcis kommunikation om fodarbejdet i kata-sekvenser.",
+    "componentBreakdown": "右 (migi) - 'højre'; 足 (ashi) - 'fod' eller 'ben'. Tilsammen betyder de 'højre fod' eller 'højre ben' og angiver højre side som det førende eller aktive lem i en stilling eller bevægelse."
+  },
+  "90": {
+    "shortDescription": "Fremadbøjning, fremadlæning",
+    "definition": "Fremadbøjning eller fremadlæning; grundbetegnelsen for, at kroppen eller det forreste ben er bøjet og læner fremad. Som selvstændigt udtryk beskriver det det fremadlænende, knæbøjede præg i det forreste bens stilling. Det mødes oftest som første led i zenkutsu-dachi (fremadstilling), hvor det forreste knæ er dybt bøjet over tæerne, og det bagerste ben er strakt. Udtrykket forekommer også som forkortelse i kata-beskrivelser (f.eks. hidari-ashi zenkutsu, migi-ashi zenkutsu), når det fulde stillingsnavn forkortes. Den dybe fremadbøjning samler kraften i det forreste ben, hvilket gør det til den primære drivkraft for slag og teknikker med skridt fremad.",
+    "componentBreakdown": "前 (zen) - 'forrest' eller 'fremad'; 屈 (kutsu) - 'bøje', 'krybe sammen' eller 'læne'. Tilsammen beskriver de en kropsholdning, hvor kroppen læner fremad med det forreste ben bøjet, hvilket danner fremadstillingens karakteristiske form."
+  },
+  "91": {
+    "shortDescription": "Fejende knivhåndsblokering",
+    "definition": "Fejende knivhåndsblokering; en flydende, afledende blokering, der bruger knivhånden (shutō) i en fejende, omdirigerende bevægelse frem for en hård, standsende handling. Den blokerende arm fejer hen over kroppen i en blød, bølgelignende bue — 'flydende' som vand forbi en overflade — for at lede modstanderens angreb væk fra dets oprindelige linje i stedet for at tage imod kraften direkte. Nagashi-uke-teknikker lægger vægt på timing og fornemmelse og bruger angriberens egen fremdrift imod vedkommende. Når de kombineres med shutō (knivhånd), giver den åbne hånd afledningen en skarp, fokuseret kant. Teknikken forekommer i Heian Godan (bevægelse 21), hvor den udføres samtidig med et gedan shutō-uchikomi-slag, og i andre kata på mellem- og avanceret niveau. Det flydende præg i nagashi-teknikker betragtes som et udtryk for jū-princippet (blødt/eftergivende) i Shōtōkan.",
+    "componentBreakdown": "流し (nagashi) - 'flydende', 'fejende' eller 'skylle væk', afledt af verbet 流す (nagasu) 'at lade flyde' eller 'at feje væk'; 手刀 (shutō) - 'knivhånd', der kombinerer 手 (te) 'hånd' og 刀 (tō) 'sværd' eller 'klinge'; 受け (uke) - 'blokering' eller 'modtage'. Tilsammen beskriver de en blokering, der flyder og omdirigerer med knivhåndens kant."
+  },
+  "92": {
+    "shortDescription": "Cirkulært hammernæveslag",
+    "definition": "Cirkulært hammernæveslag; en slagteknik, hvor undersiden af den knyttede hånd (tettsui, også kaldet kentsui) svinges i en bred, vandret bue for at ramme siden af modstanderens hoved, tinding eller ribben. Knytnæven bevæger sig i en stor cirkulær bane — som en hammer svunget i et reb — og udnytter centrifugalkraften til at skabe kraft i træfmomentet. Slagfladen er den kødfulde, polstrede underside af knytnæven (lillefingersiden), hvilket gør tettsui til et forholdsvis skånsomt slagværktøj, der også kan bruges til hærdning. Den cirkulære (mawashi) bane betyder, at slaget kommer fra siden og går uden om modstanderens forreste garde. Tettsui-mawashi-uchi forekommer i Heian Sandan og andre kata og er en vigtig slagmulighed på tæt hold i kombinationer.",
+    "componentBreakdown": "鉄槌 (tettsui) - 'jernhammer' eller 'hammernæve', der kombinerer 鉄 (tetsu) 'jern/stål' og 槌 (tsui) 'hammer' eller 'kølle'; 回し (mawashi) - 'cirkulær' eller 'rundtgående', fra verbet 回す (mawasu) 'at dreje' eller 'at rotere'; 打ち (uchi) - 'slag' eller 'træf'. Tilsammen beskriver de et cirkulært hammernæveslag."
+  },
+  "93": {
+    "shortDescription": "Sidelæns stampespark",
+    "definition": "Sidelæns stampespark; en kraftfuld stampeteknik, hvor foden drives kraftigt sidelæns og nedad for at stampe på modstanderens fod, knæ eller underben eller for at gå over i en sidestilling med et tungt, forankrende skridt. I modsætning til et smældende eller stødende spark er fumikomi en nedadgående stampebevægelse, der driver hælen eller fodsålen nedad med hele kropsvægten. Teknikken fungerer både som et ødelæggende træf mod benene og som en kraftfuld fodarbejdshandling, der planter udøveren fast i en bred stilling såsom kiba-dachi. Yoko-fumikomi er fremtrædende i Heian Godan (bevægelse 13) og Tekki Shodan, hvor stampeskridtet bruges til at gå over i hestestilling med en samtidig blokering, så fodarbejde og teknik kombineres i én beslutsom handling.",
+    "componentBreakdown": "横 (yoko) - 'side' eller 'sidelæns'; 踏み込み (fumikomi) - 'stampeskridt' eller 'stampen', fra 踏む (fumu) 'at træde/stampe' og 込む (komu) 'at drive ind' eller 'at støde ind i'. Tilsammen beskriver de en sidelæns stampebevægelse, der drives kraftigt nedad og til siden."
+  },
+  "94": {
+    "shortDescription": "Opadgående slag",
+    "definition": "Opadgående slag; en slagteknik, hvor knytnæven bevæger sig opad i en bue for at ramme modstanderens hage, kæbe eller solar plexus nedefra. I modsætning til det lige slag (choku-zuki) eller det omvendte slag (gyaku-zuki) følger age-zuki en opadgående bane, hvilket gør det særligt effektivt på tæt hold, hvor et lige slag ikke kan strækkes helt ud. I Shōtōkan udføres teknikken karakteristisk ved først at slå på chūdan (mellemste) niveau og derefter straks løfte knytnæven til jōdan (højt) niveau i én flydende bevægelse, samtidig med at hofterne roteres til shōmen (vendt fremad) for at drive kraft ind i det opadgående slag. Age-zuki er en kendetegnende teknik i Empi kata og forekommer flere gange gennem sekvensen sammen med gedan-barai.",
+    "componentBreakdown": "上げ (age) - 'opadgående' eller 'opad', fra verbet 上げる (ageru) 'at hæve' eller 'at løfte'; 突き (zuki/tsuki) - 'stød' eller 'slag'. Tilsammen beskriver de et slag, der bevæger sig i en opadgående, stigende retning."
+  },
+  "95": {
+    "shortDescription": "Stilling med bøjet knæ, knæbøjningsstilling",
+    "definition": "Stilling med bøjet knæ; en overgangs- eller dynamisk stilling, hvor vægten i høj grad lægges på ét bøjet ben, mens kroppen roterer eller strækker sig. I Shōtōkan-kata forekommer hiza-kutsu-dachi mest fremtrædende i Empi, hvor den beskriver positionen umiddelbart efter ushiro gedan-barai: udøverens vægt er helt lagt på det bøjede forreste (venstre) ben, mens det bagerste ben er fejet tilbage og ud i blokeringen. Det dybt bøjede knæ optager drejningens rotationsfremdrift og placerer kroppen lavt og tæt ved jorden, før der vendes tilbage til en normal zenkutsu-dachi. Stillingen lægger vægt på en kraftig knæbøjning (kutsu) ved hiza (knæet) og skaber en kraftfuld, jordforbundet position, der både er en forsvarsstilling og en platform for den næste teknik.",
+    "componentBreakdown": "膝 (hiza) - 'knæ'; 屈 (kutsu) - 'bøje' eller 'krybe sammen', samme tegn som i zenkutsu-dachi; 立 (dachi/tachi) - 'stilling' eller 'stå'. Tilsammen beskriver de en stilling, der er defineret ved en kraftig bøjning i knæet."
+  },
+  "96": {
+    "shortDescription": "Kombineret blokering, parret blokering",
+    "definition": "Kombineret blokering eller parret blokering; en blokeringsteknik, hvor begge hænder arbejder samtidig i koordineret modsætning for at dække to forskellige målniveauer på samme tid. De to hænder arbejder typisk spejlvendt mod hinanden — den ene blokerer opad (age-uke), mens den anden blokerer nedad (gedan) — og skaber en forsvarsbarriere på to niveauer i én bevægelse. I Empi kata forekommer awase-uke som teishō awase-uke (parret håndrodsblokering) i bevægelse 31–33, hvor den højre håndrod skubber opad på chūdan-niveau, mens den venstre håndrod samtidig skubber nedad på gedan-niveau, og rollerne byttes i den følgende bevægelse. Den samtidige dobbelte handling i awase-uke er både tidsbesparende og strukturelt stærk, da de modsatrettede kræfter fra de to hænder forstærker hinanden gennem kroppens centrum.",
+    "componentBreakdown": "合わせ (awase) - 'kombinere', 'parre' eller 'samle', fra verbet 合わせる (awaseru) 'at kombinere' eller 'at matche'; 受け (uke) - 'blokering' eller 'modtage'. Tilsammen beskriver de en blokering, der kombinerer eller parrer to samtidige blokeringshandlinger."
+  },
+  "97": {
+    "shortDescription": "Lodret knivhåndsblokering",
+    "definition": "Lodret knivhåndsblokering; en blokeringsteknik, hvor knivhånden (shutō) holdes lodret — med fingrene pegende opad — frem for den mere almindelige diagonale eller vandrette orientering i standard shutō-uke. Den blokerende underarm placeres med bøjet albue og knivhåndens kant vendt mod modstanderen og opfanger et angreb på chūdan (mellemste) niveau. I modsætning til den almindelige shutō-uke i kōkutsu-dachi, hvor hånden roteres til omtrent 45 grader, bevarer tate-shutō-uke en opret, lodret håndstilling hele vejen igennem. Den forekommer i Empi kata (bevægelse 16) som hidari chūdan tate shutō-uke i kiba-dachi og i Kankū Dai som en overgangsbevægelse. Den lodrette linjeføring kræver præcis placering af albuen og brug af hoften for at skabe effektiv blokeringskraft uden den rotationshjælp, som udgangspositionen i standard shutō-uke giver.",
+    "componentBreakdown": "縦 (tate) - 'lodret' eller 'opret', der angiver håndens orientering; 手刀 (shutō) - 'knivhånd', bogstaveligt 'håndsværd', fra 手 (te) 'hånd' og 刀 (tō) 'sværd' eller 'klinge'; 受け (uke) - 'blokering' eller 'modtage'. Tilsammen beskriver de en knivhåndsblokering udført med hånden holdt lodret."
+  },
+  "98": {
+    "shortDescription": "Gribende blokering, fangende blokering",
+    "definition": "Gribende blokering; en forsvarsteknik, der samtidig blokerer og griber modstanderens angribende lem og dermed forvandler en ren forsvarshandling til et kontrollerende greb. I stedet for blot at aflede et angreb fanger og holder tsukami-uke den indkommende arm eller det indkommende håndled, immobiliserer modstanderen og skaber en øjeblikkelig mulighed for en kontrateknik. Hænderne åbnes typisk bredt i en klolignende form for at opfange og omslutte angrebet. I Empi kata (bevægelse 35) udføres tsukami-uke med yori-ashi (glidende skridt fremad) i fudō-dachi som en gribende morote kokō gamae (dobbelt tigermund-klarstilling) — de to åbne hænder er placeret til at gribe modstanderen før den springteknik, der straks følger. Kombinationen af fremadgående fremdrift, gribende hænder og det efterfølgende spring gør dette til en af de mest dramatiske sekvenser i kataen.",
+    "componentBreakdown": "掴み (tsukami) - 'gribe', 'tage fat' eller 'fange', fra verbet 掴む (tsukamu) 'at tage fat', 'at gribe' eller 'at fatte'; 受け (uke) - 'blokering' eller 'modtage'. Tilsammen beskriver de en blokering, der griber eller fanger det angribende lem i stedet for blot at aflede det."
+  },
+  "99": {
+    "shortDescription": "Blokering på lavt niveau",
+    "definition": "Blokering på lavt niveau; en generel betegnelse for enhver blokeringsteknik rettet mod det lave niveau (gedan), der dækker området fra hofterne til knæene. Mens gedan-barai (lav fejende blokering) er den mest almindelige gedan-blokeringsteknik i Shōtōkan, henviser gedan-uke mere bredt til enhver blokering på lavt niveau uanset armens specifikke bane. I kata forekommer gedan-uke som den nedadgående del af manji-uke (卍受け) — for eksempel i Kankū Dai bevægelse 18 og 23 som hidari gedan-uke kombineret med migi jōdan uchi-uke. I denne sammenhæng fejer den blokerende arm nedad og udad for at dække underkroppen, mens den anden arm samtidig blokerer på højt niveau og skaber en forsvarsbarriere på to niveauer. Forskellen til gedan-barai er subtil: gedan-barai lægger vægt på en fejende (barai) handling med en længere bue, mens gedan-uke beskriver den lave blokering mere generelt, især når den indgår i en kombineret blokeringsteknik.",
+    "componentBreakdown": "下段 (gedan) - 'lavt niveau', fra 下 (ge/shita) 'under' eller 'lavere' og 段 (dan) 'niveau' eller 'trin'; 受け (uke) - 'blokering' eller 'modtage'. Tilsammen beskriver de en blokeringsteknik rettet mod underkroppen."
+  },
+  "100": {
+    "shortDescription": "Bjergslag, U-slag, bredt dobbeltslag",
+    "definition": "Bjergslag eller U-slag; en dobbelt slagteknik, hvor begge knytnæver rammer samtidig på to forskellige niveauer — den ene på jōdan (højt) og den anden på chūdan (mellemste) — med armene spredt bredt i en form, der ligner kanji for bjerg (山). Den øverste knytnæve (typisk den bagerste hånd) slår højt mod ansigtet eller hovedet, mens den nederste knytnæve (typisk den forreste hånd) slår mod solar plexus eller kroppen, med begge arme strakt udad frem for foran midterlinjen. Den brede, spredte armstilling skaber den karakteristiske bjergsilhuet. Yama-zuki er en kendetegnende teknik i Bassai Dai og Heian Yondan, hvor den udtrykker samtidigt offensivt pres på flere niveauer. Det samtidige dobbeltslag kræver omhyggelig koordination for at sikre, at begge slag når deres mål med samme fokus (kime) og kraft, mens hofterotation og kropsvægt driver begge knytnæver sammen.",
+    "componentBreakdown": "山 (yama) - 'bjerg', der leder tankerne hen på et bjergs brede silhuet med to tinder; de udstrakte armes form afspejler kanji 山 med én høj knytnæve og én lavere knytnæve; 突き (zuki/tsuki) - 'stød' eller 'slag'. Tilsammen beskriver de et bredt dobbeltslag formet som et bjerg."
+  },
+  "101": {
+    "shortDescription": "Glidende skridt, glideskridt uden at krydse fødderne",
+    "definition": "Glidende skridt; en fodarbejdsteknik, hvor kroppen flyttes fremad, bagud eller sidelæns ved at lade begge fødder glide i samme retning uden at krydse dem. Den førende fod bevæger sig først, efterfulgt af den efterfølgende fod, der lukker afstanden, så stillingens oprindelige bredde og fødernes retning bevares hele vejen igennem. I modsætning til fumikomi (stampeskridt) eller kōsa-dachi (krydsstilling) bevarer yori-ashi den aktuelle stilling under fremrykning eller tilbagetrækning. Det bruges til hurtigt at lukke afstanden og samtidig bevare god balance og en stabil base, hvilket giver ekstra fremdrift til en teknik — som i Bassai Dai bevægelse 24, hvor et højre chūdan-slag drives af et glidende yori-ashi fremad, og i Empi bevægelse 35, hvor yori-ashi bringer udøveren inden for tsukami-uke-afstand.",
+    "componentBreakdown": "寄り (yori) - fra 寄る (yoru) 'at nærme sig', 'at komme nær' eller 'at glide hen imod'; 足 (ashi) - 'fod' eller 'ben'. Tilsammen beskriver de en skridthandling, hvor fødderne glider i en retning."
+  },
+  "102": {
+    "shortDescription": "Flydende vand-klarstilling",
+    "definition": "Flydende vand-klarstilling; en forberedende gardestilling, hvor den ene underarm holdes vandret hen over kroppen i højde med solar plexus (suigetsu), med albuen bøjet i omtrent 90 grader og knytnæven drejet indad og vendt opad, mens den modsatte knytnæve er trukket tilbage til hoften i hikite. Positionen leder tankerne hen på vandets naturlige, uhindrede strømning — eftergivende, men vedvarende — og antyder en forsvarsholdning, der er klar til at omdirigere frem for at modsætte sig. I Heian Godan forekommer mizunagare-no-kamae to gange (bevægelse 3 og 6) som en overgangs-kamae mellem uchi-uke- og morote-uke-sekvenser, udført i heisoku-dachi som en langsom, bevidst bevægelse. Teknikkens langsomme tempo lægger vægt på kontrolleret vejrtrækning, afspænding og kropsbevidsthed frem for eksplosiv kraft og danner en kontrast til de hurtige kombinationer omkring den.",
+    "componentBreakdown": "水 (mizu) - 'vand'; 流れ (nagare) - 'strøm' eller 'strømning', fra 流れる (nagareru) 'at flyde'; の (no) - ejefaldspartikel; 構え (kamae) - 'klarstilling', 'garde' eller 'kropsholdning'. Tilsammen beskriver de en gardestilling, der rummer det flydende vands egenskaber."
+  },
+  "103": {
+    "shortDescription": "Underarm",
+    "definition": "Underarm; den del af armen, der ligger mellem albuen og håndleddet. I karateterminologi bruges zenwan ofte i sammensatte teknikknavne for at angive, at det er underarmen — frem for knytnæven eller hånden — der udfører handlingen. For eksempel beskriver hidari-zenwan-mune-mae-kamae den venstre underarm holdt vandret foran brystet, og zenwan-uke betegner en underarmsblokering. Opmærksomhed på underarmens placering er afgørende for korrekt udførelse af blokeringer, gardestillinger og støttende armplaceringer overalt i kata.",
+    "componentBreakdown": "前 (zen) - 'forrest' eller 'fremad'; 腕 (wan) - 'arm'. Tilsammen beskriver de armens forreste del, dvs. underarmen mellem albue og håndled."
+  },
+  "104": {
+    "shortDescription": "Kileblokering, udadskillende blokering med to hænder",
+    "definition": "Kileblokering eller skilleblokering; en tohånds blokeringsteknik, hvor begge underarme samtidig fejer udad fra kroppens centrum til hver side og skiller og afleder angreb fra begge flanker på én gang. Med udgangspunkt i krydsede knytnæver foran brystet eller ansigtet drives armene udad i en kilelignende, kløvende bevægelse og ender med begge albuer bøjede og knytnæverne omtrent i skulderhøjde på hver side. Bevægelsen minder om at skubbe højt græs til side eller trække et gardin fra. Kakiwake-uke udføres typisk fra gedan-barai-forberedelse og er en karakteristisk teknik i Heian Godan (bevægelse 9) og flere avancerede kata, hvor den neutraliserer samtidige greb eller angreb mod begge håndled eller reverser. Den udadkløvende bevægelse gør den særligt effektiv i anvendelser mod bjørneknus eller dobbelt reversgreb.",
+    "componentBreakdown": "掻き分け (kakiwake) - fra 掻く (kaku) 'at kradse' eller 'at feje' og 分ける (wakeru) 'at adskille' eller 'at skille'; 受け (uke) - 'blokering' eller 'modtage'. Tilsammen beskriver de en blokeringshandling, der fejer eller skiller et angreb ud til siderne."
+  },
+  "105": {
+    "shortDescription": "Ansigt; bruges i kommandoer om at dreje hovedet",
+    "definition": "Ansigt; i karatens kataterminologi mødes kao oftest som del af sammensatte retningsanvisninger såsom kao-migi-muki (ansigt/drej til højre) og kao-hidari-muki (ansigt/drej til venstre). Disse kommandoer angiver, at kun hovedet drejes for at se i den angivne retning, mens krop og stilling forbliver uændret — en subtil, men vigtig forskel fra en fuld kropsdrejning. I Tekki Shodan forekommer kao-migi-muki og kao-hidari-muki gentagne gange som forberedende bevægelser før nami-gaeshi eller fumikomi, hvilket fremhæver betydningen af at se i retning af den næste teknik for at bevare opmærksomheden og sigte korrekt.",
+    "componentBreakdown": "顔 (kao) - 'ansigt'. Bruges i sammensatte retningskommandoer: 顔右向き (kao-migi-muki) betyder 'ansigt/drej ansigtet til højre'; 顔左向き (kao-hidari-muki) betyder 'ansigt/drej ansigtet til venstre'. 右 (migi) - 'højre'; 左 (hidari) - 'venstre'; 向き (muki) - 'retning' eller 'vendt mod', fra 向く (muku) 'at vende mod' eller 'at dreje hen imod'."
+  },
+  "106": {
+    "shortDescription": "Retning man vender mod; drej for at vende mod",
+    "definition": "Retning man vender mod, eller det at dreje sig for at vende mod; en retningsangivende endelse, der angiver orienteringen eller handlingen at dreje sig mod en angivet retning. Muki stammer fra verbet 向く (muku), der betyder 'at vende mod' eller 'at dreje hen imod'. I kata-kommandoer optræder det altid sammen med en retning: migi-muki (vend mod højre) eller hidari-muki (vend mod venstre). Kombineret med kao (ansigt) instruerer sammensætningen kao-migi-muki eller kao-hidari-muki specifikt udøveren i kun at dreje hovedet i den angivne retning, mens krop og stilling forbliver uændret. Denne forskel er vigtig i Tekki Shodan, hvor gentagne kao-muki-kommandoer forbereder blikket og opmærksomheden på den næste teknik uden at forstyrre kiba-dachi-basen.",
+    "componentBreakdown": "向き (muki) - 'retning', 'orientering' eller 'vendt mod'; navneordsform af 向く (muku) 'at vende mod' eller 'at dreje hen imod'. Almindelige sammensætninger: 右向き (migi-muki) - 'vendt mod højre'; 左向き (hidari-muki) - 'vendt mod venstre'; 前向き (mae-muki) - 'vendt fremad'; 後ろ向き (ushiro-muki) - 'vendt bagud'."
+  },
+  "107": {
+    "shortDescription": "Slag på mellemste niveau",
+    "definition": "Slag på mellemste niveau; et slag rettet mod kroppens midtersektion med solar plexus (suigetsu), brystet eller maven som mål. Chūdan-zuki er en betegnelse for målniveau snarere end en bestemt slagform — det angiver, hvor teknikken rammer, frem for hvordan slaget udføres. Det kombineres med retnings- og stilforled til sammensatte navne såsom migi-chūdan-oi-zuki (højre steppende slag på mellemste niveau), hidari-chūdan-gyaku-zuki (venstre omvendt slag på mellemste niveau) eller hidari-chūdan-kagi-zuki (venstre krogslag på mellemste niveau). I Tekki Shodan forekommer chūdan-zuki i kagi-zuki og i dobbeltangrebet i bevægelse 15 og 29, hvor begge knytnæver sigter mod chūdan-niveau. Det mellemste niveau betragtes som den primære målzone i de fleste kampsammenhænge i Shōtōkan.",
+    "componentBreakdown": "中段 (chūdan) - 'mellemste niveau', fra 中 (chū) 'midte' og 段 (dan) 'niveau' eller 'trin'; 突き (zuki/tsuki) - 'stød' eller 'slag'. Tilsammen beskriver de et slag rettet mod kroppens midtersektion."
+  },
+  "108": {
+    "shortDescription": "Begge knytnæver",
+    "definition": "Begge knytnæver; et forled, der angiver, at teknikken eller positionen involverer begge hænder holdt som knytnæver samtidig. Ryōken mødes oftest i sammensætningen ryōken-koshi-kamae (klarstilling med begge knytnæver ved hoften), som forekommer i Tekki Shodan som en forberedende position før kagi-zuki og det afsluttende dobbeltslag. I ryōken-migi-koshi-kamae føres begge knytnæver til højre hofte med venstre knytnæve øverst — knytnævens bagside vendt fremad — og højre knytnæve nederst med knytnævens bagside vendt nedad. Den symmetriske position ryōken-hidari-koshi-kamae placerer begge knytnæver ved venstre hofte med byttede roller. Den ladede, dobbeltsidige position spænder begge arme op til det efterfølgende kraftfulde, samtidige angreb.",
+    "componentBreakdown": "両 (ryō) - 'begge' eller 'to'; 拳 (ken) - 'knytnæve'. Tilsammen betyder de 'begge knytnæver'. Sammenlign med ryō-shō (両掌), der betyder 'begge håndflader/åbne hænder', og ryō-te (両手), der betyder 'begge hænder' i generel forstand."
+  },
+  "109": {
+    "shortDescription": "Urokkelig stilling, rodfæstet stilling",
+    "definition": "Urokkelig stilling, også kendt som sōchin-dachi; en stærk, lav, rodfæstet stilling, der kombinerer træk fra zenkutsu-dachi og kiba-dachi. Fødderne placeres omtrent halvanden skulderbredde fra hinanden i længden, med begge knæ bøjede og presset udad og kropsvægten fordelt nogenlunde ligeligt mellem benene. Den forreste fod peger let indad, og hofterne er delvist drejet til siden (hanmi). Spændingen i begge ben, der presser udad, skaber en ekstremt stabil base, som er svær at flytte — deraf navnet 'urokkelig'. I Empi kata (bevægelse 35) indtages fudō-dachi med yori-ashi (glidende skridt), mens tsukami-uke udføres, med fødderne placeret på en nord-syd-linje, hvilket giver en solid platform til at gribe modstanderen før det efterfølgende spring. Fudō-dachi er også den karakteristiske stilling i kataen Sōchin.",
+    "componentBreakdown": "不 (fu) - 'ikke' eller 'u-', et nægtende forled; 動 (dō) - 'bevæge' eller 'bevægelse'; 立 (dachi/tachi) - 'stå' eller 'stilling'. Tilsammen beskriver de en 'ubevægelig' eller 'urokkelig' stilling. Navnet leder også tankerne hen på Fudō Myōō (不動明王), buddhismens urokkelige beskytterguddom, der symboliserer urokkelig beslutsomhed."
+  },
+  "110": {
+    "shortDescription": "Lodret retning eller på langs",
+    "definition": "Lodret eller på langs; et retningsudtryk, der angiver lodret orientering eller placering. I karate bruges tate ofte til at beskrive teknikker udført med lodret orientering, såsom tate-zuki (lodret slag), hvor knytnæven holdes lodret, eller tate-uke (lodret blokering), hvor armen holdes opret. Denne orientering giver andre angrebs- og forsvarsvinkler end vandrette teknikker.",
+    "componentBreakdown": "縦 (tate) - Dette enkelte kanji betyder 'lodret', 'på langs' eller 'langsgående'. Det angiver orientering langs den lodrette akse i modsætning til yoko (横), der betyder vandret eller sidelæns."
+  },
+  "111": {
+    "shortDescription": "Hofteklarstilling, garde i taljehøjde",
+    "definition": "Hofteklarstilling eller garde i taljehøjde; en forberedende holdning, hvor hænderne placeres i hoftehøjde, typisk med knytnæverne ved siden af taljen. Dette er en grundlæggende klarstilling i karate, der ofte bruges som udgangsposition, før teknikker udføres, eller som overgangsstilling mellem bevægelser. Positionen lægger vægt på korrekt hofteplacering og stabilitet i kernen, så udøveren er klar til at angribe eller forsvare sig. Koshi-kamae gør det muligt hurtigt at udføre slag- eller blokeringsteknikker, samtidig med at holdningen forbliver afbalanceret og centreret.",
+    "componentBreakdown": "腰 (koshi) - 'hofte', 'talje' eller 'lænd'; 構え (kamae) - 'holdning', 'stilling' eller 'klarstilling'. Tilsammen beskriver de en forberedende stilling med vægt på hoftens/taljens placering, som repræsenterer parathed og korrekt kropsholdning."
+  },
+  "112": {
+    "shortDescription": "Sidelæns snapspark, opadgående sidespark",
+    "definition": "Sidelæns snapspark eller opadgående sidespark; en sparketeknik, hvor benet løftes til siden, og foden smælder opad i en skarp, hurtig bevægelse. Sparket udføres med fodkanten (sokuto - sværdfod) og rammer modstanderens ribben, hoved eller andre områder, der vender ud mod siden. I modsætning til yoko-geri kekomi (stødende sidespark) lægger keage vægt på en smældende bevægelse, hvor foden trækkes hurtigt tilbage efter træffet, ligesom når man smælder med en pisk. Knæet løftes først til udgangspositionen, derefter strækkes underbenet sidelæns og opad i et hurtigt smæld med øjeblikkelig tilbagetrækning til udgangspositionen. Sparket kræver fremragende balance, smidighed i hoften og styrke i kroppens kernemuskulatur.",
+    "componentBreakdown": "横 (yoko) - 'side' eller 'sidelæns'; 蹴り (geri/keri) - 'spark'; 蹴上げ (keage) - 'smælde op' eller 'sparke opad'. Tilsammen beskriver de et sidelæns spark med en smældende, opadgående bevægelse frem for en stødende bevægelse."
+  }
+}

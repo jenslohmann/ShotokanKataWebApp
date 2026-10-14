@@ -62,8 +62,36 @@ test('vocabulary search, category filter and detail page', async ({ page }) => {
 
 test('switching language to Dansk changes the UI text and is remembered', async ({ page }) => {
   await openRoute(page, '#/about');
-  await page.getByRole('tab', { name: 'Dansk' }).click();
+  await page.getByRole('combobox', { name: 'Language' }).selectOption('da');
   await expect(page.getByRole('heading', { level: 1, name: 'Om' })).toBeVisible();
   await page.reload();
   await expect(page.getByRole('heading', { level: 1, name: 'Om' })).toBeVisible();
+});
+
+test.describe('in Danish', () => {
+  test.beforeEach(async ({ page }) => {
+    await page.addInitScript(() => localStorage.setItem('sk.lang', 'da'));
+  });
+
+  test('vocabulary text is Danish and searchable in Danish', async ({ page }) => {
+    await openRoute(page, '#/vocabulary/1');
+    await expect(page.locator('.vocab-detail__short')).toHaveText('Fastlagt rækkefølge af karatebevægelser');
+    await expect(page.locator('.vocab-detail__short')).toHaveAttribute('lang', 'da');
+
+    await openRoute(page, '#/vocabulary');
+    await page.getByRole('searchbox').fill('bjergslag');
+    await expect(page.locator('.vocab-row__term')).toHaveText(['Yama-zuki']);
+  });
+
+  test('kata moves use Danish compass letters and mark untranslated text as English', async ({ page }) => {
+    await openRoute(page, '#/kata/1?tab=moves');
+    await expect(page.locator('.kata-move__direction').filter({ hasText: '←' }).first()).toHaveText('V (←)');
+    await expect(page.locator('.expandable-text__body').first()).toHaveAttribute('lang', 'en');
+  });
+
+  test('quiz questions are Danish', async ({ page }) => {
+    await openRoute(page, '#/quiz');
+    await page.getByRole('button', { name: 'Start quiz' }).click();
+    await expect(page.locator('h1').first()).toHaveText(/^(Hvad|Hvilken|Hvor|Vælg)/);
+  });
 });
