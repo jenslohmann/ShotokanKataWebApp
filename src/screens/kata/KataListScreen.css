@@ -15,7 +15,7 @@
 }
 
 .kata-list__japanese-label svg {
-  color: var(--accent);
+  color: var(--accent-text);
 }
 
 .kata-list__controls {
@@ -52,7 +52,7 @@
   border: 0;
   border-radius: 999px;
   background: var(--accent-soft);
-  color: var(--accent);
+  color: var(--accent-text);
   font-size: 0.8125rem;
   font-weight: 500;
   white-space: nowrap;

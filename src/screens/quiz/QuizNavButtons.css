@@ -31,7 +31,7 @@
 
 .quiz-nav__previous {
   background: var(--accent-soft);
-  color: var(--accent);
+  color: var(--accent-text);
 }
 
 .quiz-nav__main {

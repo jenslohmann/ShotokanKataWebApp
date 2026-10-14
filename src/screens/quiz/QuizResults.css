@@ -44,11 +44,11 @@
 }
 
 .quiz-results--green { color: var(--green-text); }
-.quiz-results--accent { color: var(--accent); }
-.quiz-results--orange { color: var(--orange); }
-.quiz-results--red { color: var(--red); }
-.quiz-results--purple { color: var(--purple); }
-.quiz-results--indigo { color: var(--indigo); }
+.quiz-results--accent { color: var(--accent-text); }
+.quiz-results--orange { color: var(--orange-text); }
+.quiz-results--red { color: var(--red-text); }
+.quiz-results--purple { color: var(--purple-text); }
+.quiz-results--indigo { color: var(--indigo-text); }
 
 .quiz-results__back {
   display: inline-flex;

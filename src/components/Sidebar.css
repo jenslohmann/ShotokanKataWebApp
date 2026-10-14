@@ -39,7 +39,7 @@
 }
 
 .sidebar__link svg {
-  color: var(--accent);
+  color: var(--accent-text);
 }
 
 .sidebar__link--active,

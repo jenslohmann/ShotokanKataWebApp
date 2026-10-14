@@ -17,7 +17,7 @@
 }
 
 .quiz-menu__hero-icon {
-  color: var(--accent);
+  color: var(--accent-text);
 }
 
 .quiz-menu__hero-title {
@@ -174,7 +174,7 @@
 }
 
 .quiz-menu__category svg {
-  color: var(--accent);
+  color: var(--accent-text);
 }
 
 .quiz-menu__category--selected,
@@ -199,7 +199,7 @@
 }
 
 .quiz-menu__value {
-  color: var(--accent);
+  color: var(--accent-text);
   font-weight: 600;
 }
 
@@ -220,7 +220,7 @@
 }
 
 .quiz-menu__available-icon {
-  color: var(--accent);
+  color: var(--accent-text);
 }
 
 /* Start */

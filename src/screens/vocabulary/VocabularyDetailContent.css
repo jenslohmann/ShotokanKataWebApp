@@ -47,7 +47,7 @@
 
 .vocab-detail__icon {
   flex-shrink: 0;
-  color: var(--accent);
+  color: var(--accent-text);
 }
 
 .vocab-detail__short {

@@ -10,7 +10,7 @@
 }
 
 .quiz-paused__icon {
-  color: var(--orange);
+  color: var(--orange-text);
 }
 
 .quiz-paused__title {

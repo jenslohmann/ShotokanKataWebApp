@@ -29,13 +29,13 @@
   padding: 0 8px;
   border: 0;
   background: none;
-  color: var(--accent);
+  color: var(--accent-text);
   font-size: 1.0625rem;
   cursor: pointer;
 }
 
 .quiz-play__bar-button--exit {
-  color: var(--red);
+  color: var(--red-text);
 }
 
 .quiz-play__bar-button--done {

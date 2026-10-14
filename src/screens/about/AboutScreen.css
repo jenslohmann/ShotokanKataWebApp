@@ -21,7 +21,7 @@
   height: 100px;
   border-radius: 50%;
   background: var(--accent-soft);
-  color: var(--accent);
+  color: var(--accent-text);
 }
 
 .about__app-name {
@@ -82,7 +82,7 @@
 
 .about__feature-icon {
   flex-shrink: 0;
-  color: var(--accent);
+  color: var(--accent-text);
 }
 
 .about__feature-title {
@@ -107,7 +107,7 @@
   border: 0;
   border-radius: var(--radius-m);
   background: var(--accent-soft);
-  color: var(--accent);
+  color: var(--accent-text);
   font-size: 1.0625rem;
   font-weight: 500;
   text-decoration: none;
@@ -116,7 +116,7 @@
 
 .about__inline-icon {
   margin-right: 6px;
-  color: var(--accent);
+  color: var(--accent-text);
   vertical-align: -3px;
 }
 

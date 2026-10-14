@@ -109,7 +109,7 @@
 
 .kiai-move__check--on {
   flex-shrink: 0;
-  color: var(--accent);
+  color: var(--accent-text);
 }
 
 .kiai-selection__result {
@@ -131,11 +131,11 @@
 }
 
 .kiai-selection__verdict--correct svg {
-  color: var(--green);
+  color: var(--green-text);
 }
 
 .kiai-selection__verdict--wrong svg {
-  color: var(--red);
+  color: var(--red-text);
 }
 
 .kiai-selection__answer {

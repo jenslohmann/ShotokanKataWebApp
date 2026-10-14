@@ -16,7 +16,7 @@
 .kata-sub-move__icon {
   flex-shrink: 0;
   width: 20px;
-  color: var(--accent);
+  color: var(--accent-text);
 }
 
 .kata-sub-move__main {

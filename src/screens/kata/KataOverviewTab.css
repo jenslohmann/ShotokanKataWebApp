@@ -23,13 +23,13 @@
   padding: 16px;
   border-radius: var(--radius-m);
   background: var(--accent-soft);
-  color: var(--accent);
+  color: var(--accent-text);
   text-decoration: none;
 }
 
 .kata-overview__link--video {
   background: var(--red-soft);
-  color: var(--red);
+  color: var(--red-text);
 }
 
 .kata-overview__link-label {

@@ -31,7 +31,7 @@
   padding: 0 8px;
   border: 0;
   background: none;
-  color: var(--accent);
+  color: var(--accent-text);
   font-size: 1.0625rem;
   cursor: pointer;
 }
@@ -100,7 +100,7 @@
 }
 
 .vocab-list__option svg {
-  color: var(--accent);
+  color: var(--accent-text);
 }
 
 .vocab-list__option span {

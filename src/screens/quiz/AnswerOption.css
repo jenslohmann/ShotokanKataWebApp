@@ -59,7 +59,7 @@
 .answer-option--wrong {
   border-color: var(--red);
   background: color-mix(in srgb, var(--red) 10%, transparent);
-  color: var(--red);
+  color: var(--red-text);
 }
 
 .answer-option--wrong .answer-option__letter {
@@ -69,10 +69,10 @@
 
 .answer-option__mark--correct {
   flex-shrink: 0;
-  color: var(--green);
+  color: var(--green-text);
 }
 
 .answer-option__mark--wrong {
   flex-shrink: 0;
-  color: var(--red);
+  color: var(--red-text);
 }

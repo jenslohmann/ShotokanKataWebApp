@@ -31,7 +31,7 @@
 
 .vocab-row__category {
   flex-shrink: 0;
-  color: var(--accent);
+  color: var(--accent-text);
 }
 
 .vocab-row__japanese {

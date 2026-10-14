@@ -1,9 +1,12 @@
-/* Theme variables (iOS system colours). Light by default, dark via prefers-color-scheme. */
+/* Theme variables (iOS system colours). Light by default, dark via prefers-color-scheme.
+   The --*-text variables are text variants of the system colours, adjusted so text meets
+   WCAG AA contrast (4.5:1) on cards, grouped backgrounds and the matching --*-soft tints. */
 :root {
   color-scheme: light dark;
 
   --accent: #bc2835;
   --accent-soft: rgba(188, 40, 53, 0.1);
+  --accent-text: #b0232f;
   --bg: #ffffff;
   --bg-grouped: #f2f2f7;
   --card: #ffffff;
@@ -11,17 +14,21 @@
   --fill: #f2f2f7;
   --separator: #d1d1d6;
   --text: #000000;
-  --text-2: rgba(60, 60, 67, 0.6);
+  --text-2: rgba(60, 60, 67, 0.78);
   --green: #34c759;
-  --green-text: #007f00;
+  --green-text: #006b1a;
   --green-soft: rgba(52, 199, 89, 0.25);
   --red: #ff3b30;
   --red-soft: rgba(255, 59, 48, 0.1);
+  --red-text: #c4000f;
   --orange: #ff9500;
   --orange-soft: rgba(255, 149, 0, 0.1);
+  --orange-text: #9e4f00;
   --purple: #af52de;
+  --purple-text: #8a3ab0;
   --indigo: #5856d6;
-  --gray: #8e8e93;
+  --indigo-text: #5856d6;
+  --gray: #6c6c70;
   --shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
   --on-accent: #ffffff;
   --navbar-bg: rgba(255, 255, 255, 0.95);
@@ -44,8 +51,9 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --accent: #db3941;
-    --accent-soft: rgba(219, 57, 65, 0.18);
+    --accent: #d0313a;
+    --accent-soft: rgba(208, 49, 58, 0.18);
+    --accent-text: #ff7a73;
     --bg: #000000;
     --bg-grouped: #000000;
     --card: #1c1c1e;
@@ -55,14 +63,18 @@
     --text: #ffffff;
     --text-2: rgba(235, 235, 245, 0.6);
     --green: #30d158;
-    --green-text: #30d158;
-    --green-soft: rgba(48, 209, 88, 0.3);
+    --green-text: #4cd964;
+    --green-soft: rgba(48, 209, 88, 0.25);
     --red: #ff453a;
     --red-soft: rgba(255, 69, 58, 0.2);
+    --red-text: #ff8a82;
     --orange: #ff9f0a;
     --orange-soft: rgba(255, 159, 10, 0.18);
+    --orange-text: #ff9f0a;
     --purple: #bf5af2;
+    --purple-text: #d08cf5;
     --indigo: #5e5ce6;
+    --indigo-text: #8e8cf0;
     --gray: #8e8e93;
     --shadow: none;
     --navbar-bg: rgba(0, 0, 0, 0.95);

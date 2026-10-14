@@ -38,11 +38,5 @@
 @media (prefers-color-scheme: dark) {
   .rank-badge {
     background: color-mix(in srgb, var(--rank-belt) 30%, transparent);
-    color: var(--rank-belt);
-  }
-
-  .rank-badge--brown,
-  .rank-badge--black {
-    color: var(--on-accent);
   }
 }
