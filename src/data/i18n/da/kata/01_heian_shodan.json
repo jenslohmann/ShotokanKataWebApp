@@ -1,8 +1,8 @@
 {
   "description": "Heian Shodan er den første kata i Heian-serien og er som regel den første kata, en begynder skal lære. Den har 21 bevægelser, og dens embusen (gulvmønster) er nogenlunde I-formet. Kataen fører eleven gennem et lignende gulvmønster som Taikyoku Shodan, men indeholder andre teknikker, herunder hammerslag (tettsui-uchi) og knivhåndsblokeringer (shutō-uke). Kataen introducerer også skift fra den normale fremadrettede stilling (zenkutsu-dachi) til den bagudrettede stilling (Kōkutsu-dachi). Ordet Heian er en sammensætning af Heiwan, der betyder 'fredfyldthed', og Antei, der betyder 'ro'. Derfor betegner kataen et 'fredfyldt sind'. Navnet antyder, at den elev, der mestrer de fem Heian-former, kan have tillid til sin evne til at forsvare sig og derfor kan opnå et 'fredfyldt sind'. De oprindelige versioner hed Pinan og blev skabt af mester Itosu i begyndelsen af 1900-tallet og senere tilpasset af mester Funakoshi til Shōtōkan-stilarten.",
   "moves": {
-    "-1": { "1": "Hils (rei) fra musubi-dachi med hænderne placeret på lårene" },
-    "0": { "1": "Træd fra musubi-dachi ud i hachiji-dachi, og indtag klarstillingen (yōi) med knyttede næver og tommelfingrene oven på fingrene" },
+    "-1": { "1": "Buk (rei) fra musubi-dachi med hænderne på siden af lårene" },
+    "0": { "1": "Træd fra musubi-dachi ud i hachiji-dachi (venstre fod først, så højre), og indtag klarstillingen (yōi) med knyttede næver." },
     "1": { "1": "Drej hovedet til venstre, og flyt venstre fod til venstre i zenkutsu-dachi, mens du udfører en lav blokering med venstre arm (gedan-barai) og højre hikite" },
     "2": { "1": "Træd frem med højre fod på samme akse i zenkutsu-dachi, mens du udfører et højre slag (oi-zuki) i solar plexus-højde; venstre knytnæve trækkes tilbage i hikite" },
     "3": { "1": "Drej 180° bagud på venstre ben, mens du ser over højre skulder, og udfør en lav blokering (gedan-barai) med højre arm i zenkutsu-dachi" },
@@ -24,7 +24,7 @@
     "19": { "1": "Drej på venstre fod, og før højre fod 45° til højre i den bagudrettede stilling Kōkutsu-dachi. Bloker med højre knivhånd på mellemste niveau (shutō-uke)" },
     "20": { "1": "Drej på venstre fod, og før højre fod 45° til højre i forhold til den forrige akse i den bagudrettede stilling Kōkutsu-dachi" },
     "21": { "1": "Drej på højre fod, og før venstre fod 45° til venstre i den bagudrettede stilling Kōkutsu-dachi. Bloker med venstre knivhånd på mellemste niveau (shutō-uke) med KIAI" },
-    "22": { "1": "Træd fra Kōkutsu-dachi tilbage til hachiji-dachi, og indtag klarstillingen (yōi) med knyttede næver og tommelfingrene oven på fingrene" },
-    "23": { "1": "Hils (rei) fra musubi-dachi med hænderne placeret på lårene" }
+    "22": { "1": "Træd fra Kōkutsu-dachi tilbage til hachiji-dachi, og indtag klarstillingen (yōi) med knyttede næver." },
+    "23": { "1": "Indtag musubi-dachi (flyt venstre fod først, så højre). Buk (rei) med hænderne på siden af lårene" }
   }
 }

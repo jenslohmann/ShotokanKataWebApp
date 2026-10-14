@@ -26,7 +26,7 @@
           "hiragana": "れい",
           "stance": "Musubi-dachi",
           "stanceHiragana": "むすびだち",
-          "description": "From the musubi-dachi position, bow (rei) with the hands placed on the thighs",
+          "description": "From the musubi-dachi position, bow (rei) with the hands placed on the sides",
           "icon": "hand.raised.fill"
         }
       ]
@@ -43,7 +43,7 @@
           "hiragana": "ようい",
           "stance": "Hachiji-dachi",
           "stanceHiragana": "はちじだち",
-          "description": "From the musubi-dachi position, step out to hachiji-dachi position and assume the ready stance (yōi) with fists clenched and thumbs on top of the fingers",
+          "description": "Step out to hachiji-dachi position (left foot first, then the right), and assume the ready stance (yōi) with fists clenched.",
           "icon": "hand.raised.fill"
         }
       ]
@@ -478,7 +478,7 @@
           "hiragana": "ようい",
           "stance": "Hachiji-dachi",
           "stanceHiragana": "はちじだち",
-          "description": "Step back to hachiji-dachi position and assume the ready stance (yōi)",
+          "description": "From the kōkutsu-dachi position, step back to hachiji-dachi position and assume the ready stance (yōi) with fists clenched.",
           "icon": "hand.raised.fill"
         }
       ]
@@ -495,7 +495,7 @@
           "hiragana": "れい",
           "stance": "Musubi-dachi",
           "stanceHiragana": "むすびだち",
-          "description": "From the musubi-dachi position, bow (rei) with the hands placed on the thighs",
+          "description": "Move into the musubi-dachi position (left foot first, then the right). Bow (rei) with the hands placed on the sides.",
           "icon": "hand.raised.fill"
         }
       ]

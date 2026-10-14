@@ -88,7 +88,7 @@ test.describe('in Danish', () => {
     await expect(page.locator('.kata-move__direction').filter({ hasText: '←' }).first()).toHaveText('V (←)');
     const firstDescription = page.locator('.expandable-text__body').first();
     await expect(firstDescription).toHaveAttribute('lang', 'da');
-    await expect(firstDescription).toContainText('Hils (rei) fra musubi-dachi');
+    await expect(firstDescription).toContainText('Buk (rei) fra musubi-dachi');
     // Japanese terms in the Danish text still open the vocabulary sheet.
     await firstDescription.locator('.vocab-link').first().click();
     await expect(page.getByRole('dialog')).toBeVisible();
