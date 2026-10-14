@@ -83,9 +83,22 @@ test.describe('in Danish', () => {
     await expect(page.locator('.vocab-row__term')).toHaveText(['Yama-zuki']);
   });
 
-  test('kata moves use Danish compass letters and mark untranslated text as English', async ({ page }) => {
+  test('Heian Shodan is in Danish with Danish compass letters', async ({ page }) => {
     await openRoute(page, '#/kata/1?tab=moves');
     await expect(page.locator('.kata-move__direction').filter({ hasText: '←' }).first()).toHaveText('V (←)');
+    const firstDescription = page.locator('.expandable-text__body').first();
+    await expect(firstDescription).toHaveAttribute('lang', 'da');
+    await expect(firstDescription).toContainText('Hils (rei) fra musubi-dachi');
+    // Japanese terms in the Danish text still open the vocabulary sheet.
+    await firstDescription.locator('.vocab-link').first().click();
+    await expect(page.getByRole('dialog')).toBeVisible();
+
+    await openRoute(page, '#/kata/1?tab=overview');
+    await expect(page.locator('.kata-tab__text').first()).toContainText('Heian Shodan er den første kata');
+  });
+
+  test('kata without a translation are shown in English and marked as English', async ({ page }) => {
+    await openRoute(page, '#/kata/2?tab=moves');
     await expect(page.locator('.expandable-text__body').first()).toHaveAttribute('lang', 'en');
   });
 

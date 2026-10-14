@@ -1,6 +1,5 @@
 // Kata data loading and pure helpers (replaces KataDataService.swift logic).
 import config from '../data/kata.json';
-import { SOURCE_LANG, type Lang } from '../i18n/languages';
 import { beltOf, rankSortOrder, type BeltColor } from './ranks';
 import type { Kata, KataConfiguration, KataMove } from './types';
 
@@ -21,9 +20,6 @@ export function loadAllKata(cfg: KataConfiguration = config, fileMap: Record<str
 }
 
 export const ALL_KATA: Kata[] = loadAllKata();
-
-/** Kata descriptions are not translated yet; they are always shown in the source language. */
-export const KATA_CONTENT_LANG: Lang = SOURCE_LANG;
 
 export function normalizeForSearch(s: string): string {
   return s.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase();

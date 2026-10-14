@@ -20,8 +20,8 @@ repository **https://github.com/jenslohmann/ShotokanKata** (branch `main`). It m
 - have the same four sections as the iOS app: **Kata**, **Quiz**, **Vocabulary**, **About**,
 - use a bottom tab bar on narrow screens (phones) and a left sidebar on wide screens (iPad/desktop),
 - support light and dark mode (follows the OS setting),
-- support several languages (currently English and Danish) for UI text and content; kata content is not
-  translated yet (see section 9).
+- support several languages (currently English and Danish) for UI text and content; kata content is
+  translated one kata at a time (see section 9).
 
 The iOS app is the **reference implementation**. When the plan is unclear, open the matching
 Swift file and replicate its behaviour. Never modify anything outside the web project root.
@@ -185,8 +185,11 @@ use **Hepburn romanization with macrons** to represent long vowels (ā, ē, ī, 
   `src/domain/translations.test.ts`). Write new or changed translations for human review in `PROGRESS.md`.
 - After `npm run sync-data:update`, check `git diff src/data/vocabulary.json`: changed English text needs
   its translations updated; new terms make the translation test fail until they are translated.
-- **Kata** content (descriptions, moves) is not translated yet; it is shown in English and marked with
-  `lang={KATA_CONTENT_LANG}`. Do not translate it until the user asks.
+- **Kata** content: `src/data/i18n/<lang>/kata/<same file name as src/data/kata>.json` with `description` and
+  `moves["<sequence>"]["<sub-move order>"]` (sub-move descriptions). Only this English prose is translated;
+  names, techniques, stances and Japanese fields are not. A kata is shown translated only when its file is
+  complete (`src/domain/kataTranslations.ts`); otherwise it is shown in English, marked `lang="en"`.
+  Keep "KIAI" markers. Translate further kata only when the user asks. Translated so far (da): 1 Heian Shodan.
 - **Adding a language**: add it to `LANGUAGES` in `src/i18n/languages.ts`, add `src/i18n/<code>.ts` with all
   keys and register it in `STRINGS` in `src/i18n/index.ts`, then add `src/data/i18n/<code>/vocabulary.json` and
   `quiz.json`. The language picker, browser-language detection and tests pick it up automatically.

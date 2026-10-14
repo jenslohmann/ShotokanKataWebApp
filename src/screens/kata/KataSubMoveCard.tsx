@@ -1,14 +1,14 @@
 import { ExpandableText } from '../../components/ExpandableText';
 import { MoveIcon } from '../../components/Icon';
 import { VocabText } from '../../components/VocabText';
-import { KATA_CONTENT_LANG } from '../../domain/kata';
 import type { KataSubMove } from '../../domain/types';
+import type { Lang } from '../../i18n';
 import { useSettings } from '../../state/SettingsContext';
 import { KiaiBadge } from './KiaiBadge';
 import { StanceBadge } from './StanceBadge';
 import './KataSubMoveCard.css';
 
-export function KataSubMoveCard({ subMove }: { subMove: KataSubMove }) {
+export function KataSubMoveCard({ subMove, contentLang }: { subMove: KataSubMove; contentLang: Lang }) {
   const { showJapanese } = useSettings();
   return (
     <div className="kata-sub-move">
@@ -25,7 +25,7 @@ export function KataSubMoveCard({ subMove }: { subMove: KataSubMove }) {
         </div>
         {subMove.kiai && <KiaiBadge />}
       </div>
-      <ExpandableText text={subMove.description} lang={KATA_CONTENT_LANG} />
+      <ExpandableText text={subMove.description} lang={contentLang} />
     </div>
   );
 }

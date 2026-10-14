@@ -1,14 +1,16 @@
 import { ExpandableText } from '../../components/ExpandableText';
 import { VocabText } from '../../components/VocabText';
-import { directionArrow, directionLabel, KATA_CONTENT_LANG, moveBadgeShowsKiai, moveLabel } from '../../domain/kata';
+import { directionArrow, directionLabel, moveBadgeShowsKiai, moveLabel } from '../../domain/kata';
 import type { KataMove } from '../../domain/types';
+import type { Lang } from '../../i18n';
 import { useSettings } from '../../state/SettingsContext';
 import { KataSubMoveCard } from './KataSubMoveCard';
 import { KiaiBadge } from './KiaiBadge';
 import { StanceBadge } from './StanceBadge';
 import './KataMoveCard.css';
 
-export function KataMoveCard({ move }: { move: KataMove }) {
+/** `contentLang`: language of the move descriptions. */
+export function KataMoveCard({ move, contentLang }: { move: KataMove; contentLang: Lang }) {
   const { showJapanese, t } = useSettings();
   const [first, ...rest] = move.subMoves;
   return (
@@ -37,11 +39,11 @@ export function KataMoveCard({ move }: { move: KataMove }) {
           </span>
         </div>
       </div>
-      {first && <ExpandableText text={first.description} lang={KATA_CONTENT_LANG} />}
+      {first && <ExpandableText text={first.description} lang={contentLang} />}
       {rest.length > 0 && (
         <div className="kata-move__subs">
           {rest.map((subMove) => (
-            <KataSubMoveCard key={subMove.order} subMove={subMove} />
+            <KataSubMoveCard key={subMove.order} subMove={subMove} contentLang={contentLang} />
           ))}
         </div>
       )}

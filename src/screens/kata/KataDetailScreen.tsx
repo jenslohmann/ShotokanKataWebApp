@@ -2,10 +2,11 @@ import { NotFound } from '../../components/NotFound';
 import { NavBar } from '../../components/NavBar';
 import { SegmentedControl, type SegmentOption } from '../../components/SegmentedControl';
 import { ALL_KATA } from '../../domain/kata';
+import { localizeKata } from '../../domain/kataTranslations';
 import type { KataTab } from '../../router/router';
 import { routeToHash } from '../../router/router';
 import { goBack, navigate } from '../../router/useRoute';
-import { useT } from '../../state/SettingsContext';
+import { useLang, useT } from '../../state/SettingsContext';
 import { KataHeader } from './KataHeader';
 import { KataHistoryTab } from './KataHistoryTab';
 import { KataMovesTab } from './KataMovesTab';
@@ -14,7 +15,9 @@ import './KataDetailScreen.css';
 
 export function KataDetailScreen({ kataNumber, tab }: { kataNumber: number; tab: KataTab }) {
   const t = useT();
-  const kata = ALL_KATA.find((item) => item.kataNumber === kataNumber);
+  const lang = useLang();
+  const source = ALL_KATA.find((item) => item.kataNumber === kataNumber);
+  const kata = source && localizeKata(source, lang);
   const back = { label: t('nav.kata'), onClick: () => goBack({ name: 'kataList' }) };
 
   if (!kata) {

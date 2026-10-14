@@ -1,18 +1,17 @@
 import { Icon } from '../../components/Icon';
 import { VocabText } from '../../components/VocabText';
-import { KATA_CONTENT_LANG } from '../../domain/kata';
-import type { Kata } from '../../domain/types';
+import type { LocalizedKata } from '../../domain/kataTranslations';
 import { useT } from '../../state/SettingsContext';
 import './KataOverviewTab.css';
 
-export function KataOverviewTab({ kata }: { kata: Kata }) {
+export function KataOverviewTab({ kata }: { kata: LocalizedKata }) {
   const t = useT();
   const videos = kata.videoURLs ?? [];
   return (
     <div className="kata-tab">
       <section className="kata-tab__section">
         <h2 className="kata-tab__heading">{t('kata.description')}</h2>
-        <p className="kata-tab__text" lang={KATA_CONTENT_LANG}>
+        <p className="kata-tab__text" lang={kata.contentLang}>
           <VocabText text={kata.description} />
         </p>
       </section>
