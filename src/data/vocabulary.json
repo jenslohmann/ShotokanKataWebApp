@@ -1119,6 +1119,16 @@
       "definition": "Immovable stance, also known as sōchin-dachi; a strong, low, rooted stance that combines characteristics of zenkutsu-dachi and kiba-dachi. The feet are placed roughly one and a half shoulder-widths apart in length, with both knees bent and pressed outward, and the body weight distributed approximately evenly between the legs. The front foot points slightly inward and the hips are turned partially to the side (hanmi). The tension in both legs, pushing outward, creates an extremely stable base that is difficult to move — hence the name 'immovable'. In Empi kata (move 35), fudō-dachi is entered with a yori-ashi (gliding step) while performing tsukami-uke, with the feet positioned on a north-south line, providing a solid platform for seizing the opponent before the jump that follows. Fudō-dachi is also the characteristic stance of the kata Sōchin.",
       "category": "stances",
       "componentBreakdown": "不 (fu) - 'not' or 'un-', a negating prefix; 動 (dō) - 'move' or 'motion'; 立 (dachi/tachi) - 'stand' or 'stance'. Together they describe an 'unmoving' or 'immovable' stance. The name also evokes Fudō Myōō (不動明王), the immovable guardian deity of Buddhism, symbolising unshakeable determination."
+    },
+    {
+      "id": 113,
+      "term": "Te-ashi-dōji",
+      "japaneseName": "手足同時",
+      "hiraganaName": "てあしどうじ",
+      "shortDescription": "Hands and feet at the same time",
+      "definition": "Hands and feet at the same time; the hand technique and the foot movement into the stance start and finish together, so the whole body works as one unit. In Heian Yondan the opening move is performed te-ashi-dōji and as slowly as possible.",
+      "category": "techniques",
+      "componentBreakdown": "手 (te) - 'hand'; 足 (ashi) - 'foot' or 'leg'; 同時 (dōji) - 'at the same time' or 'simultaneous'. Together they mean 'hands and feet at the same time'."
     }
   ]
 }

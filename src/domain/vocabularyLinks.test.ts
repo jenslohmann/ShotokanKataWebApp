@@ -1,4 +1,6 @@
 import type { VocabularyTerm } from './types';
+import { ALL_KATA } from './kata';
+import { ALL_TERMS } from './vocabulary';
 import { linkVocabulary } from './vocabularyLinks';
 
 function term(id: number, termText: string, japaneseName: string, hiraganaName: string): VocabularyTerm {
@@ -30,5 +32,14 @@ describe('linkVocabulary', () => {
     const segments = linkVocabulary(text, terms);
     expect(segments).toContainEqual({ text: 'Kokutsu-dachi', termId: 3 });
     expect(segments.map((s) => s.text).join('')).toBe(text);
+  });
+});
+
+describe('linkVocabulary with the real data', () => {
+  it('links Te-ashi-dōji in Heian Yondan move 1', () => {
+    const yondan = ALL_KATA.find((kata) => kata.kataNumber === 4)!;
+    const text = yondan.moves.find((move) => move.sequence === 1)!.subMoves[0].description;
+    const linked = linkVocabulary(text, ALL_TERMS).filter((segment) => segment.termId !== undefined);
+    expect(linked.map((segment) => segment.text)).toContain('Te-ashi-dōji');
   });
 });

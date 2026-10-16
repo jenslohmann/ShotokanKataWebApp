@@ -25,7 +25,7 @@ beforeEach(() => {
 describe('VocabularyListScreen', () => {
   it('renders every term', () => {
     renderList();
-    expect(termLinks()).toHaveLength(112);
+    expect(termLinks()).toHaveLength(ALL_TERMS.length);
   });
 
   it('searches terms', () => {
