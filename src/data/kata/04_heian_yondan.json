@@ -351,7 +351,7 @@
           "hiragana": "ちゅうだん かきわけうけ",
           "stance": "Hidari kōkutsu-dachi",
           "stanceHiragana": "ひだり こうくつだち",
-          "description": "90 degrees to the right side relative to shōmen: middle level wedge block in back stance - right foot forward, left arm outermost",
+          "description": "90 degrees to the right side relative to shōmen: middle level wedge block in back stance - right foot forward, right arm outermost",
           "icon": "shield.fill"
         }
       ]
@@ -415,7 +415,7 @@
           "hiragana": "ひだり ちゅうだん もろてうけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
-          "description": "Straight forward 45 degrees left middle level augmented block in back stance",
+          "description": "Turn 45 degrees counter-clockwise into left middle level augmented block in back stance",
           "icon": "shield.fill"
         }
       ]

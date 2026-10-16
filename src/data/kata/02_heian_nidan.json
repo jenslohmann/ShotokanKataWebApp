@@ -51,7 +51,7 @@
     },
     {
       "sequence": 1,
-      "japaneseName": "Hidari jōdan tate-uke / Migi zenwan hitae-mae",
+      "japaneseName": "Hidari jōdan tate-uke / Migi zenwan hitai-mae",
       "direction": "W",
       "kiai": false,
       "subMoves": [
@@ -66,7 +66,7 @@
         },
         {
           "order": 2,
-          "technique": "Migi zenwan hitae-mae",
+          "technique": "Migi zenwan hitai-mae",
           "hiragana": "みぎ ぜんわん ひたいまえ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
@@ -120,7 +120,7 @@
     },
     {
       "sequence": 4,
-      "japaneseName": "Migi jōdan haiwan-uke / Hidari zenwan hitae-mae",
+      "japaneseName": "Migi jōdan haiwan-uke / Hidari zenwan hitai-mae",
       "direction": "E",
       "kiai": false,
       "subMoves": [

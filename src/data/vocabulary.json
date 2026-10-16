@@ -1129,6 +1129,16 @@
       "definition": "Hands and feet at the same time; the hand technique and the foot movement into the stance start and finish together, so the whole body works as one unit. In Heian Yondan the opening move is performed te-ashi-dōji and as slowly as possible.",
       "category": "techniques",
       "componentBreakdown": "手 (te) - 'hand'; 足 (ashi) - 'foot' or 'leg'; 同時 (dōji) - 'at the same time' or 'simultaneous'. Together they mean 'hands and feet at the same time'."
+    },
+    {
+      "id": 114,
+      "term": "Hitai-mae",
+      "japaneseName": "額前",
+      "hiraganaName": "ひたいまえ",
+      "shortDescription": "In front of the forehead",
+      "definition": "In front of the forehead; describes a technique or hand position at forehead height. In Heian Nidan (zenwan hitai-mae) the forearm is held horizontally in front of the forehead to protect it. In Kankū Dai the opening movement (ryōte-hitai-mae-ue) leads both hands up in front of and above the forehead.",
+      "category": "general",
+      "componentBreakdown": "額 (hitai) - 'forehead'; 前 (mae) - 'front' or 'in front of'. Together they mean 'in front of the forehead'."
     }
   ]
 }

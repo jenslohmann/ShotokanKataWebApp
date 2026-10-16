@@ -43,3 +43,12 @@ describe('linkVocabulary with the real data', () => {
     expect(linked.map((segment) => segment.text)).toContain('Te-ashi-dōji');
   });
 });
+
+describe('linkVocabulary: hitai-mae', () => {
+  it('links hitai-mae in the Heian Nidan technique names', () => {
+    const nidan = ALL_KATA.find((kata) => kata.kataNumber === 2)!;
+    const technique = nidan.moves.find((move) => move.sequence === 1)!.subMoves[1].technique;
+    const linked = linkVocabulary(technique, ALL_TERMS).filter((segment) => segment.termId !== undefined);
+    expect(linked.map((segment) => segment.text)).toContain('hitai-mae');
+  });
+});
