@@ -583,5 +583,15 @@
     "shortDescription": "Cirkulært slag",
     "definition": "Cirkulært slag (rundslag); et slag, der bevæger sig i en bue mod målet i stedet for i en lige linje. Slagfladen nævnes foran: shutō mawashi-uchi (cirkulært knivhåndsslag, Heian Yondan og Kankū Dai), uraken tate mawashi-uchi (lodret cirkulært knoslag, Kankū Dai), tettsui-mawashi-uchi (cirkulært hammernæveslag, Heian Shodan) og soto-mawashi-uchi (Heian Nidan).",
     "componentBreakdown": "回し (mawashi) - 'drejende', 'roterende' eller 'cirkulær'; 打ち (uchi) - 'slag'. Tilsammen beskriver de et cirkulært slag."
+  },
+  "118": {
+    "shortDescription": "Opadgående knæstød",
+    "definition": "Opadgående knæstød; knæet føres opad ind i målet. I Heian Yondan (bevægelse 25) løftes højre knæ højt, mens hænderne forestiller sig at gribe modstanderens nakke, og teknikken udføres med kiai. Beskrivelsen af Heian Yondan kalder den hiza-uchi.",
+    "componentBreakdown": "膝 (hiza) - 'knæ'; 上げ (age) - 'løfte' eller 'opadgående'; 当て (ate) - 'stød' eller 'slag' (et slag med en del af kroppen). Tilsammen beskriver de et opadgående knæstød."
+  },
+  "119": {
+    "shortDescription": "Firefingret spydhånd",
+    "definition": "Firefingret spydhånd; nukite med alle fire fingre strakt og samlet, hvor der rammes med fingerspidserne. I Heian Nidan og Heian Sandan er det et lodret spydhåndsstød på mellemste niveau (chūdan) med et skridt frem i zenkutsu-dachi; i Kankū Dai følger det efter en trykkende blokering (osae-uke).",
+    "componentBreakdown": "四 (shi) - 'fire'; 本 (hon) - tælleord for lange, tynde ting, her fingrene; 貫手 (nukite) - 'spydhånd'. Tilsammen betyder de 'firefingret spydhånd'."
   }
 }

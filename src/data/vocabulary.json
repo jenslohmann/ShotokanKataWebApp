@@ -1169,6 +1169,26 @@
       "definition": "Circular (roundhouse) strike; a strike that travels in an arc to the target instead of in a straight line. The striking surface is named before it: shutō mawashi-uchi (knife-hand circular strike, Heian Yondan and Kankū Dai), uraken tate mawashi-uchi (back-fist vertical circular strike, Kankū Dai), tettsui-mawashi-uchi (hammer-fist circular strike, Heian Shodan) and soto-mawashi-uchi (Heian Nidan).",
       "category": "strikes",
       "componentBreakdown": "回し (mawashi) - 'turning', 'rotating' or 'circular'; 打ち (uchi) - 'strike' or 'hit'. Together they describe a circular strike."
+    },
+    {
+      "id": 118,
+      "term": "Hiza age-ate",
+      "japaneseName": "膝上げ当て",
+      "hiraganaName": "ひざあげあて",
+      "shortDescription": "Rising knee strike",
+      "definition": "Rising knee strike; the knee is driven upward into the target. In Heian Yondan (move 25) the right knee is raised high while the hands imagine grabbing the opponent's neck, and the technique is performed with kiai. The Heian Yondan description calls it hiza-uchi.",
+      "category": "strikes",
+      "componentBreakdown": "膝 (hiza) - 'knee'; 上げ (age) - 'raising' or 'rising'; 当て (ate) - 'strike' or 'hit' (a blow with a part of the body). Together they describe a rising knee strike."
+    },
+    {
+      "id": 119,
+      "term": "Shihon-nukite",
+      "japaneseName": "四本貫手",
+      "hiraganaName": "しほんぬきて",
+      "shortDescription": "Four-finger spear hand",
+      "definition": "Four-finger spear hand; nukite with all four fingers extended and pressed together, striking with the fingertips. In Heian Nidan and Heian Sandan it is a vertical spear-hand thrust to middle level (chūdan) while stepping forward into zenkutsu-dachi; in Kankū Dai it follows a pressing block (osae-uke).",
+      "category": "techniques",
+      "componentBreakdown": "四 (shi) - 'four'; 本 (hon) - counter for long, thin objects, here the fingers; 貫手 (nukite) - 'spear hand'. Together they mean 'four-finger spear hand'."
     }
   ]
 }

@@ -74,3 +74,15 @@ describe('linkVocabulary: barai and mawashi-uchi', () => {
     expect(soto.text).toBe('soto-mawashi-uchi');
   });
 });
+
+describe('linkVocabulary: hiza age-ate and shihon-nukite', () => {
+  const linkedTexts = (text: string) =>
+    linkVocabulary(text, ALL_TERMS)
+      .filter((segment) => segment.termId !== undefined)
+      .map((segment) => segment.text);
+
+  it('links them in the kata technique names', () => {
+    expect(linkedTexts('Migi hiza age-ate')).toContain('hiza age-ate');
+    expect(linkedTexts('Migi chūdan shihon-nukite')).toContain('shihon-nukite');
+  });
+});

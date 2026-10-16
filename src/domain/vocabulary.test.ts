@@ -2,7 +2,7 @@ import { ALL_TERMS, categoriesWithTerms, categoryOf, filterTerms, findTerm } fro
 
 describe('vocabulary', () => {
   it('loads all terms sorted by term', () => {
-    expect(ALL_TERMS).toHaveLength(117);
+    expect(ALL_TERMS).toHaveLength(119);
     const sorted = [...ALL_TERMS].sort((a, b) => a.term.localeCompare(b.term));
     expect(ALL_TERMS).toEqual(sorted);
   });

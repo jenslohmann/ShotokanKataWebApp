@@ -169,3 +169,6 @@ DONE — all phases (0–13) complete; green: typecheck/test/build all exit 0; c
 - New vocabulary terms (user request), with Danish translations, definitions written by the agent from the kata data — REVIEW NEEDED, and also to be added in the iOS repository:
   - 116 "Barai" (払い, ばらい, blocks): sweep / sweeping block; notes that it is harai (はらい) on its own. Links in Heian Yondan 11.2 "Shutō jōdan barai"; "gedan-barai" keeps linking to its own entry (9).
   - 117 "Mawashi-uchi" (回し打ち, まわしうち, strikes): circular strike, with the data's examples (shutō / uraken tate / tettsui / soto mawashi-uchi). Links where it stands alone (Heian Yondan 11.2, Kankū Dai 16, 21, 36, 38, 65); compounds with their own entry (Soto-mawashi-uchi 82, Tettsui-mawashi-uchi 92, Uraken-yoko-mawashi-uchi 83) keep linking to those.
+- New vocabulary terms (user request), with Danish translations; definitions written by the agent from the kata data — REVIEW NEEDED; also to be added in the iOS repository:
+  - 118 "Hiza age-ate" (膝上げ当て, ひざあげあて, strikes): rising knee strike (Heian Yondan 25.2; the kata description calls it hiza-uchi). Danish "opadgående knæstød".
+  - 119 "Shihon-nukite" (四本貫手, しほんぬきて, techniques): four-finger spear hand (Heian Nidan 11, Heian Sandan 8, Kankū Dai 15, 54). Kankū Dai writes "Shihon nukite" (space), so there only "nukite" links (to Nukite, 36).
