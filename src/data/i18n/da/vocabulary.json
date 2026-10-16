@@ -593,5 +593,15 @@
     "shortDescription": "Firefingret spydhånd",
     "definition": "Firefingret spydhånd; nukite med alle fire fingre strakt og samlet, hvor der rammes med fingerspidserne. I Heian Nidan og Heian Sandan er det et lodret spydhåndsstød på mellemste niveau (chūdan) med et skridt frem i zenkutsu-dachi; i Kankū Dai følger det efter en trykkende blokering (osae-uke).",
     "componentBreakdown": "四 (shi) - 'fire'; 本 (hon) - tælleord for lange, tynde ting, her fingrene; 貫手 (nukite) - 'spydhånd'. Tilsammen betyder de 'firefingret spydhånd'."
+  },
+  "120": {
+    "shortDescription": "Opadgående slag bagud",
+    "definition": "Opadgående slag bagud; et slag, der stiger op over skulderen mod en modstander bagved. I Heian Sandan (bevægelse 19 og 20) udføres det på højt niveau (jōdan) i kiba-dachi: I bevægelse 19 svinges højre knytnæve i en stor bue op over venstre skulder, og i bevægelse 20 slår venstre knytnæve op over højre skulder samtidig med et albueslag bagud. Sammenlign med uhō-tsuki-age (opadgående slag mod højre side).",
+    "componentBreakdown": "後方 (kōhō) - 'bagud' eller 'bagudrettet retning'; 突き上げ (tsukiage) - 'opadgående slag' eller 'stød opad', af 突き (tsuki) 'slag' og 上げ (age) 'løfte'. Tilsammen betyder de 'opadgående slag bagud'."
+  },
+  "121": {
+    "shortDescription": "Albueslag bagud",
+    "definition": "Albueslag bagud; albuen slår bagud mod en modstander bagved. I Heian Sandan (bevægelse 19 og 20) udføres det i kiba-dachi sammen med kōhō-tsukiage: Den ene knytnæve slår op over skulderen, mens den anden arm trækker knytnæven tilbage til hoften og slår bagud med albuen. Bevægelse 20 udføres med kiai.",
+    "componentBreakdown": "後ろ (ushiro) - 'bag' eller 'bagved'; 肘 (empi) - 'albue'; 打ち (uchi) - 'slag'. Tilsammen betyder de 'albueslag bagud'."
   }
 }

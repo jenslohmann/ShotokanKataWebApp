@@ -1189,6 +1189,26 @@
       "definition": "Four-finger spear hand; nukite with all four fingers extended and pressed together, striking with the fingertips. In Heian Nidan and Heian Sandan it is a vertical spear-hand thrust to middle level (chūdan) while stepping forward into zenkutsu-dachi; in Kankū Dai it follows a pressing block (osae-uke).",
       "category": "techniques",
       "componentBreakdown": "四 (shi) - 'four'; 本 (hon) - counter for long, thin objects, here the fingers; 貫手 (nukite) - 'spear hand'. Together they mean 'four-finger spear hand'."
+    },
+    {
+      "id": 120,
+      "term": "Kōhō-tsukiage",
+      "japaneseName": "後方突き上げ",
+      "hiraganaName": "こうほうつきあげ",
+      "shortDescription": "Rising punch to the rear",
+      "definition": "Rising punch to the rear; a punch that rises over the shoulder toward an opponent behind. In Heian Sandan (moves 19 and 20) it is performed at upper level (jōdan) in kiba-dachi: in move 19 the right fist swings in a large arc to above the left shoulder, and in move 20 the left fist punches up over the right shoulder at the same time as a rear elbow strike. Compare uhō-tsuki-age (rising punch toward the right side).",
+      "category": "punches",
+      "componentBreakdown": "後方 (kōhō) - 'rear' or 'backward direction'; 突き上げ (tsukiage) - 'rising punch' or 'thrust upward', from 突き (tsuki) 'punch' and 上げ (age) 'raise'. Together they mean 'rising punch to the rear'."
+    },
+    {
+      "id": 121,
+      "term": "Ushiro-empi-uchi",
+      "japaneseName": "後ろ肘打ち",
+      "hiraganaName": "うしろえんぴうち",
+      "shortDescription": "Rear elbow strike",
+      "definition": "Rear elbow strike; the elbow strikes backward at an opponent behind. In Heian Sandan (moves 19 and 20) it is performed in kiba-dachi together with kōhō-tsukiage: one fist punches up over the shoulder while the other arm pulls the fist back to the hip and strikes back with the elbow. Move 20 is performed with kiai.",
+      "category": "techniques",
+      "componentBreakdown": "後ろ (ushiro) - 'behind' or 'back'; 肘 (empi) - 'elbow'; 打ち (uchi) - 'strike'. Together they mean 'rear elbow strike'."
     }
   ]
 }

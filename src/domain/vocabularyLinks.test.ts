@@ -75,7 +75,7 @@ describe('linkVocabulary: barai and mawashi-uchi', () => {
   });
 });
 
-describe('linkVocabulary: hiza age-ate and shihon-nukite', () => {
+describe('linkVocabulary: terms added on request', () => {
   const linkedTexts = (text: string) =>
     linkVocabulary(text, ALL_TERMS)
       .filter((segment) => segment.termId !== undefined)
@@ -84,5 +84,7 @@ describe('linkVocabulary: hiza age-ate and shihon-nukite', () => {
   it('links them in the kata technique names', () => {
     expect(linkedTexts('Migi hiza age-ate')).toContain('hiza age-ate');
     expect(linkedTexts('Migi chūdan shihon-nukite')).toContain('shihon-nukite');
+    expect(linkedTexts('Hidari jōdan kōhō-tsukiage')).toContain('kōhō-tsukiage');
+    expect(linkedTexts('Migi ushiro-empi-uchi')).toContain('ushiro-empi-uchi');
   });
 });

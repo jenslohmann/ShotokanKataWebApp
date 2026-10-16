@@ -172,3 +172,6 @@ DONE — all phases (0–13) complete; green: typecheck/test/build all exit 0; c
 - New vocabulary terms (user request), with Danish translations; definitions written by the agent from the kata data — REVIEW NEEDED; also to be added in the iOS repository:
   - 118 "Hiza age-ate" (膝上げ当て, ひざあげあて, strikes): rising knee strike (Heian Yondan 25.2; the kata description calls it hiza-uchi). Danish "opadgående knæstød".
   - 119 "Shihon-nukite" (四本貫手, しほんぬきて, techniques): four-finger spear hand (Heian Nidan 11, Heian Sandan 8, Kankū Dai 15, 54). Kankū Dai writes "Shihon nukite" (space), so there only "nukite" links (to Nukite, 36).
+- New vocabulary terms (user request), with Danish translations; definitions written by the agent from the Heian Sandan 19–20 move texts — REVIEW NEEDED; also to be added in the iOS repository:
+  - 120 "Kōhō-tsukiage" (後方突き上げ, こうほうつきあげ, punches): rising punch to the rear. Spelled like the kata data (the related entry 80 uses "Uhō-tsuki-age" with an extra hyphen).
+  - 121 "Ushiro-empi-uchi" (後ろ肘打ち, うしろえんぴうち, techniques): rear elbow strike.
