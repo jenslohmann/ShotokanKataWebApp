@@ -61,7 +61,7 @@
           "technique": "Kao migi muki",
           "hiragana": "かお みぎむき",
           "stance": "Hidari-ashi mae kōsa-dachi",
-          "stanceHiragana": "ひだりあし まえ こさだち",
+          "stanceHiragana": "ひだりあし まえ こうさだち",
           "description": "Keeping the upper body unchanged, look to the right, dropping the hip level and cross gent1y the left foot over the right foot, with all toes aligned together.",
           "icon": "figure.martial.arts"
         }
@@ -164,9 +164,9 @@
         {
           "order": 1,
           "technique": "Migi-ashi mae kōsa-dachi",
-          "hiragana": "みぎあし まえ こさだち",
+          "hiragana": "みぎあし まえ こうさだち",
           "stance": "Migi-ashi mae kōsa-dachi",
-          "stanceHiragana": "みぎあし まえ こさだち",
+          "stanceHiragana": "みぎあし まえ こうさだち",
           "description": "Keeping the upper body, the direction of the upper body, and the left foot position unchanged, maintain the hips leveled low, and cross gently the right foot over the left foot, with all toes aligned together.",
           "icon": "hand.raised.fill"
         }
@@ -189,7 +189,7 @@
         {
           "order": 2,
           "technique": "Hidari chūdan uchi-uke",
-          "hiragana": "みぎ ちゅうだん うちうけ",
+          "hiragana": "ひだり ちゅうだん うちうけ",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
           "description": "Left middle level inside forearm block",
@@ -434,9 +434,9 @@
         {
           "order": 1,
           "technique": "Hidari-ashi mae-kōsa-dachi",
-          "hiragana": "ひだりあし まえ こさだち",
+          "hiragana": "ひだりあし まえ こうさだち",
           "stance": "Hidari-ashi mae-kōsa-dachi",
-          "stanceHiragana": "ひだりあし まえ こさだち",
+          "stanceHiragana": "ひだりあし まえ こうさだち",
           "description": "Keeping the upper body, the direction of the upper body, and the right foot position unchanged, maintain the hips leveled low, and cross gently the left foot over the right foot, with all toes aligned together.",
           "icon": "hand.raised.fill"
         }

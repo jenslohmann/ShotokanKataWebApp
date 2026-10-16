@@ -244,7 +244,7 @@
           "technique": "Migi uraken jōdan uchi",
           "hiragana": "みぎ うらけん じょうだん うち",
           "stance": "Hidari ashi-dachi",
-          "stanceHiragana": "ひだり ぜんくつだち",
+          "stanceHiragana": "ひだり あしだち",
           "description": "Right back fist jōdan strike",
           "icon": "figure.martial.arts"
         }
@@ -695,7 +695,7 @@
           "technique": "Migi uraken tate mawashi-uchi",
           "hiragana": "みぎ うらけん たてまわしうち",
           "stance": "Migi-ashi mae kōsa-dachi",
-          "stanceHiragana": "みぎあし まえ こさだち",
+          "stanceHiragana": "みぎあし まえ こうさだち",
           "description": "Forward right back fist vertical circular strike in cross stance. Important that uraken and hikite are performed simultaneously",
           "icon": "figure.martial.arts"
         }
@@ -1056,7 +1056,7 @@
           "technique": "Ryō ude mawashi-uke / Sukui-uke",
           "hiragana": "りょううでまわしうけ / すくいうけ",
           "stance": "Kiba-dachi",
-          "stanceHiragana": "ひだり きばだち",
+          "stanceHiragana": "きばだち",
           "description": "Turn on the right foot 180 degress clockwise into kiba-dachi. Both arms circular block (as if sweeping a kick). Right hand should stay on the right side of the head - should be positioned to strike directly down",
           "icon": "shield.fill"
         }

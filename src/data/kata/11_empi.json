@@ -164,7 +164,7 @@
           "technique": "Kami zukami",
           "hiragana": "かみづかみ",
           "stance": "Migi-ashi mae kōsa-dachi",
-          "stanceHiragana": "みぎあし まえ こさだち",
+          "stanceHiragana": "みぎあし まえ こうさだち",
           "description": "Hand opens (as if to grab a ponytail), right knee pulls up and stamps down fumikomi",
           "icon": "hand.point.up.fill"
         },
@@ -237,7 +237,7 @@
           "technique": "Kami zukami",
           "hiragana": "かみづかみ",
           "stance": "Migi-ashi mae kōsa-dachi",
-          "stanceHiragana": "みぎあし まえ こさだち",
+          "stanceHiragana": "みぎあし まえ こうさだち",
           "description": "Hand opens (as if to grab a ponytail), right knee pulls up and stamps down fumikomi",
           "icon": "hand.point.up.fill"
         },
@@ -325,7 +325,7 @@
         {
           "order": 1,
           "technique": "Hidari chūdan tate shutō-uke",
-          "hiragana": "ひだり ちゅうだん たて しゅとうけ",
+          "hiragana": "ひだり ちゅうだん たて しゅとううけ",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
           "description": "Slowly down to horse stance - left middle level vertical knife hand block",
@@ -405,7 +405,7 @@
         {
           "order": 1,
           "technique": "Migi chūdan shutō-uke",
-          "hiragana": "みぎ ちゅうだん しゅとうけ",
+          "hiragana": "みぎ ちゅうだん しゅとううけ",
           "stance": "Hidari kōkutsu-dachi",
           "stanceHiragana": "ひだり こうくつだち",
           "description": "Forward right middle level knife hand block in back stance",
@@ -421,7 +421,7 @@
         {
           "order": 1,
           "technique": "Hidari chūdan shutō-uke",
-          "hiragana": "ひだり ちゅうだん しゅとうけ",
+          "hiragana": "ひだり ちゅうだん しゅとううけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
           "description": "In the same place - front foot back, then forward left middle level knife hand block in back stance",
@@ -453,7 +453,7 @@
         {
           "order": 1,
           "technique": "Migi chūdan shutō-uke",
-          "hiragana": "みぎ ちゅうだん しゅとうけ",
+          "hiragana": "みぎ ちゅうだん しゅとううけ",
           "stance": "Hidari kōkutsu-dachi",
           "stanceHiragana": "ひだり こうくつだち",
           "description": "Forward right middle level knife hand block in back stance",
@@ -503,7 +503,7 @@
           "technique": "Kami zukami",
           "hiragana": "かみづかみ",
           "stance": "Migi-ashi mae kōsa-dachi",
-          "stanceHiragana": "みぎあし まえ こさだち",
+          "stanceHiragana": "みぎあし まえ こうさだち",
           "description": "Hand opens (as if to grab a ponytail), right knee pulls up and stamps down fumikomi",
           "icon": "hand.point.up.fill"
         },
@@ -671,7 +671,7 @@
         {
           "order": 1,
           "technique": "Hidari chūdan shutō-uke",
-          "hiragana": "ひだり ちゅうだん しゅとうけ",
+          "hiragana": "ひだり ちゅうだん しゅとううけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
           "description": "Step back left middle level knife hand block in back stance",

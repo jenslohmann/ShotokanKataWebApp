@@ -331,7 +331,7 @@
         {
           "order": 1,
           "technique": "Hidari chūdan shutō-uke",
-          "hiragana": "ひだり ちゅうだん しゅとうけ",
+          "hiragana": "ひだり ちゅうだん しゅとううけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
           "description": "Pivot on the right foot by bringing the left foot 90° to the left, back position Kōkutsu-dachi. Block with the sword of the left hand middle level (shutō-uke)",
@@ -347,7 +347,7 @@
         {
           "order": 1,
           "technique": "Migi chūdan shutō-uke",
-          "hiragana": "みぎ ちゅうだん しゅとうけ",
+          "hiragana": "みぎ ちゅうだん しゅとううけ",
           "stance": "Hidari kōkutsu-dachi",
           "stanceHiragana": "ひだり こうくつだち",
           "description": "Pivot on the left foot by bringing the right foot 45° to the right, back Kōkutsu-dachi position. Block with the sword of the right hand middle level (shutō-uke)",
@@ -363,7 +363,7 @@
         {
           "order": 1,
           "technique": "Migi chūdan shutō-uke",
-          "hiragana": "みぎ ちゅうだん しゅとうけ",
+          "hiragana": "みぎ ちゅうだん しゅとううけ",
           "stance": "Hidari kōkutsu-dachi",
           "stanceHiragana": "ひだり こうくつだち",
           "description": "Swivel on the left foot by bringing the right foot 45° from the previous axis to the right, in the back position Kōkutsu-dachi",
@@ -379,7 +379,7 @@
         {
           "order": 1,
           "technique": "Hidari chūdan shutō-uke",
-          "hiragana": "ひだり ちゅうだん しゅとうけ",
+          "hiragana": "ひだり ちゅうだん しゅとううけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
           "description": "Pivot on the right foot by bringing the left foot 45° to the left, back position Kōkutsu-dachi. Block with the sword of the left hand level medium (shutō-uke) with KIAI",

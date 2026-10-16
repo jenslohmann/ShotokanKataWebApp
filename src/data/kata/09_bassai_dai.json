@@ -62,7 +62,7 @@
           "technique": "Sashō-soete migi chūdan uchi-uke",
           "hiragana": "さしょうそえて みぎ ちゅうだん うちうけ",
           "stance": "Migi-ashi mae kōsa-dachi",
-          "stanceHiragana": "みぎあし まえ こさだち",
+          "stanceHiragana": "みぎあし まえ こうさだち",
           "description": "Raise the right knee and leap forward, resting the right foot on the ground in the kōsa-dachi position. At the same time, perform a double inside-outside right block (morote-uke), the left hand reinforcement of the right forearm",
           "icon": "shield.lefthalf.filled"
         }
@@ -151,7 +151,7 @@
           "technique": "Migi chūdan soto-uke",
           "hiragana": "みぎ ちゅうだん そとうけ",
           "stance": "Migi Zenkutsu-dachi",
-          "stanceHiragana": "ぜんくつだち",
+          "stanceHiragana": "みぎ ぜんくつだち",
           "description": "Follow with right middle level outside block",
           "icon": "shield.righthalf.filled"
         }
@@ -197,7 +197,7 @@
         {
           "order": 2,
           "technique": "Hidari chūdan tate-shutō-uke",
-          "hiragana": "ひだり ちゅうだん たてしゅとうけ",
+          "hiragana": "ひだり ちゅうだん たてしゅとううけ",
           "stance": "Hachiji-dachi",
           "stanceHiragana": "はちじだち",
           "description": "Execute left shoulder level vertical knife hand block",
@@ -277,7 +277,7 @@
         {
           "order": 1,
           "technique": "Migi chūdan shutō-uke",
-          "hiragana": "みぎ ちゅうだん しゅとうけ",
+          "hiragana": "みぎ ちゅうだん しゅとううけ",
           "stance": "Hidari kōkutsu-dachi",
           "stanceHiragana": "ひだり こうくつだち",
           "description": "Advance the right foot in the starting axis of the kata, in Kōkutsu-dachi position, while performing a blocking of the sword of the right hand at the middle level (shutō-uke)",
@@ -293,7 +293,7 @@
         {
           "order": 1,
           "technique": "Hidari chūdan shutō-uke",
-          "hiragana": "ひだり ちゅうだん しゅとうけ",
+          "hiragana": "ひだり ちゅうだん しゅとううけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
           "description": "Advance the left foot in the starting axis of the kata, in Kōkutsu-dachi position, while performing a blocking of the sword of the left hand at the middle level (shutō-uke)",
@@ -309,7 +309,7 @@
         {
           "order": 1,
           "technique": "Migi chūdan shutō-uke",
-          "hiragana": "みぎ ちゅうだん しゅとうけ",
+          "hiragana": "みぎ ちゅうだん しゅとううけ",
           "stance": "Hidari kōkutsu-dachi",
           "stanceHiragana": "ひだり こうくつだち",
           "description": "Advance the right foot in the starting axis of the kata, in Kōkutsu-dachi position, while performing a blocking of the saber of the right hand at the middle level (shutō-uke)",
@@ -325,7 +325,7 @@
         {
           "order": 1,
           "technique": "Hidari chūdan shutō-uke",
-          "hiragana": "ひだり ちゅうだん しゅとうけ",
+          "hiragana": "ひだり ちゅうだん しゅとううけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
           "description": "Retreat the right foot in the starting axis of the kata, in Kōkutsu-dachi position, while performing a blocking of the sword of the left hand at the middle level (shutō-uke)",
@@ -383,7 +383,7 @@
         {
           "order": 1,
           "technique": "Hidari chūdan shutō-uke",
-          "hiragana": "ひだり ちゅうだん しゅとうけ",
+          "hiragana": "ひだり ちゅうだん しゅとううけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
           "description": "Look to the left, in the direction of the back (ura-shōmen). Turn left 180 degrees into back stance while executing left middle level knife-hand block (shutō-uke)",
@@ -399,7 +399,7 @@
         {
           "order": 1,
           "technique": "Migi chūdan shutō-uke",
-          "hiragana": "みぎ ちゅうだん しゅとうけ",
+          "hiragana": "みぎ ちゅうだん しゅとううけ",
           "stance": "Hidari kōkutsu-dachi",
           "stanceHiragana": "ひだり こうくつだち",
           "description": "Slide right foot forward (toward ura-shōmen) into hidari kōkutsu-dachi. Simultaneously execute migi shutō-uke",
@@ -739,7 +739,7 @@
         {
           "order": 1,
           "technique": "Migi chūdan shutō-uke",
-          "hiragana": "みぎ ちゅうだん しゅとうけ",
+          "hiragana": "みぎ ちゅうだん しゅとううけ",
           "stance": "Hidari kōkutsu-dachi",
           "stanceHiragana": "ひだり こうくつだち",
           "description": "Turn the head 45° to the right, regroup the left foot against the right foot and advance the right foot at a 45° angle to the right in Kōkutsu-dachi position, while performing a blocking the cutting edge of the right hand at the middle level (shutō-uke)",
@@ -755,7 +755,7 @@
         {
           "order": 1,
           "technique": "Migi shutō-uke",
-          "hiragana": "しゅとうけ",
+          "hiragana": "しゅとううけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
           "description": "Turn the head 90° to the left, slowly move the right foot 90° backwards always in Kōkutsu-dachi position, the upper body keeping the same position (shutō-uke) to this rear direction",
@@ -772,7 +772,7 @@
         {
           "order": 1,
           "technique": "Hidari chūdan shutō-uke",
-          "hiragana": "ひだり ちゅうだん しゅとうけ",
+          "hiragana": "ひだり ちゅうだん しゅとううけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
           "description": "Bring the right foot under your right shoulder, then advance the left foot in Kōkutsu-dachi position, while performing a blocking of the cutting edge of the left hand (shutō-uke)",

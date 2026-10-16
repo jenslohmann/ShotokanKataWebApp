@@ -340,7 +340,7 @@
           "technique": "Migi chūdan morote-uke",
           "hiragana": "みぎ ちゅうだん もろてうけ",
           "stance": "Migi-ashi mae kōsa-dachi",
-          "stanceHiragana": "みぎあし まえ こさだち",
+          "stanceHiragana": "みぎあし まえ こうさだち",
           "description": "Look right. Keep right foot in place, slide left foot behind with heel up into cross stance, augmented block from left to right",
           "icon": "shield.fill"
         }
@@ -374,7 +374,7 @@
           "technique": "Gedan jūji-uke",
           "hiragana": "げだん じゅうじうけ",
           "stance": "Migi-ashi mae kōsa-dachi",
-          "stanceHiragana": "みぎあし まえ こさだち",
+          "stanceHiragana": "みぎあし まえ こうさだち",
           "description": "Rotate 180° on left foot, make high jump towards the south to land in low cross stance facing east with downward X-block using fists",
           "icon": "xmark"
         }
@@ -415,7 +415,7 @@
         {
           "order": 2,
           "technique": "Hidari gedan-uke, migi jōdan uchi-uke",
-          "hiragana": "ひだり げだんばらい",
+          "hiragana": "ひだり げだんうけ、みぎ じょうだん うちうけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
           "description": "Switch to right back stance (may move the left foot a bit). Close fists and simultaneously execute left sweeping block and right upper inside block with closed fist upward and backward.",
@@ -434,7 +434,7 @@
           "technique": "Jōtai sonomama heisoku-dachi",
           "hiragana": "じょうたい そのまま へいそくだち",
           "stance": "Heisoku-dachi",
-          "stanceHiragana": "ぜんくつだち",
+          "stanceHiragana": "へいそくだち",
           "description": "Keeping the upper body position unchanged, bring the left foot to the right foot",
           "icon": "hand.wave.fill"
         }

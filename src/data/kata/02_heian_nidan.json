@@ -196,7 +196,7 @@
         {
           "order": 1,
           "technique": "Hidari koshi-kamae",
-          "hiragana": "ひだり じょうだん うらけん よこまわしうち",
+          "hiragana": "ひだり こしかまえ",
           "stance": "Hidari ashi-dachi",
           "stanceHiragana": "ひだり あしだち",
           "description": "Turn toes to the right, move left foot halfway towards the right foot. Turn the hips and body clockwise. As the hips turn, lift the right leg until the sole touches the left knee (pointing the right knee to the right). Simultaneously, bring the right fist to the left hip (on top of the left fist).",
@@ -231,7 +231,7 @@
         {
           "order": 1,
           "technique": "Hidari chūdan shutō-uke",
-          "hiragana": "ひだり ちゅうだん しゅとうけ",
+          "hiragana": "ひだり ちゅうだん しゅとううけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
           "description": "Land naturally, turn left 90° into back stance with left middle-level knife-hand block",
@@ -248,7 +248,7 @@
         {
           "order": 1,
           "technique": "Migi chūdan shutō-uke",
-          "hiragana": "みぎ ちゅうだん しゅとうけ",
+          "hiragana": "みぎ ちゅうだん しゅとううけ",
           "stance": "Hidari kōkutsu-dachi",
           "stanceHiragana": "ひだり こうくつだち",
           "description": "Advance right foot forward into back stance with right middle-level knife-hand block",
@@ -265,7 +265,7 @@
         {
           "order": 1,
           "technique": "Hidari chūdan shutō-uke",
-          "hiragana": "ひだり ちゅうだん しゅとうけ",
+          "hiragana": "ひだり ちゅうだん しゅとううけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
           "description": "Advance left foot forward into back stance with left middle-level knife-hand block",
@@ -308,7 +308,7 @@
         {
           "order": 1,
           "technique": "Hidari chūdan shutō-uke",
-          "hiragana": "ひだり ちゅうだん しゅとうけ",
+          "hiragana": "ひだり ちゅうだん しゅとううけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
           "description": "Pivot on right foot 90° counter-clockwise to rear, move left foot into back stance with left knife-hand block",
@@ -325,7 +325,7 @@
         {
           "order": 1,
           "technique": "Migi chūdan shutō-uke",
-          "hiragana": "みぎ ちゅうだん しゅとうけ",
+          "hiragana": "みぎ ちゅうだん しゅとううけ",
           "stance": "Hidari kōkutsu-dachi",
           "stanceHiragana": "ひだり こうくつだち",
           "description": "Pivot on left foot 45° to right, advance right foot into back stance with right knife-hand block",
@@ -342,7 +342,7 @@
         {
           "order": 1,
           "technique": "Migi chūdan shutō-uke",
-          "hiragana": "みぎ ちゅうだん しゅとうけ",
+          "hiragana": "みぎ ちゅうだん しゅとううけ",
           "stance": "Hidari kōkutsu-dachi",
           "stanceHiragana": "ひだり こうくつだち",
           "description": "Pivot on left foot 45° to right, advance right foot into back stance with right knife-hand block",
@@ -359,7 +359,7 @@
         {
           "order": 1,
           "technique": "Hidari chūdan shutō-uke",
-          "hiragana": "ひだり ちゅうだん しゅとうけ",
+          "hiragana": "ひだり ちゅうだん しゅとううけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
           "description": "Pivot on right foot 45° to left, advance left foot into back stance with left knife-hand block",
