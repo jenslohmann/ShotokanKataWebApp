@@ -61,3 +61,16 @@ describe('linkVocabulary: kaishu', () => {
     expect(linked.map((segment) => segment.text)).toContain('Kaishu');
   });
 });
+
+describe('linkVocabulary: barai and mawashi-uchi', () => {
+  it('links both in Heian Yondan 11.2 and keeps compound terms whole', () => {
+    const yondan = ALL_KATA.find((kata) => kata.kataNumber === 4)!;
+    const technique = yondan.moves.find((move) => move.sequence === 11)!.subMoves[1].technique;
+    const linked = linkVocabulary(technique, ALL_TERMS).filter((segment) => segment.termId !== undefined);
+    expect(linked.map((segment) => segment.text)).toEqual(expect.arrayContaining(['barai', 'Mawashi-uchi']));
+    // "Soto-mawashi-uchi" still links to its own entry, not to Mawashi-uchi.
+    const soto = linkVocabulary('Migi soto-mawashi-uchi', ALL_TERMS).find((segment) => segment.text.includes('mawashi'))!;
+    expect(soto.termId).toBeDefined();
+    expect(soto.text).toBe('soto-mawashi-uchi');
+  });
+});

@@ -573,5 +573,15 @@
     "shortDescription": "Åben hånd",
     "definition": "Åben hånd; en betegnelse foran et teknikknavn, der angiver, at teknikken udføres med åben hånd i stedet for knyttet næve. I Heian Yondan er de to første bevægelser 'kaishu haiwan-uke', en blokering på højt niveau med armens yderside udført med åbne hænder. Sammenlign med kaishō.",
     "componentBreakdown": "開 (kai) - 'åben' eller 'at åbne'; 手 (shu) - 'hånd'. Tilsammen betyder de 'åben hånd'."
+  },
+  "116": {
+    "shortDescription": "Fejning, fejende blokering",
+    "definition": "Fejning; betegner en fejende blokering, der afleder et angreb til siden, for eksempel gedan-barai (nedadgående fejende blokering) og shutō jōdan barai i Heian Yondan. Står ordet alene, hedder det harai (はらい); i sammensatte ord bliver det til barai.",
+    "componentBreakdown": "払い (barai/harai) - 'feje', 'feje væk' eller 'rydde væk'. h bliver til b i sammensatte ord, som i 下段払い (gedan-barai)."
+  },
+  "117": {
+    "shortDescription": "Cirkulært slag",
+    "definition": "Cirkulært slag (rundslag); et slag, der bevæger sig i en bue mod målet i stedet for i en lige linje. Slagfladen nævnes foran: shutō mawashi-uchi (cirkulært knivhåndsslag, Heian Yondan og Kankū Dai), uraken tate mawashi-uchi (lodret cirkulært knoslag, Kankū Dai), tettsui-mawashi-uchi (cirkulært hammernæveslag, Heian Shodan) og soto-mawashi-uchi (Heian Nidan).",
+    "componentBreakdown": "回し (mawashi) - 'drejende', 'roterende' eller 'cirkulær'; 打ち (uchi) - 'slag'. Tilsammen beskriver de et cirkulært slag."
   }
 }
