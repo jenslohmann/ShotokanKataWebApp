@@ -1209,6 +1209,16 @@
       "definition": "Rear elbow strike; the elbow strikes backward at an opponent behind. In Heian Sandan (moves 19 and 20) it is performed in kiba-dachi together with kōhō-tsukiage: one fist punches up over the shoulder while the other arm pulls the fist back to the hip and strikes back with the elbow. Move 20 is performed with kiai.",
       "category": "techniques",
       "componentBreakdown": "後ろ (ushiro) - 'behind' or 'back'; 肘 (empi) - 'elbow'; 打ち (uchi) - 'strike'. Together they mean 'rear elbow strike'."
+    },
+    {
+      "id": 122,
+      "term": "Nami-gaeshi",
+      "japaneseName": "波返し",
+      "hiraganaName": "なみがえし",
+      "shortDescription": "Returning wave, sweeping leg lift",
+      "definition": "Returning wave; a sweeping kick in which one foot is snapped up from kiba-dachi and set down again in kiba-dachi. In Tekki Shodan (moves 11, 13, 25 and 27) the knee is the pivot point: the foot is lifted high with a springing motion toward the lower abdomen until the sole faces upward, while the upper body, the hands, the hip level and the other foot stay unchanged.",
+      "category": "kicks",
+      "componentBreakdown": "波 (nami) - 'wave'; 返し (gaeshi/kaeshi) - 'return' or 'turn back'; the k becomes g in compounds. Together they mean 'returning wave'."
     }
   ]
 }

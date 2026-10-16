@@ -86,5 +86,6 @@ describe('linkVocabulary: terms added on request', () => {
     expect(linkedTexts('Migi chūdan shihon-nukite')).toContain('shihon-nukite');
     expect(linkedTexts('Hidari jōdan kōhō-tsukiage')).toContain('kōhō-tsukiage');
     expect(linkedTexts('Migi ushiro-empi-uchi')).toContain('ushiro-empi-uchi');
+    expect(linkedTexts('Hidari nami-gaeshi')).toContain('nami-gaeshi');
   });
 });

@@ -175,3 +175,4 @@ DONE — all phases (0–13) complete; green: typecheck/test/build all exit 0; c
 - New vocabulary terms (user request), with Danish translations; definitions written by the agent from the Heian Sandan 19–20 move texts — REVIEW NEEDED; also to be added in the iOS repository:
   - 120 "Kōhō-tsukiage" (後方突き上げ, こうほうつきあげ, punches): rising punch to the rear. Spelled like the kata data (the related entry 80 uses "Uhō-tsuki-age" with an extra hyphen).
   - 121 "Ushiro-empi-uchi" (後ろ肘打ち, うしろえんぴうち, techniques): rear elbow strike.
+- New vocabulary term 122 "Nami-gaeshi" (波返し, なみがえし, kicks), with Danish translation, at the user's request; definition written by the agent from Tekki Shodan 11, 13, 25, 27 — REVIEW NEEDED; also to be added in the iOS repository.
