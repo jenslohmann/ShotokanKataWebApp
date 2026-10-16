@@ -1139,6 +1139,16 @@
       "definition": "In front of the forehead; describes a technique or hand position at forehead height. In Heian Nidan (zenwan hitai-mae) the forearm is held horizontally in front of the forehead to protect it. In Kankū Dai the opening movement (ryōte-hitai-mae-ue) leads both hands up in front of and above the forehead.",
       "category": "general",
       "componentBreakdown": "額 (hitai) - 'forehead'; 前 (mae) - 'front' or 'in front of'. Together they mean 'in front of the forehead'."
+    },
+    {
+      "id": 115,
+      "term": "Kaishu",
+      "japaneseName": "開手",
+      "hiraganaName": "かいしゅ",
+      "shortDescription": "Open hand",
+      "definition": "Open hand; a qualifier before a technique name indicating that the technique is performed with the hand open rather than clenched into a fist. In Heian Yondan the first two moves are 'kaishu haiwan-uke', an upper-level back-arm block performed with open hands. Compare kaishō.",
+      "category": "general",
+      "componentBreakdown": "開 (kai) - 'open' or 'to open'; 手 (shu) - 'hand'. Together they mean 'open hand'."
     }
   ]
 }

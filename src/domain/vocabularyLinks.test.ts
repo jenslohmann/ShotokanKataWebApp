@@ -52,3 +52,12 @@ describe('linkVocabulary: hitai-mae', () => {
     expect(linked.map((segment) => segment.text)).toContain('hitai-mae');
   });
 });
+
+describe('linkVocabulary: kaishu', () => {
+  it('links Kaishu in the Heian Yondan technique names', () => {
+    const yondan = ALL_KATA.find((kata) => kata.kataNumber === 4)!;
+    const technique = yondan.moves.find((move) => move.sequence === 1)!.subMoves[0].technique;
+    const linked = linkVocabulary(technique, ALL_TERMS).filter((segment) => segment.termId !== undefined);
+    expect(linked.map((segment) => segment.text)).toContain('Kaishu');
+  });
+});
