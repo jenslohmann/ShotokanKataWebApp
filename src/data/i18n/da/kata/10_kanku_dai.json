@@ -20,13 +20,13 @@
       "1": "Træk op til shizentai - venstre chūdan lodret knivhåndsblokering, højre hånd trukket tilbage i hikite ved siden"
     },
     "6": {
-      "1": "Samme stilling - højre chūdan lige slag"
+      "1": "Samme stilling - højre chūdan lige stød"
     },
     "7": {
       "1": "Med samme arm - højre chūdan indvendig underarmsblokering - vægten flyttes til venstre i en forholdsvis bred stilling, der ligner zenkutsu-dachi. Hikite bliver ved hoften"
     },
     "8": {
-      "1": "Shizentai - venstre chūdan lige slag"
+      "1": "Shizentai - venstre chūdan lige stød"
     },
     "9": {
       "1": "Med samme arm venstre chūdan indvendig underarmsblokering - vægten flyttes til højre i en stilling, der ligner zenkutsu-dachi. Hikite bliver ved hoften"
@@ -36,7 +36,7 @@
     },
     "11": {
       "1": "Migi yoko-geri keage (mens du står på venstre ben)",
-      "2": "Højre knoslag (jōdan)"
+      "2": "Højre baghåndsknoslag (jōdan)"
     },
     "12": {
       "1": "Modsat retning: venstre chūdan knivhåndsblokering i bagudrettet stilling"
@@ -85,7 +85,7 @@
     },
     "27": {
       "1": "Venstre keage til siden (mens du står på højre ben)",
-      "2": "Venstre knoslag (jōdan)"
+      "2": "Venstre baghåndsknoslag (jōdan)"
     },
     "28": {
       "1": "Højre albueslag fremad på mellemste niveau i venstre zenkutsu-dachi"
@@ -95,7 +95,7 @@
     },
     "30": {
       "1": "Højre sidespark",
-      "2": "Højre knoslag (jōdan)"
+      "2": "Højre baghåndsknoslag (jōdan)"
     },
     "31": {
       "1": "Venstre albueslag fremad på mellemste niveau i højre zenkutsu-dachi"
@@ -119,19 +119,19 @@
       "1": "Højre jōdan fremadspark - overkroppen uændret"
     },
     "38": {
-      "1": "Frem: højre lodret cirkulært knoslag i krydsstilling. Det er vigtigt, at uraken og hikite udføres samtidig"
+      "1": "Frem: højre lodret cirkulært baghåndsknoslag i krydsstilling. Det er vigtigt, at uraken og hikite udføres samtidig"
     },
     "39": {
       "1": "Venstre ben træder tilbage - højre chūdan indvendig underarmsblokering i højre zenkutsu-dachi"
     },
     "40": {
-      "1": "Venstre chūdan omvendt slag i samme stilling"
+      "1": "Venstre chūdan omvendt stød i samme stilling"
     },
     "41": {
-      "1": "Højre chūdan lige slag i samme stilling"
+      "1": "Højre chūdan lige stød i samme stilling"
     },
     "42": {
-      "1": "Drej 180 grader: højre omvendt slag med knæet i parat-position i etbensstilling. Armene føres frem fra hver sin side af højre lår; venstre ender som støtte for højre ura-zuki og hviler mod håndleddet"
+      "1": "Drej 180 grader: højre omvendt stød med knæet i parat-position i etbensstilling. Armene føres frem fra hver sin side af højre lår; venstre ender som støtte for højre ura-zuki og hviler mod håndleddet"
     },
     "43": {
       "1": "Med højre fod forrest: gå ned, og placer hænderne (formet som en trekant i forhold til hinanden) på gulvet - bagerste fod hviler på hele fodsålen. Begge fodsåler er i jorden, blikket rettet mod et punkt ca. 4 meter fremme"
@@ -146,23 +146,23 @@
       "1": "Drej på højre fod 270 grader mod uret (⤿) ind i hidari chūdan uchi-uke i hidari zenkutsu-dachi"
     },
     "47": {
-      "1": "Højre chūdan omvendt slag i samme stilling"
+      "1": "Højre chūdan omvendt stød i samme stilling"
     },
     "48": {
       "1": "Drej på venstre fod 180 grader med uret (⤾) ind i migi chūdan uchi-uke i migi zenkutsu-dachi"
     },
     "49": {
-      "1": "Venstre chūdan omvendt slag i samme stilling"
+      "1": "Venstre chūdan omvendt stød i samme stilling"
     },
     "50": {
-      "1": "Højre chūdan lige slag i samme stilling"
+      "1": "Højre chūdan lige stød i samme stilling"
     },
     "51": {
       "1": "Træk op til koshi gamae, hænderne ved venstre hofte"
     },
     "52": {
       "1": "Højre sidespark",
-      "2": "Højre cirkulært knoslag (jōdan)"
+      "2": "Højre cirkulært baghåndsknoslag (jōdan)"
     },
     "53": {
       "1": "Drej 180 grader: venstre chūdan knivhåndsblokering i bagudrettet stilling"
@@ -171,7 +171,7 @@
       "1": "Frem: højre chūdan firefingret spydhånd i højre zenkutsu-dachi - venstre pressende blokering undervejs"
     },
     "55": {
-      "1": "Drej 360 grader mod uret (⤿) bagud rundt om dig selv: venstre jōdan knoslag i rytterstilling. Ingen voldsomme temposkift i bevægelsen"
+      "1": "Drej 360 grader mod uret (⤿) bagud rundt om dig selv: venstre jōdan baghåndsknoslag i rytterstilling. Ingen voldsomme temposkift i bevægelsen"
     },
     "56": {
       "1": "Yori-ashi (glid i stillingen) til venstre, venstre chūdan hammernæve-sideslag i rytterstilling"
@@ -186,10 +186,10 @@
       "1": "Højre lav blokering - stadig i rytterstilling"
     },
     "60": {
-      "1": "Drej på højre fod 180 grader med uret ind i kiba-dachi. Cirkulær blokering med begge arme (som om du fejer et spark væk). Højre hånd skal blive i højre side af hovedet - den skal være placeret, så den kan slå direkte ned"
+      "1": "Drej på højre fod 180 grader med uret ind i kiba-dachi. Cirkulær blokering med begge arme (som om du fejer et spark væk). Højre hånd skal blive i højre side af hovedet - den skal være placeret, så den kan støde direkte ned"
     },
     "61": {
-      "1": "Højre faldende slag i rytterstilling - nedadgående slag med højre hånd, håndryggen udad, hånden placeret bag venstre, så håndleddene krydser hinanden"
+      "1": "Højre faldende stød i rytterstilling - nedadgående stød med højre hånd, håndryggen udad, hånden placeret bag venstre, så håndleddene krydser hinanden"
     },
     "62": {
       "1": "Træk op til shizentai - jōdan krydsblokering over hovedet med åbne hænder, håndryggene mod hinanden. Øv forløbet fra kōsa-uke, så det kan udføres flydende"
@@ -203,7 +203,7 @@
     "65": {
       "1": "Første spark i nidan-flyvesparkkombinationen. KIAI i hele trin 65",
       "2": "Andet spark i nidan-flyvesparkkombinationen",
-      "3": "Højre lodret cirkulært knoslag i højre zenkutsu-dachi"
+      "3": "Højre lodret cirkulært baghåndsknoslag i højre zenkutsu-dachi"
     },
     "66": {
       "1": "Drej med uret på højre fod, og før venstre fod ind ved siden af den, så du vender fremad. Fej gedan med ydersiden af højre underarm (knytnæven nedad), og før derefter begge knytnæver i en stor cirkel opad, så de krydser foran ansigtet. I hachiji-dachi sænkes knytnæverne foran lårene med bagsiden fremad."

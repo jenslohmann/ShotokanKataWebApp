@@ -640,23 +640,23 @@
           "hiragana": "つきうけ / かたうえがまえ",
           "stance": "Migi zenkutsu-dachi",
           "stanceHiragana": "みぎ ぜんくつだち",
-          "description": "Left hand thrusts forward in combined punch and block, while right makes ready position at right shoulder - same stance",
+          "description": "Left fist thrusts forward in combined punch and block, while right fist makes ready position at right shoulder (back hand facing right) - same stance",
           "icon": "figure.martial.arts"
         }
       ]
     },
     {
       "sequence": 37,
-      "japaneseName": "Migi uraken jōdan ura-zuki – hidari ude suigetsu mae kamae",
+      "japaneseName": "Migi uraken jōdan uchi – hidari ude suigetsu mae kamae",
       "direction": "N",
       "subMoves": [
         {
           "order": 1,
-          "technique": "Migi uraken jōdan ura-zuki",
-          "hiragana": "みぎ うらけん じょうだん うらづき",
+          "technique": "Migi uraken jōdan uchi",
+          "hiragana": "みぎ うらけん じょうだん うち",
           "stance": "Migi zenkutsu-dachi",
           "stanceHiragana": "みぎ ぜんくつだち",
-          "description": "Right back fist high level reverse punch (right elbow rests on top of left hand back) - same stance",
+          "description": "Right back fist high level strike (right elbow rests on top of left hand back) - same stance",
           "icon": "figure.martial.arts"
         }
       ]

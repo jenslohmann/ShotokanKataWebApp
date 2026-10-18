@@ -1,5 +1,5 @@
 {
-  "description": "Den femte og sidste kata i Heian-serien, med den første springteknik (tobi-komi) i Shōtōkan (trin 19). Introducerer halvmånespark, krogslag og komplekse, flydende bevægelser. Kendt for sin kombination af hurtige og langsomme bevægelser, der kræver timing, færdighed og flydende udførelse.",
+  "description": "Den femte og sidste kata i Heian-serien, med den første springteknik (tobi-komi) i Shōtōkan (trin 19). Introducerer halvmånespark, krogstød og komplekse, flydende bevægelser. Kendt for sin kombination af hurtige og langsomme bevægelser, der kræver timing, færdighed og flydende udførelse.",
   "moves": {
     "0": {
       "1": "Træd fra musubi-dachi ud i hachiji-dachi (venstre fod først, så højre), og indtag klarstillingen (yōi) med knyttede næver."
@@ -8,7 +8,7 @@
       "1": "Drej hovedet til venstre, og flyt venstre fod ind i bagudrettet stilling med hidari chūdan uchi-uke"
     },
     "2": {
-      "1": "Udfør på stedet i bagudrettet stilling et højre omvendt slag i solar plexus-højde"
+      "1": "Udfør på stedet i bagudrettet stilling et højre omvendt stød i solar plexus-højde"
     },
     "3": {
       "1": "Før langsomt højre fod hen til venstre fod i heisoku-dachi. Se til højre, og træk højre knytnæve tilbage til højre hofte. Før samtidig venstre underarm frem, mens den stryger langs kroppen, og derefter til højre, med albuen bøjet 90° og knytnævens bagside opad, til en position foran solar plexus (mizunagare-no-kamae)."
@@ -17,7 +17,7 @@
       "1": "Flyt højre fod ind i bagudrettet stilling med en højre indadgående underarmsblokering på mellemste niveau"
     },
     "5": {
-      "1": "Udfør på stedet i bagudrettet stilling et venstre omvendt slag i solar plexus-højde"
+      "1": "Udfør på stedet i bagudrettet stilling et venstre omvendt stød i solar plexus-højde"
     },
     "6": {
       "1": "Før langsomt venstre fod hen til højre fod i heisoku-dachi. Se frem, og træk venstre knytnæve tilbage til venstre hofte. Før samtidig højre underarm frem, mens den stryger langs kroppen, og derefter til venstre, med albuen bøjet 90° og knytnævens bagside opad, til en position foran solar plexus (mizunagare-no-kamae)."
@@ -38,7 +38,7 @@
       "1": "Knyt begge hænder. Driv venstre knytnæve frem i brysthøjde, højre knytnæve til højre hofte."
     },
     "12": {
-      "1": "Træd frem med højre fod i fremadrettet stilling med et højre direkte slag på mellemste niveau"
+      "1": "Træd frem med højre fod i fremadrettet stilling med et højre direkte stød på mellemste niveau"
     },
     "13": {
       "1": "Flyt vægten bagud, drej 180° mod uret på venstre fod med kraftig hofterotation, og stamp højre fod ned i rytterstilling",

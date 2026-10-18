@@ -1,5 +1,5 @@
 {
-  "description": "Den tredje kata i Heian-serien, kendt for sine kombinationer af samtidige blokeringer og slag og for introduktionen af Kiba-dachi (rytterstilling). Den indeholder fumikomi (trampespark), drejende teknikker og lodrette knoslag. Den korteste kata i Heian-serien med karakteristiske skift i rytmen.",
+  "description": "Den tredje kata i Heian-serien, kendt for sine kombinationer af samtidige blokeringer og slag og for introduktionen af Kiba-dachi (rytterstilling). Den indeholder fumikomi (trampespark), drejende teknikker og lodrette baghåndsknoslag. Den korteste kata i Heian-serien med karakteristiske skift i rytmen.",
   "moves": {
     "0": {
       "1": "Træd fra musubi-dachi ud i hachiji-dachi (venstre fod først, så højre), og indtag klarstillingen (yōi) med knyttede næver."
@@ -37,7 +37,7 @@
       "1": "Vrid højre arm om på ryggen, drej 180° på højre fod, og flyt venstre fod ind i rytterstilling med et sideværts slag med venstre hammernæve"
     },
     "10": {
-      "1": "Træd frem med højre fod i fremadrettet stilling med et fremadskridende højre slag"
+      "1": "Træd frem med højre fod i fremadrettet stilling med et fremadskridende højre stød"
     },
     "11": {
       "1": "Drej langsomt 180° bagud, før venstre fod ind til højre fod, og placer begge knytnæver fast på hofterne"
@@ -47,32 +47,32 @@
       "2": "Højre albueslag fremad samtidig med trampesparket"
     },
     "13": {
-      "1": "Lodret højre knoslag i det lodrette plan; før derefter højre knytnæve til bæltet"
+      "1": "Lodret højre baghåndsknoslag i det lodrette plan; før derefter højre knytnæve til bæltet"
     },
     "14": {
       "1": "Drej 180° til højre på højre fod, løft venstre knæ højt, og udfør et trampespark ned i rytterstilling",
       "2": "Venstre albueslag fremad samtidig med trampesparket"
     },
     "15": {
-      "1": "Lodret venstre knoslag i det lodrette plan; før derefter venstre knytnæve til bæltet"
+      "1": "Lodret venstre baghåndsknoslag i det lodrette plan; før derefter venstre knytnæve til bæltet"
     },
     "16": {
       "1": "Drej 180° til venstre på venstre fod, løft højre knæ højt, og udfør et trampespark ned i rytterstilling",
       "2": "Højre albueslag fremad samtidig med trampesparket"
     },
     "17": {
-      "1": "Lodret højre knoslag i det lodrette plan; før derefter højre knytnæve til bæltet"
+      "1": "Lodret højre baghåndsknoslag i det lodrette plan; før derefter højre knytnæve til bæltet"
     },
     "18": {
-      "1": "Træd frem med venstre fod i fremadrettet stilling med et fremadskridende venstre slag"
+      "1": "Træd frem med venstre fod i fremadrettet stilling med et fremadskridende venstre stød"
     },
     "19": {
       "1": "Træd frem med højre fod ved siden af venstre fod (hoftebredde), flyt derefter venstre fod mod højre, og drej 180° mod uret ind i kiba-dachi. Sving samtidig højre knytnæve i en stor bue op over venstre skulder (knytnævens overside opad).",
       "2": "Træk samtidig venstre knytnæve tilbage til venstre hofte, og udfør et albueslag."
     },
     "20": {
-      "1": "Glid let til højre (yori-ashi), og udfør et lodret venstre slag over højre skulder",
-      "2": "Højre albueslag bagud samtidig med det lodrette slag og kiai"
+      "1": "Glid let til højre (yori-ashi), og udfør et lodret venstre stød over højre skulder",
+      "2": "Højre albueslag bagud samtidig med det lodrette stød og kiai"
     },
     "21": {
       "1": "Træd fra kiba-dachi tilbage til hachiji-dachi, og indtag klarstillingen (yōi) med knyttede næver."
