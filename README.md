@@ -1,0 +1,1 @@
+Published here: https://jlo.dk/karate/kata
