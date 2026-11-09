@@ -126,7 +126,7 @@
           "hiragana": "みぎ ちゅうだん うちうけ",
           "stance": "Hidari kōkutsu-dachi",
           "stanceHiragana": "ひだり こうくつだち",
-          "description": "Turn head right, rotate 90° on left foot, move right foot into back stance with right inside forearm block",
+          "description": "Turn head right, rotate 180° clockwise on left foot, move right foot out into back stance with right inside forearm block. Pull left arm back along the body until the fist reaches the hip and the forearm is parallel to the foot",
           "icon": "shield.fill"
         }
       ]
@@ -192,7 +192,7 @@
           "hiragana": "ひだり ちゅうだん もろてうけ",
           "stance": "Migi kōkutsu-dachi",
           "stanceHiragana": "みぎ こうくつだち",
-          "description": "Turn head left, rotate 90° on right foot, move left foot into back stance with left augmented block",
+          "description": "Turn head left, rotate 90° counter-clockwise on right foot, move left foot forward into back stance with left augmented block",
           "icon": "shield.fill"
         }
       ]
@@ -233,7 +233,7 @@
           "hiragana": "ひだり ちゅうだん てつい うちまわしうち",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
-          "description": "Twist right arm to back, pivot 180° on right foot moving left foot into horse stance with left hammer-fist side strike",
+          "description": "Twist right arm to back, pivot 180° counter-clockwise on right foot moving left foot into horse stance with left hammer-fist side strike",
           "icon": "hammer.fill"
         }
       ]
@@ -266,7 +266,7 @@
           "hiragana": "りょうけん こし かまえ",
           "stance": "Heisoku-dachi",
           "stanceHiragana": "へいそくだち",
-          "description": "Slowly rotate 180° backward, bring left foot to right foot, both fists firmly on hips",
+          "description": "Slowly rotate 180° counter-clockwise, bring left foot to right foot, both fists firmly on hips",
           "icon": "figure.stand"
         }
       ]
@@ -282,7 +282,7 @@
           "hiragana": "みぎ よこふみこみ",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
-          "description": "Pivot 90° left on left foot, raise right knee high, stamping kick into horse stance",
+          "description": "Pivot 90° counter-clockwise on left foot, raise right knee high, stamping kick into horse stance",
           "icon": "figure.kick"
         },
         {
@@ -323,7 +323,7 @@
           "hiragana": "ひだり よこふみこみ",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
-          "description": "Pivot 180° right on right foot, raise left knee high, stamping kick into horse stance",
+          "description": "Pivot 180° clockwise on right foot, raise left knee high, stamping kick into horse stance",
           "icon": "figure.kick"
         },
         {
@@ -364,7 +364,7 @@
           "hiragana": "みぎ よこふみこみ",
           "stance": "Kiba-dachi",
           "stanceHiragana": "きばだち",
-          "description": "Pivot 180° left on left foot, raise right knee high, stamping kick into horse stance",
+          "description": "Pivot 180° counter-clockwise on left foot, raise right knee high, stamping kick into horse stance",
           "icon": "figure.kick"
         },
         {
